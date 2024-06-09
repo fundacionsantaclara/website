@@ -1,0 +1,81 @@
+/* About.css */
+.fundacion-content h1{
+    background-color: rgb(166, 242, 200);
+    padding: 30px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.fundacion-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fundacion-content p {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+  }
+  
+  .fundacion-image-container {
+    margin-left: 20px; 
+    padding: 50px;
+
+}
+  
+  .fundacion-image {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  /* ElPatronato.css */
+.patronato {
+    background-color: rgb(240, 247, 244);
+    padding-bottom: 30px;
+  }
+  .patronato h1{
+    padding: 30px;
+    font-size: 50px;
+    background-color: rgb(131, 238, 188);
+  }
+  .para-intro{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  .patronato p{
+    color: #0000008b;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 25px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  @media (max-width: 968px){
+    .fundacion-content h1{
+        padding: 15px;
+        font-size: 50px;
+       
+    }
+    .fundacion-content p {
+        padding-left: 70px;
+        padding-right: 70px;
+  }
+  .para-intro{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
+    
+    
+  }
+  

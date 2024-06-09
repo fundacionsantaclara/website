@@ -1,0 +1,102 @@
+ .trans-section__title{
+    font-size: 70px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+
+}
+.trans-container-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,rgba(59, 151, 88, 0.733), rgba(63, 210, 100, 0.1)),  url('https://s39940.pcdn.co/wp-content/uploads/2022/04/manager-comms-tip-sheets.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.trans__content img{
+    margin: 1rem auto 0 auto;
+}
+.about__content p.para__text{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.para__text{
+  padding: 20px 40px;
+}
+.audit-pic{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(127, 176, 127);
+}
+
+.trans-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .trans-card img {
+    max-width: 500px;
+    margin-right: 10px;
+  }
+  
+  .trans-card-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .trans-card-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  .trans-card-content h3 {
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 2px;
+
+  }
+  .trans-card-content h5 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 2px;
+
+  }
+  
+  .trans-card-content p {
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+ .trans-card-content a{
+    color: rgb(3, 119, 3);
+    margin-bottom: 10px;
+  }
+  .trans-list p{
+    text-align: center;
+  }
+
+
+  @media (max-width: 968px){
+    .trans-section__title {
+      font-size: 60px;
+    }
+    .trans-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .trans-card img {
+      margin-right: 0;
+      margin-bottom: 10px;
+      align-items: center;
+      width: 100%;
+    }
+  }

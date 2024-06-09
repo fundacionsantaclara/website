@@ -1,0 +1,23 @@
+.carousel-container {
+  width: 40%; /* Set the width to 100% */
+  height: 550px; /* Set a fixed height */
+  overflow: hidden; 
+  background-color: beige;
+
+  }
+  
+  .carousel-item img {
+    width: 100%; 
+  height: 500px; 
+  object-fit: cover;
+  }
+
+  @media (max-width: 968px) {
+    .carousel-container{
+     width: 97%;
+     justify-content: center;
+     margin: 20px;
+   
+   }
+  }
+

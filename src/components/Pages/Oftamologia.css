@@ -1,0 +1,94 @@
+.ofta-section__title{
+    font-size: 40px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+
+}
+.oftamologia-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://www.macula-retina.es/wp-content/uploads/2021/01/La-evolucion-del-papel-de-la-genetica-en-la-oftalmologia-macula-retina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ofta-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.ofta-card-content h2 {
+    color: #1ca49b;
+    margin-bottom: 1rem;
+}
+
+.ofta-card-content p {
+    color: #333;
+    font-size: 18px;
+}
+
+.ofta-card2{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 48%;
+    margin: 2rem auto;
+}
+.ofta-card2-title{
+    color: #dfebea;
+    margin-bottom: 1rem;
+    background-color: #1ca49b;
+    padding: 1rem;
+}
+.ofta-card3-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ofta-card3{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 32%;
+    margin: 2rem auto;
+}
+.ofta-card3-title{
+    color: #dfebea;
+    margin-bottom: 1rem;
+    background-color: #1ca49b;
+    padding: 1rem;
+    text-align: center;
+}
+.gafas-card-img-top{
+    width: 435px;
+}
+
+@media (max-width: 968px){
+    .ofta-section__title{
+        font-size: 50px;
+        color:#1ca49b ;
+        -webkit-text-stroke: 1.5px black;
+    
+    }
+
+    .ofta-card3{
+        width: 90%;
+    }
+    .ofta-card2{
+        width: 60%;
+    }
+    .gafas-card-img-top{
+        width: 100%;
+    }
+}

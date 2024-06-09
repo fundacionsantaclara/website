@@ -1,0 +1,77 @@
+/* Card.css */
+.objectivo-title {
+    color: #ba5353;
+    font-size: 50px;
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 45px;
+}
+.objectivo-card-container{
+    display: flex;
+}
+.valores-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .valores-card-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .valores-card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  .valores-card-title {
+    margin-bottom: 8px;
+    color: #e3c0c0;
+    font-size: 50px;
+    background-color: #4f4e4e;
+  }
+.objectivo-card {
+    width: 750px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .objectivo-card-image {
+    width: 100%;
+    height: 320px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .objectivo-card-content {
+    padding: 16px;
+  }
+  
+  .objectivo-card-title {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 45px;
+    background-color: #e3c0c0;
+    padding: 10px;
+  }
+  @media (max-width: 968px){
+    .objectivo-card-container{
+        display: flex;
+        flex-direction: column;  
+        width: 100%; 
+    }
+    .objectivo-card{
+        width: 100%;
+    }
+    .objectivo-card-image{
+        width: 100%;
+    }
+}

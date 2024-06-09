@@ -1,0 +1,47 @@
+/* Customize styling as needed */
+.video-page-container {
+    display: flex;
+    height: 60vh; /* Adjust the height based on your requirements */
+  }
+  
+  .video-section,
+  .slideshow-section {
+    flex: 1;
+    overflow: hidden;
+    background-color: beige;
+  }
+  
+  /* Style for the slides in the slideshow */
+  .slide {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .slide img {
+    width: 720px;
+    height: 380px; 
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 968px) {
+    .video-page-container {
+      display: flex;
+      height: 120vh;
+      flex-direction: column;
+      width: 100%; 
+      object-fit: cover;
+
+    }
+  
+    .video-section,
+    .slideshow-section {
+      flex: 1;
+      object-fit: cover;
+      width: 100%;
+    }
+    .slide img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }

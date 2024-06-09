@@ -1,0 +1,92 @@
+ .title{
+    font-size: 80px;
+    -webkit-text-stroke: 1.5px rgb(28, 28, 28);
+    color: rgb(246, 250, 246);
+
+}
+.invulnerables-img {
+    width: 600px !important;
+}
+.invulnerables-header{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../Fcimages/invuln-bg.avif');
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.invulnerables__text{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 95%;
+    margin: 2rem auto;
+    color: #625959;
+
+}
+.invulnerables-card2-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.invul-card{
+    width: 40%;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 2rem auto;
+    color: #405b5c;
+}
+.invul-card img{
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+.invul-card h2{
+    color: #2fabbb;
+    text-align: center;
+    font-size: 38px;
+}
+.invul-image-collage {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #bddbee;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.collage-image {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover;
+}
+
+@media (max-width: 968px){
+    .invulnerables-img {
+        width: 300px !important;
+    }
+
+    .invul-card{
+        width: 98%;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        margin: 2rem auto;
+        color: #405b5c;
+    }
+    .collage-image{
+        width: 47%;
+        padding-bottom: 20px;
+    }
+}

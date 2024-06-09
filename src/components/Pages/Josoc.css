@@ -1,0 +1,84 @@
+.josoc-section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+
+}
+.josoc__text{
+    padding-left: 70px;
+    padding-right: 70px;
+    color: rgb(73, 73, 73);
+}
+.josoc-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../Fcimages/josoc-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+
+.josoc-project-info{
+    background-color: #ffffff;
+    padding: 3.4rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    
+}
+.josoc-project-text{
+    text-align: center;
+}
+.obj-title{
+    color: #dfbf3f;
+    font-size: 45px;
+
+}
+.josoc-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.josoc-card{
+    width: 45%;
+    margin-top: 20px;
+    background-color: rgb(255, 253, 220);
+    padding: 15px;
+}
+.josoc-pic{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    background-color: #e1c451;
+}
+.josoc-card-img{
+    width: 680px;
+}
+@media (max-width: 968px){
+    .josoc-card{
+        width: 95%;
+        margin-top: 20px;
+        background-color: rgb(255, 253, 220);
+        padding: 15px;
+    }  
+    .josoc-pic{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        background-color: #e8dcaf;
+    }
+    .josoc-card-img{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+}

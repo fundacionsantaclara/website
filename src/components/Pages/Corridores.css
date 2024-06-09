@@ -1,0 +1,124 @@
+.corridores-section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: rgb(251, 254, 252);
+
+}
+.corridores-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:  url("../Fcimages/ucrania - copia.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.corridores__text{
+    background-color: azure;
+    padding: 40px 140px;
+}
+
+.corridores-card-part{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.reto-container{
+    width: 100%;
+    display: flex;
+}
+.reto-cardimg{
+    width: 35%;
+}
+.reto-img{
+    width: 500px;
+    padding: 10px;
+}
+.reto-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    margin: 1rem auto;
+}
+.ucrania-Part2-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  .ucrania-part2-card {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 510px;
+      margin: 1rem auto;
+  }
+  
+  .ucrania-part2-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px 8px 0 0;
+  }
+  
+  .ucrania-part2-card-content {
+      padding: 1rem;
+  }
+  
+  .ucrania-part2-card h2 {
+      color: #e9eeea;
+      background-color: #8b8455;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+  
+  .ucrania-part2-card p {
+      color: #333;
+  }
+  .corridores-card-img2{
+    width: 32%;
+    border-radius: 5px;
+  }
+  .corridores-card-img1{
+    width: 32%;
+    height: 300px;
+    border-radius: 5px;
+
+  }
+  .corridores-img-part{
+    margin: 50px;
+  }
+
+  @media (max-width: 968px){
+    .corridores-section__title{
+        font-size: 50px;
+    }
+    .corridores__text{
+        padding: 30px;
+    }
+    .reto-img{
+        width: 100%;
+    }
+    .reto-card {
+        width: 100%;
+    }
+    .ucrania-Part2-container{
+        display: flex;
+        flex-direction: column;  
+        width: 100%;  
+    }
+    .ucrania-part2-card{
+        width: 100%;
+    }
+
+    .corridores-card-img1{
+        width: 100%;}
+    .corridores-card-img2{
+            width: 100%;}
+  }

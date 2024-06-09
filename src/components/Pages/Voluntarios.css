@@ -1,0 +1,87 @@
+/* HomePage.css */
+
+.voluntario-container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .voluntario-title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: url("../Fcimages/volun-bg.jpg");
+    background-size: cover;
+    background-position: center bottom; 
+    padding: 30px;
+    color: rgb(40, 38, 38);
+    -webkit-text-stroke: 1px rgb(251, 249, 249);
+  }
+  
+  .voluntario-para-section {
+    margin-bottom: 30px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    background-color: #e5cfcf;
+  }
+  .voluntario-para-section p{
+    font-size: 22px;}
+  
+  .voluntario-card-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .voluntario-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 460px;
+    text-align: center;
+    margin: 16px;
+  }
+  
+  .voluntario-card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .voluntario-card-title {
+    font-size: 27px;
+    margin-bottom: 8px;
+    color: #ca6969;
+  }
+  
+  .voluntario-card-description {
+    font-size: 20px;
+    color: #555;
+  }
+  .voluntario-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .voluntario-collage img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 968px){
+    .voluntario-title {
+        font-size: 75px;
+    }
+    .voluntario-para-section {
+        padding: 35px;
+    }
+
+    .voluntario-card-section {
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        align-items: center;
+    }
+  }

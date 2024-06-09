@@ -1,0 +1,24 @@
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .location,
+  .contact-form {
+    width: 100%; /* Adjust as needed */
+  }
+  .location-title,
+  .contact-title{
+   text-align: start;
+  }
+  .mail-text{
+    color: #2fb746;
+  }
+.contact-subtitle{
+    text-align: start;
+    color: #1bb334;
+  }
+.fundacion-pic{
+    width: 600px;
+}

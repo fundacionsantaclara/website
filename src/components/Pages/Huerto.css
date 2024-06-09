@@ -1,0 +1,61 @@
+.huerto-section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+
+}
+.huerto-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url('../Fcimages/huerto background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+  .huerto-header img{
+    opacity: 0.7;
+  }
+  .huerto-para{
+    background-color: rgb(227, 227, 216);
+    padding: 40px;
+  
+  }
+  .huerto__text{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(3, 153, 58);
+    font-size: 22px;
+  }
+  .huerto-image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .huerto-pic {
+    flex: 1;
+  }
+  
+  .huerto-pic img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 968px){
+    .huerto-pic img {
+      height: 200px;
+    }
+    .huerto-section__title{
+      font-size: 45px;
+    }
+    .huerto__text{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }

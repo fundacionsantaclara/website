@@ -1,0 +1,137 @@
+/* Card.css */
+.TCcard {
+    width: 300px;
+    height: 370px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .TCcard-image {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+  }
+  
+  .TCcard-image img{
+    width: 100%;
+
+  }
+  .TCcard-title {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(3%);
+    }
+    100% {
+      transform: translateX(-52%);
+    }
+  }
+
+
+  .TCcard-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+
+  .TCcards-wrapper {
+    display: flex;
+    animation: scroll 30s linear infinite; /* Animation for continuous horizontal scrolling */
+  }
+  
+/* Storybook Card.css */
+
+.SBcard {
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .SBcard2 {
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30%;
+    flex-direction: column;
+  }
+  
+  .SBcard-content {
+    display: flex;
+  }
+  
+  .SBcard-image {
+    width: 350px; /* Set the desired width for the image */
+    height: 350px; /* Set the desired height for the image */
+    object-fit: cover;
+    border-radius: 10px 0 0 10px; /* Rounded corners on the left side */
+  }
+  
+  .SBtext-container {
+    padding: 50px;
+  }
+  
+  .SBcard-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .SBcard-description {
+    font-size: 23px;
+    color: #666;
+  }
+  
+  
+
+  @media (max-width: 968px) {
+    @keyframes scroll {
+      0% {
+        transform: translateX(3%);
+      }
+      100% {
+        transform: translateX(-60%);
+      }
+    }
+
+    .SBcard{
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+     
+    }
+    .SBcard-image{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px 0 0 10px;
+
+    }
+
+    .SBcard-content{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .SBcard2{
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      margin-left: 0%;
+     
+    }
+
+  }

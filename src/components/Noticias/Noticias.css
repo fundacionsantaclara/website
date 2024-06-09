@@ -1,0 +1,140 @@
+/* Customize styling as needed */
+.noticias-card-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.noticias-card-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.noticias-card {
+  width: 30%; /* Set width to 30% */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Hide overflowing content */
+  position: relative;
+  transition: transform 0.3s ease-in-out; /* Add transition effect for smoother movement */
+}
+
+.noticias-card a, 
+.noticias-card a:link,
+.noticias-card a:visited,
+.noticias-card a:hover, 
+.noticias-card a:active { 
+text-decoration: none; 
+color: inherit;
+}
+
+.noticias-card:hover {
+  transform: translateY(-5px); /* Move the card up by 5px on hover */
+}
+
+.noticias-card img {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out; /* Add transition effect for smoother movement */
+}
+
+.noticias-card:hover img {
+  transform: translateY(-10px); /* Move the image up by 10px on hover */
+}
+
+.noticia-title {
+  color: #333;
+  background-color: rgb(91, 211, 175);
+  padding: 20px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+/*Carrousel*/
+.carrousel-container {
+  position: relative;
+}
+
+.carrousel-scroll-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: hidden; 
+  scroll-snap-type: x mandatory;
+}
+
+.carrousel-image-container {
+  flex: 0 0 100vw; 
+  height: 60vw;
+  position: relative; 
+  display: flex;
+  flex-direction: row; 
+}
+
+.carrousel-image-container img {
+  width: 100vw; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+  user-select: none; /*evita que el texto de la flecha sea seleccionable*/
+}
+
+.fa-arrow-left {
+  left: 5vw;
+}
+
+.fa-arrow-right {
+  right: 5vw;
+}
+
+/*Noticias*/
+.newTitle{
+  color: #2A412B;
+  font-size: 50px;
+}
+
+.newsContainer{
+  max-width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.newsP{
+  text-align: justify;
+}
+
+@media (max-width: 968px) {
+  .noticias-card-list {
+      display: flex;
+      flex-direction: column;
+  }
+  .noticias-card  {
+    width: 100%; /* Make cards take the full width on small screens */
+ 
+  }
+  .noticias-card img{
+      width: 100%;
+  }
+  .carrousel-image-container {
+    height: 55vw;
+  }
+  
+  .arrow {
+    font-size: 25px;
+    top: 40%;
+  }
+}
+

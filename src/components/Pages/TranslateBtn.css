@@ -1,0 +1,22 @@
+/* TranslateBtn.css */
+
+/* Container style for the language buttons */
+.language-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    position:static;
+  }
+  
+  /* Common button styles */
+  .language-btn {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for better appearance */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    align-self:flex-end;
+  }
+  

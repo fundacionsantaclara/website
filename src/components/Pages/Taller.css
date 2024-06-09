@@ -1,0 +1,93 @@
+.tallersection__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px rgb(23, 22, 22);
+    color: white;
+
+}
+.taller-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../Fcimages/tallerbg\ img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .paragraph-text{
+    padding-top: 35px;
+    word-spacing: 5px;
+  }
+
+  .para-text2{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    margin-top: 20px;
+    word-spacing: 3px;
+    max-width: 100%;
+    margin: auto;
+  }
+  .btn-taller{
+    display: flex;
+    }
+
+  .first-btn{
+    margin-right: 25px;
+    font-size: 20px;
+    background-color: rgb(158, 214, 177);
+    padding: 15px;
+  }
+  .second-btn{
+    font-size: 20px;
+    background-color: rgb(158, 214, 177);
+    padding: 15px;
+  }
+  .taller-text-title{
+    font-size: 38px;
+  }
+
+  .taller__text{
+    width: 57%;
+    background-color: rgb(246, 246, 238);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    padding-top: 120px;
+  }
+
+  .taller-part1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+
+  @media (max-width: 968px) {
+   .taller__text{
+    width: 97%;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .first-btn{
+    display: block;
+  }
+  
+
+  .second-btn{
+    display: block;
+  }
+
+  .para-text2{
+    padding: 5px;
+  }
+  .taller__text{
+    padding: 10px;
+  }
+}
+  

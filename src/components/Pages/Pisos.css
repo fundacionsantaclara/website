@@ -1,0 +1,108 @@
+.piso-section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+
+}
+.piso__text{
+    padding-left: 70px;
+    padding-right: 70px;
+    color: rgb(73, 73, 73);
+}
+.piso-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../Fcimages/piso-background-pic.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+.Pisos-card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(236, 231, 225);
+    margin-top: 80px;
+}
+.pisos-card{
+    width: 49%;
+}
+.pisos-card-img-top{
+    width: 600px;
+}
+
+.pisos-card-img-top2{
+    margin-top: 90px;
+    width: 600px;
+}
+.pisos-card-title{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.pisos-card-body{
+    background-color: #c3c1b6;
+    margin-top: 30px;
+    padding: 25px;
+}
+.pisos-card-text{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.piso-intro-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.piso-intro-card {
+    background-color: #d9d7d0;
+    padding: 1.4rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.piso-intro-card h2 {
+    color: #4b3e02;
+}
+
+.piso-intro-card p {
+    color: #423e3e;
+    background-color: #f8f3e6;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width: 968px){
+    .piso-intro-card-container{
+        display: flex;
+        flex-direction: column;  
+        width: 100%; 
+    }
+    .piso-intro-card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .pisos-card  {
+        width: 100%;
+    }
+    .Pisos-card-container{
+        display: flex;
+    flex-direction: column;  
+    width: 100%;   
+ }
+ .pisos-card-img-top{
+    width: 100%;
+ }
+ .pisos-card-img-top2{
+    width: 100%;
+ }
+
+}

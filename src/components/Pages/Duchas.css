@@ -1,0 +1,96 @@
+.section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 2px black;
+    color: white;
+
+}
+.duchas-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/12/ducha-2157861.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.duchas__text{
+    padding: 20px;
+}
+
+.duchas-intro-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 98%;
+    margin: 2rem auto;
+}
+
+.duchas-intro-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.duchas-intro-card-content {
+    padding: 1rem;
+}
+
+.duchas-intro-card h2 {
+    color: #1cb735;
+}
+
+.duchas-intro-card p {
+    color: #333;
+}
+
+.Part2-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.part2-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 1rem auto;
+}
+
+.part2-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.part2-card-content {
+    padding: 1rem;
+}
+
+.part2-card h2 {
+    color: #e9eeea;
+    background-color: #4aab5a;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.part2-card p {
+    color: #333;
+}
+
+@media (max-width: 968px){
+    .part2-card {
+        width: 100%;
+    }
+    .Part2-container{
+        display: flex;
+    flex-direction: column;  
+    width: 100%;   
+ }
+}

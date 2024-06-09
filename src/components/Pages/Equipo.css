@@ -1,0 +1,38 @@
+/* App.css */
+
+.equipo-title {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+  .equipo-title h1{
+    font-size: 50px;
+}
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .profile {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,98 @@
+.section__title{
+    font-size: 50px !important;
+    -webkit-text-stroke: 3px black;
+    color: white;
+
+}
+.resi-header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:   url('https://www.fsantaclara.org/img/proyectos/residencia/fro_residencia_cabecera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.resi-card{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.card-img-bottom{
+object-fit: cover;
+}
+
+.resi-foto img {
+    width: 49%;
+    flex-wrap: wrap;
+    height: 450px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.resi-small-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.smallpart-section{
+    width: 31%;
+    border: 2px solid rgb(41, 140, 108);
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+
+.resi-para-card-body{
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 29px;
+    border: 2px solid rgb(41, 140, 108);
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+p{
+    text-align: left;
+    
+}
+
+@media (max-width: 1000px) {
+    .resi-foto img {
+        width: 90%;
+        flex-wrap: wrap;
+        height: 450px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .smallpart-section{
+        width: 90%;
+        align-items: center;
+        margin-left: 35px;
+    }
+    .resi-para-card-body{
+        text-align: left;
+        margin-left: 15px;
+  }
+    
+  }
+  
+  @media (max-width: 480px){
+    .resi-foto img {
+        width: 90%;
+        flex-wrap: wrap;
+        height: 450px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .smallpart-section{
+        width: 90%;
+        align-items: center;
+        margin-left: 35px;
+    }
+  }
