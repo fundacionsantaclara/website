@@ -114,7 +114,8 @@ border-radius: 14px;
         transition: all 0.3s ease-in-out;
         margin: 0; 
         padding: 20px 0 40px 0;
-        
+        max-height: 600px; 
+        overflow-y: auto;
     }
 
     .nav-menu.active{
