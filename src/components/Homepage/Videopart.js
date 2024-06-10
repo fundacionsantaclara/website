@@ -28,7 +28,7 @@ const Videopart = () => {
           title="Video"
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/your-video-id"
+          src="https://www.youtube.com/embed/B1IZ7VXfr8c?autoplay=1&loop=1&playlist=B1IZ7VXfr8c"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

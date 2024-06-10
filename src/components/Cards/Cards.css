@@ -37,6 +37,9 @@
     margin-top: 15px;
     list-style: none;
   }
+  ul.project-cards-items {
+    padding-left: 0;
+  }
   
   .project-cards-items {
     display: flex;
@@ -51,6 +54,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 10px;
+  }
+
+  ul.otro-cards-items{
+    padding-left: 0;
   }
 
   .project-cards-item-link {
