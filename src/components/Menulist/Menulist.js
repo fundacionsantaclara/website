@@ -22,7 +22,7 @@ export const MenuList = [
 
   {
     title: "participa",
-    url: "/participar",
+    url: "/",
     cName: "nav-links",
   },
   {
@@ -32,7 +32,7 @@ export const MenuList = [
   },
   {
     title: "donativo",
-    url: "/donativa",
+    url: "https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715",
     cName: "nav-links-mobile",
   },
 ];

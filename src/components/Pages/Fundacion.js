@@ -1,6 +1,8 @@
 import React from "react";
 import "./Fundacion.css";
 import aboutImage from "../Fcimages/woodbg.jpg";
+import convent from "../../Images/fundacion.jpg";
+import patronato from "../../Images/patronato.jpg";
 import { useTranslation } from "react-i18next";
 
 function Fundacion() {
@@ -14,7 +16,7 @@ function Fundacion() {
           <p>{t("fund-text2")}</p>
         </div>
         <div className="fundacion-image-container">
-          <img src={aboutImage} alt="About Us" className="fundacion-image" />
+          <img src={convent} alt="About Us" className="fundacion-image" />
         </div>
         <div className="patronato">
           <h1>{t("patronato")}</h1>
@@ -37,7 +39,7 @@ function Fundacion() {
           <p>{t("vocal12")}</p>
           <p>{t("secre")}</p>
           <div className="fundacion-image-container">
-            <img src={aboutImage} alt="About Us" className="fundacion-image" />
+            <img src={patronato} alt="About Us" className="fundacion-image" />
           </div>
         </div>
       </div>

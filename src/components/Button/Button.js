@@ -18,7 +18,10 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/donar" className="btn-mobile">
+    <Link
+      to="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
+      className="btn-mobile"
+    >
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

@@ -1,5 +1,5 @@
  .trans-section__title{
-    font-size: 70px;
+    font-size: 50px;
     -webkit-text-stroke: 1px black;
     color: white;
 
@@ -86,7 +86,7 @@
 
   @media (max-width: 968px){
     .trans-section__title {
-      font-size: 60px;
+      font-size: 35px;
     }
     .trans-card {
       flex-direction: column;

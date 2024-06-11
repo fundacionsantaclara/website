@@ -24,15 +24,10 @@ const Videopart = () => {
     <div className="video-page-container">
       <div className="video-section">
         {/* You can replace the video source with your own */}
-        <iframe
-          title="Video"
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/B1IZ7VXfr8c?autoplay=1&loop=1&playlist=B1IZ7VXfr8c"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <video width="100%" height="100%" controls loop autoPlay muted>
+          <source src="/fundacionconvent.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div className="slideshow-section">
         <Slider {...settings}>

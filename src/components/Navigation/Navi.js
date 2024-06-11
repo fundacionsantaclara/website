@@ -97,7 +97,10 @@ function Navi() {
             })}
           </ul>
           {button && (
-            <Link to="/donar" className="button">
+            <Link
+              to="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
+              className="button"
+            >
               <strong>{t("donativo")}</strong>
             </Link>
           )}
