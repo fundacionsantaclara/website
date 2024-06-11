@@ -23,7 +23,7 @@ export const participarDropdown = [
   {
     id: 1,
     title: "part-donar",
-    path: "./donar",
+    path: "https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715",
     cName: "submenu-item",
   },
   {
