@@ -284,5 +284,14 @@
   "compasion":"La compasión",
   "compa-text":"Son sensibles a la situación de la gente.",
   "team":"Trabajo en equipo",
-  "team-text":"Trabajando juntos para lograr los mismos objetivos."
+  "team-text":"Trabajando juntos para lograr los mismos objetivos.",
+  "contacto": "Contáctanos",
+  "direc": "DIRECCIÓN",
+  "dire-text": "Fundació del Convent de Santa Clara",
+  "adress": "c/ Nou de Santa Clara, 62",
+  "ad-2": "08241 Manresa (Barcelona)",
+  "phone": "TELÉFONO",
+  "mail": "EMAIL",
+  "mail-text": "info@fsantaclara.org"
+
 }

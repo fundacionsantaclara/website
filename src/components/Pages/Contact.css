@@ -20,9 +20,8 @@
     color: #1bb334;
   }
 .fundacion-pic{
-    max-width: 600px;
-    margin: auto;
     object-fit: cover;
+    max-width:70%;
 }
 
 @media (max-width: 968px){
@@ -30,5 +29,9 @@
     flex-direction: column;
     margin: 0;
     padding: 10px;
+  }
+  .fundacion-pic{
+    
+    max-width: 90%;
   }
 }

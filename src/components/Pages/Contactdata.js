@@ -1,25 +1,27 @@
 import React from "react";
 import Fundacion from "../Fcimages/vissionbg.jpg";
+import contact from "../../Images/contac.jpg";
+import { useTranslation } from "react-i18next";
 
 function Contactdata() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="contact-page">
         <div className="location">
-        <img className="fundacion-pic"  src={Fundacion} alt="" />
+          <img className="fundacion-pic" src={contact} alt="" />
         </div>
         <div className="contact-form">
           {/* Contact Form */}
-          <h2 className="contact-title">Contact Us</h2>
-          <h6 className="contact-subtitle">DIRECCIÓN</h6>
-          <p> Fundación del Convento de Santa Clara </p>
-          <p>c/ Nou de Santa Clara, 62 </p>
-          <p>08241 Manresa (Barcelona) </p>
-          <h6 className="contact-subtitle">TELÉFONO</h6>
+          <h2 className="contact-title">{t("contacto")}</h2>
+          <h6 className="contact-subtitle">{t("direc")}</h6>
+          <p> {t("dire-text")} </p>
+          <p>{t("adress")} </p>
+          <p>{t("ad-2")} </p>
+          <h6 className="contact-subtitle">{t("phone")}</h6>
           <p> T. 93 873 4928</p>
-          <h6 className="contact-subtitle">EMAIL</h6>
+          <h6 className="contact-subtitle">{t("mail")}</h6>
           <p className="mail-text"> info@fsantaclara.org </p>
-         
         </div>
       </div>
     </>
