@@ -72,7 +72,7 @@
 
   @media (max-width: 968px){
     .voluntario-title {
-        font-size: 75px;
+        font-size: 35px;
     }
     .voluntario-para-section {
         padding: 35px;
@@ -83,5 +83,10 @@
         flex-direction: column;  
         width: 100%;
         align-items: center;
+    }
+    .voluntario-card {
+      max-width: 90%;
+      margin: auto;
+      margin-bottom: 15px;
     }
   }
