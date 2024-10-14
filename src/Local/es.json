@@ -32,7 +32,7 @@
 "resi-title" :"RESIDENCIA",
 "huerto-title" :"HUERTO ECOLOGICO",
 "pisos-title" :"PISOS DE ACOGIDA",
-"taller-title" :"TALLER DE NIÑAS",
+"taller-title" :"TALLER DE MUÑECAS",
 "duchas-title" :"ESPACIO DE DUCHAS",
 "cosidor-title" :"COSEDOR",
 "oftamologia-title" :"OFTAMOLOGÍA",
@@ -90,7 +90,7 @@
 "pisos-page-card4-para" :"  En estos pisos viven personas o bien que no tienen trabajo o si la tienen les permite pagar gastos y un alquiler muy ajustado. Cuando mejora la situación y pueden contribuir al alquiler, se pide una aportación proporcional a lo que perciben.",
 "pisos-page-card5-title" :"El Compromiso",
 "pisos-page-card5-para" :"Las familias y las personas que viven en los pisos participen de forma activa en actividades de la Fundación, en salidas sociales, como Apropa Cultura, la Fiesta de la Diversidad, la Feria de la Azada, etc., para que conozcan la cultura, se relacionen y puedan integrarse plenamente.",
-"taller-page-title" :"TALLER DE NINAS ",
+"taller-page-title" :"TALLER DE MUÑECAS ",
 "taller-card1-title" :"Los muñecos y muñecas más simpáticas",
 "taller-card1-para" :"Clara y Cesc son muñecos y muñecas que han nacido de forma artesanal a nuestra Fundación, que personalizamos según los gustos y necesidades de las empresas, entidades o particulares que estén interesados. Están hechos a mano y miden alrededor centímetros de longitud.",
 "taller-card1-para2" :"El precio, en forma de donativo, varía según la complejidad en la elaboración de cada muñeco o muñeca. Oscila entre los 25 y los 35 euros.",
@@ -117,7 +117,7 @@
 "duchas-card3-para" :"La mayoría llega de",
 "duchas-card3-para-bold" :" Fundación del Convento de Santa Clara a través de la Plataforma de Alimentos",
 "duchas-card3-para2" :"asociaciones y servicios sociales locales.",
-"cosidor-page-title" :"COSIDOR",
+"cosidor-page-title" :"COSEDOR",
 "cosidor-page-intro" :"   Este es un lugar donde mujeres en riesgo de exclusión social tienen la oportunidad de aprender a cosir e integrarse con los demás.",
 "cosidor-card1-title" :"Aprendizaje de idiomas",
 "cosidor-card1-para" :"Aprenden y practican español y catalán.",
@@ -292,6 +292,6 @@
   "ad-2": "08241 Manresa (Barcelona)",
   "phone": "TELÉFONO",
   "mail": "EMAIL",
-  "mail-text": "info@fsantaclara.org"
-
+  "mail-text": "info@fsantaclara.org",
+  "last-events": "Últimos eventos"
 }

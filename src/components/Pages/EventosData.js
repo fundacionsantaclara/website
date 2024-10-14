@@ -5,6 +5,7 @@ import Sagrada from "../Fcimages/sagrada familia.jpg";
 import Recapte from "../Fcimages/gran recapte.jpg";
 import Vinya from "../Fcimages/vinya cross2.png";
 import ukranians from "../../Images/ucrania.jpg";
+import { useTranslation } from "react-i18next";
 
 const events = [
   {
@@ -31,9 +32,10 @@ const events = [
   // ... other events
 ];
 const EventosData = () => {
+  const { t } = useTranslation();
   return (
     <di>
-      <h1 className="event-title">Próximos Eventos</h1>
+      <h1 className="event-title">{t("last-events")}</h1>
       <div className="Event-container">
         {events.map((event) => (
           <EventosCard
