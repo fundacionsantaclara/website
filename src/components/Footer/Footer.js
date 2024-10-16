@@ -28,7 +28,7 @@ function Footer() {
   <div class="social-media-wrap">
     <div class="footer-logo">
       <Link to="/" className="social-logo">
-        <img className="fsclogo" src={logo} alt="" />
+        <img className="fsclogo" src={logo} alt="Fundación Santa Clara Logo" />
       </Link>
     </div>
     <small class="website-rights">
