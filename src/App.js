@@ -24,6 +24,7 @@ import Objectivo from "./components/Pages/Objectivo";
 import Contacto from "./components/Pages/Contact";
 import Voluntarios from "./components/Pages/Voluntarios";
 import NewsPage from "./components/Noticias/NewsPage";
+import Comunidad from "./components/Pages/Comunidad";
 
 function App() {
   return (
@@ -90,7 +91,9 @@ function App() {
       <Routes>
         <Route path="/News/:id" element={<NewsPage />} />
       </Routes>
-
+      <Routes>
+        <Route path="/Comunidad" element={<Comunidad />} />
+      </Routes>
       <Footer />
     </div>
   );
