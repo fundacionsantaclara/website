@@ -293,62 +293,7 @@
   "phone": "PHONE",
   "mail": "EMAIL",
   "mail-text": "info@fsantaclara.org",
-  "last-events": "Last events"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "last-events": "Last events",
+  "comunidad-title": "Community",
+  "comunidad-description": "Welcome to the Community Events section."
 }

@@ -293,65 +293,7 @@
   "phone": "TELÈFON",
   "mail": "CORREU ELECTRÒNIC",
   "mail-text": "info@fsantaclara.org",
-  "last-events": "Ultims esdeveniments"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "last-events": "Ultims esdeveniments",
+  "comunidad-title": "Comunitat",
+  "comunidad-description": "Benvingut a la secció d'esdeveniments de la Comunitat."
 }
