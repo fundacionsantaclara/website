@@ -5,6 +5,7 @@ import Navi from "./components/Navigation/Navi";
 import Home from "./components/Homepage/Home";
 import Transparencia from "./components/Pages/Transparencia";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop"
 import Cards from "./components/Cards/Cards";
 import Plataforma from "./components/Pages/Plataforma";
 import Residencia from "./components/Pages/Residencia";
@@ -28,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <Navi />
+      <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
