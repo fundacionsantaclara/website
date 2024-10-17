@@ -2,8 +2,9 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import logo from "../Fcimages/fsantaclara.png";
-import generalitat from "../Fcimages/logo-generalitat.png";
-import manresa from "../Fcimages/logo_ajuntament_manresa.png";
+import generalitat from "../Fcimages/logotipogeneralitat.png";
+import manresa from "../Fcimages/logotipoajuntamentmanresa.png";
+import fundacioCaixa from "../Fcimages/logotipofundacionlacaixa.png";
 import { useTranslation } from "react-i18next";
 
 function Footer() {
@@ -11,71 +12,77 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">{t("footer-p1")}</p>
-        <h2 className="support-text">{t("footer-p2")}</h2>
-        <div class="footer-links">
-          <div class="footer-link-items">
-            <img src={generalitat} />
+        <div className="footer-text">
+          <p className="footer-subscription-heading">{t("footer-p1")}</p>
+          <h2 className="support-text">{t("footer-p2")}</h2>
+        </div>
+        <div class="footer-images">
             <div class="footer-link-items">
-              <img src={manresa} />
-            </div>
+              <img src={generalitat} alt="Generalitat" />
+              <img src={fundacioCaixa} alt="FundacioCaixa" />
+              <img src={manresa} alt="Manresa" />
           </div>
         </div>
       </section>
       <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo">
-              <img className="fsclogo" src={logo} alt="" />
-            </Link>
-          </div>
-          <small class="website-rights">
-            Fundació convent de Santa Clara © 2024
-          </small>
-          <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div class="social-media-wrap">
+    <div class="footer-logo">
+      <Link to="/" className="social-logo">
+        <img className="fsclogo" src={logo} alt="Fundación Santa Clara Logo" />
+      </Link>
+    </div>
+    <small class="website-rights">
+      Fundació convent de Santa Clara © 2024
+    </small>
+    <div class="social-icons">
+      <a
+        class="social-icon-link facebook"
+        href="https://www.facebook.com/tuPaginaDeFacebook"  // Añade tu enlace real aquí
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook"
+      >
+        <i class="fab fa-facebook-f" />
+      </a>
+      <a
+        class="social-icon-link instagram"
+        href="https://www.instagram.com/tuPaginaDeInstagram"  // Añade tu enlace real aquí
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+      >
+        <i class="fab fa-instagram" />
+      </a>
+      <a
+        class="social-icon-link youtube"
+        href="https://www.youtube.com/tuCanalDeYouTube"  // Añade tu enlace real aquí
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Youtube"
+      >
+        <i class="fab fa-youtube" />
+      </a>
+      <a
+        class="social-icon-link twitter"
+        href="https://www.twitter.com/tuPaginaDeTwitter"  // Añade tu enlace real aquí
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Twitter"
+      >
+        <i class="fab fa-twitter" />
+      </a>
+      <a
+        class="social-icon-link linkedin"
+        href="https://www.linkedin.com/tuPaginaDeLinkedIn"  // Añade tu enlace real aquí
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <i class="fab fa-linkedin" />
+      </a>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
