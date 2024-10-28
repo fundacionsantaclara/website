@@ -5,6 +5,11 @@ export const MenuList = [
     cName: "nav-links",
   },
   {
+    title: "comunidad-title",
+    url: "/Comunidad",
+    cName: "nav-links",
+  },
+  {
     title: "transparence",
     url: "/transparencia",
     cName: "nav-links",

@@ -37,11 +37,6 @@ export const participarDropdown = [
     title: "part-tiendas",
     path: "./Taller",
     cName: "submenu-item",
-  },
-  {
-    id: 4,
-    title: "comunidad-title",  // Nuevo elemento agregado y tambien incluida la traduccion.
-    path: "./Comunidad",      // Asegúrate de que la ruta sea válida
-    cName: "submenu-item", // Clase CSS para el estilo
-  },
+  }
+
 ];
