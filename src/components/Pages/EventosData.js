@@ -4,7 +4,7 @@ import "./Eventos.css";
 import Sagrada from "../Fcimages/sagrada familia.jpg";
 import Recapte from "../Fcimages/gran recapte.png";
 import Vinya from "../Fcimages/vinya cross2.png";
-import ukranians from "../../Images/ucrania.jpg";
+import ukranians from "../../Images/250ucranianos.png";
 import { useTranslation } from "react-i18next";
 
 const events = [
