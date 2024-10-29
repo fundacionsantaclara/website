@@ -2,7 +2,7 @@ import React from "react";
 import EventosCard from "./Eventos";
 import "./Eventos.css";
 import Sagrada from "../Fcimages/sagrada familia.jpg";
-import Recapte from "../Fcimages/gran recapte.jpg";
+import Recapte from "../Fcimages/gran recapte.png";
 import Vinya from "../Fcimages/vinya cross2.png";
 import ukranians from "../../Images/ucrania.jpg";
 import { useTranslation } from "react-i18next";

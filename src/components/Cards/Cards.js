@@ -2,7 +2,17 @@ import React from "react";
 import CardsItems from "./CardsItems";
 import "./Cards.css";
 import { useTranslation } from "react-i18next";
-
+import plataformaAlimentos from "../../Images/plataforma.png";
+import residencia from "../../Images/residencia.png";
+import huerto from "../../Images/huerto.png";
+import pisosAcogida from "../../Images/pisosAcogida.png";
+import tallerMuñecas from "../../Images/cosedor.png";
+import espacioDuchas from "../../Images/duchas.png";
+import cosedor from "../../Images/cosedorMoni.png";
+import salud from "../../Images/oftalmologia.png";
+import invulnerablesCardImage from "../../Images/invulnerablekm0.png";
+import yosoy from "../../Images/yosoy.png";
+import corredorHumanitario from  "../../Images/refugiado.png"
 function Cards() {
   const { t } = useTranslation();
   return (
@@ -12,42 +22,42 @@ function Cards() {
         <div className="project-cards-wrapper">
           <ul className="project-cards-items">
             <CardsItems
-              src="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/12/30/plataforma-de-alimentos-de-manresa.jpeg"
+              src={plataformaAlimentos}
               text={t("plataforma-title")}
               path="/plataforma"
             />
             <CardsItems
-              src="https://www.skylandtrail.org/wp-content/uploads/2019/04/adolescent-residential-treatment.jpg"
+              src={residencia}
               text={t("resi-title")}
               path="/residencia"
             />
             <CardsItems
-              src="https://images.hola.com/imagenes/decoracion/20210408187392/plantar-huerto-urbano-primavera-mc/0-938-406/plantar-huerto-primavera-m.jpg?tx=w_680"
+             src={huerto}
               text={t("huerto-title")}
               path="/huerto"
             />
             <CardsItems
-              src="https://www.caralca.es/wp-content/uploads/2021/02/pisos-en-venta-en-Huelva.jpg"
-              text={t("pisos-title")}
+             src={pisosAcogida}
+             text={t("pisos-title")}
               path="/piso"
             />
             <CardsItems
-              src="https://www.asafes.org/wp-content/uploads/2022/03/manualidades-1.jpg"
+              src={tallerMuñecas}
               text={t("taller-title")}
               path="/taller"
             />
             <CardsItems
-              src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/12/ducha-2157861.jpg?tf=3840x"
-              text={t("duchas-title")}
+              src={espacioDuchas}
+               text={t("duchas-title")}
               path="/duchas"
             />
             <CardsItems
-              src="https://images.squarespace-cdn.com/content/v1/604a66249f0bf327ccdf4b65/1618879721452-JL50AHHAFYBF6BWQNDPB/image-asset.jpeg"
+              src={cosedor}
               text={t("cosidor-title")}
               path="/cosidor"
             />
             <CardsItems
-              src="https://aio-oftalmologia.com/wp-content/uploads/De-que-se-ocupa-un-oftalmologo.jpg"
+             src={salud}
               text={t("oftamologia-title")}
               path="/oftamologia"
             />
@@ -56,18 +66,18 @@ function Cards() {
           <h1 className="otro-title">{t("otroproyectos-title")}</h1>
           <ul className="otro-cards-items">
             <CardsItems
-              src="https://fundacionlacaixa.org/documents/234043/558343/pobreza-infantil-invulnerables_1200x630.jpg/3a9499f9-0953-e6af-a57c-b84f532941d5?version=1.0&t=1697478753652&imagePreview=1"
+              src={invulnerablesCardImage}
               text={t("invulnerables-title")}
               path="/invulnerables"
             />
             <CardsItems
-              src="https://www.clarin.com/img/2022/06/07/kN-lkp8nd9_2000x1500__1.jpg"
+             src={corredorHumanitario}
               text={t("corridores-title")}
               path="/corridores"
             />
             <CardsItems
-              src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/07/13/Pictures/_fa7f9f92-67b2-11e7-95fb-ec6334583ea6.jpg"
-              text={t("josoc-title")}
+              src={yosoy}
+               text={t("josoc-title")}
               path="/josoc"
             />
           </ul>
