@@ -1,6 +1,6 @@
 import React from "react";
 import Fundacion from "../Fcimages/vissionbg.jpg";
-import contact from "../../Images/contac.jpg";
+import contact from "../../Images/contactofoto.png";
 import { useTranslation } from "react-i18next";
 
 function Contactdata() {
