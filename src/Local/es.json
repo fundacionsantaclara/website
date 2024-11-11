@@ -419,7 +419,56 @@
   "phone": "TELÉFONO",
   "mail": "EMAIL",
   "mail-text": "info@fsantaclara.org",
-  "last-events": "Últimos eventos",
+
+
+ "last-events": "Últimos eventos",
+"events": [
+    {
+        "id": 1,
+    "eventName": "250 Sonrisas",
+    "date": "Junio, 2024",
+    "time": "2:00 PM",
+    "location": "Barcelona, España",
+    "imageSrc": "ruta/a/imagen1.jpg"
+  },
+    {
+      "id": 2,
+      "imageName": "recapte",
+      "eventName": "Gran recapte",
+      "date": "May, 2024",
+      "time": "2:00 PM",
+      "location": "Madrid",
+      "imageSrc": "ruta/a/imagen1.jpg"
+    },
+    {
+      "id": 3,
+      "imageName": "sagr",
+      "eventName": "Missa Criolla",
+      "date": "Dec 12, 2023",
+      "time": "2:00 PM",
+      "location": "Barcelona",
+      "imageSrc": "ruta/a/imagen1.jpg"
+    },
+    {
+      "id": 4,
+      "imageName": "sagrada",
+      "eventName": "Missa Criolla",
+      "date": "Dec 12, 2023",
+      "time": "2:00 PM",
+      "location": "Barcelona",
+      "imageSrc": "ruta/a/imagen1.jpg"
+    },
+    {
+      "id": 5,
+      "imageName": "sagradona",
+      "eventName": "Missa Criolla",
+      "date": "Dec 12, 2023",
+      "time": "2:00 PM",
+      "location": "Barcelona",
+      "imageSrc": "ruta/a/imagen1.jpg"
+    }
+  ],
+  
   "comunidad-title": "Comunidad",
   "comunidad-description": "Bienvenido a la seccion de eventos de la Comunidad."
 }

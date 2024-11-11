@@ -1,53 +1,47 @@
 import React from "react";
 import EventosCard from "./Eventos";
 import "./Eventos.css";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
+// Importa las imágenes locales
 import Sagrada from "../Fcimages/sagrada familia.jpg";
 import Recapte from "../Fcimages/gran recapte.png";
 import Vinya from "../Fcimages/vinya cross2.png";
-import ukranians from "../../Images/250ucranianos.png";
-import { useTranslation } from "react-i18next";
+import Ukranians from "../../Images/250ucranianos.png";
 
-const events = [
-  {
-    id: 1,
-    imageSrc: ukranians,
-    eventName: "250 sonrisas",
-    date: "Jun, 2024",
-    time: "2:00 PM",
-  },
-  {
-    id: 1,
-    imageSrc: Recapte,
-    eventName: "Gran recapte",
-    date: "May, 2024",
-    time: "2:00 PM",
-  },
-  {
-    id: 1,
-    imageSrc: Sagrada,
-    eventName: "Missa Criolla",
-    date: "Dec 12, 2023",
-    time: "2:00 PM",
-  },
-  // ... other events
-];
+// Mapeo de nombres de imágenes a imágenes importadas
+const imageMap = {
+  sagrada: Sagrada,
+  recapte: Recapte,
+  vinya: Vinya,
+  ukranians: Ukranians
+};
+
 const EventosData = () => {
   const { t } = useTranslation();
+  const events = t("events", { returnObjects: true });
+
+  // Ordenar eventos por ID descendente y obtener los tres primeros
+  const latestEvents = [...events].sort((a, b) => b.id - a.id).slice(0, 3);
+
   return (
-    <di>
+    <div>
       <h1 className="event-title">{t("last-events")}</h1>
       <div className="Event-container">
-        {events.map((event) => (
+        {latestEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc}
+            imageSrc={imageMap[event.imageName]} // Mapea el nombre de la imagen a la imagen importada
             eventName={event.eventName}
             date={event.date}
             time={event.time}
+            location={event.location} // Añade ubicación aquí
           />
         ))}
       </div>
-    </di>
+      <Link to="/EventosCompleta" className="ver-mas-boton">Ver más</Link>
+    </div>
   );
 };
 
