@@ -26,6 +26,7 @@ import Voluntarios from "./components/Pages/Voluntarios";
 import NewsPage from "./components/Noticias/NewsPage";
 import Comunidad from "./components/Pages/Comunidad";
 import NoticiasCompleta from './components/Noticias/NoticiasCompleta';
+import EventosCompleta from "./components/Pages/EventosCompleta";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         <Route path="/News/:id" element={<NewsPage />} />
         <Route path="/NoticiasCompleta" element={<NoticiasCompleta />} />
         <Route path="/Comunidad" element={<Comunidad />} />
+        <Route path="/EventosCompleta" element={<EventosCompleta />} />
       </Routes>
       <Footer />
     </div>

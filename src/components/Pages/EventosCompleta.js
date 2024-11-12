@@ -2,22 +2,21 @@ import React from "react";
 import EventosCard from "./Eventos";
 import "./Eventos.css";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 
-const EventosData = () => {
+const EventosCompleta = () => {
   const { t } = useTranslation();
   const events = t("events", { returnObjects: true });
 
-  const latestEvents = [...events].sort((a, b) => b.id - a.id).slice(0, 3);
+  const sortedEvents = [...events].sort((a, b) => b.id - a.id);
 
   return (
-    <div>
+    <div className="noticias-card-container">
       <h1 className="event-title">{t("last-events")}</h1>
-      <div className="Event-container">
-        {latestEvents.map((event) => (
+      <div className="Event-container completa-list">
+        {sortedEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc} // Usa directamente la URL desde el JSON
+            imageSrc={event.imageSrc} // Utiliza URL directamente
             eventName={event.eventName}
             date={event.date}
             time={event.time}
@@ -25,9 +24,8 @@ const EventosData = () => {
           />
         ))}
       </div>
-      <Link to="/EventosCompleta" className="ver-mas-boton">Ver más</Link>
     </div>
   );
 };
 
-export default EventosData;
+export default EventosCompleta;
