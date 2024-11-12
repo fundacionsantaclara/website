@@ -7,7 +7,6 @@ const EventosCompleta = () => {
   const { t } = useTranslation();
   const events = t("events", { returnObjects: true });
 
-  // Ordenar eventos por ID descendente
   const sortedEvents = [...events].sort((a, b) => b.id - a.id);
 
   return (
@@ -17,7 +16,7 @@ const EventosCompleta = () => {
         {sortedEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc}
+            imageSrc={event.imageSrc} // Utiliza URL directamente
             eventName={event.eventName}
             date={event.date}
             time={event.time}
