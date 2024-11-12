@@ -132,6 +132,7 @@
 "oftamologia-card2-para" :"     A los beneficiarios se les ofrecen visitas al oculista, con las revisiones correspondientes y, si es necesario, gafas y pruebas complementarias como campimetría, Ompometries, OCT.",
 "oftamologia-card3-title" :"Usuarios",
 "oftamologia-card3-para" :" La media de usuarios atendidos los últimos años es de 88 personas. El 15% de los beneficiarios son menores y el 85% personas adultas. El 44% de los usuarios son hombres y el 56% mujeres.",
+"back-button": "Volver",
 "latest_news": "Ultimas noticias",
 "news": [
     {
@@ -299,7 +300,6 @@
       "carrousel1": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro3.jpg",
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
-      "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
       "ubicacion": "Barcelona, España"
     }
   ],
