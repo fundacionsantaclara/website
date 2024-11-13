@@ -25,7 +25,7 @@ import Contacto from "./components/Pages/Contact";
 import Voluntarios from "./components/Pages/Voluntarios";
 import NewsPage from "./components/Noticias/NewsPage";
 import Comunidad from "./components/Pages/Comunidad";
-import NoticiasCompleta from './components/Noticias/NoticiasCompleta';
+import NoticiasCompleta from "./components/Noticias/NoticiasCompleta";
 import EventosCompleta from "./components/Pages/EventosCompleta";
 
 function App() {
