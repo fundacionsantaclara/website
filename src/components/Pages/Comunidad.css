@@ -8,14 +8,16 @@
     padding-left: 70px;
     padding-right: 70px;
     color: rgb(73, 73, 73);
+    margin-top: 500px;
 }
 
 .comunidad-header {
-    background: url('https://your-image-url.com/comunidad-background.jpg'); /* Reemplaza con la URL de la imagen */
+    background-color: rgb(157, 189, 110); 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+  
     margin-bottom: 40px;
+    height: 100px;
 }
 
 .Comunidad-card-container {
