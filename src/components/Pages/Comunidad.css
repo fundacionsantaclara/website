@@ -1,107 +1,153 @@
+/* Estilo del título principal de la sección */
 .comunidad-section__title {
-    font-size: 40px !important;
-    -webkit-text-stroke: 1.5px black;
-    color: white;
+    font-size: 40px !important; /* Tamaño de la fuente del título. Puedes cambiar el tamaño para hacerlo más grande o pequeño. */
+    -webkit-text-stroke: 1.5px black; /* Añade un contorno al texto. Puedes cambiar el color y grosor del contorno. */
+    color: white; /* Color del texto. Puedes cambiarlo a cualquier otro color usando el valor hexadecimal o nombre del color. */
 }
 
+/* Estilo de la sección de texto de la comunidad */
 .comunidad__text {
-    padding-left: 70px;
-    padding-right: 70px;
-    color: rgb(73, 73, 73);
-    margin-top: 500px;
+    padding-left: 70px; /* Espaciado interno (padding) del lado izquierdo del texto. Puedes reducirlo para acercar el texto al borde izquierdo. */
+    padding-right: 70px; /* Espaciado interno del lado derecho del texto. */
+    color: rgb(73, 73, 73); /* Color del texto, actualmente un tono gris. */
+    margin-top: 500px; /* Espaciado externo (margin) desde la parte superior. Puedes reducirlo para acercar el texto a la parte superior. */
 }
 
+/* Estilo del encabezado de la comunidad */
 .comunidad-header {
     background-color: rgb(157, 189, 110); 
     background-size: cover;
     background-position: center;
-  
-    margin-bottom: 40px;
-    height: 100px;
+    height: 100px; /* Ajusta la altura según lo que desees */
+    display: flex; /* Activamos flexbox para alinear el contenido */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
 }
 
+/* Contenedor de la imagen de encabezado de la comunidad */
+.comunidad-header-image-container {
+    text-align: center; /* Alineación centrada del contenido dentro del contenedor. */
+    margin-top: 20px; /* Espacio superior entre el contenedor y el elemento previo. */
+    margin-bottom: 40px; /* Espacio inferior entre el contenedor y el siguiente elemento. */
+}
+
+/* Estilo de la imagen del encabezado de la comunidad */
+.comunidad-header-image {
+    width: 90%; /* Ancho de la imagen. Puedes aumentar o reducir el porcentaje para hacer la imagen más grande o más pequeña. */
+    max-width: 1720px; /* Limita el tamaño máximo de la imagen. Puedes ajustarlo para que nunca sea más grande que este valor. */
+    height: 500px; /* Altura fija de la imagen. Puedes cambiarlo para que la imagen sea más alta o más baja. */
+    border-radius: 8px; /* Redondeo de las esquinas de la imagen. Aumenta el valor para esquinas más redondeadas. */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen. Cambia el valor `15px` para hacer la sombra más intensa o `0.2` para ajustar la opacidad. */
+}
+
+/* Contenedor de las tarjetas de la comunidad */
 .Comunidad-card-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(236, 231, 225);
-    margin-top: 80px;
+    width: 100%; /* Ancho del contenedor de tarjetas. Ocupa el ancho completo del elemento padre. */
+    display: flex; /* Utiliza `flexbox` para alinear las tarjetas. */
+    flex-wrap: wrap; /* Permite que las tarjetas se "envuelvan" si no caben en una fila. */
+    justify-content: space-around; /* Distribuye las tarjetas de manera uniforme */
+    background-color: rgb(236, 231, 225); /* Color de fondo del contenedor de tarjetas. */
+    margin-top: 40px; /* Margen superior del contenedor. Puedes ajustarlo para acercarlo al elemento anterior. */
 }
 
+/* Estilo individual de cada tarjeta */
 .comunidad-card {
-    width: 49%;
+    width: 45%; /* Reduce un poco el ancho para dejar espacio uniforme entre las tarjetas */
+    margin-bottom: 20px; /* Añade un margen inferior para separar las tarjetas en filas */
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    flex-direction: column; /* Coloca los elementos dentro de la tarjeta en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una ligera sombra para un mejor diseño */
+    padding: 15px; /* Espaciado interno para separar el contenido del borde de la tarjeta */
+    border-radius: 10px; /* Redondeo de las esquinas de la tarjeta */
 }
 
-.comunidad-card-img-top {
-    width: 600px;
-}
-
+/* Imagen en la parte superior de la tarjeta */
+.comunidad-card-img-top,
 .comunidad-card-img-top2 {
-    margin-top: 90px;
-    width: 600px;
+    width: 90%; /* Hace que la imagen ocupe el ancho completo del contenedor de la tarjeta */
+    max-width: 600px; /* Limita el tamaño máximo de la imagen */
+    margin-bottom: 15px; /* Añade espacio inferior entre la imagen y el contenido siguiente */
+    border-radius: 8px; /* Añade bordes redondeados a la imagen */
 }
 
+/* Título dentro de la tarjeta */
 .comunidad-card-title {
-    padding-top: 20px;
-    font-size: 35px;
+    font-size: 30px; /* Ajusta el tamaño del título para que se vea más armonioso */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px 0; /* Añade espacio superior e inferior al título */
 }
 
+/* Cuerpo de la tarjeta */
 .comunidad-card-body {
-    background-color: #c3c1b6;
-    margin-top: 30px;
-    padding: 25px;
+    width: 100%; /* Hace que el cuerpo de la tarjeta ocupe el ancho completo */
+    text-align: center; /* Centra el texto dentro del cuerpo de la tarjeta */
+    background-color: #f8f3e6; /* Color de fondo más claro para el cuerpo de la tarjeta */
+    padding: 15px; /* Espaciado interno para separar el contenido del borde */
+    border-radius: 8px; /* Añade bordes redondeados al cuerpo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Añade una sombra ligera */
 }
 
+/* Texto dentro de la tarjeta */
 .comunidad-card-text {
-    padding-left: 70px;
-    padding-right: 70px;
+    color: rgb(73, 73, 73); /* Color del texto */
+    margin: 10px 0; /* Añade margen superior e inferior al texto */
+    line-height: 1.6; /* Aumenta el interlineado para mejorar la legibilidad */
 }
 
+/* Contenedor de las tarjetas de introducción */
 .comunidad-intro-card-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
+    display: flex; /* Utiliza `flexbox` para organizar las tarjetas en fila. */
+    justify-content: space-around; /* Espacia las tarjetas de manera uniforme. Puedes probar `space-between` o `center` para otros efectos. */
+    align-items: center; /* Alineación vertical de las tarjetas en el centro del contenedor. */
+    padding: 2rem; /* Espaciado interno del contenedor. Puedes aumentar o reducir el valor según prefieras. */
 }
 
+/* Estilo individual de cada tarjeta de introducción */
 .comunidad-intro-card {
-    background-color: #d9d7d0;
-    padding: 1.4rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 350px;
+    background-color: #d9d7d0; /* Color de fondo de la tarjeta de introducción. */
+    padding: 1.4rem; /* Espaciado interno para separar el contenido del borde de la tarjeta. */
+    border-radius: 8px; /* Esquinas redondeadas. Puedes aumentarlo para hacer las esquinas más redondeadas. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tarjeta. Cambia `10px` para hacer la sombra más intensa. */
+    text-align: center; /* Texto alineado al centro. */
+    width: 350px; /* Ancho de la tarjeta. Puedes cambiar este valor para hacer la tarjeta más grande o más pequeña. */
 }
 
+/* Título dentro de la tarjeta de introducción */
 .comunidad-intro-card h2 {
-    color: #4b3e02;
+    color: #4b3e02; /* Color del título dentro de la tarjeta. */
 }
 
+/* Texto dentro de la tarjeta de introducción */
 .comunidad-intro-card p {
-    color: #423e3e;
-    background-color: #f8f3e6;
-    padding: 15px;
-    border-radius: 5px;
+    color: #423e3e; /* Color del texto dentro de la tarjeta. */
+    background-color: #f8f3e6; /* Color de fondo del área del texto. */
+    padding: 15px; /* Espaciado interno del área del texto. */
+    border-radius: 5px; /* Esquinas redondeadas del área de texto. */
 }
 
+/* Estilos para pantallas pequeñas (máximo 968px de ancho) */
 @media (max-width: 968px) {
     .comunidad-intro-card-container {
-        flex-direction: column;  
-        width: 100%; 
+        flex-direction: column; /* Cambia la disposición a columna (una tarjeta debajo de la otra). */
+        width: 100%; /* Asegura que el contenedor ocupe el ancho completo. */
     }
     .comunidad-intro-card {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 100%; /* Hace que cada tarjeta ocupe todo el ancho del contenedor. */
+        margin-bottom: 30px; /* Añade espacio inferior entre cada tarjeta. */
     }
     .comunidad-card {
-        width: 100%;
+        width: 90%; /* Hace que cada tarjeta ocupe casi todo el ancho del contenedor en pantallas pequeñas. */
+        margin-bottom: 30px; /* Añade espacio inferior entre cada tarjeta. */
     }
     .Comunidad-card-container {
-        flex-direction: column;  
-        width: 100%;   
+        flex-direction: column; /* Cambia la disposición de las tarjetas a columna en pantallas pequeñas. */
+        align-items: center; /* Asegura que las tarjetas estén centradas en el contenedor */
+        width: 100%; /* Asegura que el contenedor ocupe el ancho completo. */
     }
     .comunidad-card-img-top,
     .comunidad-card-img-top2 {
-        width: 100%;
+        width: 100%; /* Hace que las imágenes ocupen el ancho completo del contenedor en pantallas pequeñas. */
     }
 }

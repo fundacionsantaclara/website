@@ -16,6 +16,16 @@ function Comunidad() {
                   {t("comunidad-page-title")}
                 </h1>
               </div>
+              
+              {/* Nueva Imagen entre el Título y las Cards */}
+              <div className="comunidad-header-image-container">
+                <img 
+                  src={t("comunidad-page-header-img-url")} 
+                  alt="Imagen de Introducción de Comunidad" 
+                  className="comunidad-header-image" 
+                />
+              </div>
+
               <div className="comunidad-intro-card-container">
                 <div className="comunidad-intro-card">
                   <h2>{t("comunidad-page-card1-title")}</h2>
