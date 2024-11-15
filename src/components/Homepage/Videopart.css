@@ -1,46 +1,109 @@
-/* Customize styling as needed */
-.video-page-container {
-    display: flex;
-    height: 60vh; /* Adjust the height based on your requirements */
-  }
-  
-  .video-section,
-  .slideshow-section {
-    flex: 1;
-    overflow: hidden;
-    background-color: beige;
-  }
-  
-  /* Style for the slides in the slideshow */
-  .slide {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .slide img {
-    width: 720px;
-    height: 380px; 
-    margin-bottom: 10px;
-    object-fit: cover;
-  }
-  
-  @media (max-width: 968px) {
-    .video-page-container {
-      display: flex;
-      flex-direction: column;
-      width: 100%; 
-      object-fit: cover;
 
-    }
-  
-    .video-section,
-    .slideshow-section {
-      flex: 1;
-      object-fit: cover;
-      width: 100%;
-    }
-    .slide img {
-      width: 100%;
-      margin-bottom: 10px;
-    }
+.video-page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+  padding: 1px;
+  background-color: #fff; /* Fondo blanco */
+  border: 2px solid rgb(143, 141, 141); /* Borde negro */
+  border-radius: 15px; /* Bordes redondeados */
+}
+
+.text-background-section {
+  flex: 1;
+  background-image: url("../../Images/BackgroundHomePageInfo.png"); /* Imagen de fondo */
+  background-size: cover; /* Cubre todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  position: relative;
+  height: 100%;
+  margin-right: 1px;
+}
+
+.text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 40px); /* Hace que ocupe casi todo el ancho del contenedor, dejando espacio a ambos lados (20px a la izquierda y derecha) */
+  color: #000; /* Color del texto */
+  text-align: left;
+  background: none;
+}
+
+.help-title {
+  font-size: 36px; /* Aumenta el tamaño de la fuente */
+  font-weight: bold;
+  margin-bottom: 1px; /* Espacio debajo del título */
+  margin-left: 20px; /* Espacio desde el inicio de la pantalla (20px) */
+ 
+  box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el tamaño total del ancho */
+}
+
+.help-list {
+  list-style: none;
+  padding: 0;
+}
+
+.help-list li {
+  background-color: rgba(154, 154, 154, 0.8); /* Fondo gris con opacidad para mejor visibilidad sobre la imagen */
+  color: white;
+  padding: 10px 30px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  font-weight: bold;
+  margin-bottom: 10px; /* Espaciado inferior entre los elementos de la lista */
+  display: block; /* Cada elemento ocupa una línea completa */
+  width: fit-content; /* Ajusta el ancho según el contenido del texto */
+  box-sizing: border-box; /* Asegura que el padding se incluya en el cálculo del ancho */
+}
+
+.slideshow-section {
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.slide {
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 968px) {
+  .video-page-container {
+    flex-direction: column;
+    height: auto;
   }
+
+  .text-background-section {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 20px;
+  }
+
+  .text-section {
+    position: static;
+    transform: none;
+    padding: 10px;
+  }
+
+  .help-title {
+    font-size: 20px;
+  }
+
+  .help-list li {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .slideshow-section {
+    padding: 10px;
+  }
+}
