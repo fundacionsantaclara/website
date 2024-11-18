@@ -14,6 +14,8 @@ function CardsItems(props) {
             </figure>
             <div className='project-cards-item-info'>{props.text}</div>
           </Link>
+
+          
     </li>
 </>
   )

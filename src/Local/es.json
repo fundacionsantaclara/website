@@ -39,6 +39,7 @@
 "otroproyectos-title" :"OTROS PROJECTOS",
 "invulnerables-title" :"INVULNERABLES",
 "corridores-title" :"CORREDORES HUMANITARIOS",
+"estrenaVida-title" : "ESTRENA VIDA",
 "josoc-title" :"YO SOY",
 "plataforma-page-title" :"PLATAFORMA DE ALIMENTOS",
 "plataforma-paragraph" :"Es un recurso destinado a dar soporte a las necesidades esenciales de comer a las personas que se encuentran en situación de mayor pobreza y vulnerabilidad en nuestro entorno. Este Colectivo se lo  dirige a personas sin recursos necesarios para vivir con dignidad: Son personas que no reciben ningún tipo de ayuda, personas que estan en situaciónes de pobreza y inmigrantes en situación irregular o en precariedad.",
@@ -495,5 +496,25 @@
       "refugiadosYHeridos": "Refugiados y heridos:",
       "regularizacionDePapeles": "Regularización de papeles:",
       "saludBucodental": "Salud bucodental, oftalmológica:"
-    }
+    },
+
+    "estrenaVida-page-title": "Estrena Vida",
+    "estrenaVida-page-header-img-url": "https://media.istockphoto.com/id/1368965646/es/foto/chicos-y-chicas-multi%C3%A9tnicos-que-se-toman-selfies-al-aire-libre-con-luz-de-fondo-concepto-de.jpg?s=612x612&w=0&k=20&c=QC9JqaBFDnZZtwutt6bvGFLXmmtbv9e355syXsG39KE=",
+
+    "estrenaVida-page-card1-title": "Título de la tarjeta 1",
+    "estrenaVida-page-card1-para": "Descripción de la tarjeta 1",
+
+    "estrenaVida-page-card2-title": "Título de la tarjeta 2",
+    "estrenaVida-page-card2-para": "Descripción de la tarjeta 2",
+
+    "estrenaVida-page-card3-title": "Título de la tarjeta 3",
+    "estrenaVida-page-card3-para": "Descripción de la tarjeta 3",
+
+    "estrenaVida-page-card4-img-url": "https://media.istockphoto.com/id/1480574526/es/foto/personas-multigeneracionales-felices-divirti%C3%A9ndose-sentadas-en-el-c%C3%A9sped-de-un-parque-p%C3%BAblico.jpg?s=612x612&w=0&k=20&c=ijIadS4ax0rpKdgAeBsOTpt9LXGImLhG7nOk5qUcscg=",
+    "estrenaVida-page-card4-title": "Título de la tarjeta 4",
+    "estrenaVida-page-card4-para": "Descripción de la tarjeta 4",
+
+   "estrenaVida-page-card5-img-url": "https://media.istockphoto.com/id/1480574526/es/foto/personas-multigeneracionales-felices-divirti%C3%A9ndose-sentadas-en-el-c%C3%A9sped-de-un-parque-p%C3%BAblico.jpg?s=612x612&w=0&k=20&c=ijIadS4ax0rpKdgAeBsOTpt9LXGImLhG7nOk5qUcscg=",
+  "estrenaVida-page-card5-title": "Título de la tarjeta 5",
+  "estrenaVida-page-card5-para": "Descripción de la tarjeta 5"
 }
