@@ -27,6 +27,7 @@ import NewsPage from "./components/Noticias/NewsPage";
 import Comunidad from "./components/Pages/Comunidad";
 import NoticiasCompleta from './components/Noticias/NoticiasCompleta';
 import EventosCompleta from "./components/Pages/EventosCompleta";
+import EstrenaVida from "./components/Pages/EstrenaVida";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/invulnerables" element={<Invulnerables />} />
         <Route path="/corridores" element={<Corridores />} />
         <Route path="/josoc" element={<Josoc />} />
+        <Route path="/estrena-vida" element={<EstrenaVida />} />
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/fundación" element={<Fundacion />} />
         <Route path="/objectivos" element={<Objectivo />} />

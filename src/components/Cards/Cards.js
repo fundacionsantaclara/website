@@ -13,6 +13,8 @@ import salud from "../../Images/oftalmologia.png";
 import invulnerablesCardImage from "../../Images/invulnerablekm0.png";
 import yosoy from "../../Images/yosoy.png";
 import corredorHumanitario from  "../../Images/refugiado.png"
+import estrenaVidaImage from "../../Images/Estrenavida.jpg"
+
 function Cards() {
   const { t } = useTranslation();
   return (
@@ -74,6 +76,11 @@ function Cards() {
              src={corredorHumanitario}
               text={t("corridores-title")}
               path="/corridores"
+            />
+            <CardsItems
+              src={estrenaVidaImage}
+              text={t("estrenaVida-title")}
+              path="/estrena-vida"
             />
             <CardsItems
               src={yosoy}
