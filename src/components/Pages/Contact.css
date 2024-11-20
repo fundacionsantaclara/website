@@ -1,23 +1,30 @@
 .contact-page {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Cambiado de 'space-around' a 'center' */
+  align-items: center; /* Asegura que los elementos estén alineados verticalmente en el centro */
   margin: 20px;
   gap: 20px; /* Añade espacio entre las secciones */
+  flex-wrap: wrap; /* Permite que los elementos se adapten mejor al espacio disponible */
 }
 
 .location {
-  width: 60%; /* Ocupa un 60% del espacio total para la imagen */
+  width: 50%; /* Reduce el tamaño para dejar más espacio para el formulario */
+  max-width: 500px; /* Limita el ancho máximo */
 }
 
 .contact-form {
-  width: 25%; /* Ocupa un 35% del espacio total para el formulario de contacto */
+  width: 40%; /* Aumenta el ancho del formulario */
+  max-width: 400px; /* Limita el ancho máximo */
+  margin: 0 auto; /* Asegura que el formulario esté centrado */
+  margin-left: 250px;
 }
 
 .fundacion-pic {
   object-fit: cover;
-  width: 70%; /* La imagen ocupará el 100% del contenedor de ubicación */
+  width: 120%; /* Asegura que la imagen ocupe todo el contenedor disponible */
   height: auto;
-  border-radius: 8px; /* Opcional: añade bordes redondeados */
+  border-radius: 8px; /* Añade bordes redondeados */
+  margin-left: 60px;
 }
 
 .contact-title,
@@ -39,10 +46,12 @@
     flex-direction: column;
     margin: 0;
     padding: 10px;
+    align-items: center; /* Asegura que los elementos se centren en pantallas pequeñas */
   }
   .location,
   .contact-form {
     width: 100%; /* Asegura que ambos elementos ocupen el 100% en pantallas pequeñas */
+    max-width: 500px; /* Limita el ancho máximo para evitar que los elementos sean demasiado grandes */
   }
   .fundacion-pic {
     width: 100%;
