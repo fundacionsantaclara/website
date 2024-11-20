@@ -35,7 +35,7 @@
 .comunidad-header-image {
     width: 90%; /* Ancho de la imagen. Puedes aumentar o reducir el porcentaje para hacer la imagen más grande o más pequeña. */
     max-width: 1720px; /* Limita el tamaño máximo de la imagen. Puedes ajustarlo para que nunca sea más grande que este valor. */
-    height: 500px; /* Altura fija de la imagen. Puedes cambiarlo para que la imagen sea más alta o más baja. */
+    height: 650px; /* Altura fija de la imagen. Puedes cambiarlo para que la imagen sea más alta o más baja. */
     border-radius: 8px; /* Redondeo de las esquinas de la imagen. Aumenta el valor para esquinas más redondeadas. */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen. Cambia el valor `15px` para hacer la sombra más intensa o `0.2` para ajustar la opacidad. */
 }
