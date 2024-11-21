@@ -17,14 +17,7 @@ function EstrenaVida() {
                 </h1>
               </div>
               
-              {/* Nueva Imagen entre el Título y las Cards */}
-              <div className="estrena-vida-header-image-container">
-                <img 
-                  src={t("estrenaVida-page-header-img-url")} 
-                  alt="Imagen de Introducción de Estrena Vida" 
-                  className="estrena-vida-header-image" 
-                />
-              </div>
+             
 
               <div className="estrena-vida-intro-card-container">
                 <div className="estrena-vida-intro-card">
@@ -39,6 +32,17 @@ function EstrenaVida() {
               </div>
             </div>
           </div>
+
+         {/* Nueva Imagen entre el Título y las Cards */}
+         <div className="estrena-vida-header-image-container">
+                <img 
+                  src={t("estrenaVida-page-header-img-url")} 
+                  alt="Imagen de Introducción de Estrena Vida" 
+                  className="estrena-vida-header-image" 
+                />
+              </div>
+
+
           <div className="estrena-vida-card-container">
             <div className="estrena-vida-card mb-3">
               <img src={t("estrenaVida-page-card4-img-url")} className="estrena-vida-card-img-top" alt="Imagen de Estrena Vida 1" />

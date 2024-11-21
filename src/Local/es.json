@@ -481,7 +481,7 @@
   "comunidad-title": "Communidad",
  "comunidad-page-title": "Comunidad del Convento de Santa Clara",
  "comunidad-page-header-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40.jpg?raw=true",
-  "comunidad-page-card1-title": "Nuestra Misión",
+  "comunidad-page-card1-title": "Buscamos",
   "comunidad-page-card1-para": "Contemplar la realidad desde el Evangelio nos ayuda  a estar al lado de quienes lo necesitan, la Fe sin obras está muerta.",
   "comunidad-page-card2-title": "Nuestro Compromiso",
   "comunidad-page-card2-para": "Somos de diferentes países, continentes y culturas, pero nos une el llamado al Evangelio desde el amor y el compromiso..",
@@ -492,7 +492,7 @@
   "comunidad-page-card4-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40%20(2).jpg?raw=true", 
   "comunidad-page-card5-title": "Espacios de Acogida",
   "comunidad-page-card5-para": "Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y ",
-  "comunidad-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40%20(2).jpg?raw=true" , 
+  "comunidad-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/conventoiglesia.png?raw=true" , 
 
   "videoPage": {
       "title": "En el 2023-2024 ayudamos:",
@@ -520,7 +520,7 @@
     "estrenaVida-page-card4-title": "Título de la tarjeta 4",
     "estrenaVida-page-card4-para": "Descripción de la tarjeta 4",
 
-   "estrenaVida-page-card5-img-url": "https://media.istockphoto.com/id/1480574526/es/foto/personas-multigeneracionales-felices-divirti%C3%A9ndose-sentadas-en-el-c%C3%A9sped-de-un-parque-p%C3%BAblico.jpg?s=612x612&w=0&k=20&c=ijIadS4ax0rpKdgAeBsOTpt9LXGImLhG7nOk5qUcscg=",
+   "estrenaVida-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/estrenavidaheader.jpeg?raw=true",
   "estrenaVida-page-card5-title": "Título de la tarjeta 5",
   "estrenaVida-page-card5-para": "Descripción de la tarjeta 5"
 }
