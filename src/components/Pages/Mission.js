@@ -1,7 +1,8 @@
 import React from "react";
 import "./Mission.css";
-import Misionbg from "../Fcimages/missionbg.avif";
-import Visionbg from "../Fcimages/vissionbg.jpg";
+import Misionbg from "../Fcimages/reto 3.JPG";
+import Visionbg from "../Fcimages/visionsection.jpeg";
+import Valoresbg from "../Fcimages/valoresbg.png";
 import { useTranslation } from 'react-i18next';
 
 const Mission = ({ text, imageSrc }) => {
@@ -30,6 +31,26 @@ const Mission = ({ text, imageSrc }) => {
           <img src={Visionbg} alt="Event" />
         </div>
       </div>
+
+      <div className="Values-card">
+        <div className="Values-card-text">
+          <h2>{t('valores')}</h2>
+          <p>
+              <strong>{t("just")}</strong> {t("just2")}
+            </p>
+            <p>
+              <strong>{t("juststrong")}</strong> {t("compr")}
+            </p>
+            <p>
+              <strong>{t("strong")}</strong> {t("verdad")}
+            </p>
+        </div>
+        <div className="Values-card-image">
+          <img src={Valoresbg} alt="Event" />
+        </div>
+      </div>
+
+      
     </div>
   );
 };
