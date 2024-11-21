@@ -17,14 +17,6 @@ function Comunidad() {
                 </h1>
               </div>
               
-              {/* Nueva Imagen entre el Título y las Cards */}
-              <div className="comunidad-header-image-container">
-                <img 
-                  src={t("comunidad-page-header-img-url")} 
-                  alt="Imagen de Introducción de Comunidad" 
-                  className="comunidad-header-image" 
-                />
-              </div>
 
               <div className="comunidad-intro-card-container">
                 <div className="comunidad-intro-card">
@@ -42,6 +34,15 @@ function Comunidad() {
               </div>
             </div>
           </div>
+          
+              {/* Nueva Imagen entre el Título y las Cards */}
+              <div className="comunidad-header-image-container">
+                <img 
+                  src={t("comunidad-page-header-img-url")} 
+                  alt="Imagen de Introducción de Comunidad" 
+                  className="comunidad-header-image" 
+                />
+              </div>
           <div className="Comunidad-card-container">
             <div className="comunidad-card mb-3">
               <img src={t("comunidad-page-card4-img-url")} className="comunidad-card-img-top" alt="Imagen de Comunidad 1" />
