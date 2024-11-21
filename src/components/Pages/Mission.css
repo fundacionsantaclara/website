@@ -1,78 +1,91 @@
-.MV-container{
-    margin-top: 70px;
-    margin-bottom: 70px;
+.MV-container {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding: 20px; /* Añadido para darle algo de espacio interno */
+  border-radius: 20px; /* Bordes redondeados */
+  background-color: #f8f8f8; /* Color de fondo para destacar el contenedor */
+  width: 90%; /* Aumentar el ancho del contenedor */
+  max-width: 1200px; /* Limitar el ancho máximo para pantallas grandes */
+  margin-left: auto; /* Centrar el contenedor */
+  margin-right: auto; /* Centrar el contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir una sombra para destacar */
+  margin-bottom: 20px;
 }
-.Mission-card {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+
+.Mission-card,
+.Values-card,
+.Vission-card {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between; /* Asegura que los elementos se distribuyan de manera proporcional */
+  margin: 20px auto; /* Centrar la tarjeta y dar algo de espacio arriba y abajo */
+  padding: 20px; /* Añadir espacio interno */
+  border-radius: 15px; /* Bordes redondeados para las tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle un efecto flotante */
+  background-color: #fff; /* Fondo blanco para las tarjetas */
+  max-width: 100%; /* Limitar el ancho máximo */
+}
+
+.Mission-card-text,
+.Values-card-text,
+.Vission-card-text {
+  flex: 1.5; /* Hace que el texto ocupe más espacio que la imagen */
+  padding: 40px; /* Reducir el padding para hacerlo más limpio */
+  border-radius: 10px; /* Añadir bordes redondeados */
+}
+
+.Mission-card-text {
+  background-color: rgba(203, 238, 211, 0.8); /* Color de fondo con opacidad */
+  color: #454444;
+}
+
+.Values-card-text {
+  background-color: rgba(203, 238, 211, 0.8); /* Color de fondo con opacidad */
+  color: #454444;
+}
+
+.Vission-card-text {
+  background-color: rgba(79, 82, 77, 0.9); /* Color de fondo con opacidad */
+  color: #80be9f;
+}
+
+.Mission-card-image,
+.Values-card-image,
+.Vission-card-image {
+  flex: 1; /* Hace que la imagen ocupe menos espacio */
+  border-radius: 10px; /* Añadir bordes redondeados a la imagen */
+  overflow: hidden; /* Asegura que la imagen respete los bordes redondeados */
+}
+
+.Mission-card-image img,
+.Values-card-image img,
+.Vission-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Bordes levemente redondeados */
+}
+
+/* Media query for small screens (up to 768px width) */
+@media (max-width: 968px) {
+  .Mission-card,
+  .Values-card,
   .Vission-card {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+      flex-direction: column; /* Colocar elementos uno debajo del otro en pantallas pequeñas */
+      padding: 20px; /* Ajustar el padding para pantallas pequeñas */
   }
-  .Mission-card-text h2{
-    font-size: 50px;
-    color: #303330;
-  }
-  .Vission-card-text h2{
-    font-size: 50px;
-    color: #85b184;
-  }
-  
-  .Mission-card-text {
-    flex: 1.5; /* Takes 2/3 of the Mission-card's width */
-    background-color: rgb(203, 238, 211);
-    color: #454444;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+
+  .Mission-card-text,
+  .Values-card-text,
   .Vission-card-text {
-    flex: 1.5; /* Takes 2/3 of the Mission-card's width */
-    background-color: rgb(79, 82, 77);
-    color: #80be9f;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+      padding: 20px; /* Reducir el padding en pantallas pequeñas */
+      margin-bottom: 20px; /* Espacio debajo del texto antes de la imagen */
   }
-  
-  .Mission-card-image {
-    flex: 1; /* Takes 1/3 of the Mission-card's width */
-  }
-  .Vission-card-image {
-    flex: 1; /* Takes 1/3 of the Mission-card's width */
-  }
-  
-  .Mission-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
+  .Mission-card-image img,
+  .Values-card-image img,
   .Vission-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+      width: 100%; /* Asegura que la imagen ocupe el ancho completo en pantallas pequeñas */
+      height: auto; /* Mantener la proporción */
   }
-
-
- 
-  
-  /* Media query for small screens (up to 768px width) */
-  @media (max-width: 968px) {
-    .Mission-card-text{
-        padding: 30px;
-    }
-    .Vission-card-text{
-        padding: 30px;
-    }
-  
-  }
-  
+}

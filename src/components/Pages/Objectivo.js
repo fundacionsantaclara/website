@@ -11,23 +11,7 @@ function Objectivo() {
   return (
     <>
       <Mission />
-      <div className="valores-container">
-        <div className="valores-card">
-          <img src={Valores} alt="" className="valores-card-image" />
-          <div className="valores-card-content">
-            <h2 className="valores-card-title">{t("valores")}</h2>
-            <p>
-              <strong>{t("just")}</strong> {t("just2")}
-            </p>
-            <p>
-              <strong>{t("juststrong")}</strong> {t("compr")}
-            </p>
-            <p>
-              <strong>{t("strong")}</strong> {t("verdad")}
-            </p>
-          </div>
-        </div>
-      </div>
+      
       <h1 className="objectivo-title">{t("goal")}</h1>
       <div className="objectivo-card-container">
         <div className="objectivo-card">

@@ -4,10 +4,12 @@
     font-size: 50px;
     background-color: #ddd;
     padding: 20px;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 .objectivo-card-container{
     display: flex;
+    margin-top: 10px; 
+    
 }
 .valores-card {
     border: 1px solid #ddd;
@@ -43,6 +45,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 16px;
   }
   
   .objectivo-card-image {
