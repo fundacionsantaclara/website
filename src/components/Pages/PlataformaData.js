@@ -37,6 +37,18 @@ function PlataformaData(props) {
                   <p class="plat-card-text"><strong>{t("plat-card-data2")}</strong> </p>{" "}
                 </div>
               </div>
+
+              <div class="small-card-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/32/32441.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="plat-card-body">
+                  <p class="plat-card-text"> <strong>2600</strong></p>
+                  <p class="plat-card-text"><strong>{t("plat-card-data2")}</strong> </p>{" "}
+                </div>
+              </div>
             </div>
           </div>
         </div>
