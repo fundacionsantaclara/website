@@ -1,92 +1,158 @@
 /* HomePage.css */
 
+/* Contenedor General */
 .voluntario-container {
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1300px;
+  background-color: #f9f9f9; /* Fondo claro y agradable */
+  border-radius: 16px; /* Bordes redondeados para el contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra suave */
+}
+
+/* Título de la Sección */
+.voluntario-title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: url("../Fcimages/volun-bg.jpg");
+  background-size: cover;
+  background-position: center bottom; 
+  padding: 30px;
+  color: rgb(40, 38, 38);
+  -webkit-text-stroke: 1px rgb(251, 249, 249);
+  margin-top: -30px;
+}
+
+/* Sección de Texto de Introducción */
+.voluntario-para-section {
+  margin-bottom: 40px;
+  padding: 40px;
+  align-items: center;
+  background-color: #f5e0e0;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.voluntario-para-section p {
+  font-size: 22px;
+  color: #333;
+}
+
+/* Sección de Tarjetas */
+.voluntario-card-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.voluntario-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 20px;
+  width: calc(33.333% - 20px); /* Tres tarjetas por fila, con espacio entre ellas */
+  text-align: center;
+  margin: 16px 0;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.voluntario-card:hover {
+  transform: translateY(-10px); /* Efecto hover para levantar la tarjeta */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa en hover */
+}
+
+.voluntario-card-image {
+  width: 100%;
+  border-radius: 16px 16px 0 0; /* Bordes superiores redondeados */
+  margin-bottom: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.voluntario-card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ca6969;
+}
+
+.voluntario-card-description {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Sección de Collage */
+.voluntario-collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+
+.voluntario-collage img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.voluntario-collage img:hover {
+  transform: scale(1.05); /* Zoom suave al pasar el ratón por encima */
+}
+
+/* Media Queries para Pantallas Pequeñas */
+@media (max-width: 1024px) {
   .voluntario-title {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-    background: url("../Fcimages/volun-bg.jpg");
-    background-size: cover;
-    background-position: center bottom; 
-    padding: 30px;
-    color: rgb(40, 38, 38);
-    -webkit-text-stroke: 1px rgb(251, 249, 249);
+    font-size: 40px;
   }
-  
-  .voluntario-para-section {
-    margin-bottom: 30px;
-    padding: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    align-items: center;
-    background-color: #e5cfcf;
-  }
-  .voluntario-para-section p{
-    font-size: 22px;}
-  
+
   .voluntario-card-section {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column; /* Cambiar a disposición vertical */
+    align-items: center;
   }
-  
+
   .voluntario-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    width: 460px;
-    text-align: center;
-    margin: 16px;
+    width: 80%;
   }
-  
-  .voluntario-card-image {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .voluntario-card-title {
-    font-size: 27px;
-    margin-bottom: 8px;
-    color: #ca6969;
-  }
-  
-  .voluntario-card-description {
-    font-size: 20px;
-    color: #555;
-  }
+
   .voluntario-collage {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin-top: 30px;
+    grid-template-columns: 1fr; /* Cambiar a 1 columna */
   }
-  
-  .voluntario-collage img {
+}
+
+@media (max-width: 768px) {
+  .voluntario-title {
+    font-size: 35px;
+  }
+
+  .voluntario-para-section {
+    padding: 20px;
+  }
+
+  .voluntario-card {
     width: 100%;
-    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .voluntario-title {
+    font-size: 28px;
   }
 
-  @media (max-width: 968px){
-    .voluntario-title {
-        font-size: 35px;
-    }
-    .voluntario-para-section {
-        padding: 35px;
-    }
-
-    .voluntario-card-section {
-        display: flex;
-        flex-direction: column;  
-        width: 100%;
-        align-items: center;
-    }
-    .voluntario-card {
-      max-width: 90%;
-      margin: auto;
-      margin-bottom: 15px;
-    }
+  .voluntario-para-section p {
+    font-size: 18px;
   }
+
+  .voluntario-card-title {
+    font-size: 20px;
+  }
+
+  .voluntario-card-description {
+    font-size: 16px;
+  }
+}
