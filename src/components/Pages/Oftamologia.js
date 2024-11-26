@@ -9,13 +9,14 @@ function Oftamologia() {
   return (
     <div>
       <div className="oftamologia section__padding">
-        <div className="oftamologia-container">
-          <div className="oftamologia__content text__center">
-            <div className="oftamologia-header">
+      <div className="oftamologia-header">
               <h1 className="ofta-section__title text__cap">
                 {t("oftamologia-page-title")}
               </h1>
             </div>
+        <div className="oftamologia-container">
+          <div className="oftamologia__content text__center">
+          
           </div>
           <div class="ofta-card">
             <div class="ofta-card-content">
@@ -39,6 +40,15 @@ function Oftamologia() {
               </p>
               <img src={Gafas} class="gafas-card-img-top" alt="..." />
             </div>{" "}
+            <div className="ofta-card3">
+              <h2 className="ofta-card3-title">
+                {t("oftamologia-card3-title")}
+              </h2>
+              <p className="ofta-card3-description">
+                {t("oftamologia-card3-para")}
+              </p>
+              <img src={Usuario} class="gafas-card-img-top" alt="..." />
+            </div>
             <div className="ofta-card3">
               <h2 className="ofta-card3-title">
                 {t("oftamologia-card3-title")}
