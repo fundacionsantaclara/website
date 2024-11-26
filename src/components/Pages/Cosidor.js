@@ -9,13 +9,14 @@ function Cosidor() {
   return (
     <div>
       <div className="cosidor section__padding">
-        <div className="cosidor-container">
-          <div className="cosidor__content text__center">
-            <div className="cosidor-header">
+      <div className="cosidor-header">
               <h1 className="cosidor-section__title text__cap">
                 {t("cosidor-page-title")}
               </h1>
             </div>
+        <div className="cosidor-container">
+          <div className="cosidor__content text__center">
+           
             <p className="cosidor__text text__grey">
               {t("cosidor-page-intro")}
             </p>
@@ -37,6 +38,7 @@ function Cosidor() {
             <p class="cosidor-card-text">{t("cosidor-card2-para")}</p>
           </div>
         </div>
+        
       </div>
     </div>
   );
