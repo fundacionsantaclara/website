@@ -1,76 +1,137 @@
-.cosidor-section__title{
-    font-size: 50px !important;
-    -webkit-text-stroke: 1.5px black;
-    color: white;
-
-}
-.cosidor-header {
+/* General Styles */
+.cosidor-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 16px;
+    max-width: 1400px;
+    margin: 15px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Header Section */
+  .cosidor-header {
+    width: 100%;
     height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: url( "../Fcimages/cosidor-bg2.avif");
+    background: url("../Fcimages/cosidor-bg2.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-.cosidor__text{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cosidor-section__title {
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Content Section */
+  .cosidor__content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cosidor__text {
     text-align: center;
     padding: 30px;
     font-size: 24px;
     background-color: rgb(233, 220, 204);
-}
-.cosidor-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Section */
+.cosidor-card-container {
     display: flex;
-    flex-direction: column;
-    background-color: rgb(234, 234, 223);
-    width: 45%;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-} 
-
-.pic-cosidor{
+    justify-content: center; /* Cambiado a flex-start para que las tarjetas se alineen más cerca una de otra */
+    align-items: flex-start;
+    gap: 20px; /* Reducir el gap para juntar las tarjetas más */
+    flex-wrap: wrap;
+    margin-top: 20px; /* Reducido para acercar las tarjetas al contenido superior */
+    padding: 0 0.5rem; /* Reducido para eliminar el espacio adicional a los lados */
+  }
+  
+  .cosidor-card {
+    background-color: #ffffff;
+    padding: 0.9rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 42%; /* Reducir el ancho para permitir que las tarjetas se ajusten mejor */
+    margin: 10px; /* Añadir un margen pequeño para controlar el espacio entre tarjetas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cosidor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pic-cosidor {
     width: 100%;
     height: 300px;
-    align-items: center;
     object-fit: cover;
-
-}
-.cosidor-card-text{
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .cosidor-card-body {
+    padding: 20px;
     text-align: center;
-    color: rgb(133, 95, 49);
-    font-size: 25px;
-}
-
-.cosidor-card-title{
+  }
+  
+  .cosidor-card-title {
     font-size: 28px;
     color: rgb(97, 82, 64);
-    padding: 15px;
-}
-.cosidor-card-container{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-@media (max-width: 968px) {
-    .cosidor-card-container{
-        display: flex;
-        flex-direction: column;  
-        width: 100%; 
+    margin-bottom: 15px;
+  }
+  
+  .cosidor-card-text {
+    color: rgb(133, 95, 49);
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Media Queries */
+  
+  /* Pantallas medianas */
+  @media (max-width: 968px) {
+    .cosidor-card-container {
+      flex-direction: column;
+      align-items: center;
     }
-    .cosidor__text{
-        padding: 35px;
-    }
+  
     .cosidor-card {
-        width: 80%;
+      width: 90%;
+      margin-bottom: 20px;
     }
-}
+  
+    .cosidor__text {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  /* Pantallas pequeñas */
+  @media (max-width: 480px) {
+    .cosidor-section__title {
+      font-size: 32px;
+    }
+  
+    .cosidor__text {
+      padding: 20px;
+      font-size: 18px;
+    }
+  
+    .cosidor-card-title {
+      font-size: 24px;
+    }
+  
+    .cosidor-card-text {
+      font-size: 18px;
+    }
+  }
+  
