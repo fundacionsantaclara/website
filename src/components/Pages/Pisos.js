@@ -10,13 +10,14 @@ function Pisos() {
     <>
       <div>
         <div className="piso section__padding">
-          <div className="piso-container">
-            <div className="piso__content text__center">
-              <div className="piso-header">
+        <div className="piso-header">
                 <h1 className="piso-section__title text__cap">
                   {t("pisos-page-title")}
                 </h1>
               </div>
+          <div className="piso-container">
+            <div className="piso__content text__center">
+             
               <div class="piso-intro-card-container">
                 <div class="piso-intro-card">
                   <h2> {t("pisos-page-card1-title")}</h2>
