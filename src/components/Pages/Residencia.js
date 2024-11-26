@@ -12,10 +12,11 @@ function Residencia() {
   const { t } = useTranslation();
   return (
     <div>
+      <div className='resi-header'><h1 className='section__title text__cap'>{t("residencia-page-title")}</h1></div>
     <div className='resi section__padding'>
       <div className='resi-container'>
           <div className='resi__content text__center'>
-              <div className='resi-header'><h1 className='section__title text__cap'>{t("residencia-page-title")}</h1></div>
+              
               <div class="resi-card">
     <p class="Resi-card-text">{t("residencia-page-intro1")}</p>
     <p class="Resi-card-text"><small class="text-body-secondary">{t("residencia-page-intro2")}</small></p>
