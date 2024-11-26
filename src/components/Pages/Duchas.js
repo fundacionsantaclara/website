@@ -10,13 +10,14 @@ function Duchas() {
   return (
     <div>
       <div className="duchas section__padding">
-        <div className="duchas-container">
-          <div className="duchas__content text__center">
-            <div className="duchas-header">
+      <div className="duchas-header">
               <h1 className="section__title text__cap">
                 {t("duchas-page-title")}
               </h1>
             </div>
+        <div className="duchas-container">
+          <div className="duchas__content text__center">
+            
             <div></div>
 
             <div class="duchas-intro-card">
