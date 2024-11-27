@@ -12,9 +12,9 @@ import { useTranslation } from "react-i18next";
 function Voluntarios() {
   const { t } = useTranslation();
   return (
-    <>
+    <> <h1 className="voluntario-title">{t("voluntarios")}</h1>
       <div className="voluntario-container">
-        <h1 className="voluntario-title">{t("voluntarios")}</h1>
+       
 
         <div className="voluntario-para-section">
           <p>{t("vol-text")}</p>
