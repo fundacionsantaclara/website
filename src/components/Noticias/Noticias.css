@@ -85,16 +85,17 @@
 
 .carrousel-image-container {
   flex: 0 0 100vw; 
-  height: 60vw;
+  height: 35vw;
   position: relative; 
   display: flex;
   flex-direction: row; 
 }
 
 .carrousel-image-container img {
-  width: 100vw; 
-  height: auto; 
+  width: 70vw; 
+  height: 30vw; 
   object-fit: cover; 
+  margin-left: 40px;
 }
 
 .arrow {
@@ -228,7 +229,7 @@
     width: 100%;
   }
   .carrousel-image-container {
-    height: 55vw;
+    height: 75vw;
   }
   .arrow {
     font-size: 25px;
@@ -240,4 +241,14 @@
   .noticias-card-list.completa-list {
     grid-template-columns: 1fr;
   }
+  .carrousel-image-container {
+    height: 45vw;
+  }
+  .carrousel-image-container img {
+    width: 70vw; 
+    height: 40vw; 
+    object-fit: cover; 
+    margin-left: 10px;
+  }
 }
+

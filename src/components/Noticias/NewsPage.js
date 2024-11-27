@@ -44,17 +44,16 @@ const NewsPage = () => {
           {/* Contenido de la noticia */}
           <div className="news-content">
             <h1 className="news-title">{noticia.title}</h1>
+            <p className="news-date">{t("date")}: {noticia.date}</p> 
             <p className="news-location">{noticia.ubicacion}</p>
             <h2 className="news-subtitle">{noticia.subtitle}</h2>
             <p className="news-body">{noticia.body}</p>
 
             {/* Galería de imágenes adicionales */}
             <div className="gallery-container">
-              {TCcardData.map((card, index) => (
-                card.image && (
-                  <TallerCarouselcard key={index} image={card.image} />
-                )
-              ))}
+              {TCcardData.map((card, index) =>
+                card.image && <TallerCarouselcard key={index} image={card.image} />
+              )}
             </div>
           </div>
         </div>

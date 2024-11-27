@@ -141,6 +141,8 @@
 "oftamologia-card3-para" :" La media de usuarios atendidos los últimos años es de 88 personas. El 15% de los beneficiarios son menores y el 85% personas adultas. El 44% de los usuarios son hombres y el 56% mujeres.",
 "back-button": "Volver",
 "latest_news": "Ultimas noticias",
+"date": "Fecha",
+"location": "Ubicación",
 "news": [
     {
       "id": 1,
@@ -154,7 +156,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1710.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+      "date": "01/11/2024"
     },
     {
       "id": 2,
@@ -168,7 +171,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania5.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania6.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania7.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 3,
@@ -182,7 +186,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 4,
@@ -196,7 +201,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1710.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 5,
@@ -211,6 +217,8 @@
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania6.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania7.jpg",
       "ubicacion": "Barcelona, España"
+      ,
+       "date": "01/11/2024"
     },
     {
       "id": 6,
@@ -224,7 +232,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 7,
@@ -238,7 +247,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1710.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 8,
@@ -252,7 +262,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania5.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania6.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania7.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 9,
@@ -266,7 +277,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 10,
@@ -280,7 +292,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1710.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 11,
@@ -294,7 +307,8 @@
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania5.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania6.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania7.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     },
     {
       "id": 12,
@@ -307,7 +321,8 @@
       "carrousel1": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro3.jpg",
       "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
-      "ubicacion": "Barcelona, España"
+      "ubicacion": "Barcelona, España",
+       "date": "01/11/2024"
     }
   ],
   "home": "Inicio",

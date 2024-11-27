@@ -12,24 +12,29 @@ const Noticias = () => {
     .sort((a, b) => b.id - a.id)
     .slice(0, 3);
 
-    return (
-      <div className="noticias-card-container">
-        <h1 className="noticia-title">{t("latest_news")}</h1>
-        <div className="noticias-card-list">
-          {ultimasNoticias.map((noticia) => (
-            <div className="noticias-card" key={noticia.id}>
-              <Link to={`/News/${noticia.id}`}>
-                <img src={noticia.carrousel1} alt={noticia.title} />
-                <h2>{noticia.title}</h2>
-                <p>{noticia.subtitle}</p>
-                <p className="noticia-ubicacion">{noticia.ubicacion}</p> 
-              </Link>
-            </div>
-          ))}
-        </div>
-        <Link to="/NoticiasCompleta" className="ver-mas-boton">Ver más</Link>
+  return (
+    <div className="noticias-card-container">
+      <h1 className="noticia-title">{t("latest_news")}</h1>
+      <div className="noticias-card-list">
+        {ultimasNoticias.map((noticia) => (
+          <div className="noticias-card" key={noticia.id}>
+            <Link to={`/News/${noticia.id}`}>
+              <img src={noticia.carrousel1} alt={noticia.title} />
+              <h2>{noticia.title}</h2>
+              <p>{noticia.subtitle}</p>
+              <p className="noticia-date">
+                <strong>{t("date")}:</strong> {noticia.date}
+              </p>
+              <p className="noticia-ubicacion">
+                <strong>{t("location")}:</strong> {noticia.ubicacion}
+              </p>
+            </Link>
+          </div>
+        ))}
       </div>
-    );
-  };
+      <Link to="/NoticiasCompleta" className="ver-mas-boton">Ver más</Link>
+    </div>
+  );
+};
 
 export default Noticias;
