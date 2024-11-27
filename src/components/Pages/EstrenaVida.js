@@ -33,7 +33,7 @@ function EstrenaVida() {
             </div>
           </div>
 
-         {/* Nueva Imagen entre el Título y las Cards */}
+         
          <div className="estrena-vida-header-image-container">
                 <img 
                   src={t("estrenaVida-page-header-img-url")} 
