@@ -9,11 +9,12 @@ function Josoc() {
   return (
     <>
       <div className="josoc section__padding">
-        <div className="josoc-container">
-          <div className="josoc__content text__center"></div>
-          <div className="josoc-header">
+      <div className="josoc-header">
             <h1 className="josoc-section__title text__cap">{t("josoc")}</h1>
           </div>
+        <div className="josoc-container">
+          <div className="josoc__content text__center"></div>
+         
 
           <div className="josoc-project-info">
             <p className="josoc-project-text">
