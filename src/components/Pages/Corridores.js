@@ -11,18 +11,29 @@ function Corridores() {
   return (
     <div>
       <div className="corridores section__padding">
-        <div className="corridores-container">
-          <div className="corridores__content text__center">
-            <div className="corridores-header">
+      <div className="corridores-header">
               <h1 className="corridores-section__title text__cap">
                 {t("corredores")}
               </h1>
             </div>
+        <div className="corridores-container">
+          <div className="corridores__content text__center">
+           
             <p className="corridores__text text__grey">
               {t("corredores-text")}
             </p>
             <div>
               <div className="reto-container">
+                <div class="reto-card">
+                  <h2>{t("reto")}</h2>
+                  <img src={Bizzum} class="reto-img" alt="..." />
+                  <div class="ucrania-part2-card-content"></div>
+                </div>
+                <div class="reto-card">
+                  <h2>{t("reto")}</h2>
+                  <img src={Bizzum} class="reto-img" alt="..." />
+                  <div class="ucrania-part2-card-content"></div>
+                </div>
                 <div class="reto-card">
                   <h2>{t("reto")}</h2>
                   <img src={Bizzum} class="reto-img" alt="..." />

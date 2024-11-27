@@ -1,130 +1,219 @@
-.corridores-section__title{
-    font-size: 50px !important;
-    -webkit-text-stroke: 1px black;
-    color: rgb(251, 254, 252);
-
+/* General Styles */
+.corridores-container {
+    background-color: #f5f5f5; /* Fondo claro */
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 1400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
+
+/* Header Section */
 .corridores-header {
+    width: 100%;
     height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background:  url("../Fcimages/ucrania - copia.avif");
+    background: url("../Fcimages/ucrania - copia.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.corridores__text{
+.corridores-section__title {
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Text Section */
+.corridores__text {
     background-color: azure;
-    padding: 40px 140px;
+    padding: 20px 60px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+    font-size: 18px;
 }
 
-.corridores-card-part{
-    display: flex;
-    flex-wrap:wrap ;
-}
-.reto-container{
+/* Card Section - Retos */
+.reto-container {
     width: 100%;
     display: flex;
+    justify-content: space-between; /* Para tener las tres tarjetas alineadas */
+    align-items: flex-start;
+    gap: 20px; /* Añadir espacio entre las tarjetas */
+    flex-wrap: wrap; /* Asegurar que las tarjetas se adapten si no hay suficiente espacio */
+    margin: 2rem 0;
 }
-.reto-cardimg{
-    width: 35%;
-    object-fit: cover;
-}
-.reto-img{
-    width: 500px;
-    padding: 10px;
-    object-fit: cover;
-}
+
 .reto-card {
     background-color: #ffffff;
-    padding: 1.5rem;
+    width: 30%; /* Ajustar para tener tres tarjetas en la misma fila */
+    padding: 1rem;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 65%;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+}
+
+.reto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.reto-img {
+    width: 100%;
+    height: 250px; /* Ajustado para ser más cuadrado */
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.reto-img:hover {
+    transform: scale(1.05);
+}
+
+/* Ucrania Cards Section */
+.ucrania-Part2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.ucrania-part2-card {
+    background-color: #ffffff;
+    width: 48%;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 1rem auto;
 }
-.ucrania-Part2-container{
+
+.ucrania-part2-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ucrania-part2-card h2 {
+    color: #e9eeea;
+    background-color: #8b8455;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.ucrania-part2-card p {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Image Section */
+.corridores-img-part {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    padding: 1rem;
-  }
-  .ucrania-part2-card {
-      background-color: #ffffff;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      width: 510px;
-      margin: 1rem auto;
-  }
-  
-  .ucrania-part2-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px 8px 0 0;
-      object-fit: cover;
-  }
-  
-  .ucrania-part2-card-content {
-      padding: 1rem;
-  }
-  
-  .ucrania-part2-card h2 {
-      color: #e9eeea;
-      background-color: #8b8455;
-      padding-bottom: 15px;
-      padding-top: 10px;
-  }
-  
-  .ucrania-part2-card p {
-      color: #333;
-  }
-  .corridores-card-img2{
-    width: 32%;
-    border-radius: 5px;
-    object-fit: cover;
-  }
-  .corridores-card-img1{
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+
+.corridores-card-img1,
+.corridores-card-img2 {
     width: 32%;
     height: 300px;
-    border-radius: 5px;
     object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  }
-  .corridores-img-part{
-    margin: 50px;
-    object-fit: cover;
-  }
+.corridores-card-img1:hover,
+.corridores-card-img2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-  @media (max-width: 968px){
-    .corridores-section__title{
-        font-size: 50px;
+/* Media Queries */
+@media (max-width: 968px) {
+    .corridores-section__title {
+        font-size: 40px;
     }
-    .corridores__text{
-        padding: 30px;
+
+    .corridores__text {
+        padding: 20px;
     }
-    .reto-img{
+
+    .reto-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .reto-card {
+        width: 90%;
+    }
+
+    .ucrania-Part2-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ucrania-part2-card {
+        width: 90%;
+    }
+
+    .corridores-img-part {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .corridores-card-img1,
+    .corridores-card-img2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .corridores-section__title {
+        font-size: 32px;
+    }
+
+    .corridores__text {
+        padding: 15px;
+    }
+
+    .ucrania-part2-card {
         width: 100%;
     }
+
+    .corridores-card-img1,
+    .corridores-card-img2 {
+        width: 100%;
+        height: 250px;
+    }
+
     .reto-card {
         width: 100%;
     }
-    .ucrania-Part2-container{
-        display: flex;
-        flex-direction: column;  
-        width: 100%;  
-    }
-    .ucrania-part2-card{
-        width: 100%;
+
+    .ucrania-part2-card h2 {
+        font-size: 20px;
     }
 
-    .corridores-card-img1{
-        width: 100%;}
-    .corridores-card-img2{
-            width: 100%;}
-  }
+    .ucrania-part2-card p {
+        font-size: 14px;
+    }
+}
