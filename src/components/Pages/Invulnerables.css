@@ -1,92 +1,143 @@
- .title{
-    font-size: 80px;
-    -webkit-text-stroke: 1.5px rgb(28, 28, 28);
-    color: rgb(246, 250, 246);
-
-}
-.invulnerables-img {
-    width: 600px !important;
-}
-.invulnerables-header{
+/* General Styles */
+.invulnerables-container {
+    background-color: #f5f5f5; /* Fondo claro */
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 1400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Header Section */
+  .invulnerables-header {
     width: 100%;
     height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: url('../Fcimages/invuln-bg.avif');
+    background: url('../Fcimages/invul-bg.jpg');
     background-size: cover;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-repeat: no-repeat;
-}
-.invulnerables__text{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .invulnerables-section__title {
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Text Section */
+  .invulnerables__text {
     background-color: #ffffff;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     text-align: left;
     width: 95%;
     margin: 2rem auto;
     color: #625959;
-
-}
-.invulnerables-card2-container{
+  }
+  
+  /* Card Section */
+  .invulnerables-card2-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-}
-.invul-card{
-    width: 40%;
+    gap: 20px; /* Añadir un gap para mejorar la separación */
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .invul-card {
+    background-color: #ffffff;
+    width: 30%;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     text-align: left;
-    margin: 2rem auto;
-    color: #405b5c;
-}
-.invul-card img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .invul-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .invul-card img {
     width: 100%;
     align-items: center;
-    padding: 20px;
-}
-.invul-card h2{
+    padding: 20px 0;
+  }
+  
+  .invul-card h2 {
     color: #2fabbb;
     text-align: center;
-    font-size: 38px;
-}
-.invul-image-collage {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Collage Section */
+  .invul-image-collage {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #bddbee;
     padding: 20px;
-    margin-bottom: 30px;
-}
-
+    margin-top: 30px;
+  }
+  
+  /* Collage Section */
 .collage-image {
-    width: 350px; 
-    height: 350px; 
+    width: 23%;
+    height: 300px;
     object-fit: cover;
-}
-
-@media (max-width: 968px){
-    .invulnerables-img {
-        width: 300px !important;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el escalado */
+  }
+  
+  .collage-image:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al 105% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Añade sombra para dar un efecto de "flotante" */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 968px) {
+    .invulnerables-section__title {
+      font-size: 40px !important;
+      color: #2fabbb;
+      -webkit-text-stroke: 1.5px black;
     }
-
-    .invul-card{
-        width: 98%;
-        padding: 1.5rem;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: left;
-        margin: 2rem auto;
-        color: #405b5c;
+  
+    .invul-card {
+      width: 98%;
+      margin: 1rem auto;
     }
-    .collage-image{
-        width: 47%;
-        padding-bottom: 20px;
+  
+    .collage-image {
+      width: 47%;
+      margin-bottom: 15px;
     }
-}
+  }
+  
+  @media (max-width: 480px) {
+    .invulnerables-section__title {
+      font-size: 32px;
+    }
+  
+    .invul-card {
+      width: 100%;
+      margin: 1rem 0;
+    }
+  
+    .collage-image {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
