@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -47,7 +47,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Añadir un gap para mejorar la separación */
+    gap: 20px; 
     justify-content: space-between;
     margin-top: 20px;
   }
@@ -98,8 +98,8 @@
     object-fit: cover;
     margin-bottom: 20px;
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el escalado */
-  }
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}  
   
   .collage-image:hover {
     transform: scale(1.05); /* Aumenta el tamaño al 105% */
