@@ -1,30 +1,31 @@
 .contact-page {
   display: flex;
-  justify-content: center; /* Cambiado de 'space-around' a 'center' */
-  align-items: center; /* Asegura que los elementos estén alineados verticalmente en el centro */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Alinea verticalmente los elementos */
   margin: 20px;
   gap: 20px; /* Añade espacio entre las secciones */
   flex-wrap: wrap; /* Permite que los elementos se adapten mejor al espacio disponible */
+  padding-right: 20px; /* Asegura que haya un espacio de 20px a la derecha */
 }
 
 .location {
-  width: 50%; /* Reduce el tamaño para dejar más espacio para el formulario */
-  max-width: 500px; /* Limita el ancho máximo */
+  width: 60%; /* Aumenta el tamaño para ocupar más espacio */
+  max-width: 700px; /* Limita el ancho máximo */
+  margin-left: 50px; /* Añade margen desde el borde izquierdo de la pantalla */
 }
 
 .contact-form {
-  width: 40%; /* Aumenta el ancho del formulario */
-  max-width: 400px; /* Limita el ancho máximo */
-  margin: 0 auto; /* Asegura que el formulario esté centrado */
-  margin-left: 250px;
+  width: 35%; /* Reduce el tamaño del contenedor */
+  max-width: 350px; /* Limita el ancho máximo */
+  margin-left: 10px; /* Centra horizontalmente el formulario */
+  margin-right: 20px; /* Añade espacio a la derecha */
 }
 
 .fundacion-pic {
   object-fit: cover;
-  width: 120%; /* Asegura que la imagen ocupe todo el contenedor disponible */
+  width: 90%; /* Asegura que la imagen ocupe todo el contenedor disponible */
   height: auto;
   border-radius: 8px; /* Añade bordes redondeados */
-  margin-left: 60px;
 }
 
 .contact-title,
@@ -41,20 +42,64 @@
   color: #1bb334;
 }
 
+.contact-form p {
+  text-align: left; /* Alinea todos los párrafos dentro del formulario a la izquierda */
+}
+
+/* Media Queries para pantallas medianas */
 @media (max-width: 968px) {
   .contact-page {
-    flex-direction: column;
+    flex-direction: column; /* Cambia la disposición a columna en pantallas medianas */
     margin: 0;
     padding: 10px;
     align-items: center; /* Asegura que los elementos se centren en pantallas pequeñas */
+    padding-right: 20px; /* Asegura espacio simétrico a la derecha */
   }
+  
+  .location {
+    width: 100%; /* Asegura que el elemento ocupe todo el ancho en pantallas medianas */
+    max-width: 500px; /* Limita el ancho máximo */
+    margin-left: 10px; /* Reduce el margen desde la izquierda para que quede bien centrado */
+    margin-right: 10px; /* Añade margen derecho para mantener consistencia */
+  }
+
+  .contact-form {
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho en pantallas medianas */
+    max-width: 500px; /* Limita el ancho máximo */
+    margin: 0 auto 20px auto; /* Centra y deja espacio debajo de cada bloque */
+    padding-right: 10px; /* Asegura un espacio consistente de la derecha */
+  }
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 480px) {
+  .contact-page {
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    padding-right: 10px; /* Espacio reducido en pantallas pequeñas */
+  }
+
   .location,
   .contact-form {
-    width: 100%; /* Asegura que ambos elementos ocupen el 100% en pantallas pequeñas */
-    max-width: 500px; /* Limita el ancho máximo para evitar que los elementos sean demasiado grandes */
+    width: 95%; /* Aumenta el ancho para pantallas muy pequeñas */
+    max-width: 450px; /* Ajusta el ancho máximo */
+    margin: 0 auto 15px auto; /* Centra y ajusta el espacio debajo */
   }
+
   .fundacion-pic {
-    width: 100%;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
     max-width: 100%;
+    border-radius: 5px; /* Reduce el radio de los bordes en pantallas pequeñas */
+  }
+
+  .contact-title {
+    font-size: 1.8rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+  }
+
+  .contact-subtitle,
+  .contact-form p {
+    font-size: 1rem; /* Ajusta el tamaño de los subtítulos y párrafos */
+    padding: 5px 0; /* Reduce el padding para mejorar la presentación */
   }
 }
