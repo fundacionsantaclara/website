@@ -9,13 +9,14 @@ function Comunidad() {
     <>
       <div>
         <div className="comunidad section__padding">
-          <div className="comunidad-container">
-            <div className="comunidad__content text__center">
-              <div className="comunidad-header">
+        <div className="comunidad-header">
                 <h1 className="comunidad-section__title text__cap">
                   {t("comunidad-page-title")}
                 </h1>
               </div>
+          <div className="comunidad-container">
+            <div className="comunidad__content text__center">
+             
               
 
               <div className="comunidad-intro-card-container">

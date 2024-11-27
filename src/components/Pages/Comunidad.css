@@ -1,18 +1,19 @@
 /* Estilo del título principal de la sección */
 .comunidad-section__title {
-    font-size: 60px !important;
-    -webkit-text-stroke: 1.5px black;
+    font-size: 50px !important;
+    -webkit-text-stroke: 1px black;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* Contenedor de la Comunidad */
 .comunidad-container {
     background-color: #f5f5f5;
-    padding: 40px;
+    padding: 10px;
     border-radius: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 1200px;
+    margin: 40px auto; /* Separación de 10px con lo que tenga arriba y abajo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Encabezado de la Comunidad */
@@ -26,23 +27,22 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Contenedor de la imagen de encabezado de la comunidad */
 .comunidad-header-image-container {
     text-align: center;
-    
-    margin-bottom: 40px;
-    img{
-        object-fit: cover;
-    }
+    margin: 40px auto;
+    max-width: 90%;
 }
 
 /* Estilo de la imagen del encabezado de la comunidad */
 .comunidad-header-image {
-    width: 90%;
-    max-width: 1720px;
-    height: 650px;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -54,7 +54,6 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-
     margin-top: 35px;
 }
 
@@ -104,7 +103,7 @@
     max-width: 800px;
     margin-bottom: 20px;
     display: flex;
-    flex-direction: row; /* Cambiar a disposición horizontal */
+    flex-direction: row; /* Disposición horizontal */
     align-items: center;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -154,7 +153,7 @@
     margin-top: 10px;
 }
 
-/* Media Queries para pantallas pequeñas */
+/* Media Queries para pantallas medianas y pequeñas */
 @media (max-width: 968px) {
     .comunidad-intro-card-container {
         flex-direction: column;
@@ -162,7 +161,7 @@
     }
 
     .comunidad-card {
-        flex-direction: column; /* En pantallas pequeñas, cambiar a disposición vertical */
+        flex-direction: column; /* Cambiar a disposición vertical en pantallas pequeñas */
         width: 95%;
         align-items: center;
     }
@@ -173,14 +172,28 @@
         margin: 0 0 15px 0;
     }
 
+    .comunidad-card-body {
+        width: 100%; /* El contenido ocupa todo el ancho en pantallas pequeñas */
+        text-align: center; /* Centrar el contenido para pantallas medianas */
+    }
+
     .comunidad-section__title {
         font-size: 40px;
     }
+
+    .comunidad-card-title {
+        font-size: 22px;
+    }
+
+    .comunidad-card-text {
+        font-size: 15px;
+    }
 }
 
-@media (max-width: 480px) {
+/* Media Queries para pantallas muy pequeñas */
+@media (max-width: 600px) {
     .comunidad-section__title {
-        font-size: 30px;
+        font-size: 30px !important;
         padding: 15px;
     }
 
@@ -193,6 +206,16 @@
     }
 
     .comunidad-card-body {
-        text-align: center; /* Centrar el texto en pantallas muy pequeñas */
+        width: 100%; /* Mantener el ancho completo en pantallas muy pequeñas */
+        text-align: center; /* Centrar el contenido */
+        padding: 15px; /* Reducir el padding para mantener una proporción más regular */
+    }
+
+    .text-section {
+        padding: 10px; /* Reducir padding para mejorar la presentación */
+    }
+
+    .comunidad-intro-card {
+        width: 95%; /* Hacer que las tarjetas de introducción sean más anchas en pantallas pequeñas */
     }
 }
