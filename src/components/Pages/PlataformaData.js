@@ -1,107 +1,175 @@
 import React from "react";
 import "./Plataforma.css";
 import { useTranslation } from "react-i18next";
+import tomadatos from "../Fcimages/pilaryjoven.jpg";
+import entregaalimentos from "../Fcimages/jaumaymamapilar.jpg";
+import voluntariosplataform from "../Fcimages/voluntarios plataform.jpg";
 
 
 function PlataformaData(props) {
   const { t } = useTranslation();
+
+  // Obtener el texto del párrafo desde las traducciones
+  const plataformaParagraph = t("plataforma-paragraph");
+  // Dividir el texto por los saltos de línea
+  const paragraphs = plataformaParagraph.split("\n\n");
+
   return (
     <>
       <li className="plat-cards-item">
         <div className="platcards-item-link" to={props.path}>
           <div className="platcards-item-info">
-            {" "}
-            <div className="plat-para-text">{props.para}</div>
-            <p className="plat-card-intro">{t("plat-card-intro")}<strong> {t("plat-card-intro-bold")}</strong></p>
+            {/* Renderizar cada párrafo */}
+            <div className="plat-para-text">
+              {paragraphs.map((paragraph, index) => {
+                // Separar el título del contenido en cada párrafo
+                const [title, ...content] = paragraph.split(":");
+                return (
+                  <p key={index}>
+                    <strong>{title}:</strong>
+                    {content.length > 0 && ` ${content.join(":")}`}
+                  </p>
+                );
+              })}
+            </div>
+            <p className="plat-card-intro">
+              {t("plat-card-intro")}
+              <strong> {t("plat-card-intro-bold")}</strong>
+            </p>
             <div className="small-card-container">
-              <div class="small-card-item">
+              {/* Aquí sigue el contenido original */}
+              <div className="small-card-item">
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="plat-card-body">
-                  <p class="plat-card-text"> <strong>950</strong></p>
-                  <p class="plat-card-text"> <strong>{t("plat-card-data")}</strong></p>{" "}
+                <div className="plat-card-body">
+                  <p className="plat-card-text">
+                    <strong>1030</strong>
+                  </p>
+                  <p className="plat-card-text">
+                    <strong>{t("plat-card-data")}</strong>
+                  </p>
                 </div>
               </div>
 
-              <div class="small-card-item">
+              <div className="small-card-item">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/32/32441.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="plat-card-body">
-                  <p class="plat-card-text"> <strong>2600</strong></p>
-                  <p class="plat-card-text"><strong>{t("plat-card-data2")}</strong> </p>{" "}
+                <div className="plat-card-body">
+                  <p className="plat-card-text">
+                    <strong>2391</strong>
+                  </p>
+                  <p className="plat-card-text">
+                    <strong>{t("plat-card-data2")}</strong>
+                  </p>
                 </div>
               </div>
 
-              <div class="small-card-item">
+              <div className="small-card-item">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/32/32441.png"
-                  class="card-img-top"
+                  src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="plat-card-body">
-                  <p class="plat-card-text"> <strong>2600</strong></p>
-                  <p class="plat-card-text"><strong>{t("plat-card-data2")}</strong> </p>{" "}
+                <div className="plat-card-body">
+                  <p className="plat-card-text">
+                    <strong>287 </strong>
+                  </p>
+                  <p className="plat-card-text">
+                    <strong>{t("plat-card-data3")}</strong>
+                  </p>
                 </div>
               </div>
+
+              <div className="small-card-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/32/32441.png"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="plat-card-body">
+                  <p className="plat-card-text">
+                    <strong>494.180 kg</strong>
+                  </p>
+                  <p className="plat-card-text">
+                    <strong>{t("plat-card-data4")}</strong>
+                  </p>
+                </div>
+              </div>
+
+
+              <div className="small-card-item">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="plat-card-body">
+                  <p className="plat-card-text">
+                    <strong>20 kg (de media de enero a noviembre)</strong>
+                  </p>
+                  <p className="plat-card-text">
+                    <strong>{t("plat-card-data5")}</strong>
+                  </p>
+                </div>
+              </div>
+
+          
             </div>
           </div>
         </div>
 
         <div className="image-part">
+          {/* Código existente para las imágenes */}
           <div className="pic-section">
             <img
               src="https://estaticos-cdn.prensaiberica.es/clip/24441745-7a6d-4e33-86ac-9e3824e6be22_16-9-discover-aspect-ratio_default_0.jpg"
-              class="d-block w-100"
+              className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="pic-section">
             <img
-              src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2011/12/25/5f9aee0904f1f.jpeg"
-              class="d-block w-100"
+             src={tomadatos}
+              className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="pic-section">
             <img
-              src="https://media.washingtonpost.com/wp-srv/health/features/2007/stretch-grocery-dollars-061907/gr/art-food_all.jpg"
-              class="d-block w-100"
+              src={entregaalimentos}
+              className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="pic-section">
             <img
-              src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/07/29/5faa5588cb4de.jpeg"
-              class="d-block w-100"
+              src={voluntariosplataform}
+              className="d-block w-100"
               alt="..."
             />
           </div>
+          {/* Resto de imágenes */}
         </div>
 
-        <div class="card2-container">
-          <div class="card2">
+        <div className="card2-container">
+          {/* Código existente para las cards */}
+          <div className="card2">
             <h2>{t("plat-card-obj1")}</h2>
-            <p>
-            {t("plat-card-obj1-para")}
-            </p>
+            <p>{t("plat-card-obj1-para")}</p>
           </div>
-          <div class="card2">
+          <div className="card2">
             <h2>{t("plat-card-obj2")}</h2>
-            <p>
-            {t("plat-card-obj2-para")}
-            </p>
+            <p>{t("plat-card-obj2-para")}</p>
           </div>
-          <div class="card2">
+          <div className="card2">
             <h2>{t("plat-card-obj3")}</h2>
-            <p>
-            {t("plat-card-obj3-para")}
-            </p>
+            <p>{t("plat-card-obj3-para")}</p>
           </div>
         </div>
       </li>
