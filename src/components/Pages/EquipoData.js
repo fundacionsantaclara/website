@@ -1,7 +1,6 @@
 import pepe from "../Fcimages/pepe.jpeg";
 import lucia from "../Fcimages/Lucia.jpg";
 import merri from "../Fcimages/Meritxell.jpg";
-import gabriel from "../Fcimages/gabriel.png";
 import gloria from "../Fcimages/gloria.jpg";
 import pilar from "../Fcimages/pilar.jpg";
 import nuria from "../Fcimages/nuria.jpg";
@@ -13,8 +12,7 @@ import miguel from "../Fcimages/miguel.jpg";
 import henry from "../Fcimages/henry.png";
 import monica from "../Fcimages/monica.jpg";
 import user from "../Fcimages/user.webp";
-import vane from "../Fcimages/vane.jpg";
-import pere from "../Fcimages/peregaso.jpg";
+import vane from "../Fcimages/vane.png";
 import manel from "../Fcimages/manel.png";
 
 const EquipoData = [
@@ -23,111 +21,113 @@ const EquipoData = [
     name: "Sor Maria Lucía Caram",
     role: "lucia",
     imageUrl: lucia,
+    email: "sorlucia@fsantaclara.org ",
   },
-  {
-    id: 2,
-    name: "Gabriel Prat",
-    role: "gabriel",
-    imageUrl: gabriel,
-  },
+  
 
-  { id: 3, name: "Josep Ribera", role: "josep", imageUrl: pepe },
+  { id: 2,
+     name: "Josep Ribera", 
+     role: "josep", 
+     imageUrl: pepe, 
+     email: "josep@fsantaclara.org ",
+    },
   {
-    id: 4,
+    id: 3,
     name: "Gloria Kwofie",
     role: "gloria",
     imageUrl: gloria,
+    email: "",
+  },
+  {
+    id: 4,
+    name: "Pilar Rovira",
+    role: "pilar",
+    imageUrl: user,
+    email: "pilarrov@fsantaclara.org",
   },
   {
     id: 5,
-    name: "Pilar Rovira",
-    role: "pilar",
-    imageUrl: pilar,
-  },
-  {
-    id: 6,
     name: "Nuria Tatjé",
     role: "nuria",
-    imageUrl: nuria,
+    imageUrl: user,
+    email: "nuriatatje@fsantaclara.org",
   },
-  { id: 7, name: "Meritxell Farreras", role: "merix", imageUrl: merri },
+  { id: 6,
+     name: "Meritxell Farreras", 
+     role: "merix",
+      imageUrl: merri,
+      email: "meritxell@fsantaclara.org",
+    },
   {
-    id: 8,
+    id: 7,
     name: "Marta Arau ",
     role: "marta",
-    imageUrl: marta,
+    imageUrl:user,
+    email: "marta@fsantaclara.org",
+  },
+  {
+    id: 8,
+    name: "Eulàlia Simon",
+    role: "lali",
+    imageUrl: user,
+    email: "eulalia@fsantaclara.org",
   },
   {
     id: 9,
-    name: "Eulàlia Simon",
-    role: "lali",
-    imageUrl: lali,
-  },
-  {
-    id: 10,
     name: "Elisabet Cardi",
     role: "eli",
     imageUrl: eli,
+    email: "elisabetcardil@gmail.com",
   },
   {
-    id: 11,
+    id: 10,
     name: "Lluís Suárez",
     role: "luis",
     imageUrl: luis,
+    email: "",
+  },
+  {
+    id: 11,
+    name: "Miguel Reyes",
+    role: "miguel",
+    imageUrl: user,
+    email: "",
   },
   {
     id: 12,
-    name: "Miguel Reyes",
-    role: "miguel",
-    imageUrl: miguel,
+    name: "Henry Kwofie",
+    role: "henry",
+    imageUrl: user,
+    email: "",
   },
   {
     id: 13,
-    name: "Henry Kwofie",
-    role: "henry",
-    imageUrl: henry,
-  },
-  {
-    id: 14,
     name: "Mònica Farreras",
     role: "monica",
     imageUrl: monica,
+    email: "monica@fsantaclara.org",
   },
   {
-    id: 15,
+    id: 14,
     name: "Elisenda Solsona",
     role: "elisenda",
     imageUrl: user,
+    email: "solsonaelisenda@gmail.com",
   },
   {
-    id: 16,
+    id: 15,
     name: "Vanessa Marin",
     role: "vane",
     imageUrl: vane,
+    email: "vanessa@fsantaclara.org",
   },
-  {
-    id: 17,
-    name: "Pere Gassó",
-    role: "pere",
-    imageUrl: pere,
-  },
-  {
-    id: 18,
-    name: "Josep Gastó",
-    role: "pepe",
-    imageUrl: user,
-  },
-  {
-    id: 19,
-    name: "Josep Pons",
-    role: "pepepons",
-    imageUrl: user,
-  },
+  
   {
     id: 20,
-    name: "Manel Serra",
-    role: "manel",
-    imageUrl: manel,
+    name: "Yhenifer Pulido",
+    role: "yhenifer",
+    imageUrl: user,
+    email: "ypulido@fsantaclara.org",
   },
 ];
 

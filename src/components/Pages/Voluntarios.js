@@ -57,6 +57,11 @@ function Voluntarios() {
             </h3>
             <p className="voluntario-card-description">{t("team-text")}</p>
           </div>
+
+          <div className="voluntario-para-section">
+          <p>{t("vol-text3")}</p>
+          <p>{t("vol-text4")}</p>
+        </div>
         </div>
         <div class="voluntario-collage">
           <img src={collage1} alt="Image 1" />
