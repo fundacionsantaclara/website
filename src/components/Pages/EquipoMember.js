@@ -8,7 +8,14 @@ const EquipoMember = ({ member }) => {
       <img src={member.imageUrl} alt={member.altText} />
       <h2>{member.name}</h2>
       <p>{t(member.role)}</p>
-      <p>{member.bio}</p>
+      {member.bio && <p>{member.bio}</p>}
+      {member.email && (
+        <p>
+          <a href={`mailto:${member.email}`} className="email-link">
+            {member.email}
+          </a>
+        </p>
+      )}
     </div>
   );
 };

@@ -72,6 +72,17 @@
   font-weight: bold;
 }
 
+.email-link {
+  color: #0b1015; /* Color azul para el enlace */
+  text-decoration: underline; /* Subrayado para indicar que es un enlace */
+  cursor: pointer;
+}
+
+.email-link:hover {
+  color: #027afb; /* Color más oscuro al pasar el mouse */
+}
+
+
 .profile p {
   font-size: 14px;
   color: #666;

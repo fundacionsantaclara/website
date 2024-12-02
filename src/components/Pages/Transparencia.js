@@ -10,10 +10,6 @@ import memo2019 from "../Documents/memoria_FRO_2019.pdf";
 import memo2020 from "../Documents/memoria_FCSC_2020_CA.pdf";
 import memo2021 from "../Documents/memoria_FRO_2021_CAT_web2.pdf";
 import memo2022 from "../Documents/memoria_FRO_2022_CAT_web.pdf";
-import cuentas2015 from "../Documents/ccca-2015-complets.pdf";
-import plan2016 from "../Documents/Pla-dactivitats-FRO-2016-2017.pdf";
-import cuentas2016 from "../Documents/Comptes_anuals_2016.pdf";
-import cuentas2017 from "../Documents/Comptes_anuals_2017.pdf";
 import cuentas2018 from "../Documents/Comptes_anuals_2018.pdf";
 import cuentas2019 from "../Documents/Comptes_anuals_2019.pdf";
 import auditoría2020 from "../Documents/INFORME_AUDITORIA_I_CCAA_2020.pdf";
@@ -22,7 +18,7 @@ import auditoría2022 from "../Documents/INFO_AUDITORIA_CCAA_2022_FCSC.pdf";
 import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf"
 import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf"
 import convenioDeColaboracionVigente from "../Documents/Convenis-de-col.laboracio-vigents.pdf"
-import subencionesAdministracion from "../Documents/AJUTS_I_SUBVENCIONS_ADMINISTRACIONS_PUBLIQUES.pdf"
+import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf"
 
 
 
@@ -47,7 +43,7 @@ function Transparencia() {
                 <div className="trans-card-content">
                   <h2>{t("transparency-card1-title")}</h2>
                   <h3>{t("transparency-card1-subtitle")}</h3>
-                  <h5>{t("transparency-card1-subtitle2")}</h5>
+                  
                   <ul className="trans-list">
                     <p>
                       <a className="link-offset-1" href={patrons} target="_blank">
@@ -81,11 +77,7 @@ function Transparencia() {
                 <div className="trans-card-content">
                   <h2>{t("organigrama-title")}</h2>
                   <ul className="trans-list">
-                  <p>
-                      <a className="link-offset-2" href={plan2016} target="_blank">
-                        {t("plan2016-2017")}
-                      </a>
-                    </p>
+                  
                     <p>
                       <a className="link-offset-1" href={memo2018} target="_blank">
                         {t("memoria-2018")}
@@ -128,22 +120,7 @@ function Transparencia() {
                 <div className="trans-card-content">
                   <h2>{t("info-economica-title")}</h2>
                   <ul className="trans-list">
-                    <p>
-                      <a className="link-offset-1" href={cuentas2015} target="_blank">
-                        {t("cuentas-2015")}
-                      </a>
-                    </p>
                     
-                    <p>
-                      <a className="link-offset-3" href={cuentas2016} target="_blank">
-                        {t("cuentas-2016")}
-                      </a>
-                    </p>
-                    <p>
-                      <a className="link-offset-3" href={cuentas2017} target="_blank">
-                        {t("cuentas-2017")}
-                      </a>
-                    </p>
                     <p>
                       <a className="link-offset-3" href={cuentas2018} target="_blank">
                         {t("cuentas-2018")}
