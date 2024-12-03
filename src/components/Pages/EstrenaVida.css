@@ -41,7 +41,25 @@
 .estrena-vida-header-image:hover {
     transform: scale(1.03);
 }
+/* Contenedor de texto de introducción */
+.estrena-vida-text-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
 
+/* Texto principal */
+.estrena-vida__text {
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+  background-color: rgb(233, 220, 204);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 /* Contenedor de las tarjetas de Estrena Vida */
 .estrena-vida-card-container {
     width: 100%;

@@ -537,21 +537,22 @@
 
     "estrenaVida-page-title": "Estrena Vida",
     "estrenaVida-page-header-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/Estrenavida.jpg?raw=true",
+"estrenaVida-page-intro": "Es un proyecto que nace en 2022/23  ante la necesidad de muchas mujeres embarazadas de cubrir la ropa básica que les piden en el hospital, así como la necesidad de tener una red de apoyo con quien compartir sus dudas y preocupaciones sobre el embarazo o la primera infancia. La entrega de la canastilla es el primer contacto para después poder hacer un seguimiento y cubrir otras demandas. Se hace un acompañamiento a estas mujeres en esta etapa de su vida para dar valor a la maternidad y al cuidado del menor. Cuando se entrega la canastilla se le proporciona a la mujer un espacio donde puede expresar sus preocupaciones y dudas; se les ofrece la posibilidad de hacerles un seguimiento y cada una decide si quiere seguir en el proyecto o sólo necesita esa ayuda material inicial. Las mujeres de este proyecto son derivadas por un trabajador/educador social que detecta la necesidad y se pone en contacto con nosotros.",
+    "estrenaVida-page-card1-title": "Nuestro objetivo",
+    "estrenaVida-page-card1-para": "Aportar los artículos para vestir al recién nacido por primera vez en el hospital",
 
-    "estrenaVida-page-card1-title": "Título de la tarjeta 1",
-    "estrenaVida-page-card1-para": "Descripción de la tarjeta 1",
+    "estrenaVida-page-card2-title": "Logramos",
+    "estrenaVida-page-card2-para": "Acompañar a la mamá en esta tapa de su vida.",
 
-    "estrenaVida-page-card2-title": "Título de la tarjeta 2",
-    "estrenaVida-page-card2-para": "Descripción de la tarjeta 2",
-
-    "estrenaVida-page-card3-title": "Título de la tarjeta 3",
-    "estrenaVida-page-card3-para": "Descripción de la tarjeta 3",
+    "estrenaVida-page-card3-title": "Queremos",
+    "estrenaVida-page-card3-para": "Crear una red de apoyo.",
 
     "estrenaVida-page-card4-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/IMG_7494.jpg?raw=true",
-    "estrenaVida-page-card4-title": "Título de la tarjeta 4",
-    "estrenaVida-page-card4-para": "Descripción de la tarjeta 4",
+    "estrenaVida-page-card4-title": "LA CANASTILLA",
+    "estrenaVida-page-card4-para": "La canastilla tiene los artículos para vestir al recién nacido por primera vez. Aquí tienes el texto transformado con los elementos separados por comas: Bolsa canastilla, Camisita de algodón o hilo, Conjunto 2 piezas de algodón: jersey y pantalón o polaina, Body de algodón (mejor abierto por delante), Peucos o calcetines, Gorrito de algodón, Manoples de algodón (algunos hospitales las piden), Cepillo/ peine, Crema hidratante (pañal), Esponja y jabón, Limas de cartón, Toallitas húmedas, Para completar la canastilla: Cambiador, Colonia, Pañales de 2 a 5 Kg. (Talla 1), Pijama de una pieza talla 0, Detergente ropa especial recién nacido Siguiendo  las recomendaciones  de los hospitales de maternidad  consta de . Se intenta cubrir todos los artículos básicos y, si se puede, complementarla  con otros, en algunos casos se incluye un juguete  para el recién nacido.",
+   
 
    "estrenaVida-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/estrenavidaheader.jpeg?raw=true",
-  "estrenaVida-page-card5-title": "Título de la tarjeta 5",
-  "estrenaVida-page-card5-para": "Descripción de la tarjeta 5"
+  "estrenaVida-page-card5-title": "COMPARTIMOS (ACTIVIDADES)",
+  "estrenaVida-page-card5-para": "Se realizan encuentros para intercanviar ropa u otros objetos necesarios para el cuidado de los menores coincidiendo con los cambios de temporada. Se aprovecha para compartir experiencias y crear  una red  social entre las mamás. Otros tipos de encuentros: talleres impartidos por profesionales del mundo sanitario, educativo, social. Celebraciones tradicionales y populares (Navidad, fiesta de aniversario grupal en agosto) El espacio principal de los encuentros es el Convento de Santa Clara en Manresa donde se desarrolla el proyecto."
 }
