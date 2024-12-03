@@ -524,6 +524,21 @@
   "comunidad-page-card5-title": "Espacios de Acogida",
   "comunidad-page-card5-para": "Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y consuelo.Contamos con espacios dedicados para brindar apoyo y ",
   "comunidad-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/conventoiglesia.png?raw=true" , 
+"comunidad-page-card6-title" : "Liturgia",
+"comunidad-page-card6-para1" : "7:15 Oficio de Lectura- Laudes-",
+"comunidad-page-card6-para2" : "8:00 Eucaristia-",
+"comunidad-page-card6-para3" : "13:00 Rosario-",
+"comunidad-page-card6-para4" : "18:30 Visperas-",
+"comunidad-page-card7-title" : "Domingos",
+"comunidad-page-card7-para1" : "8:30 Oficio de Lectura- Laudes-",
+"comunidad-page-card7-para2" : "12:30 Eucaristia-",
+"comunidad-page-card7-para3" : "18:30 Visperas-",
+"comunidad-page-card8-title" : "2do Sábado de cada mes",
+"comunidad-page-card8-para1" : "20:00 Plegaria-",
+"comunidad-page-card8-para2" : "Links de interés:",
+"comunidad-page-card8-para3": "<a href='https://www.religiondigital.org/opinion/sorlucia' target='_blank' rel='noopener noreferrer'>Religión Digital</a>",
+  "comunidad-page-card8-para4": "<a href='https://www.religiondigital.org/sintonia_cordial/' target='_blank' rel='noopener noreferrer'>Religión Digital</a>",
+
 
   "videoPage": {
       "title": "En el 2023-2024 ayudamos:",
