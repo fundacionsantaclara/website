@@ -51,10 +51,10 @@ function Oftamologia() {
             </div>
             <div className="ofta-card3">
               <h2 className="ofta-card3-title">
-                {t("oftamologia-card3-title")}
+                {t("oftamologia-card4-title")}
               </h2>
-              <p className="ofta-card3-description">
-                {t("oftamologia-card3-para")}
+              <p className="ofta-card4-description">
+                {t("oftamologia-card4-para")}
               </p>
               <img src={Usuario} class="gafas-card-img-top" alt="..." />
             </div>
