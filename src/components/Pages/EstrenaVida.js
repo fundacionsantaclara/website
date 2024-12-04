@@ -17,7 +17,11 @@ function EstrenaVida() {
                 </h1>
               </div>
               
-             
+              <div className="estrena-vida-text-container text__center">
+      <p className="estrena-vida__text text__grey">
+        {t("estrenaVida-page-intro")}
+      </p>
+    </div>
 
               <div className="estrena-vida-intro-card-container">
                 <div className="estrena-vida-intro-card">
@@ -28,7 +32,10 @@ function EstrenaVida() {
                   <h2>{t("estrenaVida-page-card2-title")}</h2>
                   <p>{t("estrenaVida-page-card2-para")}</p>
                 </div>
-            
+                <div className="estrena-vida-intro-card">
+                  <h2>{t("estrenaVida-page-card3-title")}</h2>
+                  <p>{t("estrenaVida-page-card3-para")}</p>
+                </div>
               </div>
             </div>
           </div>

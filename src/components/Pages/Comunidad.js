@@ -59,7 +59,54 @@ function Comunidad() {
               </div>
               <img src={t("comunidad-page-card5-img-url")} className="comunidad-card-img-top2" alt="Imagen de Comunidad 2" />
             </div>
+
+            <div className="comunidad-card mb-3">
+              <img src={t("comunidad-page-card4-img-url")} className="comunidad-card-img-top" alt="Imagen de Comunidad 1" />
+              <div className="comunidad-card-body">
+                <h4 className="comunidad-card-title">{t("comunidad-page-card6-title")}</h4>
+                <p className="comunidad-card-text">{t("comunidad-page-card6-para1")}</p>
+                <p className="comunidad-card-text">{t("comunidad-page-card6-para2")}</p>
+                <p className="comunidad-card-text">{t("comunidad-page-card6-para3")}</p>
+                <p className="comunidad-card-text">{t("comunidad-page-card6-para4")}</p>
+                
+
+              </div>
+            </div>
+
+            <div className="comunidad-card mb-3">
+              <img src={t("comunidad-page-card4-img-url")} className="comunidad-card-img-top" alt="Imagen de Comunidad 1" />
+              <div className="comunidad-card-body">
+                <h4 className="comunidad-card-title">{t("comunidad-page-card7-title")}</h4>
+                <p className="comunidad-card-text">{t("comunidad-page-card7-para1")}</p>
+                <p className="comunidad-card-text">{t("comunidad-page-card7-para2")}</p>
+                <p className="comunidad-card-text">{t("comunidad-page-card7-para3")}</p>
+              </div>
+            </div>
+
+
+            <div className="comunidad-card mb-3">
+              <img src={t("comunidad-page-card4-img-url")} className="comunidad-card-img-top" alt="Imagen de Comunidad 1" />
+              <div className="comunidad-card-body">
+              <h4 className="comunidad-card-title">{t("comunidad-page-card8-title")}</h4>
+              <p className="comunidad-card-text">{t("comunidad-page-card8-para1")}</p>
+  <p className="comunidad-card-text">{t("comunidad-page-card8-para2")}</p>
+  <p
+    className="comunidad-card-text"
+    dangerouslySetInnerHTML={{ __html: t("comunidad-page-card8-para3") }}
+  ></p>
+  <p
+    className="comunidad-card-text"
+    dangerouslySetInnerHTML={{ __html: t("comunidad-page-card8-para4") }}
+  ></p>
+              </div>
+            </div>
+            
           </div>
+
+
+
+
+          
         </div>
       </div>
     </>
