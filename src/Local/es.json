@@ -359,17 +359,35 @@
   "part-tiendas": "Tienda solidaria",
   "footer-p1": "Con tu ayuda todos estos proyectos serán posibles",
   "footer-p2":"Con el soporte de:",
+
+
   "invulnerables-page-title": "INVULNERABLES",
-  "inv-description": "Entre los años 2014 y 2015, los indicadores de pobreza en Cataluña mostraban que el 19% de la población se encontraba en situación de pobreza o riesgo de exclusión social, una cifra que aumentaba hasta el 29,9% en los hogares con menores. Analizando este indicador, se observaba que los hogares con niños eran hasta cuatro veces más pobres que los hogares sin hijos y que el 45,6% de las familias monoparentales estaban en riesgo de exclusión social.",
-  "program-title": "Programa Integral",
+  "inv-content-title": "¿Qué es?",
+  "inv-description": "Invulnerables es una iniciativa que trabaja desde el ámbito comunitario para tejer complicidades y buscar el compromiso de los agentes sociales y las empresas por la igualdad de oportunidades en un territorio. Con el objetivo de sumar más agentes en la lucha contra la pobreza, promueve la implicación y el compromiso del segundo sector en una sociedad más justa vehiculando la colaboración de cualquier empresa que desee contribuir a impulsar las capacidades y competencias de los niños y niñas atendidos.Invulnerables trabaja para garantizar la igualdad de oportunidades de niños y familias, el acceso a una vida digna y las posibilidades de éxito personal y social, independientemente de la situación y del origen.",
+  "program-title": "¿Cómo?",
   "strong-inv": "#INVULNERABLES ",
-  "p-inv": "es un programa integral que se enfoca en niños y familias, proporcionando recursos y valores esenciales. El programa busca crear redes cooperativas y ofrece apoyo.",
-  "igual": "Igualdad de Oportunidades",
-  "p-igual": "A través de recursos y esfuerzos colaborativos, el programa tiene como meta asegurar que estos niños tengan acceso a una vida digna y exitosa en el futuro, proporcionándoles las herramientas necesarias para prosperar.",
-  "recur": "Recursos",
-  "p-recur": "¿Qué ofrecemos a las familias del programa?",
-  "p-recur-strong": "Refuerzo escolar, Estraescolares, Terapias, Talleres para padres, Odontologia, Apoyo familiar.",
-  "p-recur-2":"La meta es que estos niños crezcan en un entorno que les garantice no solo igualdad de oportunidades, sino también un futuro prometedor y exitoso.",
+  "p-inv": "por medio de un plan de trabajo con la familia y de la identificación de sus necesidades y potencialidades, damos respuesta a necesidades concretas y ayudamos a las familias a ser protagonistas de su cambio y progreso, facilitando que niños y adultos consigan el autonomía deseada.",
+  "igual": "¿Dónde?",
+  "p-igual": "Desde su puesta en marcha en Manresa como ciudad piloto en enero de 2016, el programa se ha extendido y ampliado su red de colaboradores. Actualmente, el programa tiene presencia en 10 municipios de Cataluña:",
+  
+  "collage-text-1": "Fútbol Km0 - 22 adolecentes",
+  "collage-text-2": "Infancias y adolecencias - 614",
+  "collage-text-3": "Familias que acompañamos - 233 ",
+  "collage-text-4": "Campus de verano - 106 IA",
+  
+  "recur": "Promocion de ocio y tiempo libre en familia",
+  "p-recur": "Acompañamos a",
+  "p-recur-strong": "357 Niños y Adolescentes IA  - 119 Familias atendidas ",
+  "p-recur-2":"Este programa permite crear y mantener momentos de ocio en familia como fuente de conocimiento y diversión, y compartir un tiempo de calidad en familia. Al mismo tiempo, incrementa la autoestima y la autoconfianza de los niños y adolescentes, es un espacio de aprendizaje de valores. Se ofrecen diferentes programas para promover el acceso de los niños a la educación en el ocio. Se favorecen las oportunidades de participación de los niños y adolescentes en actividades cultural, deportivas, artísticas, recreativas y de esparcimiento, de manera individual y con la familia.",
+  "recurs": "Promocion de la salud",
+  "p-recurs": "Asistimos a",
+  "p-recurs-strong": " 257 Niños y Adolescentes IA - 91 Familias atendidas ",
+  "p-recurs-2":"Los programas de este ámbito pueden hacer incidencia en áreas como la alimentación saludable y el autocuidado e higiene personal, salud dental, salud visual, salud auditiva, salud mental y emocional. Estos programas son fruto de diversas colaboraciones: clínicas odontológicas y oftalmológicas de la ciudad de Manresa, Universidad Internacional de Cataluña, ALTHAIA, Hospital Clínico de Barcelona, ​​Fundación Ramón Martí i Bonet, Óptica Universitaria y Natural Ópticos.",
+
+
+
+
+
   "corredores":"Corredores humanitarios",
   "corredores-text": "24 de febrero 2022 Inició la Guerra en Ucrania. Las Necesidades como acogida de personas, ayuda humanitaria y corredores humanitarios era muy importante.",
   "reto":"Reto hospital de campaña",
