@@ -29,6 +29,22 @@ function Huerto() {
           </div>
         </div>
 
+        {/* Generic Intro Card Section */}
+        <div className="generic-intro-card-container">
+          <div className="generic-intro-card">
+            <h2>{t("generic-page-intro-card1-title")}</h2>
+            <p>{t("generic-page-intro-card1-para")}</p>
+          </div>
+          <div className="generic-intro-card">
+            <h2>{t("generic-page-intro-card2-title")}</h2>
+            <p>{t("generic-page-intro-card2-para")}</p>
+          </div>
+          <div className="generic-intro-card">
+            <h2>{t("generic-page-intro-card3-title")}</h2>
+            <p>{t("generic-page-intro-card3-para")}</p>
+          </div>
+        </div>
+
         <div className="huerto-image-container">
           <div className="huerto-pic">
             <img src={huertopic1} alt="img 1" />
@@ -39,6 +55,17 @@ function Huerto() {
             <img src={huertopic4} alt="img 4" />
           </div>
         </div>
+
+        {/* Generic Card Section */}
+        <div className="generic-card mb-3">
+          <img src={t("generic-page-card-img-url")} className="generic-card-img-top" alt="Imagen genérica" />
+          <div className="generic-card-body">
+            <h4 className="generic-card-title">{t("generic-page-card-title")}</h4>
+            <p className="generic-card-text">{t("generic-page-card-para")}</p>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   );

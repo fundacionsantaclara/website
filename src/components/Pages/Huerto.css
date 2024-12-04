@@ -9,7 +9,6 @@
   padding: 5px;
 }
 
-
 /* Header Section */
 .huerto-header {
   width: 100%;
@@ -67,8 +66,8 @@
 .huerto-pic {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Mostrar las imágenes en una cuadrícula de 3 columnas */
-  gap: 5px; /* Espacio de 5px entre las imágenes */
-  width: 100%;
+  gap: 20px; /* Espacio de 5px entre las imágenes */
+  width: 90%;
 }
 
 .huerto-pic img {
@@ -85,9 +84,94 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar la sombra para dar un efecto de flotación */
 }
 
-/* Media Queries */
+/* Generic Card Section */
+.generic-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
 
-/* Pantallas medianas */
+.generic-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.generic-card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.generic-card-body {
+  background-color: #f8f3e6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.generic-card-title {
+  font-size: 24px;
+  color: #4b3e02;
+  font-weight: bold;
+}
+
+.generic-card-text {
+  color: #737373;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Generic Intro Card Section */
+.generic-intro-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.generic-intro-card {
+  background-color: #d9d7d0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.generic-intro-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.generic-intro-card h2 {
+  color: #4b3e02;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.generic-intro-card p {
+  color: #423e3e;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f3e6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Media Queries */
 @media (max-width: 968px) {
   .huerto-section__title {
     font-size: 35px !important;
@@ -105,9 +189,18 @@
   .huerto-pic img {
     height: 200px;
   }
+
+  .generic-intro-card-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .generic-card {
+    width: 95%;
+    margin: 1rem auto;
+  }
 }
 
-/* Pantallas pequeñas */
 @media (max-width: 480px) {
   .huerto-section__title {
     font-size: 28px;
@@ -123,5 +216,17 @@
 
   .huerto-pic img {
     height: 150px;
+  }
+
+  .generic-card-title {
+    font-size: 20px;
+  }
+
+  .generic-card-text {
+    font-size: 14px;
+  }
+
+  .generic-intro-card {
+    width: 95%;
   }
 }
