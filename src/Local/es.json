@@ -62,33 +62,44 @@
 "plat-card-obj2-para" :" Sensibilizar a la población sobre la importancia de reducir el desperdicio alimentario y fomentar el consumo responsable.",
 "plat-card-obj3" :"Movilización de voluntarios y donantes:",
 "plat-card-obj3-para" :"Generar una red de apoyo ciudadano, involucrando tanto a personas individuales como a empresas en la recogida y distribución de alimentos.",
-"residencia-page-title" :"RESIDENCIA DE ACOGIDA",
-"residencia-page-intro1" :"Servicio de residencia temporal para personas adultas en situación de exclusión social.",
-"residencia-page-intro2" :"En la Ctra. de Vic número 183, en julio del 2013 se puso en marcha una Residencia para personas sin hogar o sin techo, inscrita como Residencia Rosa Oriol: Servicio de residencia temporal para personas adultas en situación de exclusión social. Inscrita con el número S08610 en el Departamento de Bienestar social y Familia de la Generalitat de Cataluña.",
-"residencia-page-card1-title" :"Informacion sobre la Residencia",
-"residencia-page-card1-info1-bold" :"Inauguración:",
-"residencia-page-card1-info1" :"13 de julio de 2013, a las 11 h Ctra. de Vic 183, Manresa.",
-"residencia-page-card1-info2-bold" :"Capacidad:",
-"residencia-page-card1-info2" :"15 personas.",
-"residencia-page-card1-info3-bold" :"Características:",
-"residencia-page-card1-info3" :"el nombre de “Residencia” –en lugar de albergue- se escogió aposta, ya que una residencia no transmite la idea de exclusión social.",
-"residencia-page-card2-title" :"Personal:",
-"residencia-page-card2-info1-bold" :"Trabajadores:",
-"residencia-page-card2-info1" :"tres trabajadores a jornada completa y un equipo de 3 voluntarios.",
-"residencia-page-card2-title2" :"Oportunidades:",
-"residencia-page-card2-info2-bold" :"Formación:",
-"residencia-page-card2-info2" :"Les ayudamos a formarse mejor.",
-"residencia-page-card2-info3-bold" :"Valores:",
-"residencia-page-card2-info3" :"Les ayudamos a adquirir los valores básicos de la vida.",
-"residencia-page-card2-info4-bold" :"Trabajo:",
-"residencia-page-card2-info4" :"Les ayudamos a encontrar trabajo.",
-"residencia-page-card3-title" :"Objetivo:",
-"residencia-page-card3-info" :"La Residencia tiene como objetivo acoger a personas sin hogar, favorecer los hábitos sociales y la reinserción en el mundo laboral y en el entorno familiar de personas sin recursos. Ofrecerles formación, acompañamiento y la posibilidad de participar en cursos y espacios que les ayuden a evolucionar como personas, como ciudadanos.",
-"residencia-page-card4-info" :"Hay un protocolo de acogida y seguimiento diseñado con los profesionales de la Fundación Althaia, el propio equipo de la Residencia y el Departamento de Servicios Sociales del Ayuntamiento de Manresa. Todos los residentes actualmente están estudiando o realizando cursos de formación. La mayoría siguen cursos de catalán o alfabetización.",
-"residencia-page-card4-info-bold" : "A los residentes se les pide implicación y colaboración con los proyectos de la Fundación.",
+
+"residencia-page-title": "RESIDENCIA ROSA ORIOL",
+"residencia-page-intro1": "Servicio de residencia temporal para personas adultas y menores acompañados por sus padres o tutores en situación de exclusión social. Inaugurada: Verano de 2013.",
+"residencia-page-intro2": "La derivación de estas personas se realiza, en su mayoría, desde el Departamento de Servicios Sociales del Ayuntamiento de Manresa. Capacidad: 17 plazas.",
+
+"residencia-page-objectives-title": "Objetivos de la Residencia",
+"residencia-page-objectives-desc": "Acoger a personas sin hogar, fomentar hábitos sociales, proporcionar formación para la reinserción laboral y apoyo para regularizar su situación legal. Ofrecer formación, acompañamiento y la posibilidad de participar en actividades que les ayuden a desarrollarse tanto personal como profesionalmente.",
+
+"residencia-page-card1-title": "Servicios Ofrecidos",
+"residencia-page-card1-info1-bold": "Acogida:",
+"residencia-page-card1-info1": "Alojamiento para personas sin hogar y apoyo en hábitos sociales y formación.",
+"residencia-page-card1-info2-bold": "Documentación:",
+"residencia-page-card1-info2": "Asistencia en la documentación necesaria para regularizar su situación legal en el país.",
+"residencia-page-card1-info3-bold": "Asesoramiento Jurídico:",
+"residencia-page-card1-info3": "Asesoramiento jurídico y de abogacía para problemas personales y familiares.",
+
+"residencia-page-card2-title": "Equipo de la Residencia",
+"residencia-page-card2-info1-bold": "Personal:",
+"residencia-page-card2-info1": "Una directora, una educadora social, una coordinadora y dos personas contratadas a través de la Línea Acol del SOC.",
+"residencia-page-card2-title2": "Oportunidades y Servicios",
+"residencia-page-card2-info2-bold": "Formación:",
+"residencia-page-card2-info2": "Cursos de catalán, castellano, alfabetización y Certificado de Primera Acogida.",
+"residencia-page-card2-info3-bold": "Atención Sanitaria:",
+"residencia-page-card2-info3": "Teleasistencia 24 horas, atención médica, salud bucal, visual, podología y fisioterapia.",
+"residencia-page-card2-info4-bold": "Actividades:",
+"residencia-page-card2-info4": "Participación en actividades culturales, artísticas y deportivas para mejorar habilidades y autoestima.",
+
+"residencia-page-card3-title": "Protocolo de Acogida",
+"residencia-page-card3-info": "Protocolo de acogida y seguimiento coordinado con el equipo de la Residencia y Servicios Sociales para garantizar la integración y apoyo adecuado de los residentes.",
+
+"residencia-page-card4-info": "Se implementa un sistema para fomentar la colaboración y la autonomía de los residentes, con el objetivo de que puedan dejar la residencia con mejor formación y oportunidades laborales.",
+"residencia-page-card4-info-bold": "Nuestro lema: Formación = Futuro.",
+
+
 "huerto-page-title" :"HUERTO ECOLOGICO",
 "huerto-page-para1" :" Es un espacio de cultivo que se basa en principios y prácticas respetuosas con el medio ambiente y la salud. Utiliza métodosnaturales y sostenibles para cultivar alimentos.",
 "huerto-page-para2" :"   Prestamos especial atención a la rotación de cultivos y a la conservación del agua. Nuestro compromiso es de cultivar de manera sostenible y en armonía con la naturaleza. Contribuyendo a la preservación del medio ambiente y disfrutando de los beneficios deuna alimentación más saludable y sostenible.",
+
 "pisos-page-title" :"PISOS DE ACOGIDA",
 "pisos-page-card1-title" :"50 Viviendas",
 "pisos-page-card1-para" :"La Fundación dispone de 50 viviendas tuteladas por familias y personas solas. Ofrecemos soporte temporal para personas en riesgo de exclusión social.",
@@ -100,6 +111,7 @@
 "pisos-page-card4-para" :"Está destinado a personas que se encuentran en riesgo de exclusión social, ya sea porque no tienen trabajo o, en caso de tenerlo, sus ingresos apenas les permiten cubrir los gastos básicos, incluyendo el pago de un alquiler. Esto las deja en una situación económica precaria, sin más recursos disponibles para afrontar las necesidades esenciales de su día a día. Sin embargo, cuando su situación mejora y cuentan con una mayor estabilidad económica, se les ofrece la posibilidad de contribuir al alquiler. En ese momento, se establece una aportación que sea proporcional a los ingresos que perciben, garantizando que sea una medida justa y equilibrada.",
 "pisos-page-card5-title" :"El Compromiso",
 "pisos-page-card5-para" :"En el protocolo de acogida, se firma la entrada en el proyecto de la Fundación, en el que se dan unas pautas de convivencia, de trabajo compartido y de responsabilidades. En estos pactos está incluida la voluntad y el compromiso de trabajar para poder insertarse plenamente en la sociedad. En este trabajo, la coordinación con los profesionales de referencia es esencial, garantizando que la persona esté vinculada a los Servicios Sociales. Los usuarios se comprometen a colaborar en los proyectos de la Fundación siempre que se necesite y se adapte a su día a día.",
+
 "taller-page-title" :"TALLER DE MUÑECAS ",
 "taller-card1-title" :"Los muñecos y muñecas más simpáticas",
 "taller-card1-para" :"Clara y Cesc son muñecos y muñecas que han nacido de forma artesanal a nuestra Fundación, que personalizamos según los gustos y necesidades de las empresas, entidades o particulares que estén interesados. Están hechos a mano y miden alrededor centímetros de longitud.",
@@ -113,6 +125,7 @@
 "taller-storybook-para" :" También puede ayudar comprando el cuento que se llama “El Cesc y Clara descubren la solidaridad”, que hemos editado con ilustraciones de Elia Gàmiz Pinyot. Tiene 12 páginas a color y el donativo es de 5 euros. Es ideal para niños hasta 6 años.",
 "taller-camiseta-title" :"Camiseta Avanzamos Juntos.",
 "taller-camiseta-para" :"Para todos los que quieran hacer deporte o ir cómodo tenemos una camiseta técnica con el lema Avanzamos Juntos, diseñada en homenaje a los colectivos esenciales que han luchado contra la Covid 19. Podemos servir de todas las tallas y el donativo es de 10 euros.",
+
 "duchas-page-title" :"ESPACIO DE DUCHAS Y LAVANDERIA  ",
 "duchas-intro-title" :"Centro de Asistencia",
 "duchas-intro-para" :" Está ubicado en la calle dels Caputxins, 1-17 de Manresa, y el horario de servicio está establecido de 16h a 18h, los lunes y los jueves.",
@@ -127,12 +140,14 @@
 "duchas-card3-para" :"La mayoría llega de",
 "duchas-card3-para-bold" :" Fundación del Convento de Santa Clara a través de la Plataforma de Alimentos",
 "duchas-card3-para2" :"asociaciones y servicios sociales locales.",
+
 "cosidor-page-title" :"COSEDOR",
 "cosidor-page-intro" :"   El Taller Cosidor es un proyecto compartido entre la Fundación del Convento de Santa Clara e Invulnerables (Fundación La Caixa). Este espacio está dedicado a la arteterapia aplicada y plástica. Se reúnen diferentes grupos de dones, participantes del proyecto Invulnerables, con el objetivo de potenciar la creatividad y establecer vínculos sociales entre ellas. Mediante el trabajo manual se desarrolla la participación, el trabajo en equipo y la empatía.",
 "cosidor-card1-title" :"Acompañamiento",
 "cosidor-card1-para" :"De forma más individualizada, y gracias al plan de trabajo que cada una ha elaborado con la ayuda de los trabajadores sociales del centro, se trabajan aspectos más personales como la confianza en una misma, la comunicación, la aceptación emocional... Con el excusa del taller, lo que queremos es fomentar un buen ambiente y un tiempo de ocio de calidad para cada una de nuestras usuarias. Mediante el arteterapia, aparte de la finalidad terapéutica, podemos trabajar la técnica de empoderamiento y el desarrollo personal y colectivo.",
 "cosidor-card2-title" :"Definición de arteterapia:",
 "cosidor-card2-para" :"profesión asistencial que utiliza la creación artística como herramienta para facilitar la expresión y resolución de emociones y conflictos emocionales y psicológicos.",
+
 "oftamologia-page-title" :"OFTAMOLOGIA",
 "oftamologia-intro-title" :"Salud Visual para Todos",
 "oftamologia-intro-para" :" Es un proyecto que tiene por objetivo garantizar la salud visual y las gafas a personas con situación económica precaria. Se inició en julio de 2015 y es un proyecto en colaboración entre la Fundación Ramon Martí Bonet del Instituto Catalán de la Retina y la Fundación del Convento de Santa Clara.",
@@ -144,6 +159,7 @@
 "oftamologia-card3-para" :"La media de usuarios atendidos en los últimos años es de 88 personas. El 15% de los beneficiarios son menores y el 85% de personas adultas. El 44% de los usuarios son varones y el 56% mujeres.",
 "oftamologia-card4-title" :"Visitas",
 "oftamologia-card4-para" :"Durante el año se realizan unas 80 visitas, de las que en un 90% necesitan gafas, que se les entregan al cabo de unos días. ",
+
 "back-button": "Volver",
 "latest_news": "Ultimas noticias",
 "date": "Fecha",
@@ -361,6 +377,7 @@
   "footer-p2":"Con el soporte de:",
 
 
+
   "invulnerables-page-title": "INVULNERABLES",
   "inv-content-title": "¿Qué es?",
   "inv-description": "Invulnerables es una iniciativa que trabaja desde el ámbito comunitario para tejer complicidades y buscar el compromiso de los agentes sociales y las empresas por la igualdad de oportunidades en un territorio. Con el objetivo de sumar más agentes en la lucha contra la pobreza, promueve la implicación y el compromiso del segundo sector en una sociedad más justa vehiculando la colaboración de cualquier empresa que desee contribuir a impulsar las capacidades y competencias de los niños y niñas atendidos.Invulnerables trabaja para garantizar la igualdad de oportunidades de niños y familias, el acceso a una vida digna y las posibilidades de éxito personal y social, independientemente de la situación y del origen.",
@@ -369,12 +386,10 @@
   "p-inv": "por medio de un plan de trabajo con la familia y de la identificación de sus necesidades y potencialidades, damos respuesta a necesidades concretas y ayudamos a las familias a ser protagonistas de su cambio y progreso, facilitando que niños y adultos consigan el autonomía deseada.",
   "igual": "¿Dónde?",
   "p-igual": "Desde su puesta en marcha en Manresa como ciudad piloto en enero de 2016, el programa se ha extendido y ampliado su red de colaboradores. Actualmente, el programa tiene presencia en 10 municipios de Cataluña:",
-  
   "collage-text-1": "Fútbol Km0 - 22 adolecentes",
   "collage-text-2": "Infancias y adolecencias - 614",
   "collage-text-3": "Familias que acompañamos - 233 ",
   "collage-text-4": "Campus de verano - 106 IA",
-  
   "recur": "Promocion de ocio y tiempo libre en familia",
   "p-recur": "Acompañamos a",
   "p-recur-strong": "357 Niños y Adolescentes IA  - 119 Familias atendidas ",
@@ -393,9 +408,11 @@
   "reto":"Reto hospital de campaña",
   "corredores-p": "Para facilitar el traslado y rescate de los heridos, enviamos:",
   "corredores-strong": "90 Ambulancias, Cada Ambulancia salva más de 100 vidas. 61 Generadores, traslado y tratamiento de heridos y dando acompañamiento.",
+ 
   "acogida":"Acogida de Personas",
   "acogida-text":"Al comenzar la guerra, fuimos a Ucrania para acoger a las personas que huían para salvar sus vidas.",
   "acogida-strong":"Promovimos la insercion laboral, aprendizaje de la lengua y acompañamiento personalizado",
+  
   "josoc": "YO SOY",
   "josoc-text": "El proyecto Jo Soc comenzó en Manresa en el verano de 2023 para dar continuidad al programa iniciado en el verano de 2022 llamado 'Método Manresa'. El éxito del proyecto es gracias a las distintas entidades como: ",
   "josoc-strong": "Meseoestetic, Joviat y Mossos d’Esquadra",
@@ -404,9 +421,11 @@
   "obj-text": "Para prevenir, detectar y atender a los jóvenes que se encuentran en situación de exclusión social y/o adicciones y/o antecedentes policiales y penales.",
   "porque": "¿Por qué?",
   "porque-text":"Para dar les la oportunidad de formarse en valores, hábitos saludables, idiomas y deporte, para que puedan disfrutar de una mayor autoestima y salud mental.",
+  
   "fundacion": "La fundación",
   "fund-text":"La Fundación del Convento de Santa Clara nació gracias al impulso de la Plataforma Ciudadana de solidaridad, creada en el Convento de Santa Clara de Manresa en abril del 2009.",
   "fund-text2":"La Fundación del Convento de Santa Clara se ha convertido en el paraguas jurídico, organizativo y humano necesario para agilizar respuestas integrales a corto y largo plazo para personas que han sido expulsadas del sistema y que no pueden vivir con dignidad.",
+  
   "patronato": "El patronato",
   "pat-text":"El Patronato es el órgano de gobierno y de administración de la fundación, la representa y gestiona, y asume todas las facultades y funciones necesarias para la consecución de los fines fundacionales.",
   "presi": "Presidente: Gabriel Prat Ametlla.",
@@ -458,6 +477,7 @@
   "elisenda":"Responsable: ESPACIO DE DUCHAS - LAVANDERIA SOCIAL",
   "vane":"Resposnable HUERTOS ECOLÓGICOS y apoyo a los REFUGIADOS DE UCRANIA",
   "yhenifer":"Resposanble area de inclusión social",
+ 
   "voluntarios":"Los voluntarios",
   "vol-text":"Los voluntarios son el gran capital humano de la Fundación. Son los responsables de la acogida y acompañamiento de las personas, y el lema que los anima y marca su actuación es siempre “acoger con el corazón”.",
   "vol-text2":"Creemos que todos somos corresponsables con la vida de las personas y apostamos por el compromiso desinteresado y de calidad para servir y luchar por un mundo donde todos tengan oportunidades para evolucionar.",
@@ -469,6 +489,7 @@
   "compa-text":"Son sensibles a la situación de la gente.",
   "team":"Trabajo en equipo",
   "team-text":"Trabajando juntos para lograr los mismos objetivos.",
+  
   "contacto": "Contáctanos",
   "direc": "DIRECCIÓN",
   "dire-text": "Fundació del Convent de Santa Clara",
@@ -529,6 +550,7 @@
     "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40%20(2).jpg?raw=true"
   }
   ],
+
   "comunidad-title": "Comunidad",
  "comunidad-page-title": "Comunidad del Convento de Santa Clara",
  "comunidad-page-header-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40.jpg?raw=true",
@@ -575,18 +597,13 @@
 "estrenaVida-page-intro": "Es un proyecto que nace en 2022/23  ante la necesidad de muchas mujeres embarazadas de cubrir la ropa básica que les piden en el hospital, así como la necesidad de tener una red de apoyo con quien compartir sus dudas y preocupaciones sobre el embarazo o la primera infancia. La entrega de la canastilla es el primer contacto para después poder hacer un seguimiento y cubrir otras demandas. Se hace un acompañamiento a estas mujeres en esta etapa de su vida para dar valor a la maternidad y al cuidado del menor. Cuando se entrega la canastilla se le proporciona a la mujer un espacio donde puede expresar sus preocupaciones y dudas; se les ofrece la posibilidad de hacerles un seguimiento y cada una decide si quiere seguir en el proyecto o sólo necesita esa ayuda material inicial. Las mujeres de este proyecto son derivadas por un trabajador/educador social que detecta la necesidad y se pone en contacto con nosotros.",
     "estrenaVida-page-card1-title": "Nuestro objetivo",
     "estrenaVida-page-card1-para": "Aportar los artículos para vestir al recién nacido por primera vez en el hospital",
-
     "estrenaVida-page-card2-title": "Logramos",
     "estrenaVida-page-card2-para": "Acompañar a la mamá en esta tapa de su vida.",
-
     "estrenaVida-page-card3-title": "Queremos",
     "estrenaVida-page-card3-para": "Crear una red de apoyo.",
-
     "estrenaVida-page-card4-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/IMG_7494.jpg?raw=true",
     "estrenaVida-page-card4-title": "LA CANASTILLA",
     "estrenaVida-page-card4-para": "La canastilla tiene los artículos para vestir al recién nacido por primera vez. Aquí tienes el texto transformado con los elementos separados por comas: Bolsa canastilla, Camisita de algodón o hilo, Conjunto 2 piezas de algodón: jersey y pantalón o polaina, Body de algodón (mejor abierto por delante), Peucos o calcetines, Gorrito de algodón, Manoples de algodón (algunos hospitales las piden), Cepillo/ peine, Crema hidratante (pañal), Esponja y jabón, Limas de cartón, Toallitas húmedas, Para completar la canastilla: Cambiador, Colonia, Pañales de 2 a 5 Kg. (Talla 1), Pijama de una pieza talla 0, Detergente ropa especial recién nacido Siguiendo  las recomendaciones  de los hospitales de maternidad  consta de . Se intenta cubrir todos los artículos básicos y, si se puede, complementarla  con otros, en algunos casos se incluye un juguete  para el recién nacido.",
-   
-
    "estrenaVida-page-card5-img-url": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/estrenavidaheader.jpeg?raw=true",
   "estrenaVida-page-card5-title": "COMPARTIMOS (ACTIVIDADES)",
   "estrenaVida-page-card5-para": "Se realizan encuentros para intercanviar ropa u otros objetos necesarios para el cuidado de los menores coincidiendo con los cambios de temporada. Se aprovecha para compartir experiencias y crear  una red  social entre las mamás. Otros tipos de encuentros: talleres impartidos por profesionales del mundo sanitario, educativo, social. Celebraciones tradicionales y populares (Navidad, fiesta de aniversario grupal en agosto) El espacio principal de los encuentros es el Convento de Santa Clara en Manresa donde se desarrolla el proyecto."
