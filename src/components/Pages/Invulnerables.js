@@ -12,19 +12,22 @@ function Invulnerables() {
   return (
     <div>
       <div className="invulnerables section__padding">
-      <div className="invulnerables-header">
-              <h1 className="invulnerables-section__title text__cap">
-                {t("invulnerables-page-title")}
-              </h1>
-            </div>
-        
+        <div className="invulnerables-header">
+          <h1 className="invulnerables-section__title text__cap">
+            {t("invulnerables-page-title")}
+          </h1>
+        </div>
+
         <div className="invulnerables-container">
           <div className="invulnerables__content text__center">
-            
+            <h2 className="invulnerables__content-title">
+              {t("inv-content-title")}
+            </h2>
             <p className="invulnerables__text text__grey">
               {t("inv-description")}
             </p>
           </div>
+
           <div className="invulnerables-card2-container">
             <div className="invul-card">
               <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
@@ -38,6 +41,26 @@ function Invulnerables() {
               <p>{t("p-igual")}</p>
               <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
             </div>
+
+            <div className="invul-image-collage">
+              <div className="collage-item">
+                <img src={InvulnerableColl} alt="..." className="collage-image" />
+                <p className="collage-text">{t("collage-text-1")}</p>
+              </div>
+              <div className="collage-item">
+                <img src={InvulnerableColl2} className="collage-image" alt="..." />
+                <p className="collage-text">{t("collage-text-2")}</p>
+              </div>
+              <div className="collage-item">
+                <img src={InvulnerableColl3} className="collage-image" alt="..." />
+                <p className="collage-text">{t("collage-text-3")}</p>
+              </div>
+              <div className="collage-item">
+                <img src={InvulnerableColl4} className="collage-image" alt="..." />
+                <p className="collage-text">{t("collage-text-4")}</p>
+              </div>
+            </div>
+
             <div className="invul-card">
               <h2>{t("recur")}</h2>
               <h5>{t("p-recur")}</h5>
@@ -47,12 +70,18 @@ function Invulnerables() {
               <p>{t("p-recur-2")}</p>
               <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
             </div>
-            <div className="invul-image-collage">
-              <img src={InvulnerableColl} alt="..." className="collage-image" />
-              <img src={InvulnerableColl2} className="collage-image" alt="..." />
-              <img src={InvulnerableColl3} className="collage-image" alt="..." />
-              <img src={InvulnerableColl4} className="collage-image" alt="..." />
+
+            <div className="invul-card">
+              <h2>{t("recurs")}</h2>
+              <h5>{t("p-recurs")}</h5>
+              <p>
+                <strong>{t("p-recurs-strong")}</strong>
+              </p>
+              <p>{t("p-recurs-2")}</p>
+              <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
             </div>
+
+            
           </div>
         </div>
       </div>
