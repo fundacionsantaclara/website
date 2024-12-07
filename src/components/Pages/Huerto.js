@@ -22,9 +22,7 @@ function Huerto() {
               <p className="huerto__text text__grey">
                 {t("huerto-page-para1")}
               </p>
-              <p className="huerto__text text__grey">
-                {t("huerto-page-para2")}
-              </p>
+              
             </div>
           </div>
         </div>
