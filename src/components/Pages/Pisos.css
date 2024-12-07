@@ -147,7 +147,7 @@
 }
 
 /* Pantallas pequeñas */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .piso-section__title {
         font-size: 28px;
     }
@@ -161,12 +161,20 @@
         height: 200px;
     }
 
-    .piso-intro-card-container {
-        gap: 15px;
+    .Pisos-card-container {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        background-color: transparent;
     }
 
     .piso__text {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .piso-container{
+        padding: 0px;
     }
 }

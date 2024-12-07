@@ -113,6 +113,10 @@
     transform: scale(1.05);
 }
 
+.josoc-container {
+    padding: 20px;
+}
+
 /* Media Queries para dispositivos más pequeños */
 @media (max-width: 968px) {
     .josoc-header {
@@ -205,4 +209,6 @@
     .josoc-pic {
         padding: 10px;
     }
+
+    
 }
