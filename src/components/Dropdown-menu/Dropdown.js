@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Dropdown.css";
 import { useTranslation } from "react-i18next";
 
-function Dropdown() {
+function Dropdown({ closeMenu }) {
   const [dropdown, setDropdown] = useState(false);
   const { t } = useTranslation();
   return (
@@ -19,7 +19,7 @@ function Dropdown() {
               <Link
                 to={item.path}
                 className={item.cName}
-                onClick={() => setDropdown(false)}
+                onClick={closeMenu}
               >
                 {t(item.title)}
               </Link>
