@@ -1,12 +1,11 @@
 /* General Styles */
 .huerto-container {
   background-color: #f5f5f5; /* Fondo claro */
-  padding: 40px;
+  padding: 20px;
   border-radius: 16px;
   max-width: 1400px;
   margin: 5px auto; /* Ajustar el margen a 20px arriba y abajo para reducir el espacio */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  padding: 5px;
 }
 
 /* Header Section */

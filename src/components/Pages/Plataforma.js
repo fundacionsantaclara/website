@@ -14,7 +14,7 @@ function Plataforma() {
                 <div className='plata-header'><h1 className='plat-section__title text__cap'>{t("plataforma-page-title")}</h1></div>
         </div>
         </div>
-        <ul>
+        <ul className='plataforma-ul'>
         <PlatCardData
               src="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/12/30/plataforma-de-alimentos-de-manresa.jpeg"
               text="PLATAFORMA DE ALIMENTOS"
