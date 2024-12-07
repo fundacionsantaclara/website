@@ -589,13 +589,13 @@
 
 
   "videoPage": {
-      "title": "En el 2023-2024 ayudamos:",
-      "infancias": "Infancias:",
-      "alimentos": "Alimentos:",
-      "pisosDeAcogida": "Pisos de acogida:",
-      "refugiadosYHeridos": "Refugiados y heridos:",
-      "regularizacionDePapeles": "Regularización de papeles:",
-      "saludBucodental": "Salud bucodental, oftalmológica:"
+      "title": "Ayudas brindadas",
+      "infancias": "Infancias",
+      "alimentos": "Alimentos",
+      "pisosDeAcogida": "Pisos de acogida",
+      "refugiadosYHeridos": "Refugiados y heridos",
+      "regularizacionDePapeles": "Regularización de papeles",
+      "saludBucodental": "Salud bucodental, oftalmológica"
     },
 
     "estrenaVida-page-title": "Estrena Vida",
