@@ -61,7 +61,7 @@ function Navi() {
                     >
                       {t(item.title)}
                     </Link>
-                    {dropdown && <Dropdown closeMenu={closeMobileMenu}/>}
+                    {dropdown && <Dropdown closeMenu={closeMobileMenu} />}
                   </li>
                 );
               } else if (item.title === "participa") {
