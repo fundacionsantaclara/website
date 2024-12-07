@@ -424,5 +424,14 @@
   "mail-text": "info@fsantaclara.org",
   "last-events": "Ultims esdeveniments",
   "comunidad-title": "Comunitat",
-  "comunidad-description": "Benvingut a la secció d'esdeveniments de la Comunitat."
+  "comunidad-description": "Benvingut a la secció d'esdeveniments de la Comunitat.",
+  "videoPage": {
+    "title": "Ajudes atorgades",
+    "infancias": "Infàncies",
+    "alimentos": "Aliments",
+    "pisosDeAcogida": "Pisos d'acollida",
+    "refugiadosYHeridos": "Refugiats i ferits",
+    "regularizacionDePapeles": "Regularització de papers",
+    "saludBucodental": "Salut bucodental i oftalmològica"
+  }
 }

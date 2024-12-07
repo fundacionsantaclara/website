@@ -424,5 +424,14 @@
   "mail-text": "info@fsantaclara.org",
   "last-events": "Last events",
   "comunidad-title": "Community",
-  "comunidad-description": "Welcome to the Community Events section."
+  "comunidad-description": "Welcome to the Community Events section.",
+  "videoPage": {
+    "title": "Help Provided",
+    "infancias": "Childhoods",
+    "alimentos": "Food",
+    "pisosDeAcogida": "Shelter Homes",
+    "refugiadosYHeridos": "Refugees and Injured",
+    "regularizacionDePapeles": "Paperwork Regularization",
+    "saludBucodental": "Dental and Ophthalmological Health"
+  }
 }
