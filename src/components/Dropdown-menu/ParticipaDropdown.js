@@ -4,7 +4,7 @@ import "./Dropdown.css";
 import { participarDropdown } from "./Dropdown-items";
 import { useTranslation } from "react-i18next";
 
-function ParticipaDropdown() {
+function ParticipaDropdown({ closeMenu }) {
   const [dropdown, setDropdown] = useState(false);
   const { t } = useTranslation();
   return (
@@ -19,7 +19,7 @@ function ParticipaDropdown() {
               <Link
                 to={item.path}
                 className={item.cName}
-                onClick={() => setDropdown(false)}
+                onClick={closeMenu}
               >
                 {t(item.title)}
               </Link>
