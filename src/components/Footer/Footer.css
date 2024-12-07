@@ -24,6 +24,9 @@
 }
 
 .footer-subscription-heading {
+  max-width: 90%;
+  margin: auto;
+  padding: 0px;
   margin-bottom: 24px;
   font-size: 30px;
   text-align: center; /* Centrar el texto */
@@ -197,7 +200,13 @@
   }
 
   .support-text {
-    padding-left: 50px;
+    padding-left: 0px;
     margin-bottom: 0px;
+  }
+}
+
+@media (max-width:576px) {
+  .footer-link-items img {
+      max-width: 80%;
   }
 }
