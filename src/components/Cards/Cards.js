@@ -10,10 +10,10 @@ import tallerMuñecas from "../../Images/cosedor.png";
 import espacioDuchas from "../../Images/duchas.png";
 import cosedor from "../../Images/cosedorMoni.png";
 import salud from "../../Images/oftalmologia.png";
-import invulnerablesCardImage from "../../Images/invulnerablekm0.png";
+import invulnerablesCardImage from "../../Images/Maig-2.jpg";
 import yosoy from "../../Images/yosoy.png";
 import corredorHumanitario from  "../../Images/refugiado.png"
-import estrenaVidaImage from "../../Images/Estrenavida.jpg"
+import estrenaVidaImage from "../Fcimages/estrena vida/IMG_7545.jpg"
 
 function Cards() {
   const { t } = useTranslation();
@@ -63,11 +63,7 @@ function Cards() {
               text={t("oftamologia-title")}
               path="/oftamologia"
             />
-          </ul>
-
-          <h1 className="otro-title">{t("otroproyectos-title")}</h1>
-          <ul className="otro-cards-items">
-            <CardsItems
+             <CardsItems
               src={invulnerablesCardImage}
               text={t("invulnerables-title")}
               path="/invulnerables"
@@ -88,6 +84,8 @@ function Cards() {
               path="/josoc"
             />
           </ul>
+
+          
         </div>
       </div>
     </div>

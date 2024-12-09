@@ -2,7 +2,7 @@ import pepe from "../Fcimages/pepe.jpeg";
 import lucia from "../Fcimages/Lucia.jpg";
 import merri from "../Fcimages/Meritxell.jpg";
 import gloria from "../Fcimages/gloria.jpg";
-import pilar from "../Fcimages/pilar.jpg";
+import pilar from "../Fcimages/WhatsApp Image 2024-12-05 at 10.34.35.jpeg";
 import nuria from "../Fcimages/nuria.jpg";
 import marta from "../Fcimages/marta.png";
 import lali from "../Fcimages/lali.png";
@@ -42,7 +42,7 @@ const EquipoData = [
     id: 4,
     name: "Pilar Rovira",
     role: "pilar",
-    imageUrl: user,
+    imageUrl: pilar,
     email: "pilarrov@fsantaclara.org",
   },
   {
@@ -76,7 +76,7 @@ const EquipoData = [
     id: 9,
     name: "Elisabet Cardi",
     role: "eli",
-    imageUrl: eli,
+    imageUrl: user,
     email: "elisabetcardil@gmail.com",
   },
   {

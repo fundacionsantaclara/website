@@ -1,7 +1,7 @@
 import React from "react";
 import "./Transparencia.css";
 import { useTranslation } from "react-i18next";
-import patrons from "../Documents/Patrons.pdf";
+import patrons from "../Documents/Patronat (CAT) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
 import estatutos from "../Documents/estatuts_new.pdf";
 import registros from "../Documents/registre.pdf";
 import normativos from "../Documents/Normativa-Aplicable-a-Fundacions.pdf";
