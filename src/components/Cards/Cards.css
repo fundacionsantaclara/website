@@ -1,145 +1,4 @@
 .project-cards {
-    padding: 2rem;
-  }
-  
-  .project-title{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: rgb(147, 208, 175);
-    padding: 20px;
-    color: #333734;
-  }
-
-  .otro-title{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: rgb(123, 198, 158);
-    padding: 20px;
-    color: #424343;
-  }
-  
-  
-  
-  .project-cards-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 97%;
-    margin: 0 auto;
-  }
-  
-  .project-cards-wrapper {
-    position: relative;
-  }
-  
-  .project-cards-item{
-    margin-bottom: 24px;
-    margin-top: 15px;
-    list-style: none;
-  }
-  ul.project-cards-items {
-    padding-left: 0;
-  }
-  
-  .project-cards-items {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-  .otro-cards-items {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-
-  ul.otro-cards-items{
-    padding-left: 0;
-  }
-
-  .project-cards-item-link {
-    display: flex;
-    flex-flow: column;
-    box-shadow: 0 6px 20px rgba(14, 80, 34, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
-    overflow: hidden;
-    text-decoration: none;
-    height: 350px;
-    width: 300px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bolder;
-    color: #292828;
-  }
-  
-  .project-cards-item-picwrap {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 250px;
-  }
-  
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-  }
-  
-  .project-cards-item-picwrap::after {
-    position: absolute;
-    bottom: 0;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    box-sizing: border-box;
-  }
-  
-  .project-cards-item-img {
-    width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.2s linear;
-  }
-  
-  .project-cards-item-img:hover {
-    transform: scale(1.1);
-  }
-  
-  .project-cards-item-info {
-    padding: 10px 20px 20px;
-    font-weight: 25px;
-  }
-  
-  .project-cards-item-text {
-    color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 15px;
-
-  }
-
-  @media (max-width:968px){
-    .project-cards-item{
-      width: 100%;
-    }
-   
-    .project-cards-item-info{
-      display: block;
-      font-size: 1.5rem;
-    }
-
-    .project-cards-item-link {
-      width: 100%;
-    }
-    .project-cards-item-img{.project-cards {
   padding: 2rem;
 }
 
@@ -177,11 +36,11 @@
 .project-cards-items,
 .otro-cards-items {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
   gap: 20px; /* Añade un espaciado uniforme entre tarjetas */
-  justify-content: center; /* Centramos los elementos en la fila */
-  align-items: stretch; /* Asegura que las tarjetas tengan el mismo tamaño */
+  justify-content: center; /* Centra las tarjetas */
   border-radius: 10px;
+  max-width: 1400px; /* Limita el ancho máximo del contenedor */
 }
 
 ul.project-cards-items,
@@ -194,8 +53,9 @@ ul.otro-cards-items {
   list-style: none;
   margin-bottom: 24px;
   margin-top: 15px;
-  width: 300px; /* Ajustar el ancho */
-  height: 350px; /* Ajustar la altura */
+  flex: 1 1 calc(25% - 20px); /* 4 tarjetas por fila en pantallas grandes */
+  max-width: calc(25% - 20px); /* Ajusta el ancho máximo de cada tarjeta */
+  height: 350px;
 }
 
 /* Estilo para el enlace de la tarjeta */
@@ -208,8 +68,8 @@ ul.otro-cards-items {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
-  height: 100%; /* Asegúrate de que el enlace tenga la misma altura que la tarjeta */
-  width: 100%; /* Asegúrate de que el enlace tenga el mismo ancho que la tarjeta */
+  height: 100%;
+  width: 100%;
   text-align: center;
   font-size: 18px;
   font-weight: bolder;
@@ -220,7 +80,7 @@ ul.otro-cards-items {
 .project-cards-item-picwrap {
   position: relative;
   width: 100%;
-  height: 250px; /* Cambié a un tamaño más consistente */
+  height: 250px;
   overflow: hidden;
 }
 
@@ -242,7 +102,6 @@ ul.otro-cards-items {
   font-weight: 25px;
 }
 
-/* Texto dentro de la tarjeta */
 .project-cards-item-text {
   color: #252e48;
   font-size: 18px;
@@ -251,39 +110,23 @@ ul.otro-cards-items {
 }
 
 /* Estilos responsivos para pantallas más pequeñas */
-@media (max-width: 968px) {
+@media (max-width: 1200px) {
   .project-cards-item {
-    width: 100%;
-  }
-
-  .project-cards-item-info {
-    display: block;
-    font-size: 1.5rem;
-  }
-
-  .project-cards-item-link {
-    width: 100%;
-  }
-
-  .project-cards-item-img {
-    height: 100%;
-  }
-
-  .project-cards-item-picwrap {
-    width: 100%;
-    overflow: hidden;
+    flex: 1 1 calc(33.33% - 20px); /* 3 tarjetas por fila en pantallas medianas */
+    max-width: calc(33.33% - 20px);
   }
 }
 
-      height: 100%;
-    }
-    .project-cards-item-picwrap {
-      width: 100%;
-      overflow: hidden;
-    }
-
+@media (max-width: 768px) {
+  .project-cards-item {
+    flex: 1 1 calc(50% - 20px); /* 2 tarjetas por fila en pantallas pequeñas */
+    max-width: calc(50% - 20px);
   }
-  
- 
-  
+}
 
+@media (max-width: 576px) {
+  .project-cards-item {
+    flex: 1 1 100%; /* 1 tarjeta por fila en pantallas muy pequeñas */
+    max-width: 100%;
+  }
+}
