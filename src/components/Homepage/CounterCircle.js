@@ -8,7 +8,7 @@ const CounterCircle = ({ label, value }) => {
   useEffect(() => {
     let start = 0;
     const end = value;
-    const increment = Math.ceil(end / 1000); // Ajusta la velocidad del incremento
+    const increment = Math.ceil(end / 10000); // Ajusta la velocidad del incremento
     const interval = setInterval(() => {
       start += increment;
       if (start >= end) {
