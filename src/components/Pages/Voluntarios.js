@@ -1,12 +1,19 @@
 import React from "react";
 import "./Voluntarios.css";
-import compromiso from "../Fcimages/compromiso.png";
-import compasion from "../Fcimages/compasion.png";
-import teamwork from "../Fcimages/teamwork.png";
-import collage1 from "../Fcimages/teamwork.png";
-import collage2 from "../Fcimages/teamwork.png";
-import collage3 from "../Fcimages/teamwork.png";
-import collage4 from "../Fcimages/teamwork.png";
+import compromiso from "../Fcimages/voluntarios/00c2ea1f-6916-45a3-8970-2de023d69cff.jpg";
+import compasion from "../Fcimages/voluntarios/Captura de pantalla 2024-12-05 100454.png";
+import teamwork from "../Fcimages/voluntarios/IMG_0850.jpg";
+import collage1 from "../Fcimages/voluntarios/IMG_5695.jpg";
+import collage2 from "../Fcimages/voluntarios/IMG_0242.jpg";
+import collage3 from "../Fcimages/voluntarios/Captura de pantalla 2024-12-05 100640.png";
+import collage4 from "../Fcimages/voluntarios/IMG_5697.jpg";
+import collage5 from "../Fcimages/voluntarios/IMG_4482.jpg";
+import collage6 from "../Fcimages/voluntarios/IMG_4485.jpg";
+import collage7 from "../Fcimages/voluntarios/IMG_7935.jpg";
+import collage8 from "../Fcimages/voluntarios/IMG_8937.jpg";
+import collage9 from "../Fcimages/voluntarios/IMG_9222.jpg";
+import collage10 from "../Fcimages/voluntarios/IMG_8979.jpg";
+
 import { useTranslation } from "react-i18next";
 
 function Voluntarios() {
@@ -65,9 +72,15 @@ function Voluntarios() {
         </div>
         <div class="voluntario-collage">
           <img src={collage1} alt="Image 1" />
+          <img src={collage7} alt="Image 4" />
           <img src={collage2} alt="Image 2" />
           <img src={collage3} alt="Image 3" />
+          <img src={collage6} alt="Image 4" />
+          <img src={collage5} alt="Image 4" />
+          <img src={collage9} alt="Image 4" />
+          <img src={collage8} alt="Image 4" />
           <img src={collage4} alt="Image 4" />
+          <img src={collage10} alt="Image 4" />
         </div>
       </div>
     </>
