@@ -20,7 +20,17 @@
   margin-left: 10px; /* Centra horizontalmente el formulario */
   margin-right: 20px; /* Añade espacio a la derecha */
 }
+/* Estilo para los enlaces */
+.contact-form a {
+  color: #74a37c; /* Verde profesional consistente con los subtítulos */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+  font-weight: bold; /* Resalta los enlaces */
+  transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
 
+.contact-form a:hover {
+  color: #103416; /* Color ligeramente más claro para el efecto hover */
+}
 .fundacion-pic {
   object-fit: cover;
   width: 90%; /* Asegura que la imagen ocupe todo el contenedor disponible */

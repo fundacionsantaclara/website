@@ -1,9 +1,9 @@
 import React from "react";
 import "./Invulnerables.css";
 import InvulnerablePic from "../Fcimages/invulnerables/660c73ce-76a4-41fd-91a2-6fd732d88d46.jpg";
-import InvulnerablePic1 from "../Fcimages/invulnerables/IMG_8536.jpg";
-import InvulnerablePic2 from "../Fcimages/invulnerables/FAMILIA CSAA INFANCIA.png";
-import InvulnerablePic3 from "../Fcimages/invulnerables/01db95d1-40c3-4940-94e3-1133ab2d7d89.jpg";
+import InvulnerablePic1 from "../Fcimages/invulnerables/on estem.png";
+import InvulnerablePic2 from "../Fcimages/invulnerables/Maig.jpg";
+import InvulnerablePic3 from "../Fcimages/invulnerables/Feber.jpg";
 import InvulnerableColl from "../Fcimages/invul-img.jpg";
 import InvulnerableColl2 from "../Fcimages/invul-img2.jpg";
 import InvulnerableColl3 from "../Fcimages/Invul-img3.jpg";
@@ -82,6 +82,7 @@ function Invulnerables() {
               </p>
               <p>{t("p-recurs-2")}</p>
               <img src={InvulnerablePic3} className="invulnerables-img" alt="..." />
+              
             </div>
 
             
