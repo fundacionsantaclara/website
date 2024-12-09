@@ -2,6 +2,7 @@ import React from "react";
 import "./Transparencia.css";
 import { useTranslation } from "react-i18next";
 import patrons from "../Documents/Patronat (CAT) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
+import patronsCastellano from "../Documents/Patronat (CAST) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
 import estatutos from "../Documents/estatuts_new.pdf";
 import registros from "../Documents/registre.pdf";
 import normativos from "../Documents/Normativa-Aplicable-a-Fundacions.pdf";
@@ -15,17 +16,16 @@ import cuentas2019 from "../Documents/Comptes_anuals_2019.pdf";
 import auditoría2020 from "../Documents/INFORME_AUDITORIA_I_CCAA_2020.pdf";
 import auditoría2021 from "../Documents/INFORME_AUDITORIA_I_CCAA_2021.pdf";
 import auditoría2022 from "../Documents/INFO_AUDITORIA_CCAA_2022_FCSC.pdf";
-import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf"
+import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf";
 import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
-import convenioDeColaboracionVigente from "../Documents/Convenis-de-col.laboracio-vigents.pdf";
+import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
+import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
 import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
 import image1 from "../Fcimages/transparencia/IMG_0287.jpg";
 import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
 import image4 from "../Fcimages/transparencia/IMG_3779.jpg";
 import image5 from "../Fcimages/transparencia/IMG_7658.jpg";
-
-
 
 function Transparencia() {
   const { t } = useTranslation();
@@ -43,16 +43,24 @@ function Transparencia() {
 
             {/* Primer Tarjeta */}
             <div className="trans-card">
-              <img src={image1} alt="Law Image"/>
+              <img src={image1} alt="Law Image" />
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("transparency-card1-title")}</h2>
                   <h3>{t("transparency-card1-subtitle")}</h3>
-                  
                   <ul className="trans-list">
                     <p>
                       <a className="link-offset-1" href={patrons} target="_blank">
-                        {t("patrons-title")}
+                        {t("patrons-title")} (CAT)
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        className="link-offset-1"
+                        href={patronsCastellano}
+                        target="_blank"
+                      >
+                        {t("patrons-title")} (CAST)
                       </a>
                     </p>
                     <p>
@@ -60,7 +68,7 @@ function Transparencia() {
                         {t("estatutos-title")}
                       </a>
                     </p>
-                    <p> 
+                    <p>
                       <a className="link-offset-1" href={registros} target="_blank">
                         {t("registros-title")}
                       </a>
@@ -77,12 +85,11 @@ function Transparencia() {
 
             {/* Segunda Tarjeta */}
             <div className="trans-card">
-              <img  src={image2} alt="Accounting Image"/>
+              <img src={image2} alt="Accounting Image" />
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("organigrama-title")}</h2>
                   <ul className="trans-list">
-                  
                     <p>
                       <a className="link-offset-1" href={memo2018} target="_blank">
                         {t("memoria-2018")}
@@ -109,7 +116,11 @@ function Transparencia() {
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={memo2023Novisual} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={memo2023Novisual}
+                        target="_blank"
+                      >
                         {t("memoria-2023-no-visual")}
                       </a>
                     </p>
@@ -120,12 +131,11 @@ function Transparencia() {
 
             {/* Tercera Tarjeta */}
             <div className="trans-card">
-              <img  src={image3} alt="Economy Image"/>
+              <img src={image3} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("info-economica-title")}</h2>
                   <ul className="trans-list">
-                    
                     <p>
                       <a className="link-offset-3" href={cuentas2018} target="_blank">
                         {t("cuentas-2018")}
@@ -152,7 +162,7 @@ function Transparencia() {
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-1" href={audiotria2023} target="_blank" >
+                      <a className="link-offset-1" href={audiotria2023} target="_blank">
                         {t("Informe Auditoría 2023")}
                       </a>
                     </p>
@@ -161,21 +171,37 @@ function Transparencia() {
               </div>
             </div>
 
-          {/* Cuarta Tarjeta */}
-          <div className="trans-card">
-              <img  src={image4} alt="Economy Image"/>
+            {/* Cuarta Tarjeta */}
+            <div className="trans-card">
+              <img src={image4} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("info-gestionAdministrativa-title")}</h2>
                   <ul className="trans-list">
                     <p>
-                      <a className="link-offset-1" href={convenioDeColaboracionVigente} target="_blank">
-                        {t("convenio-colaboracion-vigente")}
+                      <a
+                        className="link-offset-1"
+                        href={convenioDeColaboracionVigente}
+                        target="_blank"
+                      >
+                        {t("convenio-colaboracion-vigente")} (CAT)
                       </a>
                     </p>
-                    
                     <p>
-                      <a className="link-offset-3" href={subencionesAdministracion} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={convenioDeColaboracionVigenteCastellano}
+                        target="_blank"
+                      >
+                        {t("convenio-colaboracion-vigente")} (CAST)
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        className="link-offset-3"
+                        href={subencionesAdministracion}
+                        target="_blank"
+                      >
                         {t("subenciones-administrativas")}
                       </a>
                     </p>
@@ -185,16 +211,19 @@ function Transparencia() {
             </div>
 
             <div className="trans-card">
-  <img  src={image5} alt="Image Description" />
-  <div className="trans-card-content-wrapper">
-    <div className="trans-card-content">
-      <h2>{t("retribucion-title")}</h2>
-      <p dangerouslySetInnerHTML={{ __html: t("retribucion-description1") }}></p>
-      <p dangerouslySetInnerHTML={{ __html: t("retribucion-description2") }}></p>
-    </div>
-  </div>
-</div>
-
+              <img src={image5} alt="Image Description" />
+              <div className="trans-card-content-wrapper">
+                <div className="trans-card-content">
+                  <h2>{t("retribucion-title")}</h2>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: t("retribucion-description1") }}
+                  ></p>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: t("retribucion-description2") }}
+                  ></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import "./TranslateBtn.css"
+import "./TranslateBtn.css";
 import { useTranslation } from 'react-i18next';
 
 const TranslateBtn = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -11,13 +11,17 @@ const TranslateBtn = () => {
 
   return (
     <div className="language-container">
-      <button className="language-btn" onClick={() => changeLanguage('en')}>English</button>
-      <button className="language-btn" onClick={() => changeLanguage('es')}>Spanish</button>
-      <button className="language-btn" onClick={() => changeLanguage('ca')}>Catalan</button>
+      <button className="language-btn" onClick={() => changeLanguage('en')}>
+        {t("language-english")}
+      </button>
+      <button className="language-btn" onClick={() => changeLanguage('es')}>
+        {t("language-spanish")}
+      </button>
+      <button className="language-btn" onClick={() => changeLanguage('ca')}>
+        {t("language-catalan")}
+      </button>
     </div>
   );
 };
 
-
-
-export default TranslateBtn
+export default TranslateBtn;
