@@ -16,9 +16,14 @@ import auditoría2020 from "../Documents/INFORME_AUDITORIA_I_CCAA_2020.pdf";
 import auditoría2021 from "../Documents/INFORME_AUDITORIA_I_CCAA_2021.pdf";
 import auditoría2022 from "../Documents/INFO_AUDITORIA_CCAA_2022_FCSC.pdf";
 import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf"
-import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf"
-import convenioDeColaboracionVigente from "../Documents/Convenis-de-col.laboracio-vigents.pdf"
-import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf"
+import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
+import convenioDeColaboracionVigente from "../Documents/Convenis-de-col.laboracio-vigents.pdf";
+import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
+import image1 from "../Fcimages/transparencia/IMG_0287.jpg";
+import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
+import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
+import image4 from "../Fcimages/transparencia/IMG_3779.jpg";
+import image5 from "../Fcimages/transparencia/IMG_7658.jpg";
 
 
 
@@ -38,7 +43,7 @@ function Transparencia() {
 
             {/* Primer Tarjeta */}
             <div className="trans-card">
-              <img src="https://www.sharda.ac.in/blog/attachments/blog_images/4-Main-Types-of-Law-Which-One-Is-the-Best-For-You-1170x614-min.jpg" alt="Law Image"/>
+              <img src={image1} alt="Law Image"/>
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("transparency-card1-title")}</h2>
@@ -72,7 +77,7 @@ function Transparencia() {
 
             {/* Segunda Tarjeta */}
             <div className="trans-card">
-              <img src="https://uploads-ssl.webflow.com/575ef60509a5a7a9116d9f8c/5ea21e418558777085ce093a_memoria%20contable%20ERP%20nube%20administracion%20empresas.jpg" alt="Accounting Image"/>
+              <img  src={image2} alt="Accounting Image"/>
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("organigrama-title")}</h2>
@@ -115,7 +120,7 @@ function Transparencia() {
 
             {/* Tercera Tarjeta */}
             <div className="trans-card">
-              <img src="https://bradfordjacobs.com/wp-content/uploads/2021/07/economy.jpg" alt="Economy Image"/>
+              <img  src={image3} alt="Economy Image"/>
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("info-economica-title")}</h2>
@@ -158,7 +163,7 @@ function Transparencia() {
 
           {/* Cuarta Tarjeta */}
           <div className="trans-card">
-              <img src="https://bradfordjacobs.com/wp-content/uploads/2021/07/economy.jpg" alt="Economy Image"/>
+              <img  src={image4} alt="Economy Image"/>
               <div className="trans-card-content-wrapper">
                 <div className="trans-card-content">
                   <h2>{t("info-gestionAdministrativa-title")}</h2>
@@ -180,7 +185,7 @@ function Transparencia() {
             </div>
 
             <div className="trans-card">
-  <img src="https://www.yourdomain.com/path-to-image.jpg" alt="Image Description" />
+  <img  src={image5} alt="Image Description" />
   <div className="trans-card-content-wrapper">
     <div className="trans-card-content">
       <h2>{t("retribucion-title")}</h2>
