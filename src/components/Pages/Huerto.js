@@ -1,10 +1,12 @@
 import React from "react";
 import "./Huerto.css";
 import { useTranslation } from "react-i18next";
-import huertopic1 from "../Fcimages/huertopic1.jpg";
-import huertopic2 from "../Fcimages/huertopic2.jpg";
-import huertopic3 from "../Fcimages/huertopic3.jpg";
-import huertopic4 from "../Fcimages/huertopic4.jpg";
+import huertopic1 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-24 at 16.00.02 (2).jpeg";
+import huertopic2 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-24 at 16.00.03.jpeg";
+import huertopic3 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-24 at 16.00.03 (1).jpeg";
+import huertopic4 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-24 at 16.00.04 (1).jpeg";
+import huertopic5 from "../Fcimages/Huertos egologícos/20240628_100938.jpg";
+import huertopic6 from "../Fcimages/Huertos egologícos/20230311_114735.jpg";
 
 function Huerto() {
   const { t } = useTranslation();
@@ -46,22 +48,26 @@ function Huerto() {
         <div className="huerto-image-container">
           <div className="huerto-pic">
             <img src={huertopic1} alt="img 1" />
-            <img src={huertopic2} alt="img 2" />
-            <img src={huertopic3} alt="img 3" />
+            <img src={huertopic3} alt="img 2" />
+            <img src={huertopic2} alt="img 3" />
             <img src={huertopic4} alt="img 4" />
-            <img src={huertopic4} alt="img 4" />
-            <img src={huertopic4} alt="img 4" />
+            <img src={huertopic5} alt="img 4" />
+            <img src={huertopic6} alt="img 4" />
           </div>
         </div>
 
-        {/* Generic Card Section */}
+        {/* Generic Card Section to other projects */}
         <div className="generic-card mb-3">
-          <img src={t("generic-page-card-img-url")} className="generic-card-img-top" alt="Imagen genérica" />
-          <div className="generic-card-body">
-            <h4 className="generic-card-title">{t("generic-page-card-title")}</h4>
-            <p className="generic-card-text">{t("generic-page-card-para")}</p>
-          </div>
-        </div>
+  <img 
+    src={require("../Fcimages/Huertos egologícos/amburnia/20241205_103434.jpg")} 
+    className="generic-card-img-top" 
+    alt="Imagen genérica" 
+  />
+  <div className="generic-card-body">
+    <h4 className="generic-card-title">{t("generic-page-card-title")}</h4>
+    <p className="generic-card-text">{t("generic-page-card-para")}</p>
+  </div>
+</div>
 
         
       </div>

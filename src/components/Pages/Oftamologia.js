@@ -2,7 +2,8 @@ import React from "react";
 import "./Oftamologia.css";
 import { useTranslation } from "react-i18next";
 import Gafas from "../Fcimages/gafas.jpg";
-import Usuario from "../Fcimages/gafas1.avif";
+import Usuario from "../Fcimages/oftalmologia/IMG_0957.jpg";
+import Usuario1 from "../Fcimages/oftalmologia/IMG_0929.jpg";
 
 function Oftamologia() {
   const { t } = useTranslation();
@@ -56,7 +57,7 @@ function Oftamologia() {
               <p className="ofta-card4-description">
                 {t("oftamologia-card4-para")}
               </p>
-              <img src={Usuario} class="gafas-card-img-top" alt="..." />
+              <img src={Usuario1} class="gafas-card-img-top" alt="..." />
             </div>
           </div>
         </div>

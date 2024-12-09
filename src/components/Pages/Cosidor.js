@@ -1,8 +1,8 @@
 import React from "react";
 import "./Cosidor.css";
 import { useTranslation } from "react-i18next";
-import culture from "../Fcimages/culture.avif";
-import learning from "../Fcimages/sewing.webp";
+import culture from "../Fcimages/cosedor/IMG_2868.jpg";
+import learning from "../Fcimages/cosedor/IMG_2974 - copia.jpg";
 
 function Cosidor() {
   const { t } = useTranslation();
