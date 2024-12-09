@@ -72,7 +72,7 @@ function PlataformaData(props) {
 
               <div className="small-card-item">
                 <img
-                  src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
+                  src="https://cdn-icons-png.flaticon.com/128/9391/9391157.png"
                   className="card-img-top"
                   alt="..."
                 />
@@ -88,13 +88,13 @@ function PlataformaData(props) {
 
               <div className="small-card-item">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/32/32441.png"
+                  src="https://cdn-icons-png.flaticon.com/128/5227/5227060.png"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="plat-card-body">
                   <p className="plat-card-text">
-                    <strong>494.180 kg</strong>
+                    <strong>500 </strong>
                   </p>
                   <p className="plat-card-text">
                     <strong>{t("plat-card-data4")}</strong>
@@ -105,13 +105,13 @@ function PlataformaData(props) {
 
               <div className="small-card-item">
                 <img
-                  src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
+                  src="https://cdn-icons-png.flaticon.com/128/470/470912.png"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="plat-card-body">
                   <p className="plat-card-text">
-                    <strong>20 kg (de media de enero a noviembre)</strong>
+                    <strong>20</strong>
                   </p>
                   <p className="plat-card-text">
                     <strong>{t("plat-card-data5")}</strong>

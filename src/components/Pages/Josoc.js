@@ -2,6 +2,10 @@ import React from "react";
 import "./Josoc.css";
 import Josocpic from "../Fcimages/josocb.JPG";
 import Josocpic2 from "../Fcimages/josoca.JPG";
+import Josocpic3 from "../Fcimages/yosoy/Captura de pantalla 2024-10-25 115143.png";
+import Josocpic4 from "../Fcimages/yosoy/IMG_6357.jpg";
+import Josocpic5 from "../Fcimages/yosoy/IMG_3658.jpg";
+
 import { useTranslation } from "react-i18next";
 
 function Josoc() {
@@ -20,11 +24,21 @@ function Josoc() {
             </p>
           </div>
 
+          <div className="josoc-pic">
+            <img src={Josocpic3} className="josoc-card-img" alt="..." />
+            <img src={Josocpic4} className="josoc-card-img" alt="..." />
+          </div>
+
           <h2 className="obj-title">{t("objetivo-principal")}</h2>
           <div className="josoc-project-info">
             <p className="josoc-project-text">{t("objetivo-principal-text")}</p>
             <h2 className="obj-title">{t("objetivo-individualizado")}</h2>
             <p className="josoc-project-text">{t("objetivo-individualizado-text")}</p>
+          </div>
+
+          <div className="josoc-pic">
+            <img src={Josocpic5} className="josoc-card-img" alt="..." />
+         
           </div>
 
           <h2 className="obj-title">{t("objetivos-tres")}</h2>

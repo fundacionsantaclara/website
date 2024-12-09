@@ -1,6 +1,9 @@
 import React from "react";
-import "./EstrenaVida.css"; // Archivo CSS para personalizar la nueva página
+import "./EstrenaVida.css"; 
 import { useTranslation } from "react-i18next";
+import headerImg from "../Fcimages/estrena vida/IMG-20241201-WA0026.jpg";
+import imgCard4 from "../Fcimages/estrena vida/IMG-20241201-WA0033.jpg";
+import imgCard5 from "../Fcimages/estrena vida/IMG-20241201-WA0040.jpg";
 
 function EstrenaVida() {
   const { t } = useTranslation();
@@ -18,10 +21,10 @@ function EstrenaVida() {
               </div>
               
               <div className="estrena-vida-text-container text__center">
-      <p className="estrena-vida__text text__grey">
-        {t("estrenaVida-page-intro")}
-      </p>
-    </div>
+                <p className="estrena-vida__text text__grey">
+                  {t("estrenaVida-page-intro")}
+                </p>
+              </div>
 
               <div className="estrena-vida-intro-card-container">
                 <div className="estrena-vida-intro-card">
@@ -40,19 +43,19 @@ function EstrenaVida() {
             </div>
           </div>
 
-         
-         <div className="estrena-vida-header-image-container">
-                <img 
-                  src={t("estrenaVida-page-header-img-url")} 
-                  alt="Imagen de Introducción de Estrena Vida" 
-                  className="estrena-vida-header-image" 
-                />
-              </div>
+          {/* Header Image Section */}
+          <div className="estrena-vida-header-image-container">
+            <img 
+              src={headerImg} 
+              alt="Imagen de Introducción de Estrena Vida" 
+              className="estrena-vida-header-image" 
+            />
+          </div>
 
-
+          {/* Card Section */}
           <div className="estrena-vida-card-container">
             <div className="estrena-vida-card mb-3">
-              <img src={t("estrenaVida-page-card4-img-url")} className="estrena-vida-card-img-top" alt="Imagen de Estrena Vida 1" />
+              <img src={imgCard4} className="estrena-vida-card-img-top" alt="Imagen de Estrena Vida 1" />
               <div className="estrena-vida-card-body">
                 <h4 className="estrena-vida-card-title">{t("estrenaVida-page-card4-title")}</h4>
                 <p className="estrena-vida-card-text">{t("estrenaVida-page-card4-para")}</p>
@@ -63,11 +66,13 @@ function EstrenaVida() {
                 <h4 className="estrena-vida-card-title">{t("estrenaVida-page-card5-title")}</h4>
                 <p className="estrena-vida-card-text">{t("estrenaVida-page-card5-para")}</p>
               </div>
-              <img src={t("estrenaVida-page-card5-img-url")} className="estrena-vida-card-img-top2" alt="Imagen de Estrena Vida 2" />
+              <img src={imgCard5} className="estrena-vida-card-img-top2" alt="Imagen de Estrena Vida 2" />
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}export default EstrenaVida;
+}
+
+export default EstrenaVida;

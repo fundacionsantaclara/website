@@ -1,6 +1,9 @@
 import React from "react";
 import "./Invulnerables.css";
-import InvulnerablePic from "../Fcimages/Juny.jpg";
+import InvulnerablePic from "../Fcimages/invulnerables/660c73ce-76a4-41fd-91a2-6fd732d88d46.jpg";
+import InvulnerablePic1 from "../Fcimages/invulnerables/IMG_8536.jpg";
+import InvulnerablePic2 from "../Fcimages/invulnerables/FAMILIA CSAA INFANCIA.png";
+import InvulnerablePic3 from "../Fcimages/invulnerables/01db95d1-40c3-4940-94e3-1133ab2d7d89.jpg";
 import InvulnerableColl from "../Fcimages/invul-img.jpg";
 import InvulnerableColl2 from "../Fcimages/invul-img2.jpg";
 import InvulnerableColl3 from "../Fcimages/Invul-img3.jpg";
@@ -39,7 +42,7 @@ function Invulnerables() {
             <div className="invul-card">
               <h2>{t("igual")}</h2>
               <p>{t("p-igual")}</p>
-              <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
+              <img src={InvulnerablePic1} className="invulnerables-img" alt="..." />
             </div>
 
             <div className="invul-image-collage">
@@ -68,7 +71,7 @@ function Invulnerables() {
                 <strong>{t("p-recur-strong")}</strong>
               </p>
               <p>{t("p-recur-2")}</p>
-              <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
+              <img src={InvulnerablePic2} className="invulnerables-img" alt="..." />
             </div>
 
             <div className="invul-card">
@@ -78,7 +81,7 @@ function Invulnerables() {
                 <strong>{t("p-recurs-strong")}</strong>
               </p>
               <p>{t("p-recurs-2")}</p>
-              <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
+              <img src={InvulnerablePic3} className="invulnerables-img" alt="..." />
             </div>
 
             
