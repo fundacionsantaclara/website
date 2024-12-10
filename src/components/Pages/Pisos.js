@@ -1,8 +1,8 @@
 import React from "react";
 import "./Pisos.css";
 import { useTranslation } from "react-i18next";
-import Apartment from "../Fcimages/apartment.jpg";
-import Apartmenttwo from "../Fcimages/apartment2.jpg";
+import Apartment from "../Fcimages/pisos de acogida//WhatsApp Image 2024-12-09 at 18.37.52 (1).jpeg";
+import Apartmenttwo from "../Fcimages/pisos de acogida/WhatsApp Image 2024-12-09 at 21.05.29.jpeg";
 
 function Pisos() {
   const { t } = useTranslation();
