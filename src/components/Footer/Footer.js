@@ -37,7 +37,7 @@ function Footer() {
     <div class="social-icons">
       <a
         class="social-icon-link facebook"
-        href="https://www.facebook.com/tuPaginaDeFacebook"  // Añade tu enlace real aquí
+        href="https://www.facebook.com/fundaciorosaoriol/" 
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Facebook"
@@ -46,40 +46,23 @@ function Footer() {
       </a>
       <a
         class="social-icon-link instagram"
-        href="https://www.instagram.com/tuPaginaDeInstagram"  // Añade tu enlace real aquí
-        target="_blank"
+        href="https://www.instagram.com/fundsantaclara/" 
         rel="noopener noreferrer"
         aria-label="Instagram"
       >
         <i class="fab fa-instagram" />
       </a>
-      <a
-        class="social-icon-link youtube"
-        href="https://www.youtube.com/tuCanalDeYouTube"  // Añade tu enlace real aquí
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Youtube"
-      >
-        <i class="fab fa-youtube" />
-      </a>
+      
       <a
         class="social-icon-link twitter"
-        href="https://www.twitter.com/tuPaginaDeTwitter"  // Añade tu enlace real aquí
+        href="https://x.com/i/flow/login?redirect_after_login=%2Ffundsantaclara"  
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Twitter"
       >
         <i class="fab fa-twitter" />
       </a>
-      <a
-        class="social-icon-link linkedin"
-        href="https://www.linkedin.com/tuPaginaDeLinkedIn"  // Añade tu enlace real aquí
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="LinkedIn"
-      >
-        <i class="fab fa-linkedin" />
-      </a>
+      
     </div>
   </div>
 </section>
