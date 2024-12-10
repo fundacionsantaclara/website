@@ -89,7 +89,7 @@
 /* Carousel Section */
 .carousel-container {
   width: 48%;
-  margin-top: 10px; /* Reducir margen superior para estar más cerca del texto */
+  margin-top: 10px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -98,8 +98,9 @@
 .btn-taller {
   display: flex;
   justify-content: center;
-  gap: 50px; /* Espacio de 50px entre los botones */
+  gap: 50px;
   margin-top: 20px;
+  margin-left: 400px;
 }
 
 .first-btn,
@@ -126,12 +127,12 @@
   align-items: center;
   gap: 40px;
   margin-top: 40px;
-  width: 90%; /* Ancho del contenedor para mantener las tarjetas alineadas */
+  width: 90%;
 }
 
 .SBcard,
 .SBcard2 {
-  width: 130%; /* Aumentar ancho para ocupar el máximo posible */
+  width: 130%;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -148,8 +149,8 @@
 .SBcard-content {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centrar contenido */
-  width: 100%; /* Aumentar el ancho para mantener centrado */
+  justify-content: center;
+  width: 100%;
 }
 
 .SBcard-image {
@@ -175,6 +176,24 @@
   color: #666;
 }
 
+/* Location Section */
+.location-btn {
+  display: inline-block;
+  margin-top: 65px;
+  padding: 10px 20px;
+  background-color: #9ed6b1;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.location-btn:hover {
+  background-color: #82b996;
+  transform: translateY(-3px);
+}
+
 /* Media Queries */
 
 /* Pantallas medianas */
@@ -192,7 +211,8 @@
 
   .btn-taller {
     gap: 30px;
-  }
+  margin-left: 0px;
+}
 
   .para-text2 {
     padding: 20px;
@@ -240,6 +260,7 @@
     width: 100%;
     height: 200px;
   }
+
   .taller__content {
     flex-wrap: inherit;
   }
