@@ -19,24 +19,66 @@ function Taller() {
       </div>
       <div className="taller-container">
         <div className="taller__content text__center">
+          {/* Card 1 */}
           <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-card1-title")}</h3>
-            <div className="paragraph-text">
-              <p className="text__grey">{t("taller-card1-para")}</p>
-              <p>{t("taller-card1-para2")}</p>
-            </div>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-card1-para") }}
+            ></div>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-card1-para2") }}
+            ></div>
           </div>
+
+          {/* Carousel */}
           <TallerCarousel />
-          <div className="para-text2">
-            <p>{t("taller-card2-para")}</p>
-            <p>{t("taller-card2-para2")}</p>
-            <p>{t("taller-card2-para3")}</p>
-            <div className="btn-taller">
-              <TallerWhatsappBtn />
-              <TallerEmail />
-            </div>
+
+          {/* Botones */}
+          <div className="btn-taller">
+            <TallerWhatsappBtn />
+            <TallerEmail />
           </div>
+
+       
+
           <TallerCarouselTheme />
+
+
+             {/* Card 2 */}
+             <div className="taller__text">
+            <h3 className="taller-text-title">{t("taller-card2-title")}</h3>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-card2-para") }}
+            ></div>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-card2-para2") }}
+            ></div>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-card2-para3") }}
+            ></div>
+          </div>
+
+          {/* Sección de Ubicación */}
+          <div className="taller__text">
+            <h3 className="taller-text-title">{t("taller-location-title")}</h3>
+            <div
+              className="paragraph-text"
+              dangerouslySetInnerHTML={{ __html: t("taller-location-para") }}
+            ></div>
+            <a
+              href="https://www.google.com/maps/place/Fundaci%C3%B3n+del+Convento+de+Santa+Clara"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="location-btn"
+            >
+              {t("taller-location-map-btn")}
+            </a>
+          </div>
           <TallerStorybook />
         </div>
       </div>
