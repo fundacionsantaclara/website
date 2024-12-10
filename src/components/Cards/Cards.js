@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import plataformaAlimentos from "../../Images/plataforma.png";
 import residencia from "../../Images/residencia.png";
 import huerto from "../../Images/huerto.png";
-import pisosAcogida from "../../Images/pisosAcogida.png";
+import pisosAcogida from "../Fcimages/pisos de acogida/acogida en piso 2.jpg";
 import tallerMuñecas from "../../Images/cosedor.png";
 import espacioDuchas from "../../Images/duchas.png";
 import cosedor from "../../Images/cosedorMoni.png";
