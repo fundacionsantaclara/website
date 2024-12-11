@@ -67,6 +67,7 @@
     margin-top: 20px;
     margin-left: 30%;
     flex-direction: column;
+    text-align: center;
   }
   
   .SBcard-content {
@@ -74,14 +75,14 @@
   }
   
   .SBcard-image {
-    width: 350px; /* Set the desired width for the image */
-    height: 350px; /* Set the desired height for the image */
+    width: 360px; /* Set the desired width for the image */
+    height: 360px; /* Set the desired height for the image */
     object-fit: cover;
     border-radius: 10px 0 0 10px; /* Rounded corners on the left side */
   }
   
   .SBtext-container {
-    padding: 50px;
+    padding: 10px;
   }
   
   .SBcard-title {
@@ -90,8 +91,9 @@
   }
   
   .SBcard-description {
-    font-size: 23px;
+    font-size: 18px;
     color: #666;
+    text-align: left; 
   }
   
   

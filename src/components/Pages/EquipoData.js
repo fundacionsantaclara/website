@@ -3,13 +3,13 @@ import lucia from "../Fcimages/Lucia.jpg";
 import merri from "../Fcimages/Meritxell.jpg";
 import gloria from "../Fcimages/gloria.jpg";
 import pilar from "../Fcimages/WhatsApp Image 2024-12-05 at 10.34.35.jpeg";
-import nuria from "../Fcimages/nuria.jpg";
+import nuria from "../Fcimages/equipot tecnico/nuriaEquipoTecnico.jpg";
 import marta from "../Fcimages/marta.png";
 import lali from "../Fcimages/lali.png";
 import eli from "../Fcimages/eli.jpg";
 import luis from "../Fcimages/luis.jpg";
 import miguel from "../Fcimages/miguel.jpg";
-import henry from "../Fcimages/henry.png";
+import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
 import monica from "../Fcimages/monica.jpg";
 import user from "../Fcimages/user.webp";
 import vane from "../Fcimages/vane.png";
@@ -49,7 +49,7 @@ const EquipoData = [
     id: 5,
     name: "Nuria Tatjé",
     role: "nuria",
-    imageUrl: user,
+    imageUrl: nuria,
     email: "nuriatatje@fsantaclara.org",
   },
   { id: 6,
@@ -97,7 +97,7 @@ const EquipoData = [
     id: 12,
     name: "Henry Kwofie",
     role: "henry",
-    imageUrl: user,
+    imageUrl: henry,
     email: "",
   },
   {
