@@ -290,15 +290,49 @@
 
 
   "corredores":"Corredores humanitarios",
-  "corredores-text": "24 de febrero 2022 Inició la Guerra en Ucrania. Las Necesidades como acogida de personas, ayuda humanitaria y corredores humanitarios era muy importante.",
-  "reto":"Reto hospital de campaña",
-  "corredores-p": "Para facilitar el traslado y rescate de los heridos, enviamos:",
-  "corredores-strong": "90 Ambulancias, Cada Ambulancia salva más de 100 vidas. 61 Generadores, traslado y tratamiento de heridos y dando acompañamiento.",
+  "corredores-text": "El 24 de febrero de 2022 marcó el inicio de un conflicto devastador en Ucrania, una guerra que trajo consigo innumerables necesidades urgentes: la acogida de personas desplazadas, el envío de ayuda humanitaria y la creación de corredores humanitarios para salvar vidas. Ante esta situación, respondimos con determinación, guiados por la certeza de que cada esfuerzo hace la diferencia.",
+  "corredores-text2":"Nuestra vida son vidas, y cada vida cuenta. Vivimos cada día la compasión, entendida como la pasión compartida con quienes sufren. Es nuestra misión y compromiso como Fundacíon humanizar la humanidad, extendiendo manos solidarias y construyendo esperanza en medio de la adversidad.",
+  "solicitamos-tu-ayuda":"Ayudanos a conseguir más:",
+  "reto":"<strong>Ambulancias </strong>",
+  "reto1":"<strong>Pick-ups</strong> ",
+  "reto2":"<strong>Generadores eléctricos</strong> ",
 
-  "acogida":"Acogida de Personas",
-  "acogida-text":"Al comenzar la guerra, fuimos a Ucrania para acoger a las personas que huían para salvar sus vidas.",
-  "acogida-strong":"Promovimos la insercion laboral, aprendizaje de la lengua y acompañamiento personalizado",
+  "corredores1":"Corredores humanitarios",
+  "corredores-p": "Ayudamos a llegar a España a unas 4.000 personas en los primeros seis meses de la guerra. ",
+  "corredores-p1":"Abrimos <strong>20 pisos de acogida</strong>  para que las familias pudieran tener estabilidad y buscamos pisos de alquiler social.",
+  "corredores-p2":" Acompañamos el proceso de <strong>regularizacion de papeles, tarjeta sanitaria, permisos de trabajo y escolarizacion de los niños</strong> .",
+  "corredores-p3":"Con el apoyo de INGESA (Instituto Nacional de Gestion Sanitaria)<strong> trajimos a España 86 heridos de la Guardia de Frontera y defensa de Ucrania</strong> .",
+  "corredores-p4":" Una vez recuperados los acompañamos a regresar a su país. A las personas mayores y ancianos les costó salir.", 
+  "corredores-p5":" En los momentos más dramáticos <strong>trajimos a España a 18 ancianos del Dombás</strong>. Enfermos oncológicos: <strong>Trajimos 60 enfermos oncológicos (adultos y niños) desde Kiev, Odesa, Moldavia, Lviv, etc</strong> .",
+  "corredores-strong": "146 Ambulancias , Cada Ambulancia salva más de 100 vidas. 86 Generadores, traslado y tratamiento de heridos y dando acompañamiento.",
   
+
+  "acompañamiento-personas":"Acompañamiento de personas",
+  "acompañamiento-personas-p":"Durante la visita a Odesa, después de unos ataques muy fuertes a la Ciudad, <strong> visitamos un sanatorio en el que se rehabilitan 150 jóvenes mutilados a causa de los ataques </strong>. ",
+  "acompañamiento-personas-p1":" Los profesionales solicitaron espacios de formación e intercambio.<strong> 252 SONRISAS PARA UCRANIA:</strong>  Durante 10 días, 252 niños y  adolescentes pudieron descansar lejos del terror de la guerra.",
+  "acompañamiento-personas-p2":" Visitamos los cementerios, escuchamos a las  familias, oramos con ellas y les transmitimos la cercanía de <strong>Papa Francisco</strong>, al igual que lo hacemos con los heridos.",
+  "acompañamiento-personas-p3":"Visitamos los hospitales y centros de rehabilitación, momentos que agradecen y generan esperanza.",
+  "acompañamiento-personas-p4":" A unos y otros les <strong>entregamos Rosarios del Santo Padre</strong> .",
+  "acompañamiento-strong":"",
+  
+ 
+  "ayuda-humanitaria":"Ayuda Humanitaria",
+  "ayuda-humanitaria-p":"Al trasladar a los heridos nos explicaron que sus compañeros morían en el campo de batalla por falta de ambulancias para atenderlos y rescatarlos de la muerte y <strong>  nos suplicaron buscáramos ambulancias</strong>.  ",
+  "ayuda-humanitaria-p1":"Junto a las ambulancias enviamos equipos de rescate: <strong> mochilas sanitarias, desfibriladores, botiquines, medicamentos</strong>.",
+  "ayuda-humanitaria-p2":"  <strong> Entregamos 44 pickups  </strong> para el  rescate de personas porque debido a los ataques, el estado de las carreteras es muy precario y la gente nos pidió Pickups para socorrer a los heridos.",
+  "ayuda-humanitaria-p3":" Los ataques a las infraestructuras someten a la población a la falta de energía y se hacen imprescindibles generadores para paliar esta carencia esencial.  <strong> Enviamos 118 generadores</strong> . El invierno es muy duro, y si no hay calefacción debido a los cortes de energía, el frio es el otro gran enemigo de la población.  <strong>  Enviamos 2 trailers con mantas térmicas nuevas</strong>. ",
+   "ayuda-humanitaria-p4": "Pudimos enviar, con el apoyo de <strong> Mensajeros de la paz</strong> , <strong>  un autobús con literas</strong> para facilitar el traslado de los prisioneros cuando son liberados.",
+  "ayuda-humanitaria-strong":"",
+  
+  "hospitales-campaña":"Hospitales de campaña",
+  "hospitales-campaña-p":"En enero del 2023 nos pidieron un Hospital de Campaña. ",
+  "hospitales-campaña-p1":"Con la ayuda del <strong>  Ministerio de Defensa de España pudimos entregar un “Role 2+” con capacidad quirúrgica</strong>.  En la base militar  de Zaragoza se formó a un equipo de profesionales para desplegarlos en el territorio.  ",
+  "hospitales-campaña-p2":"<strong> La Fundación entregó un  Hospital de campaña móvil que se instalo a 50 Km del frente y que permite salvar la vida de unas 20 personas por día.</strong> ",
+  "hospitales-campaña-strong":"",
+  
+  
+  "bizzum": "Podes ser parte",
+
 
 
   "josoc": "ACOMPAÑAMIENTO JURIDICO, FORMATIVO y LABORAL",

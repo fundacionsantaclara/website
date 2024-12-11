@@ -42,6 +42,20 @@
     font-size: 18px;
 }
 
+/* Subtitle Section */
+.corridores__subtitle {
+    font-size: 24px;
+    color: #555; /* Color gris oscuro */
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #ddd; /* Borde gris claro */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Fondo ligeramente diferente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
 /* Card Section - Retos */
 .reto-container {
     width: 100%;
@@ -114,6 +128,29 @@
     padding: 15px;
     border-radius: 8px;
 }
+
+
+/**/
+/* Ajuste de alineación y estilo para listas en las cards */
+.ucrania-part2-card-content ul {
+    list-style-type: disc; /* Viñetas */
+    padding-left: 20px; /* Espaciado izquierdo */
+    margin: 10px 0; /* Espaciado vertical */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+.ucrania-part2-card-content li {
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de letra */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 8px; /* Espaciado entre puntos */
+}
+
+/* Mantener consistencia de texto alineado a la izquierda */
+.ucrania-part2-card-content p {
+    text-align: left;
+}
+/**/
 
 .ucrania-part2-card p {
     color: #333;
@@ -215,5 +252,10 @@
 
     .ucrania-part2-card p {
         font-size: 14px;
+    }
+
+    .corridores__subtitle {
+        font-size: 18px;
+        padding: 8px;
     }
 }
