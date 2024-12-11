@@ -2,7 +2,7 @@ import React from "react";
 import "./TallerCarouselTheme.css";
 import { useTranslation } from "react-i18next";
 import Cuentos from "../Fcimages/Cesc i Clara.jpg";
-import Samarreta from "../Fcimages/samarreta_AvancemJunts.jpg";
+import Samarreta from "../Fcimages/taller de las nines/colection_la_caixa/Llibre 2.JPG";
 
 function TallerStorybook() {
   const { t } = useTranslation();
