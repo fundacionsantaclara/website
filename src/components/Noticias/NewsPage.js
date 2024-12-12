@@ -15,11 +15,7 @@ const NewsPage = () => {
   const TCcardData = [
     { image: noticia.main_img },
     { image: noticia.second_img },
-    { image: noticia.third_img },
-    { image: noticia.carrousel1 },
-    { image: noticia.carrousel2 },
-    { image: noticia.carrousel3 },
-    { image: noticia.carrousel4 },
+    { image: noticia.third_img }
   ];
 
   return (
