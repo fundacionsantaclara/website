@@ -232,18 +232,47 @@
     },
     {
       "id": 4,
-      "title": "Lanzamiento del Libro 'Invitados a Reconstruir': Un Llamado a la Solidaridad con Ucrania",
-      "subtitle": "Una obra que profundiza en la guerra de Ucrania y la importancia de la compasión en tiempos de conflicto",
+      "title": "Festejo de cumplemeses y cumpleaños de los niños del programa 'Estrena Vida'",
+      "subtitle": "Encuentro festivo para celebrar los “cumple años” y “cumple meses” ",
       "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
       "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
       "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
-      "body": "El reciente lanzamiento del libro 'Invitados a Reconstruir: Ucrania la guerra y la compasión', escrito por Sor Lucía Caram, ha reunido a varias personalidades influyentes para hablar sobre la situación en Ucrania. La ministra de Defensa, Margarita Robles, destacó durante el evento la justicia de la causa ucraniana y la necesidad de enfrentar regímenes autoritarios como el de Putin en Rusia.\n\nAdemás, figuras como Juan Carlos Cruz, Henry Kwofie y Masala contribuyeron con sus perspectivas únicas sobre la guerra, subrayando la importancia de apoyar los esfuerzos de paz y la ayuda humanitaria. Cada uno de ellos, desde su experiencia y visión, reforzó el mensaje central del libro: la urgencia de solidarizarse con Ucrania y la importancia de la compasión en tiempos de conflicto.\n\nLa obra de Sor Lucía Caram no solo narra los hechos del conflicto ucraniano, sino que también plantea una reflexión profunda sobre la respuesta internacional ante la guerra. Hace un llamado a la acción, enfatizando la importancia de la ayuda humanitaria y la necesidad de una solución pacífica. A través de sus páginas, 'Invitados a Reconstruir' se convierte en una plataforma para entender mejor la crisis en Ucrania y para movilizar a la sociedad en apoyo a los esfuerzos por restaurar la paz y brindar alivio a las víctimas del conflicto.",
-      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
-      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
-      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
+      "body": "El encuentro celebrado en pleno verano  fue un evento lleno de alegría y color. Se organizó como  una fiesta de cumpleaños para los menores  y algunos  pudieron “ soplar” sus velitas de “cumple años” y otros  de “cumple meses”. Pudimos contar con estupendos voluntarios que organizaron  variados talleres de pintacaras, pompas de jabón ,  pulseras y dibujos.Durante la fiesta se homenajeó con una banda y un obsequio a las “mamás” que dejaban el proyecto Estrena Vida dado que sus hijos ya habían cumplido 2 años. Disfrutamos de una merienda internacional  para la cual    las familias habían preparado  deliciosas comidas típicas de sus países .Queremos destacar la colaboración del  laboratorio MartíDerm que organizó un taller de cuidado de la piel dirigido por la dermatòloga Dra. Montse Pérez  dando  a las mamás consejos útiles para proteger la piel de sus hijos y la suya propia. Todos los niños y niñas recibieron un regalo y  pudieron irse  con globos de colores que pusieron más color y diversión al evento.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/367E8B34-1EC9-4D22-A50B-4FA2A7D302E6.JPG",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/5EB22EFE-79F3-4E30-9860-40DBF60C8D96.JPG",
       "ubicacion": "Manresa - Barcelona, España",
        "date": "06/08/2024"
+    },
+    {
+      "id": 5,
+      "title": "Gran Recapte 2024",
+      "subtitle": "Los días 22 y 23 de noviembre se llevó a cabo el Gran Recapte, recogiendo un total de 23.334 kilos de alimentos básicos, productos de higiene y de bebés. Hubo una gran participación, tanto de donantes como de voluntarios.",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830380.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830402.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830412.jpg",
+      "body": "El Gran Recapte, celebrado los días 22 y 23 de noviembre, fue un destacado ejemplo de solidaridad y compromiso comunitario.\nEsta iniciativa, llevada a cabo en un total de 23 establecimientos de Manresa, Sant Fruitós de Bages y Sant Joan de Vilatorrada, contó con la colaboración de unos 300 voluntarios, que dedicaron tiempo y esfuerzo para lograr una recogida de alimentos histórica.\n\nEn total, se recolectaron 23.334 kilos de alimentos, una cifra que refleja el espíritu altruista de la ciudadanía.\nEstos alimentos servirán para cubrir las necesidades básicas de alimentación de cerca de 1.000 familias de Manresa, asegurando que las personas más vulnerables de la ciudad puedan acceder a productos esenciales.\n\nAdemás, en un gesto que rompe fronteras, una parte de los alimentos recolectados se destinará a los damnificados por la DANA en Valencia.\nEsta acción, motivada por la devastación causada por las lluvias torrenciales en la zona, simboliza la capacidad de la comunidad para extender su ayuda más allá del territorio inmediato.\n\nEl Gran Recapte puso de manifiesto, una vez más, la fuerza del trabajo conjunto entre voluntarios, ciudadanos y establecimientos comerciales, así como la importancia de mantener viva la solidaridad en momentos de incertidumbre y necesidad.\nDesde la organización, se quiere agradecer profundamente la implicación de todas las personas que participaron e hicieron posible este éxito colectivo.\n\nGracias a iniciativas como esta, muchas familias podrán afrontar el futuro con un poco más de esperanza.\nEl Gran Recapte es mucho más que una recogida de alimentos; es una muestra de la humanidad y la unión que nos definen como sociedad.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830407.jpg",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830386.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830426.jpg",
+      "ubicacion": "Manresa - Barcelona, España",
+      "date": "06/08/2024"
+    },
+    {
+      "id": 6,
+      "title": "Taller de Arteterapia",
+      "subtitle": "Ideas innovadoras. Sesiones de Arteterapia (Espai Caixa Francesc d’Assís)",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3726.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3729.jpg",
+      "body": "El día 10 de diciembre, las chicas trajeron cáscaras de pistacho y algunos trozos de espejos y realizaron ellas mismas estos bonitos marcos decorados. (Reciclamos y reutilizamos lo que tenemos en casa). Este taller ha sido una oportunidad para explorar la creatividad y la sensibilidad artística de cada participante, fomentando la sostenibilidad y la reutilización de materiales.\n\nDurante la sesión, las participantes compartieron ideas y colaboraron para dar forma a sus creaciones, fomentando la cohesión grupal y la autosuperación personal. Los marcos decorados son una muestra del talento y el esfuerzo invertido, convirtiendo objetos simples en verdaderas obras de arte.\n\nEste tipo de actividades no solo permiten expresar emociones a través del arte, sino que también refuerzan habilidades sociales, como el trabajo en equipo y la comunicación. El espacio dedicado a la arteterapia se ha convertido en un refugio para las participantes, un lugar donde pueden dejar volar su imaginación y encontrar un momento de paz y autoexploración.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "carrousel2": "",
+      "carrousel3": "",
+      "ubicacion": "Manresa - Barcelona, España",
+      "date": "10/12/2024"
     }
+    
+    
     
   ],
 

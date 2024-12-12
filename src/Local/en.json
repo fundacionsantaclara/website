@@ -231,7 +231,51 @@
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
       "ubicacion": "Barcelona, Spain",
       "date": "27/03/2024"
+    },
+    {
+      "id": 4,
+      "title": "Monthly and Birthday Celebrations for the Children of the 'Estrena Vida' Program",
+      "subtitle": "Festive gathering to celebrate 'birthdays' and 'month-birthdays'",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
+      "body": "The gathering held in the heart of summer was a joyful and colorful event. It was organized as a birthday party for the children, with some celebrating their 'birthdays' and others their 'month-birthdays.' Wonderful volunteers organized various workshops, including face painting, soap bubbles, bracelet-making, and drawing. During the celebration, a special tribute was made with a sash and a gift for the mothers leaving the 'Estrena Vida' project, as their children had turned 2 years old. We enjoyed an international snack prepared by families who brought delicious traditional dishes from their countries. We would like to highlight the collaboration of the MartíDerm laboratory, which organized a skincare workshop led by dermatologist Dr. Montse Pérez, offering mothers useful tips to protect their children's skin and their own. All the children received gifts and left with colorful balloons that added more joy and fun to the event.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/367E8B34-1EC9-4D22-A50B-4FA2A7D302E6.JPG",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/5EB22EFE-79F3-4E30-9860-40DBF60C8D96.JPG",
+      "ubicacion": "Manresa - Barcelona, Spain",
+      "date": "08/06/2024"
+    },
+    {
+      "id": 5,
+      "title": "Gran Recapte 2024",
+      "subtitle": "On November 22 and 23, the Gran Recapte took place, collecting a total of 23,334 kilos of basic food, hygiene products, and baby items. There was strong participation from both donors and volunteers.",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830380.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830402.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830412.jpg",
+      "body": "The Gran Recapte, held on November 22 and 23, was a remarkable example of solidarity and community commitment.\nThis initiative, carried out in a total of 23 establishments in Manresa, Sant Fruitós de Bages, and Sant Joan de Vilatorrada, involved around 300 volunteers who dedicated their time and effort to achieve a historic food collection.\n\nIn total, 23,334 kilos of food were collected, reflecting the altruistic spirit of the citizens.\nThese food items will help meet the basic nutritional needs of approximately 1,000 families in Manresa, ensuring that the most vulnerable people in the city have access to essential products.\n\nAdditionally, in a gesture that transcends borders, part of the collected food will be sent to those affected by the DANA in Valencia.\nThis action, driven by the devastation caused by torrential rains in the area, symbolizes the community's ability to extend its help beyond its immediate territory.\n\nThe Gran Recapte once again highlighted the strength of joint efforts between volunteers, citizens, and commercial establishments, as well as the importance of keeping solidarity alive in times of uncertainty and need.\nThe organization wishes to deeply thank all those who participated and made this collective success possible.\n\nThanks to initiatives like this, many families will be able to face the future with a bit more hope.\nThe Gran Recapte is much more than a food collection; it is a demonstration of humanity and unity that defines us as a society.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830407.jpg",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830386.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830426.jpg",
+      "ubicacion": "Manresa - Barcelona, Spain",
+      "date": "06/08/2024"
+    },
+    {
+      "id": 6,
+      "title": "Art Therapy Workshop",
+      "subtitle": "Innovative Ideas. Art Therapy Sessions (Espai Caixa Francesc d’Assís)",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3726.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3729.jpg",
+      "body": "On December 10th, the girls brought pistachio shells and some pieces of mirrors and created these beautiful decorated frames themselves. (We recycle and reuse what we have at home). This workshop was an opportunity to explore each participant's creativity and artistic sensitivity, while promoting sustainability and material reuse.\n\nDuring the session, participants shared ideas and collaborated to shape their creations, fostering group cohesion and personal self-improvement. The decorated frames are a testament to the talent and effort invested, turning simple objects into true works of art.\n\nThese types of activities not only allow emotions to be expressed through art but also strengthen social skills such as teamwork and communication. The space dedicated to art therapy has become a refuge for the participants, a place where they can let their imagination run wild and find a moment of peace and self-discovery.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "carrousel2": "",
+      "carrousel3": "",
+      "ubicacion": "Manresa - Barcelona, Spain",
+      "date": "10/12/2024"
     }
+    
+    
+    
     
   ],
 
