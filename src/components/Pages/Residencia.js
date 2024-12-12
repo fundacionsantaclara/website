@@ -1,9 +1,9 @@
 import React from 'react'
 import './Residencia.css'
-import resifoto from '../Fcimages/Residencia/b6ad9242-642e-440b-998c-565d44b3751c.jpg';
-import resifototwo from '../Fcimages/Residencia/b7a2e702-12b9-4a9b-ac82-d9abc048fdea.jpg';
-import resifototree from '../Fcimages/Residencia/56e89fbb-3fbf-4213-a484-bd0702fb61dd.jpg'
-import resifotofour from '../Fcimages/Residencia/IMG_1303.jpg'
+import resifoto from '../Fcimages/Residencia//FOTO RESIDENCIA 1.jpg';
+import resifototwo from '../Fcimages/Residencia/FOTO REISDENCIA 3.jpg';
+import resifototree from '../Fcimages/Residencia/FOTO RESIDENCIA 4.jpg'
+import resifotofour from '../Fcimages/Residencia/FOTO RESIDENCIA 2.JPG'
 import { useTranslation } from "react-i18next";
 
 function Residencia() {
