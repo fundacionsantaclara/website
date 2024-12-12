@@ -234,16 +234,15 @@
       "id": 4,
       "title": "Lanzamiento del Libro 'Invitados a Reconstruir': Un Llamado a la Solidaridad con Ucrania",
       "subtitle": "Una obra que profundiza en la guerra de Ucrania y la importancia de la compasión en tiempos de conflicto",
-      "main_img": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/Libro2.jpg",
-      "second_img": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro.jpeg",
-      "third_img": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro.jpg",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
       "body": "El reciente lanzamiento del libro 'Invitados a Reconstruir: Ucrania la guerra y la compasión', escrito por Sor Lucía Caram, ha reunido a varias personalidades influyentes para hablar sobre la situación en Ucrania. La ministra de Defensa, Margarita Robles, destacó durante el evento la justicia de la causa ucraniana y la necesidad de enfrentar regímenes autoritarios como el de Putin en Rusia.\n\nAdemás, figuras como Juan Carlos Cruz, Henry Kwofie y Masala contribuyeron con sus perspectivas únicas sobre la guerra, subrayando la importancia de apoyar los esfuerzos de paz y la ayuda humanitaria. Cada uno de ellos, desde su experiencia y visión, reforzó el mensaje central del libro: la urgencia de solidarizarse con Ucrania y la importancia de la compasión en tiempos de conflicto.\n\nLa obra de Sor Lucía Caram no solo narra los hechos del conflicto ucraniano, sino que también plantea una reflexión profunda sobre la respuesta internacional ante la guerra. Hace un llamado a la acción, enfatizando la importancia de la ayuda humanitaria y la necesidad de una solución pacífica. A través de sus páginas, 'Invitados a Reconstruir' se convierte en una plataforma para entender mejor la crisis en Ucrania y para movilizar a la sociedad en apoyo a los esfuerzos por restaurar la paz y brindar alivio a las víctimas del conflicto.",
-      "carrousel1": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro3.jpg",
-      "carrousel2": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro4.jpg",
-      "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
-      "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
-      "ubicacion": "Barcelona, España",
-       "date": "27/03/2024"
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
+      "ubicacion": "Manresa - Barcelona, España",
+       "date": "06/08/2024"
     }
     
   ],
