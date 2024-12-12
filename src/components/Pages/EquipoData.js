@@ -10,7 +10,7 @@ import eli from "../Fcimages/eli.jpg";
 import luis from "../Fcimages/luis.jpg";
 import miguel from "../Fcimages/miguel.jpg";
 import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
-import monica from "../Fcimages/monica.jpg";
+import monica from "../Fcimages/equipot tecnico/Monica.jpg";
 import user from "../Fcimages/user.webp";
 import vane from "../Fcimages/vane.png";
 import manel from "../Fcimages/manel.png";
