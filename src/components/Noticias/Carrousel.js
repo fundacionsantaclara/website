@@ -6,9 +6,14 @@ const Carrousel = ({ images }) => {
   const scrollContainerRef = useRef();
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Filtrar imágenes válidas (URL no vacías, no nulas y que sean strings)
+  const validImages = images.filter(
+    (image) => image && typeof image === "string"
+  );
+
   const handleLeftClick = () => {
     if (scrollContainerRef.current) {
-      const newIndex = (currentIndex - 1 + images.length) % images.length;
+      const newIndex = (currentIndex - 1 + validImages.length) % validImages.length;
       setCurrentIndex(newIndex);
       scrollContainerRef.current.scrollTo({
         left: newIndex * window.innerWidth,
@@ -19,7 +24,7 @@ const Carrousel = ({ images }) => {
 
   const handleRightClick = () => {
     if (scrollContainerRef.current) {
-      const newIndex = (currentIndex + 1) % images.length;
+      const newIndex = (currentIndex + 1) % validImages.length;
       setCurrentIndex(newIndex);
       scrollContainerRef.current.scrollTo({
         left: newIndex * window.innerWidth,
@@ -45,7 +50,7 @@ const Carrousel = ({ images }) => {
         className="arrow fa-arrow-left"
       />
       <div ref={scrollContainerRef} className="carrousel-scroll-container">
-        {images.map((image, index) => (
+        {validImages.map((image, index) => (
           <div className="carrousel-image-container" key={index}>
             <img src={image} alt={`Imagen del carrousel ${index}`} />
           </div>

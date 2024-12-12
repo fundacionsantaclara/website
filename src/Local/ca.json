@@ -231,7 +231,51 @@
   "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
   "ubicacion": "Barcelona, Espanya",
   "date": "27/03/2024"
+    },
+    {
+      "id": 4,
+      "title": "Celebració de Cumplemesos i Aniversaris dels Infants del Programa 'Estrena Vida'",
+      "subtitle": "Trobada festiva per celebrar els 'aniversaris' i els 'cumplemesos'",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/IMG-20240806-WA0030.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-193007_Drive.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/Screenshot_20241201-194702_Drive.jpg",
+      "body": "La trobada celebrada en ple estiu va ser un esdeveniment ple d’alegria i color. Es va organitzar com una festa d’aniversari per als més petits, amb alguns bufant les espelmes dels seus 'aniversaris' i altres dels seus 'cumplemesos.' Vam comptar amb excel·lents voluntaris que van organitzar diversos tallers com pintura facial, bombolles de sabó, creació de polseres i dibuixos. Durant la festa, es va retre homenatge amb una banda i un obsequi a les mares que deixaven el projecte 'Estrena Vida,' ja que els seus fills havien complert 2 anys. Vam gaudir d’un berenar internacional preparat per les famílies, que van portar deliciosos plats típics dels seus països. Volem destacar la col·laboració del laboratori MartíDerm, que va organitzar un taller de cura de la pell dirigit per la dermatòloga Dra. Montse Pérez, oferint a les mares consells útils per protegir la pell dels seus fills i la seva pròpia. Tots els infants van rebre un regal i es van emportar globus de colors que van posar més alegria i diversió a l’esdeveniment.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/367E8B34-1EC9-4D22-A50B-4FA2A7D302E6.JPG",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/5EB22EFE-79F3-4E30-9860-40DBF60C8D96.JPG",
+      "ubicacion": "Manresa - Barcelona, Espanya",
+      "date": "06/08/2024"
+    },
+    {
+      "id": 5,
+      "title": "Gran Recapte 2024",
+      "subtitle": "Els dies 22 i 23 de novembre es va portar a terme el Gran Recapte, recollint un total de 23.334 quilos d'aliments bàsics, productes d'higiene i de nadons. Hi va haver una bona participació, tant de donants com de voluntaris.",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830380.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830402.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830412.jpg",
+      "body": "El Gran Recapte, celebrat els dies 22 i 23 de novembre, ha estat un exemple destacat de solidaritat i compromís comunitari.\nAquesta iniciativa, desenvolupada en un total de 23 establiments de Manresa, Sant Fruitós de Bages i Sant Joan de Vilatorrada, ha comptat amb la col·laboració d'uns 300 voluntaris, que han dedicat temps i esforç per aconseguir una recollida d’aliments històrica.\n\nEn total, s'han recollit 23.334 quilos d'aliments, una xifra que reflecteix l'esperit altruista de la ciutadania.\nAquests aliments serviran per cobrir les necessitats bàsiques d’alimentació de prop de 1.000 famílies de Manresa, assegurant que les persones més vulnerables de la ciutat puguin accedir a productes essencials.\n\nA més, en un gest que trenca fronteres, una part dels aliments recollits es destinarà als damnificats per la DANA a València.\nAquesta acció, motivada per la devastació causada per les pluges torrencials a la zona, simbolitza la capacitat de la comunitat per estendre la seva ajuda més enllà del territori immediat.\n\nEl Gran Recapte ha posat de manifest, un cop més, la força del treball conjunt entre voluntaris, ciutadans i establiments comercials, així com la importància de mantenir viva la solidaritat en moments d’incertesa i necessitat.\nDes de l’organització, es vol agrair profundament la implicació de totes les persones que han participat i han fet possible aquest èxit col·lectiu.\n\nGràcies a iniciatives com aquesta, moltes famílies podran afrontar el futur amb una mica més d’esperança.\nEl Gran Recapte és molt més que una recollida d’aliments; és una mostra de la humanitat i la unió que ens defineixen com a societat.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830407.jpg",
+      "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830386.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830426.jpg",
+      "ubicacion": "Manresa - Barcelona, Espanya",
+      "date": "06/08/2024"
+    },
+    {
+      "id": 6,
+      "title": "Taller d’Artteràpia",
+      "subtitle": "Idees innovadores. Sessions d'Artteràpia (Espai Caixa Francesc d’Assís)",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3726.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3729.jpg",
+      "body": "El dia 10 de desembre, les noies han portat closques de pistatxo i alguns trossos de miralls i han realitzat elles mateixes aquests bonics marcs decorats. (Reciclem i reaprofitem el que tenim per a casa). Aquest taller ha estat una oportunitat per explorar la creativitat i la sensibilitat artística de cada participant, alhora que fomenta la sostenibilitat i la reutilització de materials.\n\nDurant la sessió, les participants han compartit idees i han col·laborat per donar forma a les seves creacions, fomentant la cohesió de grup i l’autosuperació personal. Els marcs decorats són una mostra del talent i de l’esforç invertit, convertint objectes simples en veritables obres d’art.\n\nAquest tipus d’activitats no només permeten expressar emocions a través de l’art, sinó també reforcen habilitats socials, com el treball en equip i la comunicació. L’espai dedicat a l’artteràpia s’ha convertit en un refugi per a les participants, un lloc on poden deixar volar la seva imaginació i trobar un moment de pau i autoexploració.",
+      "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/cusidor/10-12-2024-ALLER%20D%E2%80%99ARTTER%C3%80PIA/IMG_3722.jpg",
+      "carrousel2": "",
+      "carrousel3": "",
+      "ubicacion": "Manresa - Barcelona, Espanya",
+      "date": "10/12/2024"
     }
+    
+    
+    
     
   ],
 
