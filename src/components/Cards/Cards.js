@@ -3,7 +3,7 @@ import CardsItems from "./CardsItems";
 import "./Cards.css";
 import { useTranslation } from "react-i18next";
 import plataformaAlimentos from "../../Images/plataforma.png";
-import residencia from "../../Images/residencia.png";
+import residencia from "../Fcimages/Residencia/FOTO PORTADA RESIDENCIA WEB.jpg";
 import huerto from "../../Images/huerto.png";
 import pisosAcogida from "../Fcimages/pisos de acogida/acogida en piso 2.jpg";
 import tallerMuñecas from "../../Images/cosedor.png";
