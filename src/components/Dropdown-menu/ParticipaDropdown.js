@@ -13,19 +13,32 @@ function ParticipaDropdown({ closeMenu }) {
         className={dropdown ? "about-submenu clicked" : "about-submenu"}
         onClick={() => setDropdown(!dropdown)}
       >
-        {participarDropdown.map((item) => {
-          return (
-            <li key={item.id}>
-              <Link
-                to={item.path}
-                className={item.cName}
-                onClick={closeMenu}
-              >
-                {t(item.title)}
-              </Link>
-            </li>
-          );
-        })}
+       {participarDropdown.map((item) => {
+  const isExternal = item.path.startsWith("http");
+  return (
+    <li key={item.id}>
+      {isExternal ? (
+        <a
+          href={item.path}
+          className={item.cName}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
+          {t(item.title)}
+        </a>
+      ) : (
+        <Link
+          to={item.path}
+          className={item.cName}
+          onClick={closeMenu}
+        >
+          {t(item.title)}
+        </Link>
+      )}
+    </li>
+  );
+})}
       </ul>
     </>
   );

@@ -46,6 +46,8 @@ function Navi() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             {MenuList.map((item, index) => {
+              const isExternal = item.isExternal; // Detectar enlaces externos
+
               if (item.title === "nosotros") {
                 return (
                   <li
@@ -79,31 +81,45 @@ function Navi() {
                     >
                       {t(item.title)}
                     </Link>
-                    {dropdown2 && <ParticipaDropdown closeMenu={closeMobileMenu}/>}
+                    {dropdown2 && <ParticipaDropdown closeMenu={closeMobileMenu} />}
                   </li>
                 );
               }
+
               return (
                 <li key={index} className={item.cName}>
-                  <Link
-                    to={item.url}
-                    className="nav-links"
-                    onClick={closeMobileMenu}
-                  >
-                    {t(item.title)}
-                  </Link>
+                  {isExternal ? (
+                    <a
+                      href={item.url}
+                      className="nav-links"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={closeMobileMenu}
+                    >
+                      {t(item.title)}
+                    </a>
+                  ) : (
+                    <Link
+                      to={item.url}
+                      className="nav-links"
+                      onClick={closeMobileMenu}
+                    >
+                      {t(item.title)}
+                    </Link>
+                  )}
                 </li>
               );
             })}
-            
           </ul>
           {button && (
-            <Link
-              to="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
+            <a
+              href="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
               className="button donativo"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <strong>{t("donativo")}</strong>
-            </Link>
+            </a>
           )}
         </div>
       </nav>
