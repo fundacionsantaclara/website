@@ -287,7 +287,19 @@
       "ubicacion": "Manresa - Barcelona, España",
       "date": "12/12/2024"
     }
-    
+    ,
+    {
+      "id": 8,
+      "title": "Comida de Navidad",
+      "subtitle": "El día 13 de diciembre se celebró la comida de Navidad de voluntarios y trabajadores de la Fundación.",
+      "body": " El  viernes 13 de diciembre, como ya se viene haciendo en los últimos años, la Fundación del Convento de Santa Clara organizó un encuentro para trabajadores y voluntarios en la casa de colonias Dom Bosco, en Castellnou de Bages. El evento reunió a unas 100 personas, que compartieron un rato lleno de convivencia y reconocimiento.      Después de la comida, algunos participantes visitaron la iglesia y el Museo de los Maquis, enriqueciendo así la experiencia cultural del encuentro, y disfrutando del casco histórico del pueblo. Este acto es una muestra de agradecimiento a todos aquellos que colaboran con la Fundación, dedicando su tiempo y esfuerzo a los proyectos que apoyan a las personas más vulnerables. Su implicación es clave, ya que, sin su colaboración, el trabajo de la Fundación sería mucho más difícil. Somos muy afortunados de contar con voluntarios tan comprometidos, que día a día hacen posible que los proyectos sean una realidad. Entre los asistentes había voluntarios implicados en proyectos tan diversos como la Plataforma, los pisos de acogida, los huertos, los talleres, el costurero y las duchas, todos ellos fundamentales para el funcionamiento de la Fundación y su labor social.",
+       "carrousel1":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/",
+      "carrousel2":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/",
+      "carrousel4": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/",
+      "ubicacion": "Castellnou de Bages -Manresa",
+      "date": "13/12/2024"
+    }
     
     
   ],
