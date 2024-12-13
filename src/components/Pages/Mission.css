@@ -1,14 +1,14 @@
 .MV-container {
   margin-top: 20px;
   margin-bottom: 70px;
-  padding: 20px; /* Añadido para darle algo de espacio interno */
-  border-radius: 20px; /* Bordes redondeados */
-  background-color: #f8f8f8; /* Color de fondo para destacar el contenedor */
-  width: 90%; /* Aumentar el ancho del contenedor */
-  max-width: 1200px; /* Limitar el ancho máximo para pantallas grandes */
-  margin-left: auto; /* Centrar el contenedor */
-  margin-right: auto; /* Centrar el contenedor */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir una sombra para destacar */
+  padding: 20px; 
+  border-radius: 20px; 
+  background-color: #f8f8f8; 
+  width: 90%; 
+  max-width: 1200px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   margin-bottom: 20px;
 }
 
@@ -17,44 +17,44 @@
 .Vission-card {
   display: flex;
   overflow: hidden;
-  justify-content: space-between; /* Asegura que los elementos se distribuyan de manera proporcional */
-  margin: 20px auto; /* Centrar la tarjeta y dar algo de espacio arriba y abajo */
-  padding: 20px; /* Añadir espacio interno */
-  border-radius: 15px; /* Bordes redondeados para las tarjetas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle un efecto flotante */
-  background-color: #fff; /* Fondo blanco para las tarjetas */
-  max-width: 100%; /* Limitar el ancho máximo */
+  justify-content: space-between; 
+  margin: 20px auto;
+  padding: 20px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+  max-width: 100%; 
 }
 
 .Mission-card-text,
 .Values-card-text,
 .Vission-card-text {
-  flex: 1.5; /* Hace que el texto ocupe más espacio que la imagen */
-  padding: 40px; /* Reducir el padding para hacerlo más limpio */
-  border-radius: 10px; /* Añadir bordes redondeados */
+  flex: 1.5;
+  padding: 40px; 
+  border-radius: 10px;
 }
 
 .Mission-card-text {
-  background-color: rgba(203, 238, 211, 0.8); /* Color de fondo con opacidad */
+  background-color: rgba(203, 238, 211, 0.8); 
   color: #454444;
 }
 
 .Values-card-text {
-  background-color: rgba(203, 238, 211, 0.8); /* Color de fondo con opacidad */
+  background-color: rgba(203, 238, 211, 0.8); 
   color: #454444;
 }
 
 .Vission-card-text {
-  background-color: rgba(79, 82, 77, 0.9); /* Color de fondo con opacidad */
+  background-color: rgba(79, 82, 77, 0.9); 
   color: #80be9f;
 }
 
 .Mission-card-image,
 .Values-card-image,
 .Vission-card-image {
-  flex: 1; /* Hace que la imagen ocupe menos espacio */
-  border-radius: 10px; /* Añadir bordes redondeados a la imagen */
-  overflow: hidden; /* Asegura que la imagen respete los bordes redondeados */
+  flex: 1;
+  border-radius: 10px; 
+  overflow: hidden; 
 }
 
 .Mission-card-image img,
@@ -63,29 +63,29 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px; /* Bordes levemente redondeados */
+  border-radius: 10px; 
 }
 
-/* Media query for small screens (up to 768px width) */
+
 @media (max-width: 968px) {
   .Mission-card,
   .Values-card,
   .Vission-card {
-      flex-direction: column; /* Colocar elementos uno debajo del otro en pantallas pequeñas */
-      padding: 20px; /* Ajustar el padding para pantallas pequeñas */
+      flex-direction: column;
+      padding: 20px;
   }
 
   .Mission-card-text,
   .Values-card-text,
   .Vission-card-text {
-      padding: 20px; /* Reducir el padding en pantallas pequeñas */
-      margin-bottom: 20px; /* Espacio debajo del texto antes de la imagen */
+      padding: 20px;
+      margin-bottom: 20px;
   }
 
   .Mission-card-image img,
   .Values-card-image img,
   .Vission-card-image img {
-      width: 100%; /* Asegura que la imagen ocupe el ancho completo en pantallas pequeñas */
-      height: auto; /* Mantener la proporción */
+      width: 100%;
+      height: auto; 
   }
 }

@@ -27,12 +27,12 @@ const Videopart = () => {
   const { t } = useTranslation();
   
   const data = [
-    { label: t("videoPage.infancias"), value: 600 },
+    { label: t("videoPage.infancias"), value: 614 },
     { label: t("videoPage.alimentos"), value: 500 
 
 
      },
-    { label:  t("videoPage.pisosDeAcogida"), value: 50 },
+    { label:  t("videoPage.pisosDeAcogida"), value: 58 },
     { label:  t("videoPage.refugiadosYHeridos"), value: 89 },
     { label: t("videoPage.regularizacionDePapeles"), value: 110 },
   ];
@@ -43,10 +43,10 @@ const Videopart = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Adjust the speed in milliseconds
+    autoplaySpeed: 2000,
   };
 
-  // Imágenes del carrusel
+
   const carouselImages = [infancia1, alimentos1, refugiados2, refugiados1,yosoy1 ,  infancia3,alimentos2, yosoy2,infancia4, refugiados4,refugiados5,infancia5,refugiados6, alimentos5, refugiados7 ];
 
   return (
@@ -61,7 +61,7 @@ const Videopart = () => {
           </div>
         </div>
 
-        {/* Contenedor del carrusel */}
+       
         <div className="slideshow-section">
           <Slider {...settings}>
             {carouselImages.map((imgSrc, index) => (

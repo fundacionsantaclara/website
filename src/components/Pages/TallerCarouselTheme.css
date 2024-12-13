@@ -1,4 +1,4 @@
-/* Card.css */
+
 .TCcard {
     width: 300px;
     height: 370px;
@@ -44,10 +44,9 @@
 
   .TCcards-wrapper {
     display: flex;
-    animation: scroll 30s linear infinite; /* Animation for continuous horizontal scrolling */
+    animation: scroll 30s linear infinite; 
   }
-  
-/* Storybook Card.css */
+
 
 .SBcard {
     width: 70%;
@@ -75,10 +74,10 @@
   }
   
   .SBcard-image {
-    width: 360px; /* Set the desired width for the image */
-    height: 360px; /* Set the desired height for the image */
+    width: 360px; 
+    height: 360px;
     object-fit: cover;
-    border-radius: 10px 0 0 10px; /* Rounded corners on the left side */
+    border-radius: 10px 0 0 10px; 
   }
   
   .SBtext-container {

@@ -19,7 +19,7 @@ function Taller() {
       </div>
       <div className="taller-container">
         <div className="taller__content text__center">
-          {/* Card 1 */}
+ 
           <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-card1-title")}</h3>
             <div
@@ -32,10 +32,9 @@ function Taller() {
             ></div>
           </div>
 
-          {/* Carousel */}
           <TallerCarousel />
 
-          {/* Botones */}
+          
           <div className="btn-taller">
             <TallerWhatsappBtn />
             <TallerEmail />
@@ -46,7 +45,7 @@ function Taller() {
           <TallerCarouselTheme />
 
 
-             {/* Card 2 */}
+             
              <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-card2-title")}</h3>
             <div
@@ -63,7 +62,7 @@ function Taller() {
             ></div>
           </div>
 
-          {/* Sección de Ubicación */}
+       
           <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-location-title")}</h3>
             <div

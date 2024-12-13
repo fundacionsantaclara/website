@@ -1,70 +1,66 @@
-/* Equipo.css */
 
-/* Contenedor General */
 .equipo-container {
   padding: 40px;
-  background-color: #f5f5f5; /* Color claro para el fondo de la sección */
+  background-color: #f5f5f5; 
   max-width: 1400px;
   margin: 0 auto;
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Añadir sombra suave para destacar el contenedor */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Título del Equipo */
+
 .equipo-title {
   font-size: 42px;
   text-align: center;
   padding: 20px;
   margin-bottom: 30px;
-  color: #4c4949; /* Cambiar el color del texto a blanco para mejor contraste */
+  color: #4c4949; 
   font-weight: bold;
   margin-top: -30px;
-  background-color: #dedbdb; /* Fondo oscuro para que el título resalte */
-  border-radius: 0; /* Quitar los bordes redondeados si quieres que sea un bloque completo */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle un efecto flotante */
-  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
-  padding-left: 0; /* Ajuste opcional: Puedes poner 0 o ajustar el padding según tu preferencia */
-  padding-right: 0; /* Ajuste opcional: Puedes poner 0 o ajustar el padding según tu preferencia */
+  background-color: #dedbdb;
+  border-radius: 0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
+  padding-left: 0; 
+  padding-right: 0; 
 }
 
-/* Contenedor de Perfiles */
+
 .profiles {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-  grid-gap: 20px; /* Espacio entre las tarjetas */
-  justify-content: center; /* Siempre mantener el centro del contenedor */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
   padding: 20px;
   margin-top: -40px;
 }
 
-/* Tarjetas de Perfiles */
 .profile {
-  background-color: #ffffff; /* Fondo blanco para las tarjetas */
+  background-color: #ffffff; 
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   padding: 20px;
-  width: 250px; /* Tarjetas más pequeñas */
+  width: 250px; 
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile:hover {
-  transform: translateY(-10px); /* Levanta un poco la tarjeta al pasar el ratón */
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Intensifica la sombra para un efecto más atractivo */
+  transform: translateY(-10px); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
 }
 
-/* Imágenes de Perfiles */
+
 .profile img {
-  width: 180px; /* Mantener un ancho consistente */
-  height: 180px; /* Mantener un alto consistente */
-  border-radius: 50% 20% 50% 20%; /* Bordes superiores e inferiores redondeados, lados aplanados */
+  width: 180px;
+  height: 180px; 
+  border-radius: 50% 20% 50% 20%; 
   margin-bottom: 15px;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir una sombra sutil alrededor de la imagen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos y Textos de los Perfiles */
 .profile h2 {
   font-size: 18px;
   color: #303330;
@@ -73,13 +69,13 @@
 }
 
 .email-link {
-  color: #0b1015; /* Color azul para el enlace */
-  text-decoration: underline; /* Subrayado para indicar que es un enlace */
+  color: #0b1015; 
+  text-decoration: underline; 
   cursor: pointer;
 }
 
 .email-link:hover {
-  color: #027afb; /* Color más oscuro al pasar el mouse */
+  color: #027afb;
 }
 
 
@@ -89,10 +85,10 @@
   margin-bottom: 8px;
 }
 
-/* Media Queries para Pantallas Pequeñas */
+
 @media (max-width: 1024px) {
   .profiles {
-    grid-template-columns: repeat(3, 1fr); /* Cambiar a 3 columnas en pantallas medianas */
+    grid-template-columns: repeat(3, 1fr); 
   }
 }
 
@@ -102,22 +98,22 @@
   }
 
   .profiles {
-    grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas en pantallas pequeñas */
-    justify-content: center; /* Asegurar que las columnas están centradas */
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center; 
   }
 
   .profile {
-    width: 100%; /* Las tarjetas ocupan todo el ancho de la columna */
+    width: 100%; 
   }
 }
 
 @media (max-width: 480px) {
   .profiles {
-    grid-template-columns: 1fr; /* Cambiar a 1 columna en pantallas muy pequeñas */
+    grid-template-columns: 1fr; 
   }
 
   .equipo-title {
-    font-size: 30px; /* Reducir tamaño del título para pantallas pequeñas */
+    font-size: 30px; 
   }
 
   .profile {

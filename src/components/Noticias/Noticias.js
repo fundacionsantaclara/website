@@ -7,7 +7,7 @@ const Noticias = () => {
   const { t } = useTranslation();
   const noticias = t("news", { returnObjects: true });
 
-  // Ordena las noticias en orden descendente de ID y toma las tres primeras
+
   const ultimasNoticias = noticias
     .sort((a, b) => b.id - a.id)
     .slice(0, 3);

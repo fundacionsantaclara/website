@@ -43,7 +43,7 @@ function EstrenaVida() {
             </div>
           </div>
 
-          {/* Header Image Section */}
+
           <div className="estrena-vida-header-image-container">
             <img 
               src={headerImg} 
@@ -52,7 +52,7 @@ function EstrenaVida() {
             />
           </div>
 
-          {/* Card Section */}
+      
           <div className="estrena-vida-card-container">
             <div className="estrena-vida-card mb-3">
               <img src={imgCard4} className="estrena-vida-card-img-top" alt="Imagen de Estrena Vida 1" />

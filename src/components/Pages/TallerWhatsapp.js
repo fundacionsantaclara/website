@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 function TallerWhatsappBtn() {
   const { t } = useTranslation();
-  const phoneNumber = "+34655224308"; // Replace this with the desired phone number
+  const phoneNumber = "+34655224308"; 
 
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");

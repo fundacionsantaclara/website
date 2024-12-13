@@ -1,4 +1,4 @@
-/* Estilo del título principal de la sección */
+
 .estrena-vida-section__title {
     font-size: 50px !important;
     -webkit-text-stroke: 1.5px black;
@@ -6,7 +6,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Estilo del encabezado de Estrena Vida */
+
 .estrena-vida-header {
     width: 100%;
     height: 25vh;
@@ -21,18 +21,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Contenedor de la imagen de encabezado de Estrena Vida */
+
 .estrena-vida-header-image-container {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-/* Estilo de la imagen del encabezado de Estrena Vida */
+
 .estrena-vida-header-image {
-    width: 70%; /* Reducido de 90% a 80% para evitar perder la forma */
-    max-width: 1200px; /* Ajustado para mantener un tamaño máximo razonable */
-    height: 800; /* Cambiado para que mantenga la proporción */
+    width: 70%; 
+    max-width: 1200px;
+    height: 800; 
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
@@ -41,7 +41,7 @@
 .estrena-vida-header-image:hover {
     transform: scale(1.03);
 }
-/* Contenedor de texto de introducción */
+
 .estrena-vida-text-container {
   background-color: #f5f5f5;
   padding: 20px;
@@ -51,7 +51,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Texto principal */
+
 .estrena-vida__text {
   text-align: center;
   padding: 30px;
@@ -60,7 +60,6 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* Contenedor de las tarjetas de Estrena Vida */
 .estrena-vida-card-container {
     width: 100%;
     display: flex;
@@ -72,7 +71,6 @@
     gap: 20px;
 }
 
-/* Estilo individual de cada tarjeta */
 .estrena-vida-card {
     width: 45%;
     margin-bottom: 20px;
@@ -91,7 +89,6 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagen en la parte superior de la tarjeta */
 .estrena-vida-card-img-top,
 .estrena-vida-card-img-top2 {
     width: 90%;
@@ -107,14 +104,14 @@
     transform: scale(1.05);
 }
 
-/* Título dentro de la tarjeta */
+
 .estrena-vida-card-title {
     font-size: 28px;
     text-align: center;
     padding: 10px 0;
 }
 
-/* Cuerpo de la tarjeta */
+
 .estrena-vida-card-body {
     width: 100%;
     text-align: center;
@@ -124,14 +121,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Texto dentro de la tarjeta */
+
 .estrena-vida-card-text {
     color: rgb(73, 73, 73);
     margin: 10px 0;
     line-height: 1.6;
 }
 
-/* Contenedor de las tarjetas de introducción */
+
 .estrena-vida-intro-card-container {
     display: flex;
     justify-content: space-around;
@@ -141,7 +138,7 @@
     gap: 20px;
 }
 
-/* Estilo individual de cada tarjeta de introducción */
+
 .estrena-vida-intro-card {
     background-color: #d9d7d0;
     padding: 1.4rem;
@@ -157,13 +154,13 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Título dentro de la tarjeta de introducción */
+
 .estrena-vida-intro-card h2 {
     color: #4b3e02;
     font-size: 26px;
 }
 
-/* Texto dentro de la tarjeta de introducción */
+
 .estrena-vida-intro-card p {
     color: #423e3e;
     background-color: #f8f3e6;
@@ -172,7 +169,7 @@
     font-size: 16px;
 }
 
-/* Estilos para pantallas pequeñas (máximo 968px de ancho) */
+
 @media (max-width: 968px) {
     .estrena-vida-header {
         height: 20vh;
@@ -213,7 +210,7 @@
     }
 }
 
-/* Estilos para pantallas más pequeñas (máximo 480px de ancho) */
+
 @media (max-width: 480px) {
     .estrena-vida-section__title {
         font-size: 32px !important;

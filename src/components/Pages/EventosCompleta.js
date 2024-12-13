@@ -16,7 +16,7 @@ const EventosCompleta = () => {
         {sortedEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc} // Utiliza URL directamente
+            imageSrc={event.imageSrc} 
             eventName={event.eventName}
             date={event.date}
             time={event.time}

@@ -1,15 +1,15 @@
-/* General Styles */
+
 .huerto-container {
-  background-color: #f5f5f5; /* Fondo claro */
+  background-color: #f5f5f5; 
   padding: 20px;
   border-radius: 16px;
   max-width: 1300px;
-  margin: 15px auto; /* Ajustar el margen a 20px arriba y abajo para reducir el espacio */
+  margin: 15px auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   margin-top: 30px;
 }
 
-/* Header Section */
+
 .huerto-header {
   width: 100%;
   height: 25vh;
@@ -20,7 +20,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .huerto-section__title {
@@ -30,7 +30,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Content Section */
+
 .huerto__content {
   display: flex;
   flex-direction: column;
@@ -40,7 +40,6 @@
   margin-top: 10px;
 }
 
-/* Paragraph Section */
 .huerto-para {
   background-color: #e3e3d8;
   padding: 30px;
@@ -51,11 +50,11 @@
   margin: 0 auto;
   color: #03993a;
   font-size: 22px;
-  max-width: 1000px; /* Limitar el ancho de los textos */
+  max-width: 1000px; 
   line-height: 1.6;
 }
 
-/* Image Section */
+
 .huerto-image-container {
   display: flex;
   justify-content: center;
@@ -65,8 +64,8 @@
 
 .huerto-pic {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Mostrar las imágenes en una cuadrícula de 3 columnas */
-  gap: 20px; /* Espacio de 5px entre las imágenes */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   width: 90%;
 }
 
@@ -80,11 +79,10 @@
 }
 
 .huerto-pic img:hover {
-  transform: scale(1.15); /* Ampliar la imagen al pasar el cursor */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar la sombra para dar un efecto de flotación */
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
-/* Generic Card Section */
 .generic-card {
   background-color: #ffffff;
   border-radius: 16px;
@@ -131,7 +129,7 @@
   margin-top: 10px;
 }
 
-/* Generic Intro Card Section */
+
 .generic-intro-card-container {
   display: flex;
   justify-content: space-around;
@@ -171,7 +169,7 @@
   border-radius: 8px;
 }
 
-/* Media Queries */
+
 @media (max-width: 968px) {
   .huerto-section__title {
     font-size: 35px !important;
@@ -183,7 +181,7 @@
   }
 
   .huerto-pic {
-    grid-template-columns: repeat(2, 1fr); /* Cambiar a dos columnas en pantallas más pequeñas */
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .huerto-pic img {
@@ -211,7 +209,7 @@
   }
 
   .huerto-pic {
-    grid-template-columns: 1fr; /* Cambiar a una columna en pantallas muy pequeñas */
+    grid-template-columns: 1fr; 
   }
 
   .huerto-pic img {

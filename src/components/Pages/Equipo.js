@@ -1,7 +1,6 @@
 import React from "react";
 import "./Equipo.css";
 import EquipoMember from "./EquipoMember";
-/**import EquipoData from './Members.json'**/
 import EquipoData from "./EquipoData";
 import { useTranslation } from "react-i18next";
 

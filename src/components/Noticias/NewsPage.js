@@ -22,12 +22,12 @@ const NewsPage = () => {
     <>
       {noticia ? (
         <div className="news-container">
-          {/* Botón de Volver */}
+      
           <Link to="/NoticiasCompleta" className="back-button">
             {t("back-button")}
           </Link>
 
-          {/* Carrusel de imágenes */}
+         
           <Carrousel
             images={[
               noticia.carrousel1,
@@ -37,7 +37,7 @@ const NewsPage = () => {
             ]}
           />
 
-          {/* Contenido de la noticia */}
+     
           <div className="news-content">
             <h1 className="news-title">{noticia.title}</h1>
             <p className="news-date">{t("date")}: {noticia.date}</p> 
@@ -45,7 +45,6 @@ const NewsPage = () => {
             <h2 className="news-subtitle">{noticia.subtitle}</h2>
             <p className="news-body">{noticia.body}</p>
 
-            {/* Galería de imágenes adicionales */}
             <div className="gallery-container">
               {TCcardData.map((card, index) =>
                 card.image && <TallerCarouselcard key={index} image={card.image} />

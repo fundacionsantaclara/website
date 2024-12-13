@@ -9,9 +9,9 @@ import voluntariosplataform from "../Fcimages/voluntarios plataform.jpg";
 function PlataformaData(props) {
   const { t } = useTranslation();
 
-  // Obtener el texto del párrafo desde las traducciones
+ 
   const plataformaParagraph = t("plataforma-paragraph");
-  // Dividir el texto por los saltos de línea
+  
   const paragraphs = plataformaParagraph.split("\n\n");
 
   return (
@@ -19,10 +19,10 @@ function PlataformaData(props) {
       <li className="plat-cards-item">
         <div className="platcards-item-link" to={props.path}>
           <div className="platcards-item-info">
-            {/* Renderizar cada párrafo */}
+            
             <div className="plat-para-text">
               {paragraphs.map((paragraph, index) => {
-                // Separar el título del contenido en cada párrafo
+                
                 const [title, ...content] = paragraph.split(":");
                 return (
                   <p key={index}>
@@ -37,7 +37,7 @@ function PlataformaData(props) {
               <strong> {t("plat-card-intro-bold")}</strong>
             </p>
             <div className="small-card-container">
-              {/* Aquí sigue el contenido original */}
+             
               <div className="small-card-item">
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"

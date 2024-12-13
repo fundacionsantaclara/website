@@ -21,6 +21,7 @@ import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
 import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
 import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
+import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
 import image1 from "../Fcimages/transparencia/IMG_0287.jpg";
 import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
@@ -41,7 +42,7 @@ function Transparencia() {
             </div>
             <p className="para__text text__grey">{t("transparency-intro")}</p>
 
-            {/* Primer Tarjeta */}
+           
             <div className="trans-card">
               <img src={image1} alt="Law Image" />
               <div className="trans-card-content-wrapper">
@@ -78,12 +79,16 @@ function Transparencia() {
                         {t("normativo-title")}
                       </a>
                     </p>
+                    <p>
+                      <a className="link-offset-1" href={codigoEtico} target="_blank">
+                        {t("codigoEtico-title")}
+                      </a>
+                    </p>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* Segunda Tarjeta */}
             <div className="trans-card">
               <img src={image2} alt="Accounting Image" />
               <div className="trans-card-content-wrapper">
@@ -129,7 +134,7 @@ function Transparencia() {
               </div>
             </div>
 
-            {/* Tercera Tarjeta */}
+          
             <div className="trans-card">
               <img src={image3} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
@@ -171,7 +176,7 @@ function Transparencia() {
               </div>
             </div>
 
-            {/* Cuarta Tarjeta */}
+           
             <div className="trans-card">
               <img src={image4} alt="Economy Image" />
               <div className="trans-card-content-wrapper">

@@ -36,12 +36,12 @@ const Carrousel = ({ images }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       handleRightClick();
-    }, 3000); // Cambia de imagen cada 3 segundos
+    }, 3000); 
 
     return () => {
-      clearInterval(intervalId); // Limpia el intervalo cuando el componente se desmonte
+      clearInterval(intervalId); 
     };
-  }, [currentIndex]); // Dependencia para actualizar el índice
+  }, [currentIndex]); 
 
   return (
     <div className="carrousel-container">

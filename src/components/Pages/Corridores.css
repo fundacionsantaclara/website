@@ -1,6 +1,6 @@
-/* General Styles */
+
 .corridores-container {
-    background-color: #f5f5f5; /* Fondo claro */
+    background-color: #f5f5f5; 
     padding: 20px;
     border-radius: 16px;
     max-width: 1400px;
@@ -8,7 +8,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Header Section */
 .corridores-header {
     width: 100%;
     height: 25vh;
@@ -19,7 +18,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -30,7 +29,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Text Section */
+
 .corridores__text {
     background-color: azure;
     padding: 20px 60px;
@@ -42,34 +41,34 @@
     font-size: 18px;
 }
 
-/* Subtitle Section */
+
 .corridores__subtitle {
     font-size: 24px;
-    color: #555; /* Color gris oscuro */
+    color: #555; 
     text-align: center;
     margin: 20px auto;
     font-weight: bold;
     padding: 10px 20px;
-    border: 2px solid #ddd; /* Borde gris claro */
+    border: 2px solid #ddd; 
     border-radius: 8px;
-    background-color: #f9f9f9; /* Fondo ligeramente diferente */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Card Section - Retos */
+
 .reto-container {
     width: 100%;
     display: flex;
-    justify-content: space-between; /* Para tener las tres tarjetas alineadas */
+    justify-content: space-between; 
     align-items: flex-start;
-    gap: 20px; /* Añadir espacio entre las tarjetas */
-    flex-wrap: wrap; /* Asegurar que las tarjetas se adapten si no hay suficiente espacio */
+    gap: 20px; 
+    flex-wrap: wrap; 
     margin: 2rem 0;
 }
 
 .reto-card {
     background-color: #ffffff;
-    width: 30%; /* Ajustar para tener tres tarjetas en la misma fila */
+    width: 30%; 
     padding: 1rem;
     text-align: center;
     border-radius: 12px;
@@ -85,7 +84,7 @@
 
 .reto-img {
     width: 100%;
-    height: 250px; /* Ajustado para ser más cuadrado */
+    height: 250px; 
     border-radius: 12px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -95,7 +94,7 @@
     transform: scale(1.05);
 }
 
-/* Ucrania Cards Section */
+
 .ucrania-Part2-container {
     display: flex;
     justify-content: space-between;
@@ -130,34 +129,32 @@
 }
 
 
-/**/
-/* Ajuste de alineación y estilo para listas en las cards */
 .ucrania-part2-card-content ul {
-    list-style-type: disc; /* Viñetas */
-    padding-left: 20px; /* Espaciado izquierdo */
-    margin: 10px 0; /* Espaciado vertical */
-    text-align: left; /* Texto alineado a la izquierda */
+    list-style-type: disc;
+    padding-left: 20px; 
+    margin: 10px 0;
+    text-align: left; 
 }
 
 .ucrania-part2-card-content li {
-    color: #333; /* Color del texto */
-    font-size: 16px; /* Tamaño de letra */
-    line-height: 1.6; /* Espaciado entre líneas */
-    margin-bottom: 8px; /* Espaciado entre puntos */
+    color: #333; 
+    font-size: 16px;
+    line-height: 1.6; 
+    margin-bottom: 8px; 
 }
 
-/* Mantener consistencia de texto alineado a la izquierda */
+
 .ucrania-part2-card-content p {
     text-align: left;
 }
-/**/
+
 
 .ucrania-part2-card p {
     color: #333;
     font-size: 16px;
 }
 
-/* Image Section */
+
 .corridores-img-part {
     display: flex;
     justify-content: space-between;
@@ -182,7 +179,7 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Media Queries */
+
 @media (max-width: 968px) {
     .corridores-section__title {
         font-size: 40px;
