@@ -11,7 +11,7 @@ function Home() {
       <Videopart />
       <Noticias />
       <Cards />
-      <EventosData />
+       {/* <EventosData /> */}
     </>
   );
 }
