@@ -273,6 +273,21 @@
       "carrousel3": "",
       "ubicacion": "Manresa - Barcelona, Spain",
       "date": "10/12/2024"
+    },
+    {
+      "id": 7,
+      "title": "Open House Day - Workshop of the Nines",
+      "subtitle": "Creativity, dedication, and community in Manresa",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3633.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3624.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3623.jpg",
+      "body":"On December 12th, the much-anticipated Open House Day of the 'Workshop of the Girls' took place at Carretera de Vic 170, in the city of Manresa. This event was a unique opportunity for people to get to know the tireless work of our volunteers up close, who, with passion and dedication, created beautiful handcrafted products that were exhibited throughout the day.\n\nThe event started at 4:30 PM and extended until 8:00 PM, providing ample time for attendees to explore every corner of the workshop and enjoy the creations. Additionally, visitors were able to watch the volunteers in action while they worked, an experience that allowed them to appreciate the effort and skill behind each piece.\n\nAs part of the tradition, typical hot chocolate was served along with the foundation's famous cookies, a detail that delighted all attendees. The combination of creativity, warmth, and community attracted many people who didn’t want to miss the new creations of our excellent volunteers.\n\nThe 'Workshop of the Girls' continues to be an inspiring space where creativity and solidarity come together to generate unforgettable moments. From the foundation, we thank all attendees and look forward to seeing you at future events.",
+  "carrousel1":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3625.jpg",
+      "carrousel2":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3626.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3628.jpg",
+      "carrousel4": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3632.jpg",
+      "ubicacion":"Manresa - Barcelona, Spain",
+      "date": "12/12/2024"
     }
     
     
