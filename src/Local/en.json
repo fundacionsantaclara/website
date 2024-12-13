@@ -201,7 +201,7 @@
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/Fundacion-Santa-Clara/main/santa-clara/src/Fcimages/231212-PMacM-1882.jpg",
       "ubicacion": "Barcelona, Spain",
-      "date": "11/12/2023"
+      "date": " 12/11/2023"
     },
     {
       "id": 1,
@@ -216,7 +216,7 @@
     "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania6.jpg",
     "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/ucrania7.jpg",
     "ubicacion": "Barcelona, Spain",
-    "date": "01/11/2024"
+    "date": "11/01/2024"
     },
     {
       "id": 3,
@@ -231,7 +231,7 @@
       "carrousel3": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro5.jpg",
       "carrousel4": "https://raw.githubusercontent.com/GloriaKwofie/website-definitivo/main/website-santa-clara-definitivo/frontend/src/Images/libro6.jpg",
       "ubicacion": "Barcelona, Spain",
-      "date": "27/03/2024"
+      "date": "03/27/2024"
     },
     {
       "id": 4,
@@ -244,7 +244,7 @@
       "carrousel1": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/367E8B34-1EC9-4D22-A50B-4FA2A7D302E6.JPG",
       "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/06-08-2024-felizcumple/5EB22EFE-79F3-4E30-9860-40DBF60C8D96.JPG",
       "ubicacion": "Manresa - Barcelona, Spain",
-      "date": "08/06/2024"
+      "date": "06/08/2024"
     },
     {
       "id": 5,
@@ -258,7 +258,7 @@
       "carrousel2": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830386.jpg",
       "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/plataforma/22-11-2024-grandrecapte/1733917830426.jpg",
       "ubicacion": "Manresa - Barcelona, Spain",
-      "date": "06/08/2024"
+      "date": "08/06/2024"
     },
     {
       "id": 6,
@@ -272,7 +272,7 @@
       "carrousel2": "",
       "carrousel3": "",
       "ubicacion": "Manresa - Barcelona, Spain",
-      "date": "10/12/2024"
+      "date": "12-10-2024"
     },
     {
       "id": 7,
@@ -287,7 +287,18 @@
       "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3628.jpg",
       "carrousel4": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3632.jpg",
       "ubicacion":"Manresa - Barcelona, Spain",
-      "date": "12/12/2024"
+      "date": "12-12-2024"
+    },
+    {
+      "id": 8,
+      "title": "Christmas Lunch",
+      "subtitle": "On December 13th, the Christmas lunch for volunteers and workers of the Foundation took place.",
+      "body": " Last Friday, the 13th, as has been the tradition in recent years, the Santa Clara Convent Foundation organized a gathering for workers and volunteers at the Dom Bosco holiday home in Castellnou de Bages. The event brought together around 100 people who shared a moment filled with camaraderie and appreciation. After lunch, some participants visited the church and the Maquis Museum, further enriching the cultural experience of the gathering while enjoying the historical center of the village. This event is a token of gratitude to all those who collaborate with the Foundation, dedicating their time and effort to projects that support the most vulnerable individuals. Their involvement is key, as without their collaboration, the Foundation's work would be much more challenging. We are very fortunate to have such committed volunteers who, day by day, make the projects a reality. Among the attendees were volunteers involved in diverse projects such as the Platform, the shelter apartments, the gardens, the workshops, the sewing room, and the showers, all of which are essential to the Foundation’s operations and social mission.",
+       "carrousel1":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/voluntarios/13-12-2024-comidavoluntarioscierre/IMG_3646.jpg",
+      "carrousel2":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/voluntarios/13-12-2024-comidavoluntarioscierre/IMG_3648.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/voluntarios/13-12-2024-comidavoluntarioscierre/IMG_3650.jpg",
+      "ubicacion": "Castellnou de Bages -Manresa",
+      "date": "12-13-2024"
     }
     
     
