@@ -273,6 +273,21 @@
       "carrousel3": "",
       "ubicacion": "Manresa - Barcelona, Espanya",
       "date": "10/12/2024"
+    },
+    {
+      "id": 7,
+      "title":  "Jornada de Portes Obertes - Taller de les Nenes",
+      "subtitle":"Creativitat, dedicació i comunitat a Manresa",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3633.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3624.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3623.jpg",
+      "body": "El passat 12 de desembre es va dur a terme la tan esperada Jornada de Portes Obertes del 'Taller de les Nenes', situat a la Carretera de Vic 170, a la ciutat de Manresa. Aquest esdeveniment va ser una oportunitat única perquè les persones coneguin de prop el treball incansable de les nostres voluntàries, que amb passió i dedicació, van crear preciosos productes artesanals que es van exposar durant la jornada.\n\nL'esdeveniment va començar a les 16:30 i es va prolongar fins a les 20:00, oferint temps suficient perquè els assistents poguessin explorar cada racó del taller i gaudir de les creacions. A més, els visitants van poder observar en acció les voluntàries mentre treballaven, una experiència que va permetre apreciar l'esforç i la destresa darrere de cada peça.\n\nCom a part de la tradició, es va servir el típic xocolata desfeta acompanyat de les famoses galetes de la fundació, un detall que va encantar a tots els presents. La combinació de creativitat, calidesa i comunitat va atreure moltes persones que no van voler perdre's les novetats que les nostres excel·lents voluntàries han aconseguit crear amb tant esforç.\n\nEl 'Taller de les Nenes' continua sent un espai inspirador on la creativitat i la solidaritat s'entrellacen per generar moments inoblidables. Des de la fundació, agraïm a tots els assistents i esperem veure-us en futurs esdeveniments.",
+  "carrousel1":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3625.jpg",
+      "carrousel2":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3626.jpg",
+      "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3628.jpg",
+      "carrousel4": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3632.jpg",
+      "ubicacion": "Manresa - Barcelona, Espanya",
+      "date": "12/12/2024"
     }
     
     
