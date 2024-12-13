@@ -6,7 +6,7 @@ const Carrousel = ({ images }) => {
   const scrollContainerRef = useRef();
   const [currentIndex, setCurrentIndex] = useState(0);
 
- 
+  // Filtrar imágenes válidas (URL no vacías, no nulas y que sean strings)
   const validImages = images.filter(
     (image) => image && typeof image === "string"
   );

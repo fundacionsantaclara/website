@@ -21,6 +21,7 @@ import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
 import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
 import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
+import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
 import image1 from "../Fcimages/transparencia/IMG_0287.jpg";
 import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
@@ -76,6 +77,11 @@ function Transparencia() {
                     <p>
                       <a className="link-offset-1" href={normativos} target="_blank">
                         {t("normativo-title")}
+                      </a>
+                    </p>
+                    <p>
+                      <a className="link-offset-1" href={codigoEtico} target="_blank">
+                        {t("codigoEtico-title")}
                       </a>
                     </p>
                   </ul>
