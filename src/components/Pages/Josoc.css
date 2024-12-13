@@ -1,4 +1,4 @@
-/* Estilo del título principal de la sección */
+
 .josoc-section__title {
     font-size: 50px !important;
     -webkit-text-stroke: 1px black;
@@ -6,7 +6,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* Estilo del encabezado de Josoc */
+
 .josoc-header {
     width: 100%;
     height: 25vh;
@@ -22,7 +22,6 @@
     margin-bottom: 30px;
 }
 
-/* Texto principal de la sección */
 .josoc__text {
     padding: 20px 50px;
     color: rgb(73, 73, 73);
@@ -31,7 +30,6 @@
     line-height: 1.6;
 }
 
-/* Información del proyecto */
 .josoc-project-info {
     background-color: #ffffff;
     padding: 2rem;
@@ -56,7 +54,7 @@
     margin-bottom: 30px;
 }
 
-/* Contenedor de las tarjetas */
+
 .josoc-card-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +88,7 @@
     line-height: 1.6;
 }
 
-/* Contenedor de imágenes */
+
 .josoc-pic {
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +115,6 @@
     padding: 20px;
 }
 
-/* Media Queries para dispositivos más pequeños */
 @media (max-width: 968px) {
     .josoc-header {
         height: 20vh;
@@ -166,7 +163,7 @@
     }
 }
 
-/* Media Queries para pantallas muy pequeñas (máximo 480px de ancho) */
+
 @media (max-width: 480px) {
     .josoc-section__title {
         font-size: 32px !important;

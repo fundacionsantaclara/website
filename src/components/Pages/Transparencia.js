@@ -41,7 +41,7 @@ function Transparencia() {
             </div>
             <p className="para__text text__grey">{t("transparency-intro")}</p>
 
-            {/* Primer Tarjeta */}
+           
             <div className="trans-card">
               <img src={image1} alt="Law Image" />
               <div className="trans-card-content-wrapper">
@@ -83,7 +83,6 @@ function Transparencia() {
               </div>
             </div>
 
-            {/* Segunda Tarjeta */}
             <div className="trans-card">
               <img src={image2} alt="Accounting Image" />
               <div className="trans-card-content-wrapper">
@@ -129,7 +128,7 @@ function Transparencia() {
               </div>
             </div>
 
-            {/* Tercera Tarjeta */}
+          
             <div className="trans-card">
               <img src={image3} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
@@ -171,7 +170,7 @@ function Transparencia() {
               </div>
             </div>
 
-            {/* Cuarta Tarjeta */}
+           
             <div className="trans-card">
               <img src={image4} alt="Economy Image" />
               <div className="trans-card-content-wrapper">

@@ -17,7 +17,7 @@ const EventosData = () => {
         {latestEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc} // Usa directamente la URL desde el JSON
+            imageSrc={event.imageSrc} 
             eventName={event.eventName}
             date={event.date}
             time={event.time}

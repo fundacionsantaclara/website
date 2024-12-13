@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link if you are using React Router
+import { Link } from "react-router-dom"; 
 import "./Dropdown.css";
 import { participarDropdown } from "./Dropdown-items";
 import { useTranslation } from "react-i18next";

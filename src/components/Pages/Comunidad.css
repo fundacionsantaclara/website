@@ -12,11 +12,11 @@
     padding: 10px;
     border-radius: 16px;
     max-width: 1200px;
-    margin: 40px auto; /* Separación de 10px con lo que tenga arriba y abajo */
+    margin: 40px auto; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Encabezado de la Comunidad */
+
 .comunidad-header {
     height: 25vh;
     display: flex;
@@ -31,14 +31,12 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Contenedor de la imagen de encabezado de la comunidad */
 .comunidad-header-image-container {
     text-align: center;
     margin: 40px auto;
     max-width: 90%;
 }
 
-/* Estilo de la imagen del encabezado de la comunidad */
 .comunidad-header-image {
     width: 100%;
     max-width: 1400px;
@@ -47,7 +45,6 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenedor de las tarjetas de introducción */
 .comunidad-intro-card-container {
     display: flex;
     justify-content: space-around;
@@ -57,7 +54,6 @@
     margin-top: 35px;
 }
 
-/* Estilo individual de cada tarjeta de introducción */
 .comunidad-intro-card {
     background-color: #d9d7d0;
     padding: 20px;
@@ -88,7 +84,6 @@
     border-radius: 8px;
 }
 
-/* Contenedor de las tarjetas de la comunidad */
 .Comunidad-card-container {
     display: flex;
     flex-direction: column;
@@ -97,7 +92,6 @@
     margin-top: 40px;
 }
 
-/* Estilo individual de cada tarjeta de comunidad */
 .comunidad-card {
     width: 90%;
     max-width: 800px;
@@ -117,10 +111,9 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagen dentro de las tarjetas de comunidad */
 .comunidad-card-img-top,
 .comunidad-card-img-top2 {
-    width: 40%; /* Ocupa un 40% de la tarjeta */
+    width: 40%; 
     height: auto;
     max-height: 300px;
     margin-right: 20px;
@@ -128,9 +121,8 @@
     border-radius: 8px;
 }
 
-/* Contenido de la tarjeta de comunidad */
 .comunidad-card-body {
-    width: 60%; /* El contenido ocupa el 60% de la tarjeta */
+    width: 60%;
     text-align: left;
     background-color: #f8f3e6;
     padding: 20px;
@@ -153,7 +145,6 @@
     margin-top: 10px;
 }
 
-/* Media Queries para pantallas medianas y pequeñas */
 @media (max-width: 968px) {
     .comunidad-intro-card-container {
         flex-direction: column;
@@ -161,7 +152,7 @@
     }
 
     .comunidad-card {
-        flex-direction: column; /* Cambiar a disposición vertical en pantallas pequeñas */
+        flex-direction: column; 
         width: 95%;
         align-items: center;
     }
@@ -173,8 +164,8 @@
     }
 
     .comunidad-card-body {
-        width: 100%; /* El contenido ocupa todo el ancho en pantallas pequeñas */
-        text-align: center; /* Centrar el contenido para pantallas medianas */
+        width: 100%;
+        text-align: center; 
     }
 
     .comunidad-section__title {
@@ -190,7 +181,7 @@
     }
 }
 
-/* Media Queries para pantallas muy pequeñas */
+
 @media (max-width: 600px) {
     .comunidad-section__title {
         font-size: 30px !important;
@@ -206,16 +197,16 @@
     }
 
     .comunidad-card-body {
-        width: 100%; /* Mantener el ancho completo en pantallas muy pequeñas */
-        text-align: center; /* Centrar el contenido */
-        padding: 15px; /* Reducir el padding para mantener una proporción más regular */
+        width: 100%;
+        text-align: center;
+        padding: 15px; 
     }
 
     .text-section {
-        padding: 10px; /* Reducir padding para mejorar la presentación */
+        padding: 10px; 
     }
 
     .comunidad-intro-card {
-        width: 95%; /* Hacer que las tarjetas de introducción sean más anchas en pantallas pequeñas */
+        width: 95%; 
     }
 }

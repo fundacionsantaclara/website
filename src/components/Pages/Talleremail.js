@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 
 function Talleremail() {
   const { t } = useTranslation();
-    const recipientEmail = 'info@fsantaclara.org'; // Replace this with the recipient's email address
-  const subject = 'Comprar muñecos'; // Replace this with the desired email subject
+    const recipientEmail = 'info@fsantaclara.org'; 
+  const subject = 'Comprar muñecos'; 
 
   const handleClick = () => {
     window.location.href = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}`;

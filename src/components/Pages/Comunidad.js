@@ -40,7 +40,7 @@ function Comunidad() {
             </div>
           </div>
           
-              {/* Nueva Imagen entre el Título y las Cards */}
+         
               <div className="comunidad-header-image-container">
                 <img 
                   src={t("comunidad-page-header-img-url")} 

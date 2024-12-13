@@ -1,38 +1,36 @@
-/* HomePage.css */
 
-/* Contenedor General */
 .voluntario-container {
   margin: 25px auto;
   padding: 40px;
   max-width: 1300px;
-  background-color: #f9f9f9; /* Fondo claro y agradable */
-  border-radius: 16px; /* Bordes redondeados para el contenedor */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra suave */
+  background-color: #f9f9f9; 
+  border-radius: 16px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Título de la Sección */
+
 .voluntario-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh; /* Ajustamos la altura similar a .plata-header */
-  font-size: 70px; /* Tamaño de fuente unificado */
+  height: 25vh; 
+  font-size: 70px; 
   text-align: center;
-  margin-bottom: 0; /* Eliminamos margen innecesario */
+  margin-bottom: 0; 
   margin-top: 0;
   background: url("../Fcimages/volun-bg.jpg");
   background-size: cover;
-  background-position: center; /* Centralizamos el fondo */
+  background-position: center; 
   background-repeat: no-repeat;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
   padding: 30px;
-  color: white; /* Ajustamos el color como en plat-section__title */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra de texto consistente */
-  -webkit-text-stroke: 1px black; /* Borde de texto unificado */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición añadida */
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+  -webkit-text-stroke: 1px black; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Sección de Texto de Introducción */
+
 .voluntario-para-section {
   margin-bottom: 40px;
   padding: 40px;
@@ -48,7 +46,7 @@
   color: #333;
 }
 
-/* Sección de Tarjetas */
+
 .voluntario-card-section {
   display: flex;
   justify-content: space-between;
@@ -61,7 +59,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   padding: 20px;
-  width: calc(33.333% - 20px); /* Tres tarjetas por fila, con espacio entre ellas */
+  width: calc(33.333% - 20px); 
   text-align: center;
   margin: 16px 0;
   background-color: #ffffff;
@@ -70,13 +68,13 @@
 }
 
 .voluntario-card:hover {
-  transform: translateY(-10px); /* Efecto hover para levantar la tarjeta */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa en hover */
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .voluntario-card-image {
   width: 100%;
-  border-radius: 16px 16px 0 0; /* Bordes superiores redondeados */
+  border-radius: 16px 16px 0 0; 
   margin-bottom: 15px;
   object-fit: cover;
   height: 200px;
@@ -93,7 +91,7 @@
   color: #555;
 }
 
-/* Sección de Collage */
+
 .voluntario-collage {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -110,17 +108,17 @@
 }
 
 .voluntario-collage img:hover {
-  transform: scale(1.05); /* Zoom suave al pasar el ratón por encima */
+  transform: scale(1.05); 
 }
 
-/* Media Queries para Pantallas Pequeñas */
+
 @media (max-width: 1024px) {
   .voluntario-title {
     font-size: 40px;
   }
 
   .voluntario-card-section {
-    flex-direction: column; /* Cambiar a disposición vertical */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -129,7 +127,7 @@
   }
 
   .voluntario-collage {
-    grid-template-columns: 1fr; /* Cambiar a 1 columna */
+    grid-template-columns: 1fr; 
   }
 }
 

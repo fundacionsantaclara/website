@@ -29,7 +29,7 @@ function Huerto() {
           </div>
         </div>
 
-        {/* Generic Intro Card Section */}
+        
         <div className="generic-intro-card-container">
           <div className="generic-intro-card">
             <h2>{t("generic-page-intro-card1-title")}</h2>
@@ -56,7 +56,7 @@ function Huerto() {
           </div>
         </div>
 
-        {/* Generic Card Section to other projects */}
+       
         <div className="generic-card mb-3">
   <img 
     src={require("../Fcimages/Huertos egologícos/amburnia/20241205_103434.jpg")} 
