@@ -1,8 +1,8 @@
 {
 
-  "language-english": "Inglés",
-  "language-spanish": "Castellano",
-  "language-catalan": "Catalán",
+"language-english": "English",
+"language-spanish": "Spanish",
+"language-catalan": "Catalan",
 
 
   "mission-title": "Mission", 
@@ -48,7 +48,7 @@
 "resi-title" :"RESIDENCE",
 "huerto-title" :"ECOLOGICAL GARDEN",
 "pisos-title" :"SHELTER HOMES",
-"taller-title" :"NINES WORKSHOP",
+"taller-title" :"DOLLS-WORKSHOP",
 "duchas-title" :"SHOWER AND LAUNDRY SPACE",
 "cosidor-title" :"SEWING ROOM",
 "oftamologia-title" :"OPHTHALMOLOGY",
@@ -146,6 +146,13 @@
    "taller-location-title": "Visit us at our workshop",
   "taller-location-para": "Our workshop is located on the Vic road in the city of Manresa, a space full of <strong>creativity and dedication</strong>. It is where <strong>our ideas come to life</strong> through the effort and passion of our team. We would love to welcome you with open arms, giving you the opportunity to <strong>discover firsthand how we carry out our work</strong>. Here you can learn about the <strong>process behind our creations</strong> and share a special moment with the people who make this project possible. We invite you to visit our workshop, a place filled with <strong>stories, effort, and commitment</strong>. Come, experience the <strong>heart of what we do</strong> and immerse yourself in the essence of our solidarity mission. It will be a pleasure to welcome you and show you <strong>everything that makes us unique</strong>!",
    "taller-location-map-btn": "Open location",
+   "coleccion_baxi": "Baxi Manresa Collection",
+   "coleccion_crochet": "Crochet Collection",
+   "coleccion_collage": "Collage Collection",
+   "coleccion_la_caixa": "La Caixa Collection",
+   "coleccion_nadal": "Nadal Collection",
+   "coleccion_vichy": "Vichy Collection",
+   "coleccion_taller": "Workshop Collection",
 
 "duchas-page-title" :"SHOWER AND LAUNDRY SPACE",
 "duchas-intro-title" :"Assistance Center",
