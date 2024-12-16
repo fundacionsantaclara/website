@@ -14,6 +14,7 @@ import monica from "../Fcimages/equipot tecnico/Monica.jpg";
 import user from "../Fcimages/user.webp";
 import vane from "../Fcimages/vane.png";
 import manel from "../Fcimages/manel.png";
+import elisenda from "../Fcimages/equipot tecnico/elisenda.jpg";
 
 const EquipoData = [
   {
@@ -74,7 +75,7 @@ const EquipoData = [
   },
   {
     id: 9,
-    name: "Elisabet Cardi",
+    name: "Elisabet Cardil",
     role: "eli",
     imageUrl: user,
     email: "elisabetcardil@gmail.com",
@@ -111,7 +112,7 @@ const EquipoData = [
     id: 14,
     name: "Elisenda Solsona",
     role: "elisenda",
-    imageUrl: user,
+    imageUrl: elisenda,
     email: "solsonaelisenda@gmail.com",
   },
   {
