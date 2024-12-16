@@ -1,9 +1,9 @@
 import React from "react";
 import "./Duchas.css";
 import { useTranslation } from "react-i18next";
-import Installation from "../Fcimages/public.jpg";
-import Ropero from "../Fcimages/clothes.jpg";
-import NGO from "../Fcimages/ngo.jpg";
+import Installation from "../Fcimages/duchas/saladeestar.png";
+import Ropero from "../Fcimages/duchas/ropero.png";
+import NGO from "../Fcimages/duchas/portada duchas.png";
 
 function Duchas() {
   const { t } = useTranslation();
