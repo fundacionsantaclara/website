@@ -52,18 +52,10 @@ function Transparencia() {
                   <ul className="trans-list">
                     <p>
                       <a className="link-offset-1" href={patrons} target="_blank">
-                        {t("patrons-title")} (CAT)
+                        {t("patrons-title")} 
                       </a>
                     </p>
-                    <p>
-                      <a
-                        className="link-offset-1"
-                        href={patronsCastellano}
-                        target="_blank"
-                      >
-                        {t("patrons-title")} (CAST)
-                      </a>
-                    </p>
+                    
                     <p>
                       <a className="link-offset-1" href={estatutos} target="_blank">
                         {t("estatutos-title")}
