@@ -1,8 +1,8 @@
 {
 
-  "language-english": "Inglés",
-  "language-spanish": "Castellano",
-  "language-catalan": "Catalán",
+"language-english": "Anglès",
+"language-spanish": "Castellà",
+"language-catalan": "Català",
 
 
   "mission-title": "Missió",  
@@ -147,6 +147,14 @@
   "taller-location-title":"Visita’ns al nostre taller",
   "taller-location-para":"El nostre taller es troba a la carretera de Vic a la ciutat de Manresa, un espai ple de <strong>creativitat i dedicació</strong>. És el lloc on <strong>les nostres idees prenen vida</strong> gràcies a l’esforç i passió del nostre equip. Ens encantaria rebre’t amb els braços oberts, donant-te l’oportunitat de <strong>descobrir de prop com portem a terme la nostra feina</strong>. Aquí podràs conèixer el <strong>procés darrere de les nostres creacions</strong> i compartir un moment especial amb les persones que fan possible aquest projecte. T’invitem a visitar el nostre taller, un lloc ple d’<strong>històries, esforç i compromís</strong>. Vine, coneix el <strong>cor del que fem</strong> i endinsa’t en l’essència de la nostra missió solidària. Serà un plaer rebre’t i mostrar-te <strong>tot el que ens fa únics</strong>!",
    "taller-location-map-btn": "Obrir ubicació",
+   "coleccion_baxi": "Col·lecció Baxi Manresa",
+  "coleccion_crochet": "Col·lecció Crochet",
+  "coleccion_collage": "Col·lecció Collage",
+  "coleccion_la_caixa": "Col·lecció La Caixa",
+  "coleccion_nadal": "Col·lecció Nadal",
+  "coleccion_vichy": "Col·lecció Vichy",
+  "coleccion_taller": "Col·lecció Taller",
+  
 
 "duchas-page-title" :"ESPAI DE DUTXES I BUGADERIA",
 "duchas-intro-title" :"Centre d’Assistència",
