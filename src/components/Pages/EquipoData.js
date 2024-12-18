@@ -6,7 +6,7 @@ import pilar from "../Fcimages/WhatsApp Image 2024-12-05 at 10.34.35.jpeg";
 import nuria from "../Fcimages/equipot tecnico/nuriaEquipoTecnico.jpg";
 import marta from "../Fcimages/equipot tecnico/marta 1.jpg";
 //import lali from "../Fcimages/lali.png";
-//import eli from "../Fcimages/eli.jpg";
+import eli from "../Fcimages/equipot tecnico/elisabeth.jpeg";
 import luis from "../Fcimages/luis.jpg";
 //import miguel from "../Fcimages/miguel.jpg";
 import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
@@ -78,7 +78,7 @@ const EquipoData = [
     id: 9,
     name: "Elisabet Cardil",
     role: "eli",
-    imageUrl: user,
+    imageUrl: eli,
     email: "elisabetcardil@gmail.com",
   },
   {
