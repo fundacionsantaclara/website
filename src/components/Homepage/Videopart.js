@@ -32,7 +32,7 @@ const Videopart = () => {
 
 
      },
-    { label:  t("videoPage.pisosDeAcogida"), value: 58 },
+    { label:  t("videoPage.pisosDeAcogida"), value: 52 },
     { label:  t("videoPage.refugiadosYHeridos"), value: 89 },
     { label: t("videoPage.regularizacionDePapeles"), value: 110 },
   ];

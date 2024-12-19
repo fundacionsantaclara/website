@@ -8,7 +8,7 @@ import marta from "../Fcimages/equipot tecnico/marta 1.jpg";
 //import lali from "../Fcimages/lali.png";
 import eli from "../Fcimages/equipot tecnico/elisabeth.jpeg";
 import luis from "../Fcimages/luis.jpg";
-//import miguel from "../Fcimages/miguel.jpg";
+import miguel from "../Fcimages/equipot tecnico/miguelbuena.jpg";
 import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
 import monica from "../Fcimages/equipot tecnico/Monica.jpg";
 import user from "../Fcimages/user.webp";
@@ -92,7 +92,7 @@ const EquipoData = [
     id: 11,
     name: "Miguel Reyes",
     role: "miguel",
-    imageUrl: user,
+    imageUrl: miguel,
     email: "",
   },
   {

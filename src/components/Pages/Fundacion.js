@@ -2,7 +2,7 @@ import React from "react";
 import "./Fundacion.css";
 import aboutImage from "../Fcimages/woodbg.jpg";
 import convent from "../Fcimages/la fundacion/1faf145f-9452-4176-8b91-bdf690281401.jpg";
-import patronato from "../Fcimages/la fundacion/IMG_5265.jpg";
+import patronato from "../Fcimages/transparencia/IMG_0287.jpg";
 import { useTranslation } from "react-i18next";
 
 function Fundacion() {

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Transparencia.css";
 import { useTranslation } from "react-i18next";
-import patrons from "../Documents/Patronat (CAT) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
+import patrons from "../Documents/Patronat (CAT) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.docx.pdf";
 import patronsCastellano from "../Documents/Patronat (CAST) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
-import estatutos from "../Documents/estatuts_new.pdf";
-import registros from "../Documents/registre.pdf";
+import estatutos from "../Documents/estatutofundacion.pdf";
+import registros from "../Documents/REGISTRE PATRONAT DEPT. JUSTÍCIA GENERALITAT.pdf";
 import normativos from "../Documents/Normativa-Aplicable-a-Fundacions.pdf";
 import memo2018 from "../Documents/memoria_FRO_2018.pdf";
 import memo2019 from "../Documents/memoria_FRO_2019.pdf";
@@ -22,7 +22,7 @@ import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
 import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
 import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
-import image1 from "../Fcimages/transparencia/IMG_0287.jpg";
+import image1 from "../Fcimages/transparencia//luciaheridotransparencia.jpg";
 import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
 import image4 from "../Fcimages/transparencia/IMG_3779.jpg";
@@ -215,9 +215,9 @@ function Transparencia() {
                   <p
                     dangerouslySetInnerHTML={{ __html: t("retribucion-description1") }}
                   ></p>
-                  <p
+                {/*   <p
                     dangerouslySetInnerHTML={{ __html: t("retribucion-description2") }}
-                  ></p>
+                  ></p>*/}
                 </div>
               </div>
             </div>
