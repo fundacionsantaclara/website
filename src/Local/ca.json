@@ -285,8 +285,22 @@
       "ubicacion": "Manresa - Barcelona, Espanya",
       "date": "10/12/2024"
     },
+    
     {
       "id": 7,
+      "title": "COMPARTIM LA NADAL",
+      "subtitle": "RENS, CORONES, NADALES I TRADICIONS EN UN MATÍ ALEGRE.",
+      "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/IMG-20241211-WA0012.jpg",
+      "second_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/IMG-20241211-WA0016.jpg",
+      "third_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/IMG-20241211-WA0018.jpg",
+      "body": "Petits rens de cartó i corones d'advent amb els seus llaços vermells van animar la trobada que Estrena Vida va tenir per celebrar el Nadal. Grans i petits van col·laborar en la seva realització. Sota el lema --Nadal, temps de pau i alegria-- es van compartir nadales i tradicions de diferents països i al final per a tothom una bossa nadalenca amb regals.",
+      "carrousel1":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/horizontal.jpg",
+      "carrousel2":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/estrena%20vida/horizontal1.jpg",
+      "ubicacion": "Manresa -  Espanya",
+      "date": "11/12/2024" 
+    },
+    {
+      "id": 8,
       "title":  "Jornada de Portes Obertes - Taller de les Nenes",
       "subtitle":"Creativitat, dedicació i comunitat a Manresa",
       "main_img": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/taller/12-12-2024-Puertas abierta taller de nines/IMG_3633.jpg",
@@ -301,7 +315,7 @@
       "date": "12/12/2024"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Dinar de Nadal",
       "subtitle": "El dia 13 de desembre es va fer el dinar de Nadal de volutaris i treballadors de la Fundació.",
       "body": "El passat divendres 13, com ja va fent els últims anys, la Fundació del Convent de Santa Clara va organitzar una trobada per a treballadors i voluntaris a la casa de colònies Dom Bosco, a Castellnou de Bages. L'esdeveniment va reunir unes 100 persones, que van compartir una estona plena de convivència i reconeixement. Després del dinar, alguns participants  van visitar l'església i el Museu dels Maquis, enriquint així l'experiència cultural de la trobada. I gaudint del nucli històric del poble.Aquest acte és una mostra d'agraïment a tots aquells que col·laboren amb la Fundació, dedicant el seu temps i esforç als projectes que donen suport a les persones més vulnerables. La seva implicació és clau, ja que, sense la seva col·laboració, la tasca de la Fundació seria molt més difícil. Som molt afortunats de comptar amb voluntaris tan compromesos, que dia a dia fan possible que els projectes siguin una realitat. Entre els assistents hi havia voluntaris implicats en projectes tan diversos com la Plataforma, els pisos d'acollida, els horts, els tallers, el cosidor i les dutxes, tots ells fonamentals per al funcionament de la Fundació i la seva tasca social.",
@@ -311,8 +325,6 @@
       "ubicacion": "Castellnou de Bages -Manresa",
       "date": "13/12/2024"
     }
-    
-    
     
     
   ],
@@ -479,8 +491,11 @@
   "compasion":"Compassió",
   "compa-text":"Són sensibles a la situació de la gent.",
   "team":"Treball en equip",
-  "team-text":"Treballant junts per assolir els mateixos objectius."
-,
+  "team-text":"Treballant junts per assolir els mateixos objectius.",
+  "Opciones de contacto": "Opcions de contacte",
+  "Quiero ser voluntario": "Vull ser voluntari",
+   "cta-text": "Forma part del canvi! La teva ajuda pot marcar la diferència.",
+  "cta-button": "Vull ser voluntari",
   
   "contacto": "Contacta'ns",
   "direc": "ADREÇA",

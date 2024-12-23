@@ -18,11 +18,11 @@ import { useTranslation } from "react-i18next";
 
 function Voluntarios() {
   const { t } = useTranslation();
-  return (
-    <> <h1 className="voluntario-title">{t("voluntarios")}</h1>
-      <div className="voluntario-container">
-       
 
+  return (
+    <>
+      <h1 className="voluntario-title">{t("voluntarios")}</h1>
+      <div className="voluntario-container">
         <div className="voluntario-para-section">
           <p>{t("vol-text")}</p>
           <p>{t("vol-text2")}</p>
@@ -64,13 +64,40 @@ function Voluntarios() {
             </h3>
             <p className="voluntario-card-description">{t("team-text")}</p>
           </div>
+        </div>
 
-          <div className="voluntario-para-section">
+        <div className="voluntario-para-section">
           <p>{t("vol-text3")}</p>
           <p>{t("vol-text4")}</p>
+          <div className="voluntario-contact">
+            <p><strong>{t("Opciones de contacto")}</strong></p>
+            <ul className="voluntario-email-list">
+              <li>
+                <span className="voluntario-email-icon">📧</span>
+                <a href="mailto:pilarrov@fsantaclara.org" className="voluntario-email">
+                  pilarrov@fsantaclara.org
+                </a>
+              </li>
+              <li>
+                <span className="voluntario-email-icon">📧</span>
+                <a href="mailto:nuriatatje@fsantaclara.org" className="voluntario-email">
+                  nuriatatje@fsantaclara.org
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        </div>
-        <div class="voluntario-collage">
+
+        <div className="voluntario-cta">
+  <p>
+    <strong>{t("cta-text")}</strong>
+  </p>
+  <button className="voluntario-cta-button">
+    <a href="mailto:info@fsantaclara.org">{t("cta-button")}</a>
+  </button>
+</div>
+
+        <div className="voluntario-collage">
           <img src={collage1} alt="Image 1" />
           <img src={collage7} alt="Image 4" />
           <img src={collage2} alt="Image 2" />
@@ -88,3 +115,4 @@ function Voluntarios() {
 }
 
 export default Voluntarios;
+
