@@ -321,6 +321,19 @@
       "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/voluntarios/13-12-2024-comidavoluntarioscierre/IMG_3650.jpg",
       "ubicacion": "Castellnou de Bages - Manresa",
       "date": "13/12/2024"
+    },
+    {
+      "id": 10,
+      "title": "Barcelona dona 12 autobuses a Ucrania",
+      "subtitle": "Barcelona dona 12 autobuses a Ucrania en un acto de solidaridad y esperanza.",
+      "body": "En un acto celebrado en las instalaciones de Transporte Metropolitano de Barcelona, el alcalde de la ciudad, Jaume Collboni, junto a la primera teniente de alcalde y presidenta de Transporte Metropolitano, Laia Bonet, y el delegado de Transporte Metropolitano, Xavier Flores, presidieron la entrega oficial de 12 autobuses urbanos a la Fundación del Convent de Santa Clara. Estos autobuses, que han concluido su servicio en la ciudad, emprenden ahora un nuevo propósito: ser enviados a Ucrania, donde serán entregados a la Guardia de Frontera, encargada de distribuir la ayuda en las zonas más devastadas por la guerra. “Un acto de solidaridad es también un acto de esperanza”. ",
+      "body2": "Sor Lucía, en su intervención, destacó la importancia de esta donación, asegurando que “un acto de solidaridad como este es también un acto de esperanza”. Agradeció al Ayuntamiento de Barcelona por su compromiso en la gestión de esta ayuda humanitaria y explicó que los autobuses serán utilizados para trasladar personas en las zonas más afectadas, ayudando a recuperar una mínima normalidad en medio del conflicto. Sor Lucía, subrayó que la Guardia de Frontera, que cubre los 7.000 kilómetros de frontera de Ucrania, será la responsable de distribuir estos autobuses en los lugares donde más se necesitan. Además, anunció que en febrero se llevará a cabo el corredor humanitario número 32, y expresó su deseo de que el corredor número 33 sea el que permita llevar estos autobuses a su destino. “Estos autobuses abrirán un camino a la paz y a la esperanza”, afirmó, haciendo un llamado a la comunidad internacional para no olvidar la dramática situación que vive Ucrania y para continuar con la ayuda humanitaria. Más ayuda solidaria hacia otros países.",
+      "body3": "Además de la donación a Ucrania, otras entidades también recibieron autobuses con fines humanitarios. Dos vehículos serán enviados a Senegal a través de la Fundación ORU Fogar, mientras que otros dos se destinarán a Marruecos de la mano de la Asociación Itran. Asimismo, un pequeño camión será trasladado a Paiporta para apoyar la labor solidaria que desarrolla la organización Conductores Solidarios de Cataluña. Un llamado a la paz y a la cooperación En el discurso, Sor Lucía lamentó que la llegada de la paz a Ucrania pueda depender de decisiones arbitrarias y externas, señalando que muchos creen que está en manos del presidente de Estados Unidos, sin embargo, enfatizó que cualquier acción justa y dialogada con Ucrania que conduzca a una paz justa, sólida y perdurable será bienvenida.Este gesto de solidaridad demuestra una vez más el compromiso de Barcelona con las causas humanitarias y refuerza la importancia de la cooperación internacional en momentos de crisis.", 
+      "carrousel1":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus%20donation%201.jpeg?raw=true",
+      "carrousel2":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus%20donation%203.jpeg?raw=true",
+      "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus.jpeg?raw=true",
+      "ubicacion": "Barcelona",
+      "date": "28/01/2025"
     }
     
     

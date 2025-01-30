@@ -18,6 +18,7 @@ import refugiados5 from "../Fcimages/carruselhome/IMG_1905.jpg";
 import refugiados6 from "../Fcimages/carruselhome/IMG_6456.jpg";
 import refugiados7 from "../Fcimages/carruselhome/pickups_1.jpg";
 import CounterCircle from "./CounterCircle";
+import buses from "../Fcimages/NoticiasImages/buses/28-01-2025-DONATION/bus donation 1.jpeg";
 import { useTranslation } from "react-i18next";
 
 import "./Videopart.css";
@@ -25,15 +26,12 @@ import "./Videopart.css";
 //const foto = require('../Fcimages/carruselhome/IMG_0249.jpg');
 const Videopart = () => {
   const { t } = useTranslation();
-  
+
   const data = [
     { label: t("videoPage.infancias"), value: 614 },
-    { label: t("videoPage.alimentos"), value: 500 
-
-
-     },
-    { label:  t("videoPage.pisosDeAcogida"), value: 52 },
-    { label:  t("videoPage.refugiadosYHeridos"), value: 89 },
+    { label: t("videoPage.alimentos"), value: 500 },
+    { label: t("videoPage.pisosDeAcogida"), value: 52 },
+    { label: t("videoPage.refugiadosYHeridos"), value: 89 },
     { label: t("videoPage.regularizacionDePapeles"), value: 110 },
   ];
   const settings = {
@@ -46,8 +44,24 @@ const Videopart = () => {
     autoplaySpeed: 2000,
   };
 
-
-  const carouselImages = [infancia1, alimentos1, refugiados2, refugiados1,yosoy1 ,  infancia3,alimentos2, yosoy2,infancia4, refugiados4,refugiados5,infancia5,refugiados6, alimentos5, refugiados7 ];
+  const carouselImages = [
+    buses,
+    infancia1,
+    alimentos1,
+    refugiados2,
+    refugiados1,
+    yosoy1,
+    infancia3,
+    alimentos2,
+    yosoy2,
+    infancia4,
+    refugiados4,
+    refugiados5,
+    infancia5,
+    refugiados6,
+    alimentos5,
+    refugiados7,
+  ];
 
   return (
     <div className="main-section">
@@ -56,12 +70,15 @@ const Videopart = () => {
         <div className="main-container">
           <div className="circle-container">
             {data.map((item, index) => (
-              <CounterCircle key={index} label={item.label} value={item.value} />
+              <CounterCircle
+                key={index}
+                label={item.label}
+                value={item.value}
+              />
             ))}
           </div>
         </div>
 
-       
         <div className="slideshow-section">
           <Slider {...settings}>
             {carouselImages.map((imgSrc, index) => (
@@ -73,7 +90,6 @@ const Videopart = () => {
         </div>
       </div>
     </div>
- 
   );
 };
 export default Videopart;
