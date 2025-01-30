@@ -322,6 +322,19 @@
       "carrousel3": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/NoticiasImages/voluntarios/13-12-2024-comidavoluntarioscierre/IMG_3650.jpg",
       "ubicacion": "Castellnou de Bages -Manresa",
       "date": "12/13/2024"
+    },
+    {
+      "id": 10,
+      "title": "Barcelona Donates 12 Buses to Ukraine",
+      "subtitle": "Barcelona Donates 12 Buses to Ukraine in an Act of Solidarity and Hope",
+      "body": "At a ceremony held at the Metropolitan Transport facilities in Barcelona, the city’s mayor, Jaume Collboni, together with the First Deputy Mayor and President of Metropolitan Transport, Laia Bonet, and the Delegate of Metropolitan Transport, Xavier Flores, presided over the official handover of 12 urban buses to the Fundació del Convent de Santa Clara. These buses, which have completed their service in the city, are now embarking on a new mission: to be sent to Ukraine, where they will be handed over to the Border Guard, the organization responsible for distributing aid to the areas most devastated by the war. “An Act of Solidarity is Also an Act of Hope”. ",
+      "body2": "During her speech, Sister Lucía highlighted the importance of this donation, stating that “an act of solidarity like this is also an act of hope.” She expressed her gratitude to the Barcelona City Council for its commitment to facilitating this humanitarian aid and explained that these buses will be used to transport people in the most affected areas, helping restore a sense of normality in the midst of conflict. She also emphasized that the Border Guard, which operates along Ukraine’s 7,000-kilometer border, will ensure that these buses reach the areas where they are needed the most. Additionally, she announced that in February, they will carry out humanitarian corridor number 32 and expressed her hope that corridor number 33 will soon be used to transport these buses. “These buses will open a path to peace and hope,” Sister Lucía said, calling on the international community not to forget the dramatic situation in Ukraine and to continue supporting humanitarian efforts. More Humanitarian Aid to Other Countries. ", 
+      "body3": "In addition to the buses sent to Ukraine, other organizations also received buses for humanitarian purposes. Two vehicles will be sent to Senegal through the ORU Fogar Foundation, while another two will go to Morocco, facilitated by the Itran Association. Furthermore, a small truck will be transported to Paiporta to support the solidarity work carried out by the Solidarity Drivers of Catalonia. A Call for Peace and Cooperation In her speech, Sister Lucia lamented that the arrival of peace in Ukraine may depend on arbitrary and external decisions, noting that many believe it is in the hands of the president of the United States. However, she emphasized that any fair and dialogue-based action with Ukraine that leads to a just, stable and lasting peace will be welcomed. This act of solidarity once again demonstrates Barcelona’s commitment to humanitarian causes and highlights the importance of international cooperation in times of crisis.", 
+      "carrousel1":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus%20donation%201.jpeg?raw=true",
+      "carrousel2":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus%20donation%203.jpeg?raw=true",
+      "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus.jpeg?raw=true",
+      "ubicacion": "Barcelona",
+      "date": "28/01/2025"
     }
     
     
