@@ -5,13 +5,11 @@ import tomadatos from "../Fcimages/pilaryjoven.jpg";
 import entregaalimentos from "../Fcimages/jaumaymamapilar.jpg";
 import voluntariosplataform from "../Fcimages/voluntarios plataform.jpg";
 
-
 function PlataformaData(props) {
   const { t } = useTranslation();
 
- 
   const plataformaParagraph = t("plataforma-paragraph");
-  
+
   const paragraphs = plataformaParagraph.split("\n\n");
 
   return (
@@ -19,10 +17,8 @@ function PlataformaData(props) {
       <li className="plat-cards-item">
         <div className="platcards-item-link" to={props.path}>
           <div className="platcards-item-info">
-            
             <div className="plat-para-text">
               {paragraphs.map((paragraph, index) => {
-                
                 const [title, ...content] = paragraph.split(":");
                 return (
                   <p key={index}>
@@ -33,11 +29,10 @@ function PlataformaData(props) {
               })}
             </div>
             <p className="plat-card-intro">
-              {t("plat-card-intro")}
+              <strong>{t("plat-card-intro")}</strong>
               <strong> {t("plat-card-intro-bold")}</strong>
             </p>
             <div className="small-card-container">
-             
               <div className="small-card-item">
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/009/346/314/original/family-icon-vector-illustration-on-the-white-background-free-png.png"
@@ -102,7 +97,6 @@ function PlataformaData(props) {
                 </div>
               </div>
 
-
               <div className="small-card-item">
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/470/470912.png"
@@ -118,8 +112,6 @@ function PlataformaData(props) {
                   </p>
                 </div>
               </div>
-
-          
             </div>
           </div>
         </div>
@@ -134,18 +126,10 @@ function PlataformaData(props) {
             />
           </div>
           <div className="pic-section">
-            <img
-             src={tomadatos}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={tomadatos} className="d-block w-100" alt="..." />
           </div>
           <div className="pic-section">
-            <img
-              src={entregaalimentos}
-              className="d-block w-100"
-              alt="..."
-            />
+            <img src={entregaalimentos} className="d-block w-100" alt="..." />
           </div>
           <div className="pic-section">
             <img

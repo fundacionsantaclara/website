@@ -61,8 +61,8 @@
 
 "plataforma-page-title" :"PLATAFORMA D'ALIMENTS",
 "plataforma-paragraph": "Lluita contra la fam: L'objectiu principal de la Plataforma d'Aliments és garantir que les persones més necessitades tinguin accés als aliments bàsics. Això és especialment rellevant en contextos de crisi econòmica, on l'augment de la pobresa afecta moltes famílies.\n\nReducció del malbaratament alimentari: Molts aliments són descartats per empreses i supermercats per motius com l'excés de producció o la proximitat a la data de caducitat, tot i estar en bon estat. A la Plataforma d'Aliments es recuperen aquests productes i es redistribueixen, evitant el malbaratament.\n\nPromoció de la solidaritat i la col·laboració: A través de la nostra tasca, fomentem una xarxa solidària on empreses, voluntaris i ciutadans col·laboren per ajudar aquells que més ho necessiten.",
-"plat-card-intro" :"Nombre de persones ateses (2 VEGADES)",
-"plat-card-intro-bold" :"MENSUAL",
+"plat-card-intro" :"Nombre de persones ateses ",
+"plat-card-intro-bold" :"",
 "plat-card-data" :"Famílies",
 "plat-card-data2" :"Persones",
 "plat-card-data3" : "Menors",
