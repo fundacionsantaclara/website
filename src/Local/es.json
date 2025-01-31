@@ -61,8 +61,8 @@
 
 "plataforma-page-title" :"PLATAFORMA DE ALIMENTOS",
 "plataforma-paragraph": "Lucha contra el hambre: El principal objetivo de la Plataforma de Alimentos es garantizar que las personas más necesitadas tengan acceso a alimentos básicos. Esto es especialmente relevante en contextos de crisis económica, donde el aumento de la pobreza afecta a muchas familias.\n\nReducción del desperdicio alimentario: Muchos alimentos son descartados por empresas y supermercados por motivos como el exceso de producción o la proximidad a la fecha de caducidad, aunque estén en buen estado. En la Plataforma de Alimentos se recuperan estos productos y se redistribuyen, evitando su desperdicio.\n\nPromoción de la solidaridad y la colaboración: A través de nuestra labor, fomentamos una red solidaria en la que empresas, voluntarios y ciudadanos colaboran para ayudar a quienes más lo necesitan.",
-"plat-card-intro" :"Número de personas atendidas (2 VECES)",
-"plat-card-intro-bold" :"MENSUAL",
+"plat-card-intro" :"Número de personas atendidas ",
+"plat-card-intro-bold" :"",
 "plat-card-data" :"Familias",
 "plat-card-data2" :"Personas",
 "plat-card-data3" : "Menores",
