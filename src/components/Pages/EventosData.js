@@ -17,15 +17,22 @@ const EventosData = () => {
         {latestEvents.map((event) => (
           <EventosCard
             key={event.id}
-            imageSrc={event.imageSrc} 
+            imageSrc={event.imageSrc}
             eventName={event.eventName}
             date={event.date}
             time={event.time}
             location={event.location}
+            Confirmation={event.Confirmation}
+            timetitle={event.timetitle}
+            datetitle={event.datetitle}
+            placetitle={event.placetitle}
+            confirmtitle={event.confirmtitle}
           />
         ))}
       </div>
-      <Link to="/EventosCompleta" className="ver-mas-boton">Ver más</Link>
+      {/* <Link to="/EventosCompleta" className="ver-mas-boton">
+        Ver más
+      </Link> */}
     </div>
   );
 };
