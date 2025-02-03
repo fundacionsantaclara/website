@@ -520,15 +520,20 @@
   "mail-text": "info@fsantaclara.org",
 
 
- "last-events": "Últims esdeveniments",
+ "last-events": "Pròxim esdeveniment",
   "events": [
     {
       "id": 1,
-      "eventName": "250 Somriures",
-      "date": "Juny, 2024",
-      "time": "2:00 PM",
-      "location": "Barcelona, Espanya",
-      "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/WhatsApp%20Image%202024-10-23%20at%2014.44.40.jpg?raw=true"
+      "eventName": "“Ucraïna: Tres anys de Resistència i Esperança”",
+      "date": "27, Febrer, 2024",
+      "time": "18:00 h",
+      "location": "Auditorio, Museo de la Ciencia CosmoCaixa Barcelona",
+      "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/newevent.png?raw=true",
+      "Confirmation": "Click here",
+      "datetitle": "Data",
+    "timetitle": "Hora",
+    "placetitle": "Ubicació",
+    "confirmtitle": "Confirmació"
     }
   ],
 
