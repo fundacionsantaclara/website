@@ -5,7 +5,7 @@ import gloria from "../Fcimages/gloria.jpg";
 import pilar from "../Fcimages/WhatsApp Image 2024-12-05 at 10.34.35.jpeg";
 import nuria from "../Fcimages/equipot tecnico/nuriaEquipoTecnico.jpg";
 import marta from "../Fcimages/equipot tecnico/marta 1.jpg";
-//import lali from "../Fcimages/lali.png";
+import lali from "../Fcimages/equipot tecnico/lali.jpeg";
 import eli from "../Fcimages/equipot tecnico/elisabeth.jpeg";
 import luis from "../Fcimages/luis.jpg";
 import miguel from "../Fcimages/equipot tecnico/miguelbuena.jpg";
@@ -15,7 +15,7 @@ import user from "../Fcimages/user.webp";
 import vane from "../Fcimages/vane.png";
 //import manel from "../Fcimages/manel.png";
 import elisenda from "../Fcimages/equipot tecnico/elisenda.jpg";
-import yhenifer from "../Fcimages/equipot tecnico/yhenifer.jpeg"
+import yhenifer from "../Fcimages/equipot tecnico/yhenifer.jpeg";
 
 const EquipoData = [
   {
@@ -25,20 +25,20 @@ const EquipoData = [
     imageUrl: lucia,
     email: "sorlucia@fsantaclara.org ",
   },
-  
 
-  { id: 2,
-     name: "Josep Ribera", 
-     role: "josep", 
-     imageUrl: pepe, 
-     email: "josep@fsantaclara.org ",
-    },
+  {
+    id: 2,
+    name: "Josep Ribera",
+    role: "josep",
+    imageUrl: pepe,
+    email: "josep@fsantaclara.org ",
+  },
   {
     id: 3,
     name: "Gloria Kwofie",
     role: "gloria",
     imageUrl: gloria,
-    email: "",
+    email: "gloria@fsantaclara.org",
   },
   {
     id: 4,
@@ -54,12 +54,13 @@ const EquipoData = [
     imageUrl: nuria,
     email: "nuriatatje@fsantaclara.org",
   },
-  { id: 6,
-     name: "Meritxell Farreras", 
-     role: "merix",
-      imageUrl: merri,
-      email: "meritxell@fsantaclara.org",
-    },
+  {
+    id: 6,
+    name: "Meritxell Farreras",
+    role: "merix",
+    imageUrl: merri,
+    email: "meritxell@fsantaclara.org",
+  },
   {
     id: 7,
     name: "Marta Arau ",
@@ -71,7 +72,7 @@ const EquipoData = [
     id: 8,
     name: "Eulàlia Simon",
     role: "lali",
-    imageUrl: user,
+    imageUrl: lali,
     email: "eulalia@fsantaclara.org",
   },
   {
@@ -100,7 +101,7 @@ const EquipoData = [
     name: "Henry Kwofie",
     role: "henry",
     imageUrl: henry,
-    email: "",
+    email: "henry@fsantaclara.org",
   },
   {
     id: 13,
@@ -123,7 +124,7 @@ const EquipoData = [
     imageUrl: vane,
     email: "vanessa@fsantaclara.org",
   },
-  
+
   {
     id: 20,
     name: "Yhenifer Pulido",
