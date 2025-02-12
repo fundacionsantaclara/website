@@ -531,10 +531,10 @@
       "location": "Auditorio, Museo de la Ciencia CosmoCaixa Barcelona",
       "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/newevent.png?raw=true",
       "Confirmation": "Click here",
-      "datetitle": "Date",
-      "timetitle": "time",
-      "placetitle": "Location",
-      "confirmtitle": "Confirmation"
+      "datetitle": "Date:",
+      "timetitle": "time:",
+      "placetitle": "Location:",
+      "confirmtitle": "Confirmation:"
     },
     {
       "id": 2,
@@ -543,10 +543,8 @@
       "time": "",
       "location": "Vilassar de Mar",
       "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/evento%20solidario.jpeg?raw=true",
-      "datetitle": "Fecha",
-      "timetitle": "Hora",
-      "placetitle": "Ubicación",
-      "confirmtitle": "Confirmación"
+      "datetitle": "Fecha:",
+      "placetitle": "Ubicación:"
     }
     
   ],
