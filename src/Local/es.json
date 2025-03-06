@@ -117,8 +117,8 @@
 
 
 "pisos-page-title" :"PISOS DE ACOGIDA",
-"pisos-page-card1-title" :"52 Viviendas",
-"pisos-page-card1-para" :"La Fundación dispone de 52 viviendas tuteladas por familias y personas solas. Ofrecemos soporte temporal para personas en riesgo de exclusión social.",
+"pisos-page-card1-title" :"49 Viviendas",
+"pisos-page-card1-para" :"La Fundación dispone de 49 viviendas tuteladas por familias y personas solas. Ofrecemos soporte temporal para personas en riesgo de exclusión social.",
 "pisos-page-card2-title" :"Valores y soporte",
 "pisos-page-card2-para" :"El proyecto propone garantizar las condiciones de vida en una vivienda adecuada, que facilite el desarrollo de las personas y familias. Cada 15 días pasan por la Plataforma dels Aliments donde se les entrega el lote de alimentos y una vez al mes tienen contacto y entrevista con los referentes de la Fundación. Acompañamiento para contribuir a la búsqueda de empleo y en formación y soporte legal.",
 "pisos-page-card3-title" :"Promoción Social",
@@ -334,6 +334,19 @@
       "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus.jpeg?raw=true",
       "ubicacion": "Barcelona",
       "date": "28/01/2025"
+    },
+    {
+      "id": 11,
+      "title": " Un Encuentro de Compromiso y Reconocimiento",
+      "subtitle": "'Ucrania: tres años de resistencia y esperanza'",
+      "body": "El pasado 27 de febrero, la Fundación del Convento de Santa Clara organizó un acto en el CosmoCaixa de Barcelona en apoyo a Ucrania. El evento contó con la participación de la Ministra de Defensa, Margarita Robles, la Segunda Teniente de Alcaldía de Barcelona, M. Eugènia Gay, el Conseller de Unión Europea y Acción Exterior de la Generalitat catalana, Jaume Duch, la Presidenta de la Fundación Climent Guitart, Cristina Cabañas, y el Presidente de FIRA de Barcelona, Pau Relat.",
+      "body2": "Durante el acto, Sor Lucía Caram recibió la Orden de la Princesa Olga, un reconocimiento otorgado por Ucrania por su labor humanitaria en la organización de corredores humanitarios y la asistencia a las víctimas de la guerra. En su intervención, Sor Lucía compartió un emotivo mensaje:'Estamos al lado de los valientes, de los que están en la primera línea, de los que están dando su vida para que todos tengan paz, libertad y dignidad.'",
+      "body3": "La Ministra Margarita  Robles reafirmó el compromiso de España con Ucrania y la necesidad de seguir trabajando por una paz duradera. Un evento que fortaleció la solidaridad y el apoyo a quienes luchan por la paz y la dignidad.",
+      "carrousel1":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-%20eventpic1.jpeg?raw=true",
+      "carrousel2":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic2.jpeg?raw=true",
+      "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic3.jpeg?raw=true",
+      "ubicacion": "CosmoCaixa, Barcelona",
+      "date": "27/02/2025"
     }
     
     
@@ -521,21 +534,8 @@
 
  "last-events": "Próximo evento",
 "events": [
-    {
-    "id": 1,
-    "eventName": "“Ucrania: Tres años de Resistencia y Esperanza”",
-    "date": "27, Febrero, 2025",
-    "time": "18:00 h",
-    "location": "Auditorio, Museo de la Ciencia CosmoCaixa Barcelona",
-    "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/newevent.png?raw=true",
-    "Confirmation": "Haz clic aquí",
-    "datetitle": "Fecha:",
-    "timetitle": "Hora:",
-    "placetitle": "Ubicación:",
-    "confirmtitle": "Confirmación:"
-  },
   {
-    "id": 2,
+    "id": 1,
     "eventName": "AS de rePiques Solidari 2025 ",
     "date": "24, Mayo, 2025",
     "time": "",

@@ -117,8 +117,8 @@
 
 
 "pisos-page-title" :"SHELTER HOMES",
-"pisos-page-card1-title" :"52 Homes",
-"pisos-page-card1-para" :"The Foundation has 52 homes supervised for families and individuals. We offer temporary support for people at risk of social exclusion.",
+"pisos-page-card1-title" :"49 Homes",
+"pisos-page-card1-para" :"The Foundation has 49 homes supervised for families and individuals. We offer temporary support for people at risk of social exclusion.",
 "pisos-page-card2-title" :"Values and Support",
 "pisos-page-card2-para" :"The project aims to ensure living conditions in suitable housing that facilitates the development of individuals and families. Every 15 days, they visit the Food Platform where they receive a food package, and once a month, they have contact and an interview with Foundation representatives. We provide support to help them find employment, training, and legal assistance.",
 "pisos-page-card3-title" :"Social Promotion",
@@ -335,6 +335,19 @@
       "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bus.jpeg?raw=true",
       "ubicacion": "Barcelona",
       "date": "28/01/2025"
+    },
+    {
+      "id": 11,
+      "title": " A Gathering of Commitment and Recognition",
+      "subtitle": "'Ukraine: three years of resistance and hope'",
+      "body": "On February 27, the Fundación del Convento de Santa Clara organized an event at CosmoCaixa in Barcelona in support of Ukraine. The event featured the participation of Minister of Defense Margarita Robles, Barcelona’s Second Deputy Mayor M. Eugènia Gay, Minister of European Union and Foreign Action of the Catalan Government Jaume Duch, President of the Climent Guitart Foundation Cristina Cabañas, and President of FIRA Barcelona Pau Relat.",
+      "body2": "During the event, Sor Lucía Caram received the Order of Princess Olga, a recognition from Ukraine for her humanitarian work in organizing humanitarian corridors and providing aid to war victims. In her speech, Sor Lucía shared a heartfelt message:'We stand with the brave, with those on the front line, with those who are giving their lives so that everyone can have peace, freedom, and dignity.'",
+      "body3": "Minister Margarita  Robles reaffirmed Spain’s commitment to Ukraine and the need to continue working for a lasting peace. The event strengthened solidarity and support for those fighting for peace and dignity.",
+      "carrousel1":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-%20eventpic1.jpeg?raw=true",
+      "carrousel2":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic2.jpeg?raw=true",
+      "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic3.jpeg?raw=true",
+      "ubicacion": "CosmoCaixa, Barcelona",
+      "date": "27/02/2025"
     }
     
     
@@ -525,19 +538,6 @@
   "events": [
     {
       "id": 1,
-      "eventName": "“Ukraine: Three years of Resistance and Hope”",
-      "date": "27, February, 2025",
-      "time": "6:00 PM",
-      "location": "Auditorio, Museo de la Ciencia CosmoCaixa Barcelona",
-      "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/newevent.png?raw=true",
-      "Confirmation": "Click here",
-      "datetitle": "Date:",
-      "timetitle": "time:",
-      "placetitle": "Location:",
-      "confirmtitle": "Confirmation:"
-    },
-    {
-      "id": 2,
       "eventName": "AS de rePiques Solidari 2025 ",
       "date": "24, May, 2025",
       "time": "",
