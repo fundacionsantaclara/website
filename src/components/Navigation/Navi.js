@@ -81,7 +81,9 @@ function Navi() {
                     >
                       {t(item.title)}
                     </Link>
-                    {dropdown2 && <ParticipaDropdown closeMenu={closeMobileMenu} />}
+                    {dropdown2 && (
+                      <ParticipaDropdown closeMenu={closeMobileMenu} />
+                    )}
                   </li>
                 );
               }
@@ -111,7 +113,7 @@ function Navi() {
               );
             })}
           </ul>
-          {button && (
+          {/* {button && (
             <a
               href="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
               className="button donativo"
@@ -120,6 +122,11 @@ function Navi() {
             >
               <strong>{t("donativo")}</strong>
             </a>
+          )} */}
+          {button && (
+            <Link to="/donate" className="button donativo">
+              <strong>{t("donativo")}</strong>
+            </Link>
           )}
         </div>
       </nav>

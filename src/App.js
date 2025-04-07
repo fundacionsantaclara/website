@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navi from "./components/Navigation/Navi";
@@ -25,11 +25,45 @@ import Contacto from "./components/Pages/Contact";
 import Voluntarios from "./components/Pages/Voluntarios";
 import NewsPage from "./components/Noticias/NewsPage";
 import Comunidad from "./components/Pages/Comunidad";
-import NoticiasCompleta from './components/Noticias/NoticiasCompleta';
+import NoticiasCompleta from "./components/Noticias/NoticiasCompleta";
 import EventosCompleta from "./components/Pages/EventosCompleta";
 import EstrenaVida from "./components/Pages/EstrenaVida";
+import { useTranslation } from "react-i18next";
+import Donate from "./components/Navigation/Donate";
 
 function App() {
+  const { t } = useTranslation();
+  const [showBanner, setShowBanner] = useState(true);
+
+  // Accept ALL Cookies (Store consent & allow tracking)
+  const acceptAllCookies = () => {
+    localStorage.setItem("cookieConsent", "all");
+    setShowBanner(false);
+    // You can also initialize analytics/tracking scripts here (e.g., Google Analytics)
+  };
+
+  // Accept ONLY NECESSARY Cookies (No tracking)
+  const acceptNecessaryCookies = () => {
+    localStorage.setItem("cookieConsent", "necessary");
+    setShowBanner(false);
+    clearNonEssentialCookies(); // Clear non-essential cookies (e.g., analytics)
+  };
+
+  // Clear non-essential cookies (e.g., analytics, ads)
+  const clearNonEssentialCookies = () => {
+    const essentialCookies = ["session_id", "user_token"]; // Adjust with your essential cookies
+    document.cookie.split(";").forEach((cookie) => {
+      const cookieName = cookie.split("=")[0].trim();
+      if (!essentialCookies.includes(cookieName)) {
+        document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+      }
+    });
+    // Optional: Disable tracking scripts (e.g., Google Analytics)
+    if (window.ga) {
+      window.ga("set", "anonymizeIp", true);
+    }
+  };
+
   return (
     <div className="App">
       <Navi />
@@ -59,8 +93,29 @@ function App() {
         <Route path="/NoticiasCompleta" element={<NoticiasCompleta />} />
         <Route path="/Comunidad" element={<Comunidad />} />
         <Route path="/EventosCompleta" element={<EventosCompleta />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
       <Footer />
+      {/* Cookie Banner - Always show if no consent yet */}
+      {showBanner && (
+        <div className="cookie-banner">
+          <p>
+            {t("cookies")}
+            {/* <a href="/privacy-policy"> {t("cookies-link")}</a>.*/}
+          </p>
+          <div className="cookie-buttons">
+            <button
+              className="accept-necessary"
+              onClick={acceptNecessaryCookies}
+            >
+              {t("accept-cookies")}
+            </button>
+            <button className="accept-all" onClick={acceptAllCookies}>
+              {t("only-cookies")}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

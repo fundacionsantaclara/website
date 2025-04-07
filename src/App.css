@@ -27,6 +27,42 @@
 .App-link {
   color: #61dafb;
 }
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8cbfa9;
+  color: rgb(23, 23, 23);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.accept-necessary {
+  background: #767373;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.accept-all {
+  background: #4CAF50;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
 
 @keyframes App-logo-spin {
   from {

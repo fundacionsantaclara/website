@@ -371,6 +371,21 @@
   "part-tiendas": "Solidarity Store",
   "footer-p1": "With your help, all these projects will be possible",
   "footer-p2":"Supported by:",
+  "cookies": "We use cookies to enhance your experience.",
+  "accept-cookies": "Accept All Cookies",
+  "only-cookies": "Accept Necessary Cookies",
+  "cookies-link": "Learn more",
+  "fiscal-title": "Tax Benefits of a Donation",
+  "fiscal-individual-title": "If you are an individual",
+  "fiscal-individual-text-1": "You can deduct 80% of the first €250 per year and 40% of the excess above €250.",
+  "fiscal-individual-text-2": "For example, if you donate €250, you get €200 back in your tax return. If you donated the same amount for the last two years, the deduction increases to 45%.",
+  "fiscal-company-title": "If you pay Corporate Tax",
+  "fiscal-company-text-1": "You can deduct 40% of your donations. If you donated the same amount for the last two years, the deduction increases to 50%.",
+  "fiscal-company-text-2": "For example, a one-time €500 donation allows you to recover €200, and if it’s recurrent, in the third year, you recover €250.",
+  "fiscal-company-text-3": "Additionally, 100% of sponsorship and collaboration expenses will be deductible if specific agreements are signed, considering the fiscal regulations of the corresponding Autonomous Community.",
+  "donate-button": "Make a Donation",
+  "back-home": "Back to Home",
+
 
 
 "invulnerables-page-title": "INVULNERABLES",
