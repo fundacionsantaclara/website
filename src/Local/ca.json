@@ -371,6 +371,21 @@
   "part-tiendas":  "Botiga solidària",
   "footer-p1": "Amb la teva ajuda tots aquests projectes seran possibles",
   "footer-p2": "Amb el suport de:",
+  "cookies": "Utilitzem cookies per millorar la teva experiència.",
+  "accept-cookies": "Accepta totes les cookies",
+  "only-cookies": "Accepteu les cookies necessàries",
+  "cookies-link": "Més informació",
+  "fiscal-title": "Avantatges fiscals d'una donació",
+  "fiscal-individual-title": "Si ets una persona física",
+  "fiscal-individual-text-1": "Et pots deduir el 80% dels primers 250 € anuals i el 40% de la resta, a partir de 250 €.",
+  "fiscal-individual-text-2": "És a dir, que si dones 250 € recuperes 200 € en la teva declaració de renda. A més, en el que excedeixi els 250 €, si els dos anys anteriors vas donar almenys la mateixa quantitat, la deducció puja al 45%.",
+  "fiscal-company-title": "Si tributes per Impost de Societats",
+  "fiscal-company-text-1": "Pots deduir-te un 40% de les teves donacions. Si en els dos anys anteriors vas donar almenys la mateixa quantitat, la deducció és del 50%.",
+  "fiscal-company-text-2": "És a dir que una donació puntual de 500 € et permet recuperar 200 € i si és recurrent, el tercer any, recuperes 250 €.",
+  "fiscal-company-text-3": "A més, es consideraran despeses deduïbles el 100% de les despeses de Col·laboració i de Patrocinis de Publicitat, si se signen els convenis corresponents, tot tenint en compte les disposicions fiscals de la Comunitat Autònoma corresponent.",
+  "donate-button": "Fes la teva donació",
+  "back-home": "Torna a l'inici",
+
 
 
 "invulnerables-page-title": "INVULNERABLES",

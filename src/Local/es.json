@@ -369,6 +369,22 @@
   "part-tiendas": "Tienda solidaria",
   "footer-p1": "Con tu ayuda todos estos proyectos serán posibles",
   "footer-p2":"Con el soporte de:",
+  "cookies": "Utilizamos cookies para mejorar tu experiencia.",
+  "accept-cookies": "Aceptar todas las cookies",
+  "only-cookies": "Aceptar cookies necesarias",
+  "cookies-link": "Más información",
+  "fiscal-title": "Ventajas fiscales de una donación",
+  "fiscal-individual-title": "Si eres persona física",
+  "fiscal-individual-text-1": "Te puedes deducir el 80% de los primeros 250 € anuales y el 40% del resto, a partir de 250 €.",
+  "fiscal-individual-text-2": "Es decir, que si donas 250 € recuperas 200 € en tu declaración de renta. Además, en lo que exceda los 250 €, si los dos años anteriores donaste al menos la misma cantidad, la deducción sube al 45 %. ",
+  "fiscal-company-title": "Si tributas por Impuesto de Sociedades",
+  "fiscal-company-text-1": "Puedes deducirte un 40 % de tus donaciones. Si en los dos años anteriores donaste al menos la misma cantidad, la deducción es del 50 %. ",
+  "fiscal-company-text-2": "Es decir que una donación puntual de 500 € permite recuperar 200 € y si es recurrente, el tercer año, recuperas 250 €.",
+  "fiscal-company-text-3": "Además, se considerarán gastos deducibles el 100% de los gastos de Colaboración y de Patrocinios de Publicidad, si se firman sendos convenios al respecto, aunque hay que tener en cuenta las disposiciones fiscales de la Comunidad Autónoma correspondiente.",
+  "donate-button": "Haz tu donación",
+  "back-home": "Volver al inicio",
+
+
 
 
 "invulnerables-page-title": "INVULNERABLES",
