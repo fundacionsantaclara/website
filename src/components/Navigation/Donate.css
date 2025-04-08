@@ -3,6 +3,10 @@
     padding: 50px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
   }
   
   .donate-container h1 {
@@ -42,6 +46,7 @@
   
   /* Centered donate button */
   .donate-button {
+    order: 1;
     display: inline-block;
     background: #ff4500;
     color: white;
@@ -57,6 +62,7 @@
   }
   
   .back-home {
+    order: 2;
     display: block;
     margin-top: 20px;
     text-decoration: none;
@@ -68,8 +74,13 @@
     text-decoration: underline;
   }
   
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
+/* Move the button up on small screens */
+@media screen and (max-width: 768px) {
+    .donate-button {
+      order: -1; /* Moves button to the top */
+      margin-bottom: 20px;
+    }
+  
     .donation-info-container {
       flex-direction: column;
     }
