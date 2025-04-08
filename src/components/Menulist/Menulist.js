@@ -37,7 +37,7 @@ export const MenuList = [
   },
   {
     title: "donativo",
-    url: "https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715",
+    url: "/donate",
     cName: "nav-links-mobile",
   },
 ];

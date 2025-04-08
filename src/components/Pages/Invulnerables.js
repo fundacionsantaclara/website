@@ -4,10 +4,12 @@ import InvulnerablePic from "../Fcimages/invulnerables/660c73ce-76a4-41fd-91a2-6
 import InvulnerablePic1 from "../Fcimages/invulnerables/on estem.png";
 import InvulnerablePic2 from "../Fcimages/invulnerables/Maig.jpg";
 import InvulnerablePic3 from "../Fcimages/invulnerables/Feber.jpg";
-import InvulnerableColl from "../Fcimages/invul-img.jpg";
+// import InvulnerableColl from "../Fcimages/invul-img.jpg";
+import InvulnerableColl from "../Fcimages/football.jpg";
 import InvulnerableColl2 from "../Fcimages/invul-img2.jpg";
 import InvulnerableColl3 from "../Fcimages/Invul-img3.jpg";
-import InvulnerableColl4 from "../Fcimages/invul-img4.jpg";
+// import InvulnerableColl4 from "../Fcimages/invul-img4.jpg";
+import InvulnerableColl4 from "../Fcimages/Campus.jpg";
 import { useTranslation } from "react-i18next";
 
 function Invulnerables() {
@@ -33,7 +35,11 @@ function Invulnerables() {
 
           <div className="invulnerables-card2-container">
             <div className="invul-card">
-              <img src={InvulnerablePic} className="invulnerables-img" alt="..." />
+              <img
+                src={InvulnerablePic}
+                className="invulnerables-img"
+                alt="..."
+              />
               <h2>{t("program-title")}</h2>
               <p>
                 <strong>{t("strong-inv")}</strong> {t("p-inv")}
@@ -42,24 +48,44 @@ function Invulnerables() {
             <div className="invul-card">
               <h2>{t("igual")}</h2>
               <p>{t("p-igual")}</p>
-              <img src={InvulnerablePic1} className="invulnerables-img" alt="..." />
+              <img
+                src={InvulnerablePic1}
+                className="invulnerables-img"
+                alt="..."
+              />
             </div>
 
             <div className="invul-image-collage">
               <div className="collage-item">
-                <img src={InvulnerableColl} alt="..." className="collage-image" />
+                <img
+                  src={InvulnerableColl}
+                  alt="..."
+                  className="collage-image"
+                />
                 <p className="collage-text">{t("collage-text-1")}</p>
               </div>
               <div className="collage-item">
-                <img src={InvulnerableColl2} className="collage-image" alt="..." />
+                <img
+                  src={InvulnerableColl2}
+                  className="collage-image"
+                  alt="..."
+                />
                 <p className="collage-text">{t("collage-text-2")}</p>
               </div>
               <div className="collage-item">
-                <img src={InvulnerableColl3} className="collage-image" alt="..." />
+                <img
+                  src={InvulnerableColl3}
+                  className="collage-image"
+                  alt="..."
+                />
                 <p className="collage-text">{t("collage-text-3")}</p>
               </div>
               <div className="collage-item">
-                <img src={InvulnerableColl4} className="collage-image" alt="..." />
+                <img
+                  src={InvulnerableColl4}
+                  className="collage-image"
+                  alt="..."
+                />
                 <p className="collage-text">{t("collage-text-4")}</p>
               </div>
             </div>
@@ -71,7 +97,11 @@ function Invulnerables() {
                 <strong>{t("p-recur-strong")}</strong>
               </p>
               <p>{t("p-recur-2")}</p>
-              <img src={InvulnerablePic2} className="invulnerables-img" alt="..." />
+              <img
+                src={InvulnerablePic2}
+                className="invulnerables-img"
+                alt="..."
+              />
             </div>
 
             <div className="invul-card">
@@ -81,11 +111,12 @@ function Invulnerables() {
                 <strong>{t("p-recurs-strong")}</strong>
               </p>
               <p>{t("p-recurs-2")}</p>
-              <img src={InvulnerablePic3} className="invulnerables-img" alt="..." />
-              
+              <img
+                src={InvulnerablePic3}
+                className="invulnerables-img"
+                alt="..."
+              />
             </div>
-
-            
           </div>
         </div>
       </div>
