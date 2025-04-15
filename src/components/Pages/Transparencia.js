@@ -11,6 +11,8 @@ import memo2019 from "../Documents/memoria_FRO_2019.pdf";
 import memo2020 from "../Documents/memoria_FCSC_2020_CA.pdf";
 import memo2021 from "../Documents/memoria_FRO_2021_CAT_web2.pdf";
 import memo2022 from "../Documents/memoria_FRO_2022_CAT_web.pdf";
+import memo2024 from "../Documents/Memoria_2024.pdf";
+
 import cuentas2018 from "../Documents/Comptes_anuals_2018.pdf";
 import cuentas2019 from "../Documents/Comptes_anuals_2019.pdf";
 import auditoría2020 from "../Documents/INFORME_AUDITORIA_I_CCAA_2020.pdf";
@@ -23,7 +25,7 @@ import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE C
 import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
 import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
 import image1 from "../Fcimages/transparencia//luciaheridotransparencia.jpg";
-import image2 from "../Fcimages/transparencia/IMG_6234.jpg";
+import image2 from "../Fcimages/transparencia/memo-pic.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
 import image4 from "../Fcimages/transparencia/IMG_3779.jpg";
 import image5 from "../Fcimages/transparencia/IMG_7658.jpg";
@@ -42,7 +44,6 @@ function Transparencia() {
             </div>
             <p className="para__text text__grey">{t("transparency-intro")}</p>
 
-           
             <div className="trans-card">
               <img src={image1} alt="Law Image" />
               <div className="trans-card-content-wrapper">
@@ -51,28 +52,48 @@ function Transparencia() {
                   <h3>{t("transparency-card1-subtitle")}</h3>
                   <ul className="trans-list">
                     <p>
-                      <a className="link-offset-1" href={patrons} target="_blank">
-                        {t("patrons-title")} 
+                      <a
+                        className="link-offset-1"
+                        href={patrons}
+                        target="_blank"
+                      >
+                        {t("patrons-title")}
                       </a>
                     </p>
-                    
+
                     <p>
-                      <a className="link-offset-1" href={estatutos} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={estatutos}
+                        target="_blank"
+                      >
                         {t("estatutos-title")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-1" href={registros} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={registros}
+                        target="_blank"
+                      >
                         {t("registros-title")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-1" href={normativos} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={normativos}
+                        target="_blank"
+                      >
                         {t("normativo-title")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-1" href={codigoEtico} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={codigoEtico}
+                        target="_blank"
+                      >
                         {t("codigoEtico-title")}
                       </a>
                     </p>
@@ -88,27 +109,48 @@ function Transparencia() {
                   <h2>{t("organigrama-title")}</h2>
                   <ul className="trans-list">
                     <p>
-                      <a className="link-offset-1" href={memo2018} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={memo2018}
+                        target="_blank"
+                      >
                         {t("memoria-2018")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-2" href={memo2019} target="_blank">
+                      <a
+                        className="link-offset-2"
+                        href={memo2019}
+                        target="_blank"
+                      >
                         {t("memoria-2019")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={memo2020} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={memo2020}
+                        target="_blank"
+                      >
                         {t("memoria-2020")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={memo2021} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={memo2021}
+                        target="_blank"
+                      >
                         {t("memoria-2021")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={memo2022} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={memo2022}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("memoria-2022")}
                       </a>
                     </p>
@@ -117,8 +159,19 @@ function Transparencia() {
                         className="link-offset-3"
                         href={memo2023Novisual}
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t("memoria-2023-no-visual")}
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        className="link-offset-3"
+                        href={memo2024}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t("memoria-2024")}
                       </a>
                     </p>
                   </ul>
@@ -126,7 +179,6 @@ function Transparencia() {
               </div>
             </div>
 
-          
             <div className="trans-card">
               <img src={image3} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
@@ -134,32 +186,62 @@ function Transparencia() {
                   <h2>{t("info-economica-title")}</h2>
                   <ul className="trans-list">
                     <p>
-                      <a className="link-offset-3" href={cuentas2018} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={cuentas2018}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("cuentas-2018")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={cuentas2019} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={cuentas2019}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("cuentas-2019")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={auditoría2020} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={auditoría2020}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("Informe Auditoría 2020")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={auditoría2021} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={auditoría2021}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("Informe Auditoría 2021")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-3" href={auditoría2022} target="_blank">
+                      <a
+                        className="link-offset-3"
+                        href={auditoría2022}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("Informe Auditoría 2022")}
                       </a>
                     </p>
                     <p>
-                      <a className="link-offset-1" href={audiotria2023} target="_blank">
+                      <a
+                        className="link-offset-1"
+                        href={audiotria2023}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {t("Informe Auditoría 2023")}
                       </a>
                     </p>
@@ -168,7 +250,6 @@ function Transparencia() {
               </div>
             </div>
 
-           
             <div className="trans-card">
               <img src={image4} alt="Economy Image" />
               <div className="trans-card-content-wrapper">
@@ -180,6 +261,7 @@ function Transparencia() {
                         className="link-offset-1"
                         href={convenioDeColaboracionVigente}
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t("convenio-colaboracion-vigente")} (CAT)
                       </a>
@@ -189,6 +271,7 @@ function Transparencia() {
                         className="link-offset-1"
                         href={convenioDeColaboracionVigenteCastellano}
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t("convenio-colaboracion-vigente")} (CAST)
                       </a>
@@ -198,6 +281,7 @@ function Transparencia() {
                         className="link-offset-3"
                         href={subencionesAdministracion}
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {t("subenciones-administrativas")}
                       </a>
@@ -213,9 +297,11 @@ function Transparencia() {
                 <div className="trans-card-content">
                   <h2>{t("retribucion-title")}</h2>
                   <p
-                    dangerouslySetInnerHTML={{ __html: t("retribucion-description1") }}
+                    dangerouslySetInnerHTML={{
+                      __html: t("retribucion-description1"),
+                    }}
                   ></p>
-                {/*   <p
+                  {/*   <p
                     dangerouslySetInnerHTML={{ __html: t("retribucion-description2") }}
                   ></p>*/}
                 </div>

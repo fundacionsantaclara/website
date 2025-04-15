@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import infancia1 from "../Fcimages/carruselhome/IMG_6650.jpg";
-import infancia3 from "../Fcimages/carruselhome/IMG_8015.jpg";
+import infancia1 from "../Fcimages/carruselhome/invul-walking.jpg";
+import infancia3 from "../Fcimages/carruselhome/boat.JPG";
 import infancia4 from "../Fcimages/carruselhome/Captura de pantalla 2024-12-05 100810.png";
-import infancia5 from "../Fcimages/carruselhome/IMG-20230726-WA0029.jpg";
+import infancia5 from "../Fcimages/carruselhome/partido-invul.jpeg";
 import alimentos1 from "../Fcimages/carruselhome/IMG_5657.jpg";
 import alimentos2 from "../Fcimages/carruselhome/IMG_1305.jpg";
 import alimentos5 from "../Fcimages/carruselhome/IMG_6305.jpg";
@@ -20,7 +20,7 @@ import refugiados7 from "../Fcimages/carruselhome/pickups_1.jpg";
 import CounterCircle from "./CounterCircle";
 import buses from "../Fcimages/NoticiasImages/buses/28-01-2025-DONATION/bus donation 1.jpeg";
 import { useTranslation } from "react-i18next";
-
+import sonrisas from "../Fcimages/carruselhome/250-sonrisas.png";
 import "./Videopart.css";
 
 //const foto = require('../Fcimages/carruselhome/IMG_0249.jpg');
@@ -45,6 +45,7 @@ const Videopart = () => {
   };
 
   const carouselImages = [
+    sonrisas,
     buses,
     infancia1,
     alimentos1,

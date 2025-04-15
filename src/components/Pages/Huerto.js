@@ -7,6 +7,8 @@ import huertopic3 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-2
 import huertopic4 from "../Fcimages/Huertos egologícos/WhatsApp Image 2024-10-24 at 16.00.04 (1).jpeg";
 import huertopic5 from "../Fcimages/Huertos egologícos/20240628_100938.jpg";
 import huertopic6 from "../Fcimages/Huertos egologícos/20230311_114735.jpg";
+import sponsorLogo1 from "../Fcimages/MC_logo_sencer_ORIGINAL_trans-HD.png"; // Add correct path
+import sponsorLogo2 from "../Fcimages/Logo Anudal PNG.png"; // Add correct path
 
 function Huerto() {
   const { t } = useTranslation();
@@ -24,12 +26,10 @@ function Huerto() {
               <p className="huerto__text text__grey">
                 {t("huerto-page-para1")}
               </p>
-              
             </div>
           </div>
         </div>
 
-        
         <div className="generic-intro-card-container">
           <div className="generic-intro-card">
             <h2>{t("generic-page-intro-card1-title")}</h2>
@@ -51,25 +51,33 @@ function Huerto() {
             <img src={huertopic3} alt="img 2" />
             <img src={huertopic2} alt="img 3" />
             <img src={huertopic4} alt="img 4" />
-            <img src={huertopic5} alt="img 4" />
-            <img src={huertopic6} alt="img 4" />
+            <img src={huertopic5} alt="img 5" />
+            <img src={huertopic6} alt="img 6" />
           </div>
         </div>
 
-       
         <div className="generic-card mb-3">
-  <img 
-    src={require("../Fcimages/Huertos egologícos/amburnia/20241205_103434.jpg")} 
-    className="generic-card-img-top" 
-    alt="Imagen genérica" 
-  />
-  <div className="generic-card-body">
-    <h4 className="generic-card-title">{t("generic-page-card-title")}</h4>
-    <p className="generic-card-text">{t("generic-page-card-para")}</p>
-  </div>
-</div>
+          <img
+            src={require("../Fcimages/Huertos egologícos/amburnia/20241205_103434.jpg")}
+            className="generic-card-img-top"
+            alt="Imagen genérica"
+          />
+          <div className="generic-card-body">
+            <h4 className="generic-card-title">
+              {t("generic-page-card-title")}
+            </h4>
+            <p className="generic-card-text">{t("generic-page-card-para")}</p>
+          </div>
+        </div>
 
-        
+        {/* Sponsor Section */}
+        <div className="huerto-sponsor-container">
+          <h3>{t("sponsors-title")}</h3>
+          <div className="huerto-sponsor-logos">
+            <img src={sponsorLogo1} alt="Sponsor 1" className="sponsor-logo" />
+            <img src={sponsorLogo2} alt="Sponsor 2" className="sponsor-logo" />
+          </div>
+        </div>
       </div>
     </div>
   );

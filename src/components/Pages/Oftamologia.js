@@ -10,15 +10,13 @@ function Oftamologia() {
   return (
     <div>
       <div className="oftamologia section__padding">
-      <div className="oftamologia-header">
-              <h1 className="ofta-section__title text__cap">
-                {t("oftamologia-page-title")}
-              </h1>
-            </div>
+        <div className="oftamologia-header">
+          <h1 className="ofta-section__title text__cap">
+            {t("oftamologia-page-title")}
+          </h1>
+        </div>
         <div className="oftamologia-container">
-          <div className="oftamologia__content text__center">
-          
-          </div>
+          <div className="oftamologia__content text__center"></div>
           <div class="ofta-card">
             <div class="ofta-card-content">
               <h2>{t("oftamologia-intro-title")}</h2>
