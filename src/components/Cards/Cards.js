@@ -9,11 +9,11 @@ import pisosAcogida from "../Fcimages/pisos de acogida/acogida en piso 2.jpg";
 import tallerMuñecas from "../../Images/cosedor.png";
 import espacioDuchas from "../../Images/duchas.png";
 import cosedor from "../../Images/cosedorMoni.png";
-import salud from "../../Images/oftalmologia.png";
+import salud from "../Fcimages/invul-eye.jpg";
 import invulnerablesCardImage from "../../Images/Maig-2.jpg";
 import yosoy from "../../Images/yosoy.png";
-import corredorHumanitario from  "../../Images/refugiado.png"
-import estrenaVidaImage from "../Fcimages/estrena vida/IMG_7545.jpg"
+import corredorHumanitario from "../../Images/refugiado.png";
+import estrenaVidaImage from "../Fcimages/estrena vida/IMG_7545.jpg";
 
 function Cards() {
   const { t } = useTranslation();
@@ -33,14 +33,10 @@ function Cards() {
               text={t("resi-title")}
               path="/residencia"
             />
+            <CardsItems src={huerto} text={t("huerto-title")} path="/huerto" />
             <CardsItems
-             src={huerto}
-              text={t("huerto-title")}
-              path="/huerto"
-            />
-            <CardsItems
-             src={pisosAcogida}
-             text={t("pisos-title")}
+              src={pisosAcogida}
+              text={t("pisos-title")}
               path="/piso"
             />
             <CardsItems
@@ -50,7 +46,7 @@ function Cards() {
             />
             <CardsItems
               src={espacioDuchas}
-               text={t("duchas-title")}
+              text={t("duchas-title")}
               path="/duchas"
             />
             <CardsItems
@@ -59,17 +55,17 @@ function Cards() {
               path="/cosidor"
             />
             <CardsItems
-             src={salud}
+              src={salud}
               text={t("oftamologia-title")}
               path="/oftamologia"
             />
-             <CardsItems
+            <CardsItems
               src={invulnerablesCardImage}
               text={t("invulnerables-title")}
               path="/invulnerables"
             />
             <CardsItems
-             src={corredorHumanitario}
+              src={corredorHumanitario}
               text={t("corridores-title")}
               path="/corridores"
             />
@@ -78,14 +74,8 @@ function Cards() {
               text={t("estrenaVida-title")}
               path="/estrena-vida"
             />
-            <CardsItems
-              src={yosoy}
-               text={t("josoc-title")}
-              path="/josoc"
-            />
+            <CardsItems src={yosoy} text={t("josoc-title")} path="/josoc" />
           </ul>
-
-          
         </div>
       </div>
     </div>

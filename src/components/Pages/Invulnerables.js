@@ -1,9 +1,9 @@
 import React from "react";
 import "./Invulnerables.css";
-import InvulnerablePic from "../Fcimages/invulnerables/660c73ce-76a4-41fd-91a2-6fd732d88d46.jpg";
+import InvulnerablePic from "../Fcimages/invul-fam.jpg";
 import InvulnerablePic1 from "../Fcimages/invulnerables/on estem.png";
 import InvulnerablePic2 from "../Fcimages/invulnerables/Maig.jpg";
-import InvulnerablePic3 from "../Fcimages/invulnerables/Feber.jpg";
+import InvulnerablePic3 from "../Fcimages/invul1.jpg";
 // import InvulnerableColl from "../Fcimages/invul-img.jpg";
 import InvulnerableColl from "../Fcimages/football.jpg";
 import InvulnerableColl2 from "../Fcimages/invul-img2.jpg";
@@ -97,11 +97,11 @@ function Invulnerables() {
                 <strong>{t("p-recur-strong")}</strong>
               </p>
               <p>{t("p-recur-2")}</p>
-              <img
+              {/* <img
                 src={InvulnerablePic2}
                 className="invulnerables-img"
                 alt="..."
-              />
+              /> */}
             </div>
 
             <div className="invul-card">
@@ -111,11 +111,11 @@ function Invulnerables() {
                 <strong>{t("p-recurs-strong")}</strong>
               </p>
               <p>{t("p-recurs-2")}</p>
-              <img
+              {/* <img
                 src={InvulnerablePic3}
                 className="invulnerables-img"
                 alt="..."
-              />
+              /> */}
             </div>
           </div>
         </div>
