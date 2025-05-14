@@ -352,7 +352,19 @@
       "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic3.jpeg?raw=true",
       "ubicacion": "CosmoCaixa, Barcelona",
       "date": "27/02/2025"
-    }
+    },
+    {
+  "id": 12,
+  "title": "277 Somriures per Ucraïna",
+  "subtitle": "Una setmana per tornar a somiar",
+  "body": "Al maig de 2025, la iniciativa “277 Somriures per Ucraïna”, liderada per Sor Lucía Caram i la Fundació del Convent de Santa Clara, va aconseguir una fita extraordinària: retornar l'alegria a 277 nens i adolescents ucraïnesos que han patit els estralls de la guerra. Procedents de diverses regions d’Ucraïna, tots comparteixen una realitat dura: han perdut un dels progenitors o els seus pares estan desapareguts a causa del conflicte. Aquests joves —d'entre 9 i 16 anys— van arribar a Catalunya per gaudir d’una setmana de descans, afecte i activitats pensades per guarir, si més no parcialment, les ferides emocionals que arrosseguen. Durant l’estada, van visitar llocs emblemàtics com la Sagrada Família i el Museu del FC Barcelona, es van divertir a PortAventura i al parc aquàtic de l’hotel Guitart, van recórrer Barcelona amb el bus turístic, van navegar a l’Estartit, van viure aventures a l’aire lliure amb Rosa dels Vents i van participar en tallers emocionals a La Granja Escola de Santa Maria de Palautordera. El que en un inici eren mirades apagades, es va anar convertint en somriures, jocs i cançons. “Van tornar a somriure, i amb cada somriure, el món va ser una mica millor”.",
+  "body2": "Aquesta transformació no hauria estat possible sense l’esforç conjunt de nombroses entitats solidàries. Els organitzadors principals van ser la Fundació del Convent de Santa Clara, el Voluntariat de CaixaBank, la Fundació FIDEM, la Fundació Climent Guitart, Guitart Hotels, Bacus Events, la Fundació PortAventura, la Fundació Manuel Lao, La Granja Ability Training Center i Rosa dels Vents. Cadascun va aportar la seva experiència, recursos i compromís per fer realitat aquesta experiència transformadora. Un somriure no canvia el món, però pot canviar-li el món a algú —i això és exactament el que va passar amb cadascun d’aquests 277 nens ucraïnesos.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns.jpeg?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns3.jpeg?raw=true",
+  "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns1.jpeg?raw=true",
+  "ubicacion": "LLoret de mar, Barcelona",
+  "date": "02/05/2025"
+}
     
     
   ],

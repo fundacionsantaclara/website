@@ -349,6 +349,18 @@
       "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic3.jpeg?raw=true",
       "ubicacion": "CosmoCaixa, Barcelona",
       "date": "27/02/2025"
+    },
+     {
+      "id": 12,
+      "title": "277 Sonrisas por Ucrania",
+      "subtitle": "Una semana para volver a soñar",
+      "body": "En mayo de 2025, la iniciativa “277 Sonrisas por Ucrania”, liderada por Sor Lucía Caram y la Fundación del Convento de Santa Clara, logró algo extraordinario: devolver la alegría a 277 niños y adolescentes ucranianos que han vivido los estragos de la guerra. Procedentes de distintas regiones de Ucrania, todos ellos comparten una dura realidad: han perdido a uno de sus padres o sus padres están desaparecidos a causa del conflicto. Estos jóvenes —de entre 9 y 16 años llegaron a Cataluña para disfrutar de una semana de descanso, afecto y actividades pensadas para sanar, al menos en parte, las heridas emocionales que arrastran. Durante su estancia, visitaron lugares emblemáticos como la Sagrada Familia y el Museo del FC Barcelona, se divirtieron en PortAventura y en el parque acuático del hotel Guitart, recorrieron Barcelona en el bus turístico, navegaron en l’Estartit, vivieron aventuras al aire libre con Rosa dels Vents y participaron en talleres emocionales en La Granja Escuela de Santa María de Palautordera. Lo que al principio fueron miradas apagadas, poco a poco se transformó en sonrisas, juegos y canciones.  “volvieron a sonreír, y con cada sonrisa, el mundo fue un poco mejor”.",
+      "body2": "Esta transformación no habría sido posible sin el esfuerzo conjunto de numerosas entidades solidarias. Los organizadores principales incluyeron a la Fundación del Convento de Santa Clara, Voluntariado CaixaBank, Fundación FIDEM, Fundación Climent Guitart, Guitart Hotels, Bacus Events, Fundación PortAventura, Fundación Manuel Lao, La Granja Ability Training Center y Rosa dels Vents. Cada uno aportó su experiencia, recursos y compromiso para hacer realidad esta experiencia transformadora. Una sonrisa no cambia el mundo, pero puede cambiarle el mundo a alguien y eso fue justamente lo que sucedió con cada uno de estos 277 niños ucranianos.",
+      "carrousel1":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns.jpeg?raw=true",
+      "carrousel2":"https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns3.jpeg?raw=true",
+      "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns1.jpeg?raw=true",
+      "ubicacion": "LLoret de mar, Barcelona",
+      "date": "02/05/2025"
     }
     
     

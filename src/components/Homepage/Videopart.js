@@ -11,16 +11,21 @@ import alimentos2 from "../Fcimages/carruselhome/IMG_1305.jpg";
 import alimentos5 from "../Fcimages/carruselhome/IMG_6305.jpg";
 import yosoy1 from "../Fcimages/carruselhome/IMG_5229.jpg";
 import yosoy2 from "../Fcimages/carruselhome/IMG_6357.jpg";
-import refugiados1 from "../Fcimages/carruselhome/250ucranianos.png";
+// import refugiados1 from "../Fcimages/carruselhome/250ucranianos.png";
 import refugiados2 from "../Fcimages/carruselhome/Voluntariado_Caixabank_Polonia.jpg";
-import refugiados4 from "../Fcimages/carruselhome/IMG_1923.jpg";
-import refugiados5 from "../Fcimages/carruselhome/IMG_1905.jpg";
-import refugiados6 from "../Fcimages/carruselhome/IMG_6456.jpg";
+// import refugiados4 from "../Fcimages/carruselhome/IMG_1923.jpg";
+// import refugiados5 from "../Fcimages/carruselhome/IMG_1905.jpg";
+// import refugiados6 from "../Fcimages/carruselhome/IMG_6456.jpg";
 import refugiados7 from "../Fcimages/carruselhome/pickups_1.jpg";
 import CounterCircle from "./CounterCircle";
 import buses from "../Fcimages/NoticiasImages/buses/28-01-2025-DONATION/bus donation 1.jpeg";
 import { useTranslation } from "react-i18next";
-import sonrisas from "../Fcimages/carruselhome/250-sonrisas.png";
+import sonrisas from "../Fcimages/carruselhome/smile1.jpeg";
+import sonrisas2 from "../Fcimages/carruselhome/smile2.jpeg";
+import sonrisas3 from "../Fcimages/carruselhome/smile3.jpeg";
+import sonrisas4 from "../Fcimages/carruselhome/smile4.jpeg";
+import sonrisas5 from "../Fcimages/carruselhome/smile5.jpeg";
+
 import "./Videopart.css";
 
 //const foto = require('../Fcimages/carruselhome/IMG_0249.jpg');
@@ -50,18 +55,22 @@ const Videopart = () => {
     infancia1,
     alimentos1,
     refugiados2,
-    refugiados1,
+    // refugiados1,
     yosoy1,
     infancia3,
     alimentos2,
     yosoy2,
     infancia4,
-    refugiados4,
-    refugiados5,
+    // refugiados4,
+    // refugiados5,
     infancia5,
-    refugiados6,
+    // refugiados6,
     alimentos5,
     refugiados7,
+    sonrisas2,
+    sonrisas3,
+    sonrisas4,
+    sonrisas5,
   ];
 
   return (
