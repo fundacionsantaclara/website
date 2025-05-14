@@ -350,7 +350,19 @@
       "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/27-eventpic3.jpeg?raw=true",
       "ubicacion": "CosmoCaixa, Barcelona",
       "date": "27/02/2025"
-    }
+    },
+    {
+  "id": 12,
+  "title": "277 Smiles for Ukraine",
+  "subtitle": "A week to dream again",
+  "body": "In May 2025, the initiative “277 Smiles for Ukraine,” led by Sister Lucía Caram and the Fundación del Convento de Santa Clara, achieved something extraordinary: restoring joy to 277 Ukrainian children and teenagers affected by the war. Coming from various regions of Ukraine, they all share a heartbreaking reality — they have lost one of their parents or their parents are missing due to the conflict. These young people — aged between 9 and 16 — came to Catalonia to enjoy a week of rest, affection, and healing activities designed to soothe the emotional wounds they carry. During their stay, they visited landmarks such as the Sagrada Família and the FC Barcelona Museum, enjoyed rides at PortAventura and the water park at the Guitart Hotel, explored Barcelona by tourist bus, sailed in l’Estartit, had outdoor adventures with Rosa dels Vents, and joined emotional intelligence workshops at La Granja School in Santa Maria de Palautordera. What began as empty stares slowly turned into smiles, games, and songs. “They smiled again, and with every smile, the world became a little better.”",
+  "body2": "This transformation would not have been possible without the joint efforts of many supportive organizations. The main organizers included the Fundación del Convento de Santa Clara, Voluntariado CaixaBank, Fundación FIDEM, Fundación Climent Guitart, Guitart Hotels, Bacus Events, Fundación PortAventura, Fundación Manuel Lao, La Granja Ability Training Center, and Rosa dels Vents. Each one contributed their experience, resources, and commitment to make this transformative experience possible. A smile may not change the world, but it can change someone’s world — and that’s exactly what happened to each of these 277 Ukrainian children.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns.jpeg?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns3.jpeg?raw=true",
+  "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns2.jpeg?raw=true",
+  "ubicacion": "LLoret de mar, Barcelona",
+  "date": "02/05/2025"
+}
     
     
     
