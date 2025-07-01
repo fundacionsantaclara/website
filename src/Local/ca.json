@@ -364,6 +364,19 @@
   "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns2.jpeg?raw=true",
   "ubicacion": "LLoret de mar, Barcelona",
   "date": "02/05/2025"
+},
+{
+  "id": 13,
+  "title": "Donació de vehicles per a Ucraïna",
+  "subtitle": "Per la Diputació de Girona i la Fundació Verisure - Securitas Direct",
+  "body": "La Diputació de Girona ha donat dues ambulàncies a la Fundació Convent de Santa Clara, que ja han estat entregades a Jàrkiv, Ucraïna, per reforçar els serveis mèdics d’emergència a les zones afectades per la guerra. Aquesta donació reafirma el compromís de la fundació amb l’ajuda humanitària i la solidaritat internacional, oferint suport essencial als qui més ho necessiten.",
+  "body3": "Sor Lucía Caram ha agraït la col·laboració. Aquesta acció s’afegeix a les múltiples missions humanitàries que la fundació ha dut a terme a Ucraïna, portant subministraments mèdics i ajuda essencial per salvar vides.",
+  "body2":"A més d’aquestes ambulàncies, un tercer vehicle ha estat donat per la Fundació Verisure (Securitas Direct) i també enviat a la ciutat de Jàrkiv. Aquesta entrega forma part de les accions d’ajuda humanitària coordinades per la Fundació Convent de Santa Clara, ampliant l’abast del suport logístic i mèdic en una de les zones més afectades per la guerra.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo1.jpeg?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
+  "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo3.jpeg?raw=true",
+  "ubicacion": "Manresa, Barcelona",
+  "date": "15/06/2025"
 }
     
     
