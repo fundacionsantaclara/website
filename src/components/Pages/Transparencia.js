@@ -19,6 +19,8 @@ import auditoría2020 from "../Documents/INFORME_AUDITORIA_I_CCAA_2020.pdf";
 import auditoría2021 from "../Documents/INFORME_AUDITORIA_I_CCAA_2021.pdf";
 import auditoría2022 from "../Documents/INFO_AUDITORIA_CCAA_2022_FCSC.pdf";
 import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf";
+import audiotria2024 from "../Documents/INFO_AUDITORIA_CCAA_2024_FCSC.pdf";
+
 import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
 import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
@@ -243,6 +245,16 @@ function Transparencia() {
                         rel="noopener noreferrer"
                       >
                         {t("Informe Auditoría 2023")}
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        className="link-offset-3"
+                        href={audiotria2024}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t("Informe Auditoría 2024")}
                       </a>
                     </p>
                   </ul>

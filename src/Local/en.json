@@ -362,6 +362,19 @@
   "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/ns2.jpeg?raw=true",
   "ubicacion": "LLoret de mar, Barcelona",
   "date": "02/05/2025"
+},
+    {
+  "id": 13,
+  "title": "Donations of vehicles for Ukraine",
+  "subtitle": "By the Girona Provincial Council and Fundació Verisure - Securitas Direct",
+  "body": "The Girona Provincial Council has donated two ambulances to the Fundació Convent de Santa Clara, which have already been delivered to Kharkiv, Ukraine, to support emergency medical services in areas affected by the war. This donation reaffirms the foundation’s commitment to humanitarian aid and international solidarity, providing crucial support to those who need it most.",
+  "body3": "Sister Lucía Caram expressed her gratitude for the collaboration. This initiative adds to the many humanitarian missions the foundation has carried out in Ukraine, delivering medical supplies and essential aid to save lives.",
+  "body2":"In addition to these ambulances, a third vehicle was donated by Fundació Verisure (Securitas Direct) and also sent to the city of Kharkiv. This delivery is part of the ongoing humanitarian aid efforts coordinated by the Fundació Convent de Santa Clara, expanding logistical and medical support in one of the regions hardest hit by the war.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo1.jpeg?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
+  "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo3.jpeg?raw=true",
+  "ubicacion": "Manresa, Barcelona",
+  "date": "15/06/2025"
 }
     
     
