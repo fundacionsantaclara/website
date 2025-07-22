@@ -366,14 +366,23 @@
 },
     {
   "id": 13,
-  "title": "Donations of vehicles for Ukraine",
-  "subtitle": "By the Girona Provincial Council and Fundació Verisure - Securitas Direct",
+  "title": "Donations of ambulances for Ukraine",
+  "subtitle": "By the Girona Provincial Council ",
   "body": "The Girona Provincial Council has donated two ambulances to the Fundació Convent de Santa Clara, which have already been delivered to Kharkiv, Ukraine, to support emergency medical services in areas affected by the war. This donation reaffirms the foundation’s commitment to humanitarian aid and international solidarity, providing crucial support to those who need it most.",
   "body3": "Sister Lucía Caram expressed her gratitude for the collaboration. This initiative adds to the many humanitarian missions the foundation has carried out in Ukraine, delivering medical supplies and essential aid to save lives.",
-  "body2":"In addition to these ambulances, a third vehicle was donated by Fundació Verisure (Securitas Direct) and also sent to the city of Kharkiv. This delivery is part of the ongoing humanitarian aid efforts coordinated by the Fundació Convent de Santa Clara, expanding logistical and medical support in one of the regions hardest hit by the war.",
   "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo1.jpeg?raw=true",
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
   "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo3.jpeg?raw=true",
+  "ubicacion": "Manresa, Barcelona",
+  "date": "15/06/2025"
+},
+{
+  "id": 14,
+  "title": "Pickup Donated to Ukraine",
+  "subtitle": "By the Fundació Verisure - Securitas Direct",
+  "body": "As part of the humanitarian aid efforts led by the Fundació Convent de Santa Clara, Fundació Verisure (Securitas Direct) has donated a pickup for logistical operations. The vehicle has been sent to Kharkiv, Ukraine, to help transport medical supplies, food, and essential goods in hard-to-reach areas. This donation significantly strengthens operational capacity on the ground.",
+  "body2": "The vehicle will allow humanitarian teams to respond more quickly and efficiently to the needs of civilians. Thanks to its versatility and durability, it can be used for both distribution missions and evacuations in rural or partially destroyed areas. The Fundació Convent de Santa Clara expressed deep gratitude to Fundació Verisure for its ongoing solidarity and support of aid projects in Ukraine.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
   "ubicacion": "Manresa, Barcelona",
   "date": "15/06/2025"
 }

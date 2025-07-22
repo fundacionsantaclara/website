@@ -16,6 +16,8 @@ import hosp13 from "../Fcimages/corredores humanitarios/hosp de campaña/hosp1_2
 import hosp21 from "../Fcimages/corredores humanitarios/2do hosp de campaña/hospital2_1.jpg";
 import hosp22 from "../Fcimages/corredores humanitarios/2do hosp de campaña/hospital2_2jpg.jpg";
 import hosp23 from "../Fcimages/corredores humanitarios/2do hosp de campaña/hospital2_4jpg.jpg";
+import Logo1 from "../Fcimages/LogoDipsalutcolor.jpg";
+import Logo2 from "../Fcimages/LOGODiputaciócolor.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -31,8 +33,14 @@ function Corridores() {
         </div>
         <div className="corridores-container">
           <div className="corridores__content text__center">
-            <p className="corridores__text text__grey" dangerouslySetInnerHTML={{ __html: t("corredores-text") }}></p>
-            <p className="corridores__text text__grey" dangerouslySetInnerHTML={{ __html: t("corredores-text2") }}></p>
+            <p
+              className="corridores__text text__grey"
+              dangerouslySetInnerHTML={{ __html: t("corredores-text") }}
+            ></p>
+            <p
+              className="corridores__text text__grey"
+              dangerouslySetInnerHTML={{ __html: t("corredores-text2") }}
+            ></p>
 
             <h2 className="corridores__subtitle">
               {t("solicitamos-tu-ayuda")}
@@ -52,7 +60,11 @@ function Corridores() {
                 </div>
                 <div className="reto-card">
                   <h2 dangerouslySetInnerHTML={{ __html: t("reto2") }}></h2>
-                  <img src={generadoresElectricos} className="reto-img" alt="..." />
+                  <img
+                    src={generadoresElectricos}
+                    className="reto-img"
+                    alt="..."
+                  />
                   <div className="ucrania-part2-card-content"></div>
                 </div>
               </div>
@@ -62,12 +74,24 @@ function Corridores() {
                   <h2>{t("corredores1")}</h2>
                   <div className="ucrania-part2-card-content">
                     <ul>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p1") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p2") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p3") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p4") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("corredores-p5") }}></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p") }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p1") }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p2") }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p3") }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p4") }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{ __html: t("corredores-p5") }}
+                      ></li>
                     </ul>
                   </div>
                 </div>
@@ -76,11 +100,31 @@ function Corridores() {
                   <h2>{t("acompañamiento-personas")}</h2>
                   <div className="ucrania-part2-card-content">
                     <ul>
-                      <li dangerouslySetInnerHTML={{ __html: t("acompañamiento-personas-p") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("acompañamiento-personas-p1") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("acompañamiento-personas-p2") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("acompañamiento-personas-p3") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("acompañamiento-personas-p4") }}></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("acompañamiento-personas-p"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("acompañamiento-personas-p1"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("acompañamiento-personas-p2"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("acompañamiento-personas-p3"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("acompañamiento-personas-p4"),
+                        }}
+                      ></li>
                     </ul>
                     <p>
                       <strong>{t("acompañamiento-strong")}</strong>
@@ -90,9 +134,21 @@ function Corridores() {
 
                 <div>
                   <div className="corridores-img-part">
-                    <img src={ancianos1} className="corridores-card-img1" alt="..." />
-                    <img src={ancianos2} className="corridores-card-img2" alt="..." />
-                    <img src={heridos1} className="corridores-card-img1" alt="..." />
+                    <img
+                      src={ancianos1}
+                      className="corridores-card-img1"
+                      alt="..."
+                    />
+                    <img
+                      src={ancianos2}
+                      className="corridores-card-img2"
+                      alt="..."
+                    />
+                    <img
+                      src={heridos1}
+                      className="corridores-card-img1"
+                      alt="..."
+                    />
                   </div>
                 </div>
 
@@ -100,11 +156,31 @@ function Corridores() {
                   <h2>{t("ayuda-humanitaria")}</h2>
                   <div className="ucrania-part2-card-content">
                     <ul>
-                      <li dangerouslySetInnerHTML={{ __html: t("ayuda-humanitaria-p") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("ayuda-humanitaria-p1") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("ayuda-humanitaria-p2") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("ayuda-humanitaria-p3") }}></li>
-                      <li dangerouslySetInnerHTML={{ __html: t("ayuda-humanitaria-p4") }}></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("ayuda-humanitaria-p"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("ayuda-humanitaria-p1"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("ayuda-humanitaria-p2"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("ayuda-humanitaria-p3"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("ayuda-humanitaria-p4"),
+                        }}
+                      ></li>
                     </ul>
                     <p>
                       <strong>{t("ayuda-humanitaria-strong")}</strong>
@@ -114,9 +190,21 @@ function Corridores() {
 
                 <div>
                   <div className="corridores-img-part">
-                    <img src={criosMontserrat} className="corridores-card-img1" alt="..." />
-                    <img src={rosarioPapa} className="corridores-card-img2" alt="..." />
-                    <img src={heridos2} className="corridores-card-img1" alt="..." />
+                    <img
+                      src={criosMontserrat}
+                      className="corridores-card-img1"
+                      alt="..."
+                    />
+                    <img
+                      src={rosarioPapa}
+                      className="corridores-card-img2"
+                      alt="..."
+                    />
+                    <img
+                      src={heridos2}
+                      className="corridores-card-img1"
+                      alt="..."
+                    />
                   </div>
                 </div>
               </div>
@@ -126,9 +214,21 @@ function Corridores() {
               <h2>{t("hospitales-campaña")}</h2>
               <div className="ucrania-part2-card-content">
                 <ul>
-                  <li dangerouslySetInnerHTML={{ __html: t("hospitales-campaña-p") }}></li>
-                  <li dangerouslySetInnerHTML={{ __html: t("hospitales-campaña-p1") }}></li>
-                  <li dangerouslySetInnerHTML={{ __html: t("hospitales-campaña-p2") }}></li>
+                  <li
+                    dangerouslySetInnerHTML={{
+                      __html: t("hospitales-campaña-p"),
+                    }}
+                  ></li>
+                  <li
+                    dangerouslySetInnerHTML={{
+                      __html: t("hospitales-campaña-p1"),
+                    }}
+                  ></li>
+                  <li
+                    dangerouslySetInnerHTML={{
+                      __html: t("hospitales-campaña-p2"),
+                    }}
+                  ></li>
                 </ul>
                 <p>
                   <strong>{t("hospitales-campaña-strong")}</strong>
@@ -156,6 +256,14 @@ function Corridores() {
             <img src={Bizzum} className="reto-img" alt="..." />
             <div className="ucrania-part2-card-content"></div>
           </div>
+        </div>
+      </div>
+      {/* Sponsor Section */}
+      <div className="huerto-sponsor-container">
+        <h3>{t("sponsors-title")}</h3>
+        <div className="huerto-sponsor-logos">
+          <img src={Logo1} alt="Sponsor 1" className="sponsor-logo" />
+          <img src={Logo2} alt="Sponsor 1" className="sponsor-logo" />
         </div>
       </div>
     </div>
