@@ -365,14 +365,23 @@
     },
     {
   "id": 13,
-  "title": "Donación de vehículos para Ucrania",
-  "subtitle": "Por la Diputación de Girona y la Fundació Verisure - Securitas Direct",
+  "title": "Donación de ambulancias para Ucrania",
+  "subtitle": "Por la Diputación de Girona ",
   "body": "La Diputación de Girona ha donado dos ambulancias a la Fundació Convent de Santa Clara, que ya han sido entregadas en Járkiv, Ucrania, para reforzar los servicios médicos de emergencia en las zonas afectadas por la guerra. Esta donación reafirma el compromiso de la fundación con la ayuda humanitaria y la solidaridad internacional, ofreciendo apoyo crucial a quienes más lo necesitan.",
   "body3": "Sor Lucía Caram agradeció la colaboración. Esta acción se suma a las múltiples misiones humanitarias que la fundación ha llevado a cabo en Ucrania, llevando suministros médicos y ayuda esencial para salvar vidas.",
-  "body2":"Además de estas ambulancias, un tercer vehículo fue donado por la Fundació Verisure (Securitas Direct) y también enviado a la ciudad de Járkiv. Esta entrega forma parte de las acciones de ayuda humanitaria coordinadas por la Fundació Convent de Santa Clara, ampliando el alcance del apoyo logístico y médico en una de las zonas más golpeadas por la guerra.",
   "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo1.jpeg?raw=true",
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
   "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo3.jpeg?raw=true",
+  "ubicacion": "Manresa, Barcelona",
+  "date": "15/06/2025"
+},
+{
+  "id": 14,
+  "title": "Donación de pickup a Ucrania",
+  "subtitle": "Por la Fundació Verisure - Securitas Direct",
+  "body": "En el marco de las acciones de ayuda humanitaria impulsadas por la Fundació Convent de Santa Clara, la Fundació Verisure (Securitas Direct) ha donado un vehículo pickup para operaciones logísticas. El vehículo ha sido enviado a Járkiv, Ucrania, con el objetivo de facilitar el transporte de suministros médicos, alimentos y bienes esenciales en zonas de difícil acceso. Esta donación refuerza significativamente la capacidad operativa sobre el terreno.",
+  "body2": "El vehículo permitirá a los equipos humanitarios responder con mayor rapidez y eficacia a las necesidades de la población civil. Gracias a su versatilidad y resistencia, podrá utilizarse tanto en misiones de distribución como en evacuaciones en áreas rurales o parcialmente destruidas. La Fundació Convent de Santa Clara expresó su profundo agradecimiento a la Fundació Verisure por su continua solidaridad y apoyo a los proyectos de ayuda en Ucrania.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
   "ubicacion": "Manresa, Barcelona",
   "date": "15/06/2025"
 }
