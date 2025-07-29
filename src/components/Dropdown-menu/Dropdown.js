@@ -16,11 +16,7 @@ function Dropdown({ closeMenu }) {
         {aboutDropdown.map((item) => {
           return (
             <li key={item.id}>
-              <Link
-                to={item.path}
-                className={item.cName}
-                onClick={closeMenu}
-              >
+              <Link to={item.path} className={item.cName} onClick={closeMenu}>
                 {t(item.title)}
               </Link>
             </li>

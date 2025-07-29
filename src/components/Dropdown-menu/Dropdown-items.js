@@ -17,6 +17,12 @@ export const aboutDropdown = [
     path: "./equipo",
     cName: "submenu-item",
   },
+  {
+    id: 4,
+    title: "legal",
+    path: "/legal",
+    cName: "submenu-item",
+  },
 ];
 
 export const participarDropdown = [

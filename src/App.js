@@ -30,6 +30,7 @@ import EventosCompleta from "./components/Pages/EventosCompleta";
 import EstrenaVida from "./components/Pages/EstrenaVida";
 import { useTranslation } from "react-i18next";
 import Donate from "./components/Navigation/Donate";
+import PrivacyPage from "./components/Pages/PrivacyPage";
 
 function App() {
   const { t } = useTranslation();
@@ -94,6 +95,7 @@ function App() {
         <Route path="/Comunidad" element={<Comunidad />} />
         <Route path="/EventosCompleta" element={<EventosCompleta />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/legal" element={<PrivacyPage />} />
       </Routes>
       <Footer />
       {/* Cookie Banner - Always show if no consent yet */}

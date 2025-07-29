@@ -57,9 +57,25 @@ const NewsPage = () => {
             </div>
           </div>
         </div>
+        
       ) : (
         <p>{t("loading_news")}</p>
       )}
+      {noticia.sponsors && noticia.sponsors.length > 0 && (
+  <div className="huerto-sponsor-container">
+    <h3>{t("sponsors-title")}</h3>
+    <div className="huerto-sponsor-logos">
+      {noticia.sponsors.map((logo, index) => (
+        <img
+          key={index}
+          src={logo}
+          alt={`Sponsor ${index + 1}`}
+          className="sponsor-logo"
+        />
+      ))}
+    </div>
+  </div>
+)}
     </>
   );
 };
