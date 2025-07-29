@@ -373,7 +373,11 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo2.jpeg?raw=true",
   "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/Ambo3.jpeg?raw=true",
   "ubicacion": "Manresa, Barcelona",
-  "date": "15/06/2025"
+  "date": "15/06/2025",
+   "sponsors": [
+        "https://github.com/fundacionsantaclara/website/blob/main/src/Images/LogoDipsalutcolor.jpg?raw=true",
+        "https://github.com/fundacionsantaclara/website/blob/main/src/Images/LOGODiputaci%C3%B3color.jpg?raw=true"
+      ]
 },
 {
   "id": 14,
