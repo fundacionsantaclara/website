@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import "./App.css";
 import Navi from "./components/Navigation/Navi";
 import Home from "./components/Homepage/Home";
@@ -66,59 +67,61 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Navi />
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/transparencia" element={<Transparencia />} />
-        <Route path="/proyectos" element={<Cards />} />
-        <Route path="/plataforma" element={<Plataforma />} />
-        <Route path="/residencia" element={<Residencia />} />
-        <Route path="/huerto" element={<Huerto />} />
-        <Route path="/piso" element={<Pisos />} />
-        <Route path="/taller" element={<Taller />} />
-        <Route path="/duchas" element={<Duchas />} />
-        <Route path="/cosidor" element={<Cosidor />} />
-        <Route path="/oftamologia" element={<Oftamologia />} />
-        <Route path="/invulnerables" element={<Invulnerables />} />
-        <Route path="/corridores" element={<Corridores />} />
-        <Route path="/josoc" element={<Josoc />} />
-        <Route path="/estrena-vida" element={<EstrenaVida />} />
-        <Route path="/equipo" element={<Equipo />} />
-        <Route path="/fundación" element={<Fundacion />} />
-        <Route path="/objectivos" element={<Objectivo />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="/voluntarios" element={<Voluntarios />} />
-        <Route path="/News/:id" element={<NewsPage />} />
-        <Route path="/NoticiasCompleta" element={<NoticiasCompleta />} />
-        <Route path="/Comunidad" element={<Comunidad />} />
-        <Route path="/EventosCompleta" element={<EventosCompleta />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/legal" element={<PrivacyPage />} />
-      </Routes>
-      <Footer />
-      {/* Cookie Banner - Always show if no consent yet */}
-      {showBanner && (
-        <div className="cookie-banner">
-          <p>
-            {t("cookies")}
-            {/* <a href="/privacy-policy"> {t("cookies-link")}</a>.*/}
-          </p>
-          <div className="cookie-buttons">
-            <button
-              className="accept-necessary"
-              onClick={acceptNecessaryCookies}
-            >
-              {t("accept-cookies")}
-            </button>
-            <button className="accept-all" onClick={acceptAllCookies}>
-              {t("only-cookies")}
-            </button>
+    <Router>
+      <div className="App">
+        <Navi />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/transparencia" element={<Transparencia />} />
+          <Route path="/proyectos" element={<Cards />} />
+          <Route path="/plataforma" element={<Plataforma />} />
+          <Route path="/residencia" element={<Residencia />} />
+          <Route path="/huerto" element={<Huerto />} />
+          <Route path="/piso" element={<Pisos />} />
+          <Route path="/taller" element={<Taller />} />
+          <Route path="/duchas" element={<Duchas />} />
+          <Route path="/cosidor" element={<Cosidor />} />
+          <Route path="/oftamologia" element={<Oftamologia />} />
+          <Route path="/invulnerables" element={<Invulnerables />} />
+          <Route path="/corridores" element={<Corridores />} />
+          <Route path="/josoc" element={<Josoc />} />
+          <Route path="/estrena-vida" element={<EstrenaVida />} />
+          <Route path="/equipo" element={<Equipo />} />
+          <Route path="/fundación" element={<Fundacion />} />
+          <Route path="/objectivos" element={<Objectivo />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/voluntarios" element={<Voluntarios />} />
+          <Route path="/News/:id" element={<NewsPage />} />
+          <Route path="/NoticiasCompleta" element={<NoticiasCompleta />} />
+          <Route path="/Comunidad" element={<Comunidad />} />
+          <Route path="/EventosCompleta" element={<EventosCompleta />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/legal" element={<PrivacyPage />} />
+        </Routes>
+        <Footer />
+        {/* Cookie Banner - Always show if no consent yet */}
+        {showBanner && (
+          <div className="cookie-banner">
+            <p>
+              {t("cookies")}
+              {/* <a href="/privacy-policy"> {t("cookies-link")}</a>.*/}
+            </p>
+            <div className="cookie-buttons">
+              <button
+                className="accept-necessary"
+                onClick={acceptNecessaryCookies}
+              >
+                {t("accept-cookies")}
+              </button>
+              <button className="accept-all" onClick={acceptAllCookies}>
+                {t("only-cookies")}
+              </button>
+            </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </Router>
   );
 }
 
