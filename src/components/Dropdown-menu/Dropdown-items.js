@@ -2,19 +2,19 @@ export const aboutDropdown = [
   {
     id: 1,
     title: "ab-fundation",
-    path: "./fundación",
+    path: "/fundación",
     cName: "submenu-item",
   },
   {
     id: 2,
     title: "ab-goals",
-    path: "./objectivos",
+    path: "/objectivos",
     cName: "submenu-item",
   },
   {
     id: 3,
     title: "ab-team",
-    path: "./equipo",
+    path: "/equipo",
     cName: "submenu-item",
   },
   {
@@ -35,13 +35,13 @@ export const participarDropdown = [
   {
     id: 2,
     title: "part-vol",
-    path: "./voluntarios",
+    path: "/voluntarios",
     cName: "submenu-item",
   },
   {
     id: 3,
     title: "part-tiendas",
-    path: "./Taller",
+    path: "/taller",
     cName: "submenu-item",
   },
 ];
