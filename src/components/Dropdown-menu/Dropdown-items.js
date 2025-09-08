@@ -2,7 +2,7 @@ export const aboutDropdown = [
   {
     id: 1,
     title: "ab-fundation",
-    path: "/fundación",
+    path: "/fundacion",
     cName: "submenu-item",
   },
   {
