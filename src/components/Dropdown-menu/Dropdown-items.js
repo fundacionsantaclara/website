@@ -20,7 +20,7 @@ export const aboutDropdown = [
   {
     id: 4,
     title: "legal",
-    path: "/legal",
+    path: "/avis-legal/privacidad",
     cName: "submenu-item",
   },
 ];

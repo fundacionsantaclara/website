@@ -6,6 +6,8 @@ import generalitat from "../Fcimages/logotipogeneralitat.png";
 import manresa from "../Fcimages/logotipoajuntamentmanresa.png";
 import fundacioCaixa from "../Fcimages/logotipofundacionlacaixa.png";
 import { useTranslation } from "react-i18next";
+import cookiesDoc from "../Documents/cookies.pdf";
+import legalDoc from "../Documents/ES_Aviso_legal-fcsc.pdf";
 
 function Footer() {
   const { t } = useTranslation();
@@ -69,6 +71,15 @@ function Footer() {
           </div>
         </div>
       </section>
+      <div className="cookie-info">
+        <a href={cookiesDoc} target="_blank" rel="noopener noreferrer">
+          {t("cookies-link")}
+        </a>
+        <a href={legalDoc} target="_blank" rel="noopener noreferrer">
+          {t("legal")}
+        </a>
+        <Link to="/avis-legal/privacidad">{t("privacy-policy")}</Link>
+      </div>
     </div>
   );
 }

@@ -32,36 +32,97 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #8cbfa9;
+  background: #8cbfa9; /* greenish background */
   color: rgb(23, 23, 23);
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
   z-index: 1000;
+  font-size: 14px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
 }
 
+/* Text / links section */
+.cookie-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.cookie-info span {
+  font-weight: 500;
+  color: #111;
+}
+
+.cookie-info a {
+  color: #143d2e;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* 🔥 Hover effect */
+.cookie-info a:hover {
+  color: #ece7e7;
+  text-decoration: underline;
+  font-weight: 600; /* makes it pop a bit more */
+}
+
+/* Divider between items */
+.cookie-info a:not(:last-child)::after,
+.cookie-info span::after {
+  content: "|";
+  margin-left: 1.5rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons container */
 .cookie-buttons {
   display: flex;
+  justify-content: center;
   gap: 1rem;
+  margin-top: 0.5rem;
 }
 
+.accept-necessary,
+.accept-all {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Necessary only */
 .accept-necessary {
   background: #767373;
   color: white;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
 }
 
-.accept-all {
-  background: #4CAF50;
-  color: white;
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
+.accept-necessary:hover {
+  background: #5a5a5a;
+  transform: translateY(-2px);
 }
+
+/* Accept all */
+.accept-all {
+  background: #4caf50;
+  color: white;
+}
+
+.accept-all:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
 
 
 @keyframes App-logo-spin {
