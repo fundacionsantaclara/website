@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import Navi from "./components/Navigation/Navi";
 import Home from "./components/Homepage/Home";
@@ -31,6 +31,8 @@ import EstrenaVida from "./components/Pages/EstrenaVida";
 import { useTranslation } from "react-i18next";
 import Donate from "./components/Navigation/Donate";
 import PrivacyPage from "./components/Pages/PrivacyPage";
+import cookiesDoc from "./components/Documents/cookies.pdf";
+import legalDoc from "./components/Documents/ES_Aviso_legal-fcsc.pdf";
 
 function App() {
   const { t } = useTranslation();
@@ -95,7 +97,7 @@ function App() {
         <Route path="/comunidad" element={<Comunidad />} />
         <Route path="/eventosCompleta" element={<EventosCompleta />} />
         <Route path="/donate" element={<Donate />} />
-        <Route path="/legal" element={<PrivacyPage />} />
+        <Route path="/avis-legal/privacidad" element={<PrivacyPage />} />
       </Routes>
       <Footer />
       {/* Cookie Banner - Always show if no consent yet */}
@@ -104,7 +106,13 @@ function App() {
           <p>
             {t("cookies")}
             {/* <a href="/privacy-policy"> {t("cookies-link")}</a>.*/}
+            <div className="cookie-info">
+              <a href={cookiesDoc} target="_blank" rel="noopener noreferrer">
+                {t("cookies-link")}
+              </a>
+            </div>
           </p>
+
           <div className="cookie-buttons">
             <button
               className="accept-necessary"
