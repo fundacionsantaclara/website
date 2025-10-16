@@ -7,7 +7,7 @@ import manresa from "../Fcimages/logotipoajuntamentmanresa.png";
 import fundacioCaixa from "../Fcimages/logotipofundacionlacaixa.png";
 import { useTranslation } from "react-i18next";
 import cookiesDoc from "../Documents/cookies.pdf";
-import legalDoc from "../Documents/ES_Aviso_legal-fcsc.pdf";
+import legalDoc from "../Documents/ES_Aviso_legal.pdf";
 
 function Footer() {
   const { t } = useTranslation();

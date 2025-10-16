@@ -413,7 +413,7 @@
   "cookies": "Utilizamos cookies para mejorar tu experiencia.",
   "accept-cookies": "Aceptar todas las cookies",
   "only-cookies": "Aceptar cookies necesarias",
-  "cookies-link": "Más información",
+  "cookies-link": "Política de cookies",
   "fiscal-title": "Ventajas fiscales de una donación",
   "fiscal-individual-title": "Si eres persona física",
   "fiscal-individual-text-1": "Te puedes deducir el 80% de los primeros 250 € anuales y el 40% del resto, a partir de 250 €.",
@@ -590,18 +590,23 @@
   "mail": "EMAIL",
   "mail-text": "info@fsantaclara.org",
 
+   "confirmAtEmail": "Confirma:",
+   "watchTrailer": "🎥 Ver tráiler",
+
 
  "last-events": "Próximo evento",
 "events": [
   {
     "id": 1,
-    "eventName": "AS de rePiques Solidari 2025 ",
-    "date": "24, Mayo, 2025",
-    "time": "",
-    "location": "Vilassar de Mar",
-    "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/evento%20solidario.jpeg?raw=true",
+    "eventName": "UCRANIA: RESISTENCIA Y ESPERANZA",
+    "date": "23 de Noviembre, 2025",
+    "time": "18h",
+    "location": "CosmoCaixa Museum Barcelona",
+    "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/UCRANIA.jpg?raw=true",
     "datetitle": "Fecha:",
-    "placetitle": "Ubicación:"
+    "placetitle": "Ubicación:",
+    "trailerLink": "https://www.movistarplus.es/comunicacion/videos/ucrania-resistencia-y-esperanza/",
+    "confirmationEmail": "info@themoff.es"
   }
   
   ],

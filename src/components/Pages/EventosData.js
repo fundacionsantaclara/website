@@ -27,6 +27,8 @@ const EventosData = () => {
             datetitle={event.datetitle}
             placetitle={event.placetitle}
             confirmtitle={event.confirmtitle}
+            trailerLink={event.trailerLink}
+            confirmationEmail={event.confirmationEmail}
           />
         ))}
       </div>
