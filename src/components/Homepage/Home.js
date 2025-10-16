@@ -2,7 +2,7 @@ import "../../App.css";
 import React from "react";
 import Cards from "../Cards/Cards";
 import Noticias from "../Noticias/Noticias";
-//import EventosData from "../Pages/EventosData";
+import EventosData from "../Pages/EventosData";
 import Videopart from "./Videopart";
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
       <Videopart />
       <Noticias />
       <Cards />
-      {/* <EventosData /> */}
+      <EventosData />
     </>
   );
 }

@@ -85,6 +85,22 @@
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+.event-trailer-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #4c7263;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.event-trailer-link:hover {
+  background-color: #728f84;
+}
+
 
 .ver-mas-boton:hover {
   background-color: #3ca949;

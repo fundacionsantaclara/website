@@ -1,5 +1,6 @@
 import React from "react";
 import "./Eventos.css";
+import { useTranslation } from "react-i18next";
 
 function Eventos({
   imageSrc,
@@ -12,7 +13,10 @@ function Eventos({
   datetitle,
   placetitle,
   confirmtitle,
+  trailerLink,
+  confirmationEmail,
 }) {
+  const { t } = useTranslation();
   return (
     <div className="event-card">
       <img src={imageSrc} alt="Event" className="event-card-image" />
@@ -36,6 +40,28 @@ function Eventos({
             </a>
           </span>
         </p>
+        {confirmationEmail && (
+          <>
+            <br />
+            <span className="event-email">
+              {t("confirmAtEmail")}{" "}
+              <a href={`mailto:${confirmationEmail}`} className="email-link">
+                {confirmationEmail}
+              </a>
+            </span>
+          </>
+        )}
+        {/* 🎬 Add trailer link here */}
+        {trailerLink && (
+          <a
+            href={trailerLink}
+            className="event-trailer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t("watchTrailer")}
+          </a>
+        )}
       </div>
     </div>
   );

@@ -32,7 +32,7 @@ import { useTranslation } from "react-i18next";
 import Donate from "./components/Navigation/Donate";
 import PrivacyPage from "./components/Pages/PrivacyPage";
 import cookiesDoc from "./components/Documents/cookies.pdf";
-import legalDoc from "./components/Documents/ES_Aviso_legal-fcsc.pdf";
+import legalDoc from "./components/Documents/ES_Aviso_legal.pdf";
 
 function App() {
   const { t } = useTranslation();
