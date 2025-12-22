@@ -400,6 +400,17 @@
   "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/documental.jpg?raw=true",
   "ubicacion": "Madrid and Barcelona",
   "date": "22/10/2025"
+},
+{
+  "id": 16,
+  "title": "Barcelona Unveils “Giving Machines” at La Maquinista",
+  "subtitle": "A new way to donate that lights up the Christmas season",
+  "body": "On December 4, 2025, Spain’s first Giving Machine was installed at the Westfield La Maquinista shopping center in Barcelona. These vending machine–style devices allow visitors to “purchase” real donations such as food, toys, school supplies, or support services, which go directly to local social organizations. The initiative was presented in a public event attended by members of the third sector and collaborators of the project.",
+  "body2": "The installation is part of the Christmas campaign Light the World, promoted by the Church of Jesus Christ of Latter-day Saints. During the presentation, Sister Lucía Caram emphasized the importance of encouraging meaningful acts of solidarity during a season often dominated by consumerism. She highlighted that these machines transform symbolic purchases into tangible help for those who need it most, reinforcing the essential values of empathy and social action.",
+  "body3": "All contributions made through the Giving Machine will be donated entirely to seven charitable organizations that support children, families at risk of exclusion, mental health initiatives, and people with disabilities. The machine will remain available until January 6, inviting thousands of visitors to turn their holiday shopping into acts of generosity. With this initiative, Barcelona joins over a hundred cities worldwide using this innovative donation model to brighten the Christmas spirit.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/giving.jpeg?raw=true",
+  "ubicacion": "Barcelona",
+  "date": "04/12/2025"
 }
     
     
@@ -438,6 +449,11 @@
   "donate-button": "Make a Donation",
   "back-home": "Back to Home",
   "privacy-policy": "Privacy Policy",
+  "christmas": {
+    "line1": "Merry Christmas",
+    "line2": "and a",
+    "line3": "Happy New Year."
+  },
 
 
 
@@ -611,14 +627,25 @@
     {
       "id": 1,
       "eventName": "UKRAINE: RESISTANCE AND HOPE",
-      "date": "23, November, 2025",
-      "time": "18h",
-      "location": "CosmoCaixa Museum Barcelona",
+      "date": "07, January, 2026",
+      "time": "17h",
+      "location": "Pl. de Santa Cruz, 6 - Zaragoza",
       "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/UCRANIA.jpg?raw=true",
       "datetitle": "Time:",
       "placetitle": "Location:",
       "trailerLink": "https://www.movistarplus.es/comunicacion/videos/ucrania-resistencia-y-esperanza/",
-      "confirmationEmail": "info@themoff.es"
+      "confirmationEmail": ""
+},{
+      "id": 2,
+      "eventName": "UKRAINE: RESISTANCE AND HOPE",
+      "date": "12, January, 2026",
+      "time": "18h",
+      "location": "Pl. Poeta Marquina, 10 - Girona",
+      "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/UCRANIA.jpg?raw=true",
+      "datetitle": "Date:",
+      "placetitle": "Location:",
+      "trailerLink": "https://www.movistarplus.es/comunicacion/videos/ucrania-resistencia-y-esperanza/",
+      "confirmationEmail": ""
 }
     
   ],

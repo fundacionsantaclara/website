@@ -1,6 +1,6 @@
 import pepe from "../Fcimages/pepe.jpeg";
 import lucia from "../Fcimages/Lucia.jpg";
-import merri from "../Fcimages/Meritxell.jpg";
+import merri from "../Fcimages/Txell.jpg";
 import gloria from "../Fcimages/gloria.jpg";
 import pilar from "../Fcimages/WhatsApp Image 2024-12-05 at 10.34.35.jpeg";
 import nuria from "../Fcimages/equipot tecnico/nuriaEquipoTecnico.jpg";
@@ -11,7 +11,7 @@ import luis from "../Fcimages/luis.jpg";
 import miguel from "../Fcimages/equipot tecnico/miguelbuena.jpg";
 import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
 import monica from "../Fcimages/equipot tecnico/Monica.jpg";
-import user from "../Fcimages/user.webp";
+//import user from "../Fcimages/user.webp";
 import vane from "../Fcimages/vane.png";
 //import manel from "../Fcimages/manel.png";
 import elisenda from "../Fcimages/equipot tecnico/elisenda.jpg";

@@ -1,0 +1,40 @@
+.christmas-banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* TEXT CONTAINER */
+.christmas-text-group {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  transform: translateX(-50%);
+  color: #467b60;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+/* EACH LINE */
+.christmas-text-group div {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    
+  .christmas-text-group div {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .christmas-text-group div {
+    font-size: 1.1rem;
+  }
+}

@@ -402,6 +402,17 @@
   "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/documental.jpg?raw=true",
   "ubicacion": "Madrid y Barcelona",
   "date": "22/10/2025"
+},
+{
+  "id": 16,
+  "title": "Barcelona estrena les “Giving Machines” solidàries a La Maquinista",
+  "subtitle": "Una nova manera de donar que il·lumina el Nadal",
+  "body": "El 4 de desembre de 2025 es va instal·lar per primera vegada a Espanya una Giving Machine al centre comercial Westfield La Maquinista de Barcelona. Aquestes màquines, que funcionen com a expenedores solidàries, permeten als visitants “comprar” donacions reals com aliments, joguines, material escolar o serveis de suport, que es destinen directament a entitats socials locals. La iniciativa es va presentar en un acte públic amb la participació d'organitzacions del tercer sector i col·laboradors del projecte.",
+  "body2": "La instal·lació forma part de la campanya nadalenca Il·lumina el Món (Light the World), impulsada per l’Església de Jesucrist dels Sants dels Darrers Dies. Durant la presentació, sor Lucía Caram va destacar la importància de promoure gestos reals de solidaritat en una època marcada sovint pel consumisme. Va remarcar que aquestes màquines permeten transformar una compra simbòlica en ajuda efectiva per a les persones més vulnerables, posant en relleu valors essencials com l’empatia i l’acció social.",
+  "body3": "El 100% de les aportacions recollides a través de la Giving Machine es destinarà íntegrament a set entitats benèfiques que treballen amb infants, famílies en risc d’exclusió, salut mental i discapacitat. La màquina romandrà activa fins al 6 de gener, convidant milers de visitants a convertir les compres nadalenques en gestos de generositat. Amb aquesta iniciativa, Barcelona s’afegeix a més d’un centenar de ciutats d’arreu del món que ja utilitzen aquest model innovador de donació per il·luminar l’esperit nadalenc.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/giving.jpeg?raw=true",
+  "ubicacion": "Barcelona",
+  "date": "04/12/2025"
 }
     
     
@@ -438,6 +449,11 @@
   "donate-button": "Fes la teva donació",
   "back-home": "Torna a l'inici",
   "privacy-policy": "Política de Privacitat",
+    "christmas": {
+    "line1": "Bon Nadal",
+    "line2": "i un",
+    "line3": "Feliç Any Nou."
+  },
 
 
 
@@ -607,17 +623,31 @@
 
  "last-events": "Pròxim esdeveniment",
   "events": [
+   
     {
       "id": 1,
       "eventName": "UKRAINE: RESISTÈNCIA I ESPERANÇA",
-      "date": "23 de novembre de 2025",
-      "time": "18h",
-      "location": "CosmoCaixa Museum Barcelona",
+      "date": "07 de Gener de 2026",
+      "time": "17h",
+      "location": "Pl. de Santa Cruz, 6 - Zaragoza",
       "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/UCRANIA.jpg?raw=true",
       "datetitle": "Data:",
     "placetitle": "Ubicació:",
     "trailerLink": "https://www.movistarplus.es/comunicacion/videos/ucrania-resistencia-y-esperanza/",
-    "confirmationEmail": "info@themoff.es"
+    "confirmationEmail": ""
+
+    }
+    , {
+      "id": 2,
+      "eventName": "UKRAINE: RESISTÈNCIA I ESPERANÇA",
+      "date": "12 de Gener de 2026",
+      "time": "18h",
+      "location": "Pl. Poeta Marquina, 10 - Girona",
+      "imageSrc": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/UCRANIA.jpg?raw=true",
+      "datetitle": "Data:",
+    "placetitle": "Ubicació:",
+    "trailerLink": "https://www.movistarplus.es/comunicacion/videos/ucrania-resistencia-y-esperanza/",
+    "confirmationEmail": ""
 
     }
   ],
