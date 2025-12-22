@@ -1,0 +1,81 @@
+/* ===== Base Layout ===== */
+.video-page-full {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+/* ===== Title ===== */
+.video-title {
+  font-size: 2.4rem;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #222;
+}
+
+/* ===== Video Container ===== */
+.video-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  background: #050505;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Video Element ===== */
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* =========================
+   📱 Mobile (phones)
+   ========================= */
+@media (max-width: 480px) {
+  .video-page-full {
+    padding: 24px 12px;
+    
+  }
+
+  .video-title {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+  }
+
+  .video-wrapper {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .video-wrapper video {
+    border-radius: 8px;
+  }
+}
+
+/* =========================
+   📱 Tablet (portrait & landscape)
+   ========================= */
+@media (max-width: 768px) {
+  .video-title {
+    font-size: 1.9rem;
+  }
+
+  .video-wrapper {
+    padding: 14px;
+  }
+}
+
+/* =========================
+   💻 Large screens
+   ========================= */
+@media (min-width: 1400px) {
+  .video-wrapper {
+    max-width: 1400px;
+  }
+}
