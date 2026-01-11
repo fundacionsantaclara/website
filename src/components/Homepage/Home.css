@@ -5,6 +5,42 @@
   justify-content: center;
 }
 
+.humanitarian-corridor {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #5acb5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #d8e3d9;
+  color: rgb(228, 77, 77);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.reto-button {
+  position: absolute;
+  bottom: 30px;    
+  right: 10%;      
+  z-index: 2;
+}
+
+
 /* TEXT CONTAINER */
 .christmas-text-group {
   position: absolute;
@@ -30,6 +66,11 @@
     
   .christmas-text-group div {
     font-size: 1.1rem;
+  }
+
+  .button{
+    width: 120px;
+    font-size: 15px;
   }
 }
 
