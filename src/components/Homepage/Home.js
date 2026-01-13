@@ -21,14 +21,25 @@ function Home() {
           <source media="(max-width: 768px)" srcSet={t("reto_mobile")} />
           <img src={t("reto_pc")} alt="Reto" style={{ width: "90%" }} />
         </picture>
-        <a
-          href="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="button reto-button"
-        >
-          {t("donativo")}
-        </a>
+        <div className="buttons-reto">
+          <a
+            href="https://www2.caixabank.es/apl/donativos/detalle_es.html?DON_codigoCausa=715"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            {t("part-donar")}
+          </a>
+
+          <a
+            href={t("reto_pdf")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+          >
+            + Info
+          </a>
+        </div>
       </div>
       <Videopart />
       <MovieSection />
