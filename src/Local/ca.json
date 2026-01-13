@@ -711,5 +711,6 @@
   "estrenaVida-page-card5-title": "COMPARTIM (ACTIVITATS)",
   "estrenaVida-page-card5-para": "Es fan trobades per intercanviar roba o altres objectes necessaris per a la cura dels infants coincidint amb els canvis d’estació. Es aprofita per compartir experiències i crear una xarxa social entre les mares. Altres tipus de trobades inclouen tallers impartits per professionals del món sanitari, educatiu i social. Celebracions tradicionals i populars (Nadal, festa d’aniversari grupal a l’agost). L’espai principal de les trobades és el Convent de Santa Clara a Manresa, on es desenvolupa el projecte.",
   "reto_mobile": "https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/reto_ca_mobile.jpeg",
-   "reto_pc":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/reto_ca_pc.jpg"
+   "reto_pc":"https://raw.githubusercontent.com/fundacionsantaclara/website/refs/heads/main/src/components/Fcimages/reto_ca_pc.jpg",
+   "reto_pdf" : "https://drive.google.com/file/d/1GWNsmEJwFJlTxLMrxXTFaDpThHcdRMpf/view?usp=sharing"
 }
