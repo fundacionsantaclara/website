@@ -410,6 +410,18 @@
   "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/giving.jpeg?raw=true",
   "ubicacion": "Barcelona",
   "date": "04/12/2025"
+},
+{
+  "id": 17,
+  "title": "El 42º Corredor Humanitario “Caravana de la Bondad”",
+  "subtitle": "Solidaridad en el cuarto aniversario de la invasión",
+  "body": "Este viernes, desde la Basílica de la Sagrada Familia, ha salido el 42º Corredor Humanitario “Caravana de la Bondad” rumbo a Ucrania, coincidiendo con el cuarto aniversario del inicio de la invasión a gran escala. Tras la celebración de la Eucaristía, el convoy formado por 21 vehículos, entre ellos ambulancias donadas por empresas privadas, y cerca de 50 participantes ha iniciado su recorrido hacia la frontera ucraniana en un acto cargado de simbolismo, compromiso y unidad. La iniciativa está impulsada por la Fundación del Convento de Santa Clara.",
+  "body2": "Durante la misa, el cardenal Juan José Omella ha leído un mensaje de la Nunciatura Apostólica en España en nombre del Papa León XIV, en el que el Santo Padre encomienda la “Caravana de la Bondad” al Señor y pide “el don de la paz”, alentando a sus impulsores a ser testigos de una paz “desarmada y desarmante”. El mensaje incluye la bendición apostólica para todos los participantes y sus familias.",
+  "body3": "El acto, celebrado en la Sagrada Familia, ha contado con una amplia representación institucional y empresarial de Barcelona, que ha subrayado la importancia de la colaboración entre instituciones públicas, tejido empresarial y sociedad civil para sostener iniciativas humanitarias de largo recorrido. Desde 2022, la Fundación ha organizado 42 corredores humanitarios, entregando más de 160 ambulancias y material sanitario. El convoy atravesará Francia, Alemania y Polonia hasta llegar a la frontera de Medyka, donde los vehículos serán entregados a hospitales y equipos de rescate ucranianos, reafirmando que la solidaridad organizada sigue siendo una fuerza capaz de salvar vidas.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bondad.jpeg?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bondad1.jpeg?raw=true",
+  "ubicacion": "Sagrada Familia, Barcelona",
+  "date": "20/02/2026"
 }
     
     
