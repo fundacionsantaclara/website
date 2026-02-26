@@ -30,15 +30,6 @@ function Home() {
           >
             {t("part-donar")}
           </a>
-
-          <a
-            href={t("reto_pdf")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button"
-          >
-            + Info
-          </a>
         </div>
       </div>
       <Videopart />
