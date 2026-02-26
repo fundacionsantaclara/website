@@ -25,6 +25,10 @@ import sonrisas2 from "../Fcimages/carruselhome/smile2.jpeg";
 import sonrisas3 from "../Fcimages/carruselhome/smile3.jpeg";
 import sonrisas4 from "../Fcimages/carruselhome/smile4.jpeg";
 import sonrisas5 from "../Fcimages/carruselhome/smile5.jpeg";
+import cara2 from "../Fcimages/carruselhome/cara2.jpg";
+import cara1 from "../Fcimages/carruselhome/cara1.JPEG";
+import cara3 from "../Fcimages/carruselhome/cara3.JPEG";
+import cara4 from "../Fcimages/carruselhome/cara4.jpg";
 
 import "./Videopart.css";
 
@@ -50,6 +54,10 @@ const Videopart = () => {
   };
 
   const carouselImages = [
+    cara1,
+    cara2,
+    cara3,
+    cara4,
     sonrisas,
     buses,
     infancia1,
