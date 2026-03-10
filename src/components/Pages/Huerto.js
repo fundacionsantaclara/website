@@ -9,6 +9,7 @@ import huertopic5 from "../Fcimages/Huertos egologícos/20240628_100938.jpg";
 import huertopic6 from "../Fcimages/Huertos egologícos/20230311_114735.jpg";
 import sponsorLogo1 from "../Fcimages/MC_logo_sencer_ORIGINAL_trans-HD.png"; // Add correct path
 import sponsorLogo2 from "../Fcimages/Logo Anudal PNG.png"; // Add correct path
+import sponsorLogo3 from "../Fcimages/matholding.jpg"; // Add correct path
 
 function Huerto() {
   const { t } = useTranslation();
@@ -76,6 +77,7 @@ function Huerto() {
           <div className="huerto-sponsor-logos">
             <img src={sponsorLogo1} alt="Sponsor 1" className="sponsor-logo" />
             <img src={sponsorLogo2} alt="Sponsor 2" className="sponsor-logo" />
+            <img src={sponsorLogo3} alt="Sponsor 2" className="sponsor-logo" />
           </div>
         </div>
       </div>
