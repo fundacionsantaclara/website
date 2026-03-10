@@ -1,6 +1,6 @@
 import React from "react";
 import "./MovieSection.css";
-import video1 from "../Fcimages/video/caravana-vid.mov";
+import video1 from "../Fcimages/video/ucvideo1.mov";
 import { useTranslation } from "react-i18next";
 
 const MovieSection = () => {

@@ -1,54 +1,14 @@
-.image-container {
+.christmas-banner {
   position: relative;
   width: 100%;
-  padding-left: 20px;
-}
-
-/* Full width banner */
-.reto-image {
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-    object-position: 45% 15%;
-
-}
-
-/* Text on the left */
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 6%;
-  transform: translateY(-50%);
-
-  max-width: 520px;
-
-  color: rgb(41, 100, 167);
-  font-weight: 750;
-  text-align: left;
-
-  font-size: clamp(2.1rem, 2.8vw, 2.8rem);
-  line-height: 1.5;
-
-  text-shadow: 0 3px 10px rgba(204, 189, 74, 0.7);
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  .reto-image {
-    height: 250px;
-  }
-
-  .image-text {
-     top: 35%;
-    left: 6%;
-    transform: translateY(-50%);
-    max-width: 60%;
-    font-size: clamp(1rem, 4vw, 1.4rem);
-  }
+  display: flex;
+  justify-content: center;
 }
 
 .humanitarian-corridor {
-     width: 99%;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -74,17 +34,36 @@
 }
 .buttons-reto {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   gap: 15px;
-
   position: absolute;
   bottom: 30px;
-  right: 6%;
-
+  right: 15%;
   z-index: 2;
 }
 
 
+
+/* TEXT CONTAINER */
+.christmas-text-group {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  transform: translateX(-50%);
+  color: #467b60;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+/* EACH LINE */
+.christmas-text-group div {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
