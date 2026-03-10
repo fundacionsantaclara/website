@@ -19,6 +19,7 @@ function Taller() {
       </div>
       <div className="taller-container">
         <div className="taller__content text__center">
+ 
           <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-card1-title")}</h3>
             <div
@@ -33,14 +34,19 @@ function Taller() {
 
           <TallerCarousel />
 
+          
           <div className="btn-taller">
             <TallerWhatsappBtn />
             <TallerEmail />
           </div>
 
+       
+
           <TallerCarouselTheme />
 
-          <div className="taller__text">
+
+             
+             <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-card2-title")}</h3>
             <div
               className="paragraph-text"
@@ -56,6 +62,7 @@ function Taller() {
             ></div>
           </div>
 
+       
           <div className="taller__text">
             <h3 className="taller-text-title">{t("taller-location-title")}</h3>
             <div
@@ -71,7 +78,7 @@ function Taller() {
               {t("taller-location-map-btn")}
             </a>
           </div>
-          {/* <TallerStorybook /> */}
+          <TallerStorybook />
         </div>
       </div>
     </div>
