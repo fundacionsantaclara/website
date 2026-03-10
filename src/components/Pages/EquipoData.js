@@ -25,20 +25,19 @@ const EquipoData = [
     imageUrl: lucia,
     email: "sorlucia@fsantaclara.org ",
   },
-
   {
     id: 2,
-    name: "Josep Ribera",
-    role: "josep",
-    imageUrl: pepe,
-    email: "josep@fsantaclara.org ",
-  },
-  {
-    id: 3,
     name: "Gloria Kwofie",
     role: "gloria",
     imageUrl: gloria,
     email: "gloria@fsantaclara.org",
+  },
+  {
+    id: 3,
+    name: "Vanessa Marin",
+    role: "josep",
+    imageUrl: vane,
+    email: "vanessa@fsantaclara.org",
   },
   {
     id: 4,
@@ -119,10 +118,10 @@ const EquipoData = [
   },
   {
     id: 15,
-    name: "Vanessa Marin",
+    name: "Madeleine  Rivera ",
     role: "vane",
-    imageUrl: vane,
-    email: "vanessa@fsantaclara.org",
+    imageUrl: "",
+    email: "mrivera@fsantaclara.org",
   },
 
   {
