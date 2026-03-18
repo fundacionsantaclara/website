@@ -11,8 +11,6 @@ import { useTranslation } from "react-i18next";
 
 function Home() {
   const { t } = useTranslation();
-  const imageRetoSrc = t("reto_pc");
-  const imageRetoSrcMobile = t("reto_mobile");
 
   return (
     <>
@@ -23,6 +21,10 @@ function Home() {
           </picture>
 
           <div className="image-text">{t("summer_peace_text")}</div>
+          <div className="image-subtexts">
+            <div className="image-subtext">{t("summer_peace_subtext_1")}</div>
+            <div className="image-subtext">{t("summer_peace_subtext_2")}</div>
+          </div>
 
           <div className="buttons-reto">
             <a
