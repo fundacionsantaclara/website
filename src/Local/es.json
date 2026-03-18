@@ -120,8 +120,8 @@
 
 
 "pisos-page-title" :"PISOS DE ACOGIDA",
-"pisos-page-card1-title" :"49 Viviendas",
-"pisos-page-card1-para" :"La Fundación dispone de 49 viviendas tuteladas por familias y personas solas. Ofrecemos soporte temporal para personas en riesgo de exclusión social.",
+"pisos-page-card1-title" :"44 Viviendas",
+"pisos-page-card1-para" :"La Fundación dispone de 44 viviendas tuteladas por familias y personas solas. Ofrecemos soporte temporal para personas en riesgo de exclusión social.",
 "pisos-page-card2-title" :"Valores y soporte",
 "pisos-page-card2-para" :"El proyecto propone garantizar las condiciones de vida en una vivienda adecuada, que facilite el desarrollo de las personas y familias. Cada 15 días pasan por la Plataforma dels Aliments donde se les entrega el lote de alimentos y una vez al mes tienen contacto y entrevista con los referentes de la Fundación. Acompañamiento para contribuir a la búsqueda de empleo y en formación y soporte legal.",
 "pisos-page-card3-title" :"Promoción Social",
@@ -632,7 +632,8 @@
    "confirmAtEmail": "Confirma:",
    "watchTrailer": "🎥 Ver tráiler",
    "summer_peace_text": "La guerra les ha quitado mucho. Puedes regalarles un verano de paz.",
-
+"summer_peace_subtext_1": "Beca de 500€ / 10 días por niño",
+"summer_peace_subtext_2": "50€ al día por niño",
 
  "last-events": "Próximo evento",
 "events": [

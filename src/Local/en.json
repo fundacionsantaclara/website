@@ -120,8 +120,8 @@
 
 
 "pisos-page-title" :"SHELTER HOMES",
-"pisos-page-card1-title" :"49 Homes",
-"pisos-page-card1-para" :"The Foundation has 49 homes supervised for families and individuals. We offer temporary support for people at risk of social exclusion.",
+"pisos-page-card1-title" :"44 Homes",
+"pisos-page-card1-para" :"The Foundation has 44 homes supervised for families and individuals. We offer temporary support for people at risk of social exclusion.",
 "pisos-page-card2-title" :"Values and Support",
 "pisos-page-card2-para" :"The project aims to ensure living conditions in suitable housing that facilitates the development of individuals and families. Every 15 days, they visit the Food Platform where they receive a food package, and once a month, they have contact and an interview with Foundation representatives. We provide support to help them find employment, training, and legal assistance.",
 "pisos-page-card3-title" :"Social Promotion",
@@ -633,7 +633,8 @@
   "watchTrailer": "🎥 Watch Trailer",
   "confirmAtEmail": "Confirm:",
 "summer_peace_text": "The war has taken so much from them. You can give them a summer of peace.",
-
+"summer_peace_subtext_1": "€500 scholarship / 10 days per child",
+"summer_peace_subtext_2": "€50 per day per child",
 
  "last-events": "Next event",
   "events": [

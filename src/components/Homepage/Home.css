@@ -16,7 +16,7 @@
 /* Text on the left */
 .image-text {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 6%;
   transform: translateY(-50%);
 
@@ -31,6 +31,29 @@
 
   text-shadow: 0 3px 10px rgba(204, 189, 74, 0.7);
 }
+.image-subtexts {
+  position: absolute;
+  top: 60%;
+  left: 6%;
+  transform: translateY(-50%);
+
+  display: flex;
+  gap: 16px; /* space between texts */
+}
+.image-subtext {
+  background: rgb(224, 208, 137); /* semi-transparent background */
+  color: rgb(18, 72, 139);
+  font-weight: 750;
+
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  font-size: clamp(1.6rem, 1.4vw, 1.5rem);
+  line-height: 1.4;
+
+  text-shadow: 0 3px 10px rgba(163, 205, 235, 0.7);
+  white-space: nowrap; /* keeps each text in one line */
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -44,6 +67,27 @@
     transform: translateY(-50%);
     max-width: 60%;
     font-size: clamp(1rem, 4vw, 1.4rem);
+  }
+   .image-subtexts {
+    top: 75%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+  }
+
+  .image-subtext {
+    font-size: clamp(1rem, 3vw, 1rem); /* smaller text */
+    padding: 6px 10px;                   /* tighter padding */
+    text-align: center;
+
+    white-space: normal;
+    max-width: 85%;
+
+    border-radius: 6px;                  /* slightly smaller radius */
   }
 }
 
