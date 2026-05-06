@@ -6,6 +6,8 @@ import EventosData from "../Pages/EventosData";
 import Videopart from "./Videopart";
 import MovieSection from "./MovieSection";
 import smiles from "../Fcimages/smiles.jpeg";
+import papa from "../Fcimages/papa2.jpg";
+import pickups from "../Fcimages/pickups.jpeg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 
@@ -15,6 +17,10 @@ function Home() {
   return (
     <>
       <div className="humanitarian-corridor">
+        <div className="banner-wrapper">
+          <img src={papa} alt="Reto" className="banner" />
+          <img src={pickups} alt="Reto" className="banner" />
+        </div>
         <div className="image-container">
           <picture>
             <img src={smiles} alt="Reto" className="reto-image" />
