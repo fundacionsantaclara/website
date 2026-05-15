@@ -6,7 +6,7 @@ import EventosData from "../Pages/EventosData";
 import Videopart from "./Videopart";
 import MovieSection from "./MovieSection";
 import smiles from "../Fcimages/smiles.jpeg";
-import papa from "../Fcimages/papa2.jpg";
+import papa from "../Fcimages/papa3.jpeg";
 import pickups from "../Fcimages/pickups.jpeg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
