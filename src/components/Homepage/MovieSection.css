@@ -1,81 +1,70 @@
 /* ===== Base Layout ===== */
 .video-page-full {
-  width: 100%;
-  padding: 40px 20px;
+  padding: 2rem;
+}
+
+.video-title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: rgb(109, 208, 175);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.video-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #f8f8f8;
 }
 
-/* ===== Title ===== */
-.video-title {
-  font-size: 2.4rem;
-  margin-bottom: 24px;
+.video-card-title {
   text-align: center;
-  color: #222;
+  margin-bottom: 1rem;
+  color: rgb(61, 93, 82);
 }
 
-/* ===== Video Container ===== */
-.video-wrapper {
+.video-card video {
   width: 100%;
-  max-width: 1200px;
-  background: #050505;
-  padding: 16px;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
+  border-radius: 8px;
+  height: 550px;
+  background-color: rgb(173, 224, 204);
 
+}
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+}
 /* ===== Video Element ===== */
-.video-wrapper video {
+.video-wrapper {
+  position: relative;
   width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
+  padding-bottom: 56.25%;
+  height: 0;
 }
 
-/* =========================
-   📱 Mobile (phones)
-   ========================= */
-@media (max-width: 480px) {
-  .video-page-full {
-    padding: 24px 12px;
-    
-  }
-
-  .video-title {
-    font-size: 1.6rem;
-    margin-bottom: 16px;
-  }
-
-  .video-wrapper {
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  .video-wrapper video {
-    border-radius: 8px;
-  }
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
-/* =========================
-   📱 Tablet (portrait & landscape)
-   ========================= */
+/* Mobile */
 @media (max-width: 768px) {
-  .video-title {
-    font-size: 1.9rem;
+  .videos-container {
+    grid-template-columns: 1fr;
   }
-
-  .video-wrapper {
-    padding: 14px;
-  }
+  .video-card video {
+  width: 100%;
+  border-radius: 8px;
+  height: 300px;
 }
-
-/* =========================
-   💻 Large screens
-   ========================= */
-@media (min-width: 1400px) {
-  .video-wrapper {
-    max-width: 1400px;
-  }
 }
