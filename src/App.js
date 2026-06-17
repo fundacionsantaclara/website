@@ -33,6 +33,7 @@ import Donate from "./components/Navigation/Donate";
 import PrivacyPage from "./components/Pages/PrivacyPage";
 import cookiesDoc from "./components/Documents/cookies.pdf";
 import legalDoc from "./components/Documents/ES_Aviso_legal.pdf";
+import Ghana from "./components/Pages/Ghana";
 
 function App() {
   const { t } = useTranslation();
@@ -98,6 +99,7 @@ function App() {
         <Route path="/eventosCompleta" element={<EventosCompleta />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/avis-legal/privacidad" element={<PrivacyPage />} />
+        <Route path="/ghana" element={<Ghana />} />
       </Routes>
       <Footer />
       {/* Cookie Banner - Always show if no consent yet */}

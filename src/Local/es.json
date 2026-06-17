@@ -191,6 +191,26 @@
 "oftamologia-card4-title": "Visitas",
 "oftamologia-card4-para": "Durante el año se realizan unas 80 visitas, de las cuales en un 90% necesitan gafas, que se les entregan a los pocos días.",
 
+"ghana-page-title": "AYUDA INTERNACIONAL",
+"gh-content-title": "Ghana(Sekondi-Takoradi)",
+"ghana_education_title": "Educación y Desarrollo Comunitario en Ghana",
+  "ghana_education_description": "La Fundación impulsa proyectos educativos y sociales destinados a mejorar las oportunidades de desarrollo de niños, jóvenes y familias en las comunidades de Sekondi-Takoradi.",
+  "ghana_education_item1": "Entrega de libros, mochilas y material escolar.",
+  "ghana_education_item2": "Donación de ordenadores y equipamiento tecnológico.",
+  "ghana_education_item3": "Promoción de la educación y la igualdad de oportunidades.",
+  "ghana_education_item4": "Colaboración con escuelas y organizaciones locales.",
+  "ghana_health_title": "Apoyo Sanitario",
+  "ghana_health_description": "La Fundación contribuye al fortalecimiento de la atención sanitaria mediante la donación de equipamiento médico y recursos esenciales para hospitales y centros de salud locales.",
+  "ghana_future_project": "Próximo Proyecto",
+  "ghana_clinic_title": "Clínica Oftalmológica Solidaria en Ghana",
+  "ghana_clinic_description": "En colaboración con Ulls del Món, la Fundación pondrá en marcha una clínica de atención ocular en Sekondi-Takoradi para mejorar la salud visual de la población local.",
+  "ghana_objectives": "Objetivos",
+  "ghana_objective_1": "Ofrecer consultas oftalmológicas gratuitas.",
+  "ghana_objective_2": "Proporcionar equipamiento especializado.",
+  "ghana_objective_3": "Facilitar tratamientos y seguimiento médico.",
+  "ghana_objective_4": "Prevenir la ceguera evitable y mejorar la calidad de vida.", 
+
+
 
 
 "back-button": "Volver",
