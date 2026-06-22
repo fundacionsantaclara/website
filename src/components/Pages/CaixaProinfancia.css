@@ -1,0 +1,313 @@
+.header {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../Fcimages/cpiwallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+.header-title {
+  font-size: 50px !important;
+  -webkit-text-stroke: 1.5px #0d3b66;
+  color: rgb(247, 247, 248);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.caixa-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HERO */
+
+.caixa-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.caixa-hero img,
+.caixa-location img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.caixa-hero-content h1 {
+  color: #0d3b66;
+  margin-bottom: 1rem;
+}
+
+.caixa-hero-content p {
+  line-height: 1.8;
+}
+
+/* OBJECTIVES */
+
+.caixa-section {
+  margin-bottom: 5rem;
+}
+
+.caixa-section h2,
+.section-title,
+.caixa-location h2,
+.caixa-partners h2 {
+  color: #0d3b66;
+  margin-bottom: 2rem;
+}
+
+.caixa-objectives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.caixa-objectives div {
+  background: #c7d5e3;
+  padding: 1.5rem;
+  border-radius: 16px;
+  line-height: 1.7;
+  transition: transform 0.3s ease;
+}
+
+.caixa-objectives div:hover {
+  transform: translateY(-5px);
+}
+
+/* LOCATION */
+
+.caixa-location {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.caixa-location p {
+  line-height: 1.8;
+}
+
+.caixa-location li {
+text-align: left;}
+
+
+/* SERVICES */
+
+.caixa-services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  /* IMPORTANT */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-card h3 {
+  color: #0d3b66;
+  margin-bottom: 1rem;
+}
+
+/* LIST FIX */
+
+.service-card ul {
+  width: 100%;
+  padding-left: 1.3rem;
+  margin: 0.5rem 0 0;
+}
+
+.service-card li {
+  text-align: left;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+/* IF YOU ADD BUTTONS */
+
+.service-card .btn,
+.service-card button,
+.service-card a {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* STATS */
+
+.caixa-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #0d3b66, #1d5fa2);
+  color: white;
+  padding: 2rem;
+  min-width: 240px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.stat-card span {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* PARTNERS */
+
+.caixa-partners {
+  background: #f8f9fa;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.caixa-partners ul {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+    text-align: left;
+  display: inline-block;
+}
+
+.caixa-partners li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.cpi-gallery {
+    align-items: center;
+}
+
+/* TABLET */
+
+@media screen and (max-width: 968px) {
+     .header-title{
+    font-size: 35px !important;
+    color: #8fb7be;
+    -webkit-text-stroke: 1.5px rgb(41, 43, 43);
+  }
+  .caixa-hero,
+  .caixa-location {
+    grid-template-columns: 1fr;
+  }
+
+  .caixa-services {
+    grid-template-columns: 1fr;
+  }
+
+  .caixa-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 400px;
+  }
+    .cpi-logo {
+    max-width: 200px;
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+      .header-title{
+    font-size: 30px;
+  }
+  .caixa-page {
+    padding: 1rem;
+  }
+
+  .caixa-hero {
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .caixa-hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .caixa-section,
+  .caixa-location,
+  .caixa-services,
+  .caixa-stats {
+    margin-bottom: 3rem;
+  }
+
+  .caixa-location {
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card li {
+    font-size: 0.95rem;
+  }
+
+  .stat-card {
+    width: 100%;
+    min-width: unset;
+    padding: 1.5rem;
+  }
+
+  .stat-card span {
+    font-size: 2.5rem;
+  }
+
+  .caixa-partners {
+    padding: 1.5rem;
+  }
+
+  .caixa-hero img,
+  .caixa-location img {
+    border-radius: 12px;
+  }
+}
+
+/* EXTRA SMALL DEVICES */
+
+@media screen and (max-width: 360px) {
+  .caixa-hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .service-card {
+    padding: 1.25rem;
+  }
+
+  .stat-card span {
+    font-size: 2rem;
+  }
+}

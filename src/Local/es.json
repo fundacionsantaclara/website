@@ -29,6 +29,7 @@
   "memoria-2022": "Memoria de actividades 2022",
   "memoria-2023-no-visual": "Memoria de actividades 2023",
   "memoria-2024": "Memoria de actividades 2024",
+  "memoria-2025": "Memoria de actividades 2025",
   "info-economica-title": "INFORMACIÓN ECONÓMICA",
   "info-gestionAdministrativa-title": "INFORMACIÓN GESTIÓN ADMINISTRATIVA",
   "retribucion-title": "RETRIBUCIÓN ÓRGANOS DE DIRECCIÓN Y ADMINISTRACIÓN DE LA FUNDACIÓN",
@@ -42,7 +43,8 @@
   "Informe Auditoría 2023": "Informe Auditoría y CCAA 2023",
   "Informe Auditoría 2024": "Informe Auditoría y CCAA 2024",
   "convenio-colaboracion-vigente": "CONVENIO DE COLABORACIÓN VIGENTE",
-  "subenciones-administrativas": "SUBVENCIONES ADMINISTRACIONES PÚBLICAS 2018-2023",
+  "subenciones-administrativas": "SUBVENCIONES ADMINISTRACIONES PÚBLICAS 2021-2025",
+  "Informe Auditoría 2025": "Informe Auditoría y CCAA 2025",
 
 
 "proyectos-title" :"NUESTROS PROYECTOS",
@@ -210,7 +212,64 @@
   "ghana_objective_3": "Facilitar tratamientos y seguimiento médico.",
   "ghana_objective_4": "Prevenir la ceguera evitable y mejorar la calidad de vida.", 
 
+"cpi-page-title": "CAIXAPROINFANCIA",
+"caixa_services_title": "¿Cómo lo hacemos?",
+ "stat_entities": "Entidades sociales colaboradoras",
+  "stat_families": "Familias atendidas durante el 2025 en Manresa",
 
+  "caixa_title": "¿Qué es CaixaProinfancia?",
+  "caixa_description": "El Programa CaixaProinfancia de Fundación 'la Caixa' se dirige a personas y/o familias con niños, niñas y adolescentes de 0 a 18 años en situación de vulnerabilidad socioeconómica.",
+  "caixa_objectives_title": "Objetivos del programa",
+
+  "caixa_objective_1": "Romper con el círculo hereditario de la pobreza impulsando todo un conjunto de acciones en clave de proceso y transformación, y promoviendo el desarrollo de oportunidades socioeducativas.",
+
+  "caixa_objective_2": "Favorecer el desarrollo de las competencias de los niños, niñas y adolescentes y sus familias que permitan mejorar sus procesos de integración social y autonomía.",
+
+  "caixa_objective_3": "Promover el desarrollo social y educativo de la infancia y adolescencia en su contexto familiar, escolar y social.",
+
+  "caixa_objective_4": "Desarrollar e implementar un modelo de acción social y educativa integral que contribuya a mejorar las oportunidades de desarrollo social y educativo de la infancia y sus familias.",
+
+  "caixa_objective_5": "Contribuir a sensibilizar y movilizar a la sociedad en la erradicación de la pobreza infantil.",
+
+  "caixa_where_title": "¿Dónde estamos?",
+
+  "caixa_where_description": "El programa está presente en todas las comunidades autónomas españolas y en cada una de ellas se dispone de entidades sociales de referencia. En Manresa, CaixaProinfancia se desarrolla en el Centro Socioeducativo EspaiCaixa Francesc d'Assís, ubicado en la Calle Nou de Santa Clara 66, donde la Fundación del Convento de Santa Clara es la entidad coordinadora del programa y trabaja en colaboración con tres entidades sociales de la ciudad, organizadas en redes de trabajo comunitario.",
+
+  "caixa_how_title": "¿Cómo lo hacemos?",
+
+  "caixa_how_description": "Impulsamos el desarrollo de los más pequeños para garantizarles referentes sólidos para su futuro y un nivel de bienestar óptimo que favorezca su crecimiento y su formación, a través de:",
+
+  "service_education": "Refuerzo educativo",
+  "service_education_1": "Equipamiento escolar",
+  "service_education_2": "Grupos de estudio asistido",
+  "service_education_3": "Refuerzo individual",
+  "service_education_4": "Aula abierta",
+  "service_education_5": "Atención logopédica",
+
+  "service_leisure": "Ocio y tiempo libre",
+  "service_leisure_1": "Centros abiertos",
+  "service_leisure_2": "Campamentos y actividades de verano",
+
+  "service_health": "Promoción de la salud",
+  "service_health_1": "Alimentación e higiene infantil",
+  "service_health_2": "Gafas y audífonos",
+
+  "service_psychology": "Apoyo psicológico",
+  "service_psychology_1": "Atención psicoterapéutica personal y familiar",
+  "service_psychology_2": "Talleres terapéuticos grupales",
+
+  "partners_title": "Entidades sociales colaboradoras",
+
+  "partner_1": "Fundación del Convento de Santa Clara",
+  "partner_2": "EspaiCaixa Francesc d'Assís",
+  "partner_3": "Fundació Universitària del Bages",
+  "partner_4": "Althaia Xarxa Assistencial Universitària de Manresa",
+
+  "stat_entities_number": "4",
+  "stat_entities_text": "entidades sociales colaboradoras en Manresa",
+
+  "stat_families_number": "93",
+  "stat_families_text": "familias atendidas durante el 2025 en Manresa",
 
 
 "back-button": "Volver",
@@ -442,6 +501,17 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bondad1.jpeg?raw=true",
   "ubicacion": "Sagrada Familia, Barcelona",
   "date": "20/02/2026"
+},{
+  "id": 18,
+  "title": "Renovación del Patronato",
+  "subtitle": "Nuevo impulso a proyectos sociales y humanitarios en Manresa",
+  "body": "La Fundació del Convent de Santa Clara renueva su Patronato y refuerza su compromiso con las personas más vulnerables. Manresa, 8 de junio de 2026. La Fundació del Convent de Santa Clara ha celebrado este lunes la reunión de su Patronato, presidida por Gabriel Prat y con la participación de la directora de la entidad, Sor Lucía Caram. Durante la sesión se ha llevado a cabo la renovación parcial del órgano de gobierno de la Fundación, incorporando nuevos miembros y agradeciendo la labor realizada por quienes han formado parte del Patronato durante los últimos años.",
+  "body2": "Con esta renovación, la Fundación inicia una nueva etapa marcada por la consolidación de sus proyectos sociales y humanitarios y por el impulso de nuevas iniciativas destinadas a acompañar a las personas más vulnerables. El Patronato queda constituido por Gabriel Prat como presidente, Rosa Giralt como vicepresidenta, Sor Lucía Caram como directora y Josep Ribera como secretario. Completan el Patronato Mar Alapont, Pere Gassó, Gemma Torelló, Frank Margenat, Jaume Masana y Manel Serra. A ellos se suman como nuevos patronos Pau Relat, Cristina Cabañas, Juan Carlos Cruz, Meritxell Ripoll, Marc Simon, Gerard Guiu y Ramon Termens.",
+  "body3": "La Fundación ha querido expresar públicamente su agradecimiento a Montse Domènech, Xavier Perramon, Vicenç Mauri, Imma Augé y Pere Pujadó por su dedicación y compromiso. La entidad ha destacado que seguirán formando parte de la familia de Santa Clara y continuarán vinculados a los proyectos y valores que impulsa la Fundación. Durante la reunión se abordaron los principales retos estratégicos para los próximos meses. Entre ellos destaca el traslado, previsto para septiembre, al nuevo espacio de la Plataforma de Alimentos, una actuación que permitirá ampliar la capacidad de atención y mejorar el servicio que se presta a miles de personas y familias en situación de vulnerabilidad. Asimismo, la Fundación pondrá en marcha un nuevo programa de inserción laboral, desarrollado conjuntamente con empresas y entidades colaboradoras, con el objetivo de facilitar oportunidades reales de empleo, formación y acompañamiento a personas con especiales dificultades de acceso al mercado laboral. El Patronato reafirmó también el compromiso de la entidad con Ucrania y con las víctimas de la guerra, una labor humanitaria que la Fundació del Convent de Santa Clara mantiene desde el inicio del conflicto y que continúa siendo una de sus principales líneas de actuación. La sesión concluyó con la visita del alcalde de Manresa, Marc Aloy, que quiso acompañar a los miembros del Patronato coincidiendo con la llegada al convento del corredor humanitario formado por 31 vehículos preparados para partir hacia Ucrania. Las ambulancias, revisadas y acondicionadas por los talleres Driver en las instalaciones de Pirelli, forman parte de una nueva misión humanitaria destinada a salvar vidas y a llevar ayuda allí donde la guerra sigue golpeando con dureza. Con esta renovación de su Patronato, la Fundació del Convent de Santa Clara reafirma su voluntad de seguir construyendo una sociedad más justa, comprometida y solidaria, generando oportunidades, dignidad y esperanza para quienes más lo necesitan.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron.JPG?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
+  "ubicacion": "Manresa",
+  "date": "08/06/2026"
 }
     
     

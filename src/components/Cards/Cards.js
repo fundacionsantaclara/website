@@ -15,6 +15,7 @@ import yosoy from "../../Images/yosoy.png";
 import corredorHumanitario from "../../Images/refugiado.png";
 import estrenaVidaImage from "../Fcimages/estrena vida/IMG_7545.jpg";
 import ghana from "../Fcimages/Gh1.jpeg";
+import cpi from "../Fcimages/CPIpic1.jpg";
 
 function Cards() {
   const { t } = useTranslation();
@@ -76,6 +77,8 @@ function Cards() {
               path="/estrena-vida"
             />
             <CardsItems src={yosoy} text={t("josoc-title")} path="/josoc" />
+
+            <CardsItems src={cpi} text={t("cpi-page-title")} path="/cpi" />
             <CardsItems
               src={ghana}
               text={t("ghana-page-title")}

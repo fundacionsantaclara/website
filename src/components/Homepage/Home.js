@@ -5,7 +5,7 @@ import Noticias from "../Noticias/Noticias";
 import EventosData from "../Pages/EventosData";
 import Videopart from "./Videopart";
 import MovieSection from "./MovieSection";
-import help from "../Fcimages/help.jpg";
+import help from "../Fcimages/july.jpg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 

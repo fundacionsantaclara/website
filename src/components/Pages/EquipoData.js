@@ -11,7 +11,7 @@ import luis from "../Fcimages/luis.jpg";
 import miguel from "../Fcimages/equipot tecnico/miguelbuena.jpg";
 import henry from "../Fcimages/equipot tecnico/henryEquipotecnico.jpeg";
 import monica from "../Fcimages/equipot tecnico/Monica.jpg";
-//import user from "../Fcimages/user.webp";
+import made from "../Fcimages/made.jpeg";
 import vane from "../Fcimages/vane.png";
 //import manel from "../Fcimages/manel.png";
 import elisenda from "../Fcimages/equipot tecnico/elisenda.jpg";
@@ -120,7 +120,7 @@ const EquipoData = [
     id: 15,
     name: "Madeleine  Rivera ",
     role: "vane",
-    imageUrl: "",
+    imageUrl: made,
     email: "mrivera@fsantaclara.org",
   },
 
