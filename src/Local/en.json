@@ -29,6 +29,7 @@
   "memoria-2022": "Activity report 2022",
   "memoria-2023-no-visual": "Activity report 2023",
   "memoria-2024": "Activity report 2024",
+  "memoria-2025": "Activity report 2025",
   "info-economica-title": "FINANCIAL INFORMATION",
   "info-gestionAdministrativa-title": "ADMINISTRATIVE MANAGEMENT INFORMATION",
   "retribucion-title":"REMUNERATION OF THE MANAGEMENT AND ADMINISTRATION BODIES OF THE FOUNDATION",
@@ -42,7 +43,8 @@
   "Informe Auditoría 2023": "Audit Report and Annual Accounts 2023",
   "Informe Auditoría 2024": "Audit Report and Annual Accounts 2024",
   "convenio-colaboracion-vigente": "CURRENT COLLABORATION AGREEMENT",
-  "subenciones-administrativas": "PUBLIC ADMINISTRATION SUBSIDIES 2018-2023",
+  "subenciones-administrativas": "PUBLIC ADMINISTRATION SUBSIDIES 2021-2025",
+  "Informe Auditoría 2025": "Audit Report and Annual Accounts 2025",
 
 
 "proyectos-title" :"OUR PROJECTS",
@@ -193,6 +195,77 @@
 "oftamologia-card3-para" :"The average number of users served in recent years is 88 people. 15% of the beneficiaries are minors, and 85% are adults. 44% of the users are men, and 56% are women.",
 "oftamologia-card4-title": "Visits",
 "oftamologia-card4-para": "During the year, around 80 visits are conducted, 90% of which require glasses, which are delivered a few days later.",
+
+"ghana-page-title": "INTERNATIONAL AID",
+"gh-content-title": "Ghana(Sekondi-Takoradi)",
+  "ghana_education_title": "Education and Community Development in Ghana",
+  "ghana_education_description": "The Foundation promotes educational and social projects aimed at improving opportunities for children, young people, and families in the communities of Sekondi-Takoradi.",
+  "ghana_education_item1": "Distribution of books, backpacks and school supplies.",
+  "ghana_education_item2": "Donation of computers and technological equipment.",
+  "ghana_education_item3": "Promotion of education and equal opportunities.",
+  "ghana_education_item4": "Collaboration with local schools and community organizations.",
+  "ghana_health_title": "Healthcare Support",
+  "ghana_health_description": "The Foundation contributes to strengthening local healthcare through donations of medical equipment and essential resources to hospitals and health centers.",
+  "ghana_future_project": "Upcoming Project",
+  "ghana_clinic_title": "Community Eye Care Clinic in Ghana",
+  "ghana_clinic_description": "In collaboration with Ulls del Món, the Foundation will establish an eye care clinic in Sekondi-Takoradi to improve access to vision care and eye health services.",
+  "ghana_objectives": "Objectives",
+  "ghana_objective_1": "Provide free eye examinations and consultations.",
+  "ghana_objective_2": "Supply specialized diagnostic and treatment equipment.",
+  "ghana_objective_3": "Offer treatment and medical follow-up.",
+  "ghana_objective_4": "Prevent avoidable blindness and improve quality of life.",
+
+  "cpi-page-title": "CAIXAPROINFANCIA",
+  "caixa_services_title": "How do we do it?",
+  "stat_entities": "Collaborating social organizations",
+  "stat_families": "Families supported during 2025 in Manresa",
+
+  "caixa_title": "What is CaixaProinfancia?",
+  "caixa_description": "The CaixaProinfancia Programme of Fundación \"la Caixa\" is aimed at people and/or families with children and adolescents aged 0 to 18 who are in situations of socioeconomic vulnerability.",
+  "caixa_objectives_title": "Programme objectives",
+
+  "caixa_objective_1": "To break the inherited cycle of poverty by promoting a range of actions focused on process and transformation, while fostering the development of socio-educational opportunities.",
+  "caixa_objective_2": "To support the development of skills among children, adolescents and their families, helping to improve their social integration and autonomy.",
+  "caixa_objective_3": "To promote the social and educational development of children and adolescents within their family, school and social environments.",
+  "caixa_objective_4": "To develop and implement a comprehensive social and educational action model that helps improve opportunities for the social and educational development of children and their families.",
+  "caixa_objective_5": "To help raise awareness and mobilise society towards the eradication of child poverty.",
+
+  "caixa_where_title": "Where are we?",
+  "caixa_where_description": "The programme is present in all Spanish autonomous communities, each with its own reference social organizations. In Manresa, CaixaProinfancia is delivered at the EspaiCaixa Francesc d'Assís Socio-educational Centre, located at Carrer Nou de Santa Clara 66. The Fundació del Convent de Santa Clara coordinates the programme and works alongside three social organizations in the city, organised through community work networks.",
+
+  "caixa_how_title": "How do we do it?",
+  "caixa_how_description": "We promote the development of children to ensure they have strong foundations for their future and an optimal level of wellbeing that supports their growth and education, through:",
+
+  "service_education": "Educational support",
+  "service_education_1": "School supplies",
+  "service_education_2": "Assisted study groups",
+  "service_education_3": "Individual support",
+  "service_education_4": "Open classroom",
+  "service_education_5": "Speech and language therapy",
+
+  "service_leisure": "Leisure and free time",
+  "service_leisure_1": "Open centres",
+  "service_leisure_2": "Summer camps and activities",
+
+  "service_health": "Health promotion",
+  "service_health_1": "Children's food and hygiene",
+  "service_health_2": "Glasses and hearing aids",
+
+  "service_psychology": "Psychological support",
+  "service_psychology_1": "Personal and family psychotherapy",
+  "service_psychology_2": "Group therapeutic workshops",
+
+  "partners_title": "Collaborating social organizations",
+  "partner_1": "Fundació del Convent de Santa Clara",
+  "partner_2": "EspaiCaixa Francesc d'Assís",
+  "partner_3": "Fundació Universitària del Bages",
+  "partner_4": "Althaia Xarxa Assistencial Universitària de Manresa",
+
+  "stat_entities_number": "4",
+  "stat_entities_text": "collaborating social organizations in Manresa",
+  "stat_families_number": "93",
+  "stat_families_text": "families supported during 2025 in Manresa",
+
 
 "back-button": "Back",
 "latest_news": "Latest News",
@@ -422,8 +495,19 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bondad1.jpeg?raw=true",
   "ubicacion": "Sagrada Familia, Barcelona",
   "date": "20/02/2026"
-}
-    
+},
+{
+  "id": 18,
+  "title": "Renewal of the Board of Trustees",
+  "subtitle": "New social and humanitarian boost",
+  "body": "The Fundació del Convent de Santa Clara renews its Board of Trustees and strengthens its commitment to the most vulnerable people. Manresa, June 8, 2026. The Fundació del Convent de Santa Clara held this Monday the meeting of its Board of Trustees, presided over by Gabriel Prat and with the participation of the director of the entity, Sor Lucía Caram. During the session, the partial renewal of the Foundation's governing body was carried out, incorporating new members and thanking those who have been part of the Board of Trustees in recent years.",
+  "body2": "With this renewal, the Foundation begins a new stage marked by the consolidation of its social and humanitarian projects and by the promotion of new initiatives aimed at accompanying the most vulnerable people. The Board of Trustees is constituted by Gabriel Prat as president, Rosa Giralt as vice-president, Sor Lucía Caram as director and Josep Ribera as secretary. Completing the Board of Trustees are Mar Alapont, Pere Gassó, Gemma Torelló, Frank Margenat, Jaume Masana and Manel Serra. Joining them as new trustees are Pau Relat, Cristina Cabañas, Juan Carlos Cruz, Meritxell Ripoll, Marc Simon, Gerard Guiu and Ramon Termens.",
+  "body3": "The Foundation has wanted to publicly express its gratitude to Montse Domènech, Xavier Perramon, Vicenç Mauri, Imma Augé and Pere Pujadó for their dedication and commitment. The entity has highlighted that they will continue to be part of the Santa Clara family and will remain linked to the projects and values promoted by the Foundation. During the meeting, the main strategic challenges for the coming months were addressed. Among them stands out the move, scheduled for September, to the new space of the Food Platform, an action that will allow expanding the capacity of care and improving the service provided to thousands of people and families in situations of vulnerability. Likewise, the Foundation will launch a new job insertion program, developed jointly with companies and collaborating entities, with the aim of facilitating real opportunities for employment, training and accompaniment to people with special difficulties in accessing the labor market. The Board of Trustees also reaffirmed the entity's commitment to Ukraine and the victims of the war, a humanitarian work that the Fundació del Convent de Santa Clara has maintained since the beginning of the conflict and that continues to be one of its main lines of action. The session concluded with the visit of the mayor of Manresa, Marc Aloy, who wanted to accompany the members of the Board coinciding with the arrival at the convent of the humanitarian corridor made up of 31 vehicles prepared to depart towards Ukraine. The ambulances, reviewed and conditioned by the Driver workshops at the Pirelli facilities, are part of a new humanitarian mission aimed at saving lives and bringing help where the war continues to hit hard. With this renewal of its Board of Trustees, the Fundació del Convent de Santa Clara reaffirms its will to continue building a fairer, more committed and supportive society, generating opportunities, dignity and hope for those who need it most.",
+ "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron.JPG?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
+  "ubicacion": "Manresa",
+  "date": "08/06/2026"
+}   
     
     
     

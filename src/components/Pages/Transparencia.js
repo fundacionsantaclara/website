@@ -12,6 +12,7 @@ import memo2020 from "../Documents/memoria_FCSC_2020_CA.pdf";
 import memo2021 from "../Documents/memoria_FRO_2021_CAT_web2.pdf";
 import memo2022 from "../Documents/memoria_FRO_2022_CAT_web.pdf";
 import memo2024 from "../Documents/Memoria_2024.pdf";
+import memo2025 from "../Documents/Memo2025.pdf";
 
 import cuentas2018 from "../Documents/Comptes_anuals_2018.pdf";
 import cuentas2019 from "../Documents/Comptes_anuals_2019.pdf";
@@ -24,7 +25,7 @@ import audiotria2024 from "../Documents/INFO_AUDITORIA_CCAA_2024_FCSC.pdf";
 import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
 import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
-import subencionesAdministracion from "../Documents/SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023.pdf";
+import subencionesAdministracion from "../Documents/Subvencions 2025.pdf";
 import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
 import image1 from "../Fcimages/transparencia//luciaheridotransparencia.jpg";
 import image2 from "../Fcimages/transparencia/memo-pic.jpg";
@@ -176,6 +177,16 @@ function Transparencia() {
                         {t("memoria-2024")}
                       </a>
                     </p>
+                    <p>
+                      <a
+                        className="link-offset-3"
+                        href={memo2025}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t("memoria-2025")}
+                      </a>
+                    </p>
                   </ul>
                 </div>
               </div>
@@ -257,6 +268,16 @@ function Transparencia() {
                         {t("Informe Auditoría 2024")}
                       </a>
                     </p>
+                    {/* <p>
+                      <a
+                        className="link-offset-3"
+                        href={audiotria2024}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t("Informe Auditoría 2025")}
+                      </a>
+                    </p> */}
                   </ul>
                 </div>
               </div>

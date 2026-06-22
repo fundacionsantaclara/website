@@ -1,0 +1,234 @@
+
+.invulnerables-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 1400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.invulnerables__content-title {
+  font-size: 36px;
+  margin-bottom: 2rem;
+  color: #2fbb67;
+  text-align: center;
+}
+
+.invulnerables-header {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../Fcimages/ghwallpaper.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.ghana-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.ghana-hero-content ul,
+.ghana-objectives ul {
+  text-align: left;
+  display: inline-block;
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.ghana-hero-content li,
+.ghana-objectives li {
+  text-align: left;
+}
+.ghana-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.ghana-hero img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.ghana-hero-content h2 {
+  margin-bottom: 1rem;
+  color: #0d3b66;
+}
+
+.ghana-hero-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.ghana-hero-content ul {
+  padding-left: 1.5rem;
+}
+
+.ghana-hero-content li {
+  margin-bottom: 0.8rem;
+}
+
+.ghana-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  background: #f8f9fa;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.ghana-section-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.ghana-section-content h2 {
+  margin-bottom: 1rem;
+  color: #0d3b66;
+}
+
+.ghana-section-content p {
+  line-height: 1.8;
+}
+
+.ghana-project-card {
+  background: linear-gradient(135deg, #8e330e, #e4e26e);
+  color: white;
+  padding: 3rem;
+  border-radius: 24px;
+  margin-bottom: 5rem;
+}
+
+.ghana-project-card h2 {
+  color: #ffd166;
+  margin-bottom: 0.5rem;
+}
+
+.ghana-project-card h3 {
+  margin-bottom: 1.5rem;
+}
+
+.ghana-project-card p {
+  line-height: 1.8;
+}
+
+.ghana-objectives {
+  margin-top: 2rem;
+}
+
+.ghana-objectives ul {
+  padding-left: 1.5rem;
+}
+
+.ghana-objectives li {
+  margin-bottom: 0.8rem;
+}
+
+.ghana-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+
+.ghana-gallery img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.ghana-gallery img:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 968px) {
+  .ghana-hero,
+  .ghana-section {
+    grid-template-columns: 1fr;
+  }
+
+  .ghana-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .ghana-container {
+    padding: 0 1rem;
+  }
+
+  .ghana-hero {
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .ghana-hero-content h2,
+  .ghana-section-content h2,
+  .ghana-project-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .ghana-project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .ghana-hero-content p,
+  .ghana-section-content p,
+  .ghana-project-card p,
+  .ghana-objectives li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .ghana-section {
+    padding: 1.5rem;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .ghana-project-card {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .ghana-gallery {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .ghana-gallery img {
+    height: 220px;
+  }
+
+  .ghana-hero img,
+  .ghana-section-image,
+  .ghana-gallery img {
+    border-radius: 12px;
+  }
+
+  .ghana-hero-content ul,
+  .ghana-objectives ul {
+    padding-left: 1.2rem;
+  }
+
+  .ghana-hero-content li,
+  .ghana-objectives li {
+    margin-bottom: 0.6rem;
+  }
+}

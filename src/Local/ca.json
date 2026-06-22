@@ -29,6 +29,7 @@
   "memoria-2022": "Memòria d'activitats 2022",
   "memoria-2023-no-visual": "Memòria d'activitats 2023",
   "memoria-2024": "Memòria d'activitats 2024",
+  "memoria-2025": "Memòria d'activitats 2025",
   "info-economica-title":"INFORMACIÓ ECONÒMICA",
   "info-gestionAdministrativa-title": "INFORMACIÓ GESTIÓ ADMINISTRATIVA",
   "retribucion-title": "RETIBUCIÓ ÒRGANS DE DIRECCIÓ I ADMINISTRACIÓ DE LA FUNDACIÓ",
@@ -42,7 +43,8 @@
   "Informe Auditoría 2023": "Informe d'Auditoria i Comptes Anuals 2023",
   "Informe Auditoría 2024": "Informe d'Auditoria i Comptes Anuals 2024",
   "convenio-colaboracion-vigente": "CONVENI DE COL·LABORACIÓ VIGENT",
-  "subenciones-administrativas": "SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2018-2023",
+  "subenciones-administrativas": "SUBVENCIONS ADMINISTRACIONS PÚBLIQUES 2021-2025",
+  "Informe Auditoría 2025": "Informe d'Auditoria i Comptes Anuals 2025",
 
 
 "proyectos-title": "ELS NOSTRES PROJECTES",
@@ -195,6 +197,75 @@
 "oftamologia-card4-title" :"Visites",
 "oftamologia-card4-para" : "Durant l’any es realitzen unes 80 visites, de les que en un 90% necessiten ulleres , que se’ls entreguen al cap d’uns dies.",
 
+"ghana-page-title": "AJUDA INTERNACIONAL",
+"gh-content-title": "Ghana(Sekondi-Takoradi)",
+  "ghana_education_title": "Educació i Desenvolupament Comunitari a Ghana",
+  "ghana_education_description": "La Fundació impulsa projectes educatius i socials destinats a millorar les oportunitats de desenvolupament d'infants, joves i famílies de les comunitats de Sekondi-Takoradi.",
+  "ghana_education_item1": "Lliurament de llibres, motxilles i material escolar.",
+  "ghana_education_item2": "Donació d'ordinadors i equipament tecnològic.",
+  "ghana_education_item3": "Promoció de l'educació i la igualtat d'oportunitats.",
+  "ghana_education_item4": "Col·laboració amb escoles i organitzacions locals.",
+  "ghana_health_title": "Suport Sanitari",
+  "ghana_health_description": "La Fundació contribueix a l'enfortiment de l'atenció sanitària mitjançant la donació d'equipament mèdic i recursos essencials per a hospitals i centres de salut locals.",
+  "ghana_future_project": "Pròxim Projecte",
+  "ghana_clinic_title": "Clínica Oftalmològica Solidària a Ghana",
+  "ghana_clinic_description": "En col·laboració amb Ulls del Món, la Fundació posarà en marxa una clínica d'atenció ocular a Sekondi-Takoradi per millorar la salut visual de la població local.",
+  "ghana_objectives": "Objectius",
+  "ghana_objective_1": "Oferir consultes oftalmològiques gratuïtes.",
+  "ghana_objective_2": "Proporcionar equipament especialitzat.",
+  "ghana_objective_3": "Facilitar tractaments i seguiment mèdic.",
+  "ghana_objective_4": "Prevenir la ceguesa evitable i millorar la qualitat de vida.",
+
+ "cpi-page-title": "CAIXAPROINFANCIA",
+  "caixa_services_title": "Com ho fem?",
+  "stat_entities": "Entitats socials col·laboradores",
+  "stat_families": "Famílies ateses durant el 2025 a Manresa",
+
+  "caixa_title": "Què és CaixaProinfancia?",
+  "caixa_description": "El Programa CaixaProinfancia de la Fundació \"la Caixa\" s'adreça a persones i/o famílies amb infants i adolescents de 0 a 18 anys en situació de vulnerabilitat socioeconòmica.",
+  "caixa_objectives_title": "Objectius del programa",
+
+  "caixa_objective_1": "Trencar el cercle hereditari de la pobresa impulsant tot un conjunt d'accions en clau de procés i transformació, i promovent el desenvolupament d'oportunitats socioeducatives.",
+  "caixa_objective_2": "Afavorir el desenvolupament de les competències dels infants, adolescents i les seves famílies que permetin millorar els seus processos d'integració social i autonomia.",
+  "caixa_objective_3": "Promoure el desenvolupament social i educatiu de la infància i l'adolescència en el seu context familiar, escolar i social.",
+  "caixa_objective_4": "Desenvolupar i implementar un model d'acció social i educativa integral que contribueixi a millorar les oportunitats de desenvolupament social i educatiu de la infància i les seves famílies.",
+  "caixa_objective_5": "Contribuir a sensibilitzar i mobilitzar la societat en l'erradicació de la pobresa infantil.",
+
+  "caixa_where_title": "On som?",
+  "caixa_where_description": "El programa és present a totes les comunitats autònomes espanyoles i a cadascuna d'elles hi ha entitats socials de referència. A Manresa, CaixaProinfancia es desenvolupa al Centre Socioeducatiu EspaiCaixa Francesc d'Assís, situat al carrer Nou de Santa Clara, 66, on la Fundació del Convent de Santa Clara és l'entitat coordinadora del programa i treballa en col·laboració amb tres entitats socials de la ciutat, organitzades en xarxes de treball comunitari.",
+
+  "caixa_how_title": "Com ho fem?",
+  "caixa_how_description": "Impulsem el desenvolupament dels més petits per garantir-los referents sòlids per al seu futur i un nivell de benestar òptim que afavoreixi el seu creixement i la seva formació, a través de:",
+
+  "service_education": "Reforç educatiu",
+  "service_education_1": "Equipament escolar",
+  "service_education_2": "Grups d'estudi assistit",
+  "service_education_3": "Reforç individual",
+  "service_education_4": "Aula oberta",
+  "service_education_5": "Atenció logopèdica",
+
+  "service_leisure": "Oci i temps lliure",
+  "service_leisure_1": "Centres oberts",
+  "service_leisure_2": "Casals i activitats d'estiu",
+
+  "service_health": "Promoció de la salut",
+  "service_health_1": "Alimentació i higiene infantil",
+  "service_health_2": "Ulleres i audiòfons",
+
+  "service_psychology": "Suport psicològic",
+  "service_psychology_1": "Atenció psicoterapèutica personal i familiar",
+  "service_psychology_2": "Tallers terapèutics grupals",
+
+  "partners_title": "Entitats socials col·laboradores",
+  "partner_1": "Fundació del Convent de Santa Clara",
+  "partner_2": "EspaiCaixa Francesc d'Assís",
+  "partner_3": "Fundació Universitària del Bages",
+  "partner_4": "Althaia Xarxa Assistencial Universitària de Manresa",
+
+  "stat_entities_number": "4",
+  "stat_entities_text": "entitats socials col·laboradores a Manresa",
+  "stat_families_number": "93",
+  "stat_families_text": "famílies ateses durant el 2025 a Manresa",
 
 "back-button": "Tornar",
 "latest_news": "Últimes notícies",
@@ -425,6 +496,18 @@
    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/Images/bondad1.jpeg?raw=true",
   "ubicacion": "Sagrada Familia, Barcelona",
   "date": "20/02/2026"
+},
+{
+  "id": 18,
+  "title": "Renovació del Patronat",
+  "subtitle": "Nou impuls social i humanitari",
+  "body": "La Fundació del Convent de Santa Clara renova el seu Patronat i enforteix el seu compromís amb les persones més vulnerables. Manresa, 8 de juny de 2026. La Fundació del Convent de Santa Clara ha celebrat aquest dilluns la reunió del seu Patronat, presidida per Gabriel Prat i amb la participació de la directora de l'entitat, Sor Lucía Caram. Durant la sessió s'ha dut a terme la renovació parcial de l'òrgan de govern de la Fundació, incorporant nous membres i agraint la tasca realitzada per qui han format part del Patronat durant els últims anys.",
+  "body2": "Amb aquesta renovació, la Fundació inicia una nova etapa marcada per la consolidació dels seus projectes socials i humanitaris i per l'impuls de noves iniciatives destinades a acompanyar les persones més vulnerables. El Patronat queda constituït per Gabriel Prat com a president, Rosa Giralt com a vicepresidenta, Sor Lucía Caram com a directora i Josep Ribera com a secretari. Completen el Patronat Mar Alapont, Pere Gassó, Gemma Torelló, Frank Margenat, Jaume Masana i Manel Serra. A ells s'hi sumen com a nous patrons Pau Relat, Cristina Cabañas, Juan Carlos Cruz, Meritxell Ripoll, Marc Simon, Gerard Guiu i Ramon Termens.",
+  "body3": "La Fundació ha volgut expressar públicament el seu agraïment a Montse Domènech, Xavier Perramon, Vicenç Mauri, Imma Augé i Pere Pujadó per la seva dedicació i compromís. L'entitat ha destacat que seguiran formant part de la família de Santa Clara i continuaran vinculats als projectes i valors que impulsa la Fundació. Durant la reunió es van abordar els principals reptes estratègics per als propers mesos. Entre ells destaca el trasllat, previst per a setembre, al nou espai de la Plataforma d'Aliments, una actuació que permetrà ampliar la capacitat d'atenció i millorar el servei que es presta a milers de persones i famílies en situació de vulnerabilitat. Així mateix, la Fundació posarà en marxa un nou programa d'inserció laboral, desenvolupat conjuntament amb empreses i entitats col·laboradores, amb l'objectiu de facilitar oportunitats reals d'ocupació, formació i acompanyament a persones amb especials dificultats d'accés al mercat laboral. El Patronat va reafirmar també el compromís de l'entitat amb Ucraïna i amb les víctimes de la guerra, una tasca humanitària que la Fundació del Convent de Santa Clara manté des de l'inici del conflicte i que continua sent una de les seves principals línies d'actuació. La sessió va concloure amb la visita de l'alcalde de Manresa, Marc Aloy, que va voler acompanyar els membres del Patronat coincidint amb l'arribada al convent del corredor humanitari format per 31 vehicles preparats per partir cap a Ucraïna. Les ambulàncies, revisades i condicionades pels tallers Driver a les instal·lacions de Pirelli, formen part d'una nova missió humanitària destinada a salvar vides i portar ajuda allà on la guerra continua colpejant amb duresa. Amb aquesta renovació del seu Patronat, la Fundació del Convent de Santa Clara reafirma la seva voluntat de continuar construint una societat més justa, compromesa i solidària, generant oportunitats, dignitat i esperança per a qui més ho necessita.",
+  "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron.JPG?raw=true",
+  "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
+  "ubicacion": "Manresa",
+  "date": "08/06/2026"
 }
     
     
