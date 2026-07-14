@@ -1,7 +1,7 @@
 import React from "react";
 import "./Transparencia.css";
 import { useTranslation } from "react-i18next";
-import patrons from "../Documents/Patronat (CAT) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.docx.pdf";
+import patrons from "../Documents/Patronat FSC.pdf";
 import patronsCastellano from "../Documents/Patronat (CAST) de la FUNDACIÓ DEL CONVENT DE SANTA CLARA.pdf";
 import estatutos from "../Documents/estatutofundacion.pdf";
 import registros from "../Documents/REGISTRE PATRONAT DEPT. JUSTÍCIA GENERALITAT.pdf";
@@ -21,6 +21,7 @@ import auditoría2021 from "../Documents/INFORME_AUDITORIA_I_CCAA_2021.pdf";
 import auditoría2022 from "../Documents/INFO_AUDITORIA_CCAA_2022_FCSC.pdf";
 import audiotria2023 from "../Documents/INFO_AUDITORIA_CCAA_2023_FCSC.pdf";
 import audiotria2024 from "../Documents/INFO_AUDITORIA_CCAA_2024_FCSC.pdf";
+import audiotria2025 from "../Documents/INFO_AUDITORIA_CCAA_2025_FCSC.pdf";
 
 import memo2023Novisual from "../Documents/memoria_FRO_2023.pdf";
 import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 2024, CAT.).pdf";
@@ -268,16 +269,16 @@ function Transparencia() {
                         {t("Informe Auditoría 2024")}
                       </a>
                     </p>
-                    {/* <p>
+                    <p>
                       <a
                         className="link-offset-3"
-                        href={audiotria2024}
+                        href={audiotria2025}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {t("Informe Auditoría 2025")}
                       </a>
-                    </p> */}
+                    </p>
                   </ul>
                 </div>
               </div>

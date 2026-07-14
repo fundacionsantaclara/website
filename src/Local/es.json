@@ -512,7 +512,19 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
   "ubicacion": "Manresa",
   "date": "08/06/2026"
-}
+},
+{
+    "id": 19,
+    "title": "55 Sonrisas",
+    "subtitle": "55 niños ucranianos llegan a La Seu d'Urgell",
+    "body": "La Fundación del Convento de Santa Clara ha dado la bienvenida a 55 niños y jóvenes ucranianos, de entre 6 y 16 años, a La Seu d'Urgell dentro del programa 'Vacaciones con Paz: De Ucrania a La Seu d'Urgell'. Organizada por la Fundación con el apoyo del Obispado de Urgell, la iniciativa ofrece a los menores afectados por la guerra en Ucrania un entorno seguro donde puedan recuperar la alegría, compartir momentos de amistad y avanzar en su recuperación emocional. Muchos de ellos han perdido a uno o ambos progenitores o tienen familiares cercanos que combaten en el frente. La mayoría son hijos de miembros de la Policía Nacional de Ucrania, mientras que otros proceden de un centro de acogida infantil de Kyiv.",
+    "body2": "Durante su estancia en los Pirineos, los niños participarán en una amplia variedad de actividades educativas, culturales y recreativas. El programa incluye visitas a la Catedral de Santa María, al Parque Olímpico del Segre, talleres, excursiones, actividades deportivas y propuestas al aire libre pensadas para ofrecerles momentos de paz y normalidad lejos de las dificultades de la guerra. Como parte del programa de bienvenida, los menores también asistieron a una exhibición de la Policía Nacional de España, donde pudieron conocer vehículos policiales, participar en un taller de huellas dactilares organizado por la Policía Científica y encontrarse con miembros de la Unidad Canina.",
+    "body3": "El acto oficial de bienvenida contó con la presencia del obispo de Urgell y copríncipe de Andorra, Mons. Josep Lluís Serrano; el alcalde de La Seu d'Urgell, Joan Barrera; sor Lucía Caram; la cónsul general de Ucrania en Barcelona, Olena Trónina; y el comisario principal de la Policía Nacional en Cataluña, Manuel Rodríguez, entre otras autoridades. La Fundación agradece sinceramente a todas las instituciones, voluntarios y colaboradores cuya generosidad ha hecho posible esta iniciativa humanitaria. Con este programa, la Fundación reafirma su compromiso de acompañar a los niños afectados por la guerra, ofreciéndoles seguridad, esperanza y la oportunidad de volver a ser simplemente niños.",
+    "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu1.jpeg?raw=true",
+    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu2.jpeg?raw=true",
+    "ubicacion": "La Seu d'Urgell",
+    "date": "13/07/2026"
+  }
     
     
     

@@ -508,7 +508,19 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
   "ubicacion": "Manresa",
   "date": "08/06/2026"
-}
+},
+{
+    "id": 19,
+    "title": "55 Somriures",
+    "subtitle": "55 infants ucraïnesos arriben a la Seu d'Urgell",
+    "body": "La Fundació del Convent de Santa Clara ha donat la benvinguda a 55 infants i joves ucraïnesos, d'entre 6 i 16 anys, a la Seu d'Urgell en el marc del programa 'Vacances amb Pau: D'Ucraïna a la Seu d'Urgell'. Organitzat per la Fundació amb el suport del Bisbat d'Urgell, el projecte ofereix als menors afectats per la guerra a Ucraïna un entorn segur on poden recuperar l'alegria, compartir moments d'amistat i avançar en la seva recuperació emocional. Molts dels infants han perdut un o tots dos progenitors o tenen familiars propers combatent al front. La majoria són fills de membres de la Policia Nacional d'Ucraïna, mentre que d'altres provenen d'un centre d'acollida infantil de Kíiv.",
+    "body2": "Durant la seva estada als Pirineus, els infants participaran en una àmplia varietat d'activitats educatives, culturals i lúdiques. El programa inclou visites a la Catedral de Santa Maria, al Parc Olímpic del Segre, tallers, excursions, activitats esportives i propostes a l'aire lliure pensades per oferir-los moments de pau i normalitat lluny de les dificultats de la guerra. Com a part del programa de benvinguda, els infants també van assistir a una exhibició de la Policia Nacional espanyola, on van poder conèixer vehicles policials, participar en un taller d'empremtes dactilars organitzat per la Policia Científica i trobar-se amb membres de la Unitat Canina.",
+    "body3": "L'acte oficial de benvinguda va comptar amb la presència del bisbe d'Urgell i copríncep d'Andorra, Mons. Josep Lluís Serrano; l'alcalde de la Seu d'Urgell, Joan Barrera; la germana Lucía Caram; la cònsol general d'Ucraïna a Barcelona, Olena Trónina; i el comissari principal de la Policia Nacional a Catalunya, Manuel Rodríguez, entre altres autoritats. La Fundació agraeix sincerament a totes les institucions, voluntaris i col·laboradors la seva generositat, que ha fet possible aquesta iniciativa humanitària. Amb aquest programa, la Fundació referma el seu compromís d'acompanyar els infants afectats per la guerra, oferint-los seguretat, esperança i l'oportunitat de tornar a ser simplement infants.",
+    "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu1.jpeg?raw=true",
+    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu2.jpeg?raw=true",
+    "ubicacion": "La Seu d'Urgell",
+    "date": "14/07/2026"
+  }
     
     
   ],
