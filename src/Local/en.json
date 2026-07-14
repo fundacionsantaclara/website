@@ -507,7 +507,19 @@
   "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/patron2.JPG?raw=true",
   "ubicacion": "Manresa",
   "date": "08/06/2026"
-}   
+},
+{
+    "id": 19,
+    "title": "55 Smile",
+    "subtitle": "55 Ukrainian Children Arrive in La Seu d'Urgell",
+    "body": "The Foundation of the Convent of Santa Clara has welcomed 55 Ukrainian children and young people, aged between 6 and 16, to La Seu d'Urgell as part of the 'Holidays with Peace: From Ukraine to La Seu d'Urgell' programme. Organised by the Foundation with the support of the Diocese of Urgell, the initiative offers children affected by the war in Ukraine a safe environment where they can experience joy, friendship, and emotional recovery. Many of the children have lost one or both parents or have close relatives serving on the front lines. Most are children of members of the Ukrainian National Police, while others come from a children's centre in Kyiv.",
+    "body2": "During their stay in the Pyrenees, the children will take part in a wide range of educational, cultural, and recreational activities. The programme includes visits to the Cathedral of Santa Maria, the Segre Olympic Park, workshops, excursions, sports, and outdoor activities designed to provide moments of peace and normality away from the hardships of war. As part of the welcome programme, the children also attended an exhibition by the Spanish National Police, where they explored police vehicles, participated in a fingerprint workshop organised by the Scientific Police Unit, and met members of the Canine Unit.",
+    "body3": "The official welcome was attended by the Bishop of Urgell and Co-Prince of Andorra, Mons. Josep Lluís Serrano; the Mayor of La Seu d'Urgell, Joan Barrera; Sister Lucía Caram; the Consul General of Ukraine in Barcelona, Olena Trónina; and the Chief Commissioner of the National Police in Catalonia, Manuel Rodríguez, among other authorities. The Foundation sincerely thanks all the institutions, volunteers, and supporters whose generosity has made this humanitarian initiative possible. Through this programme, the Foundation reaffirms its commitment to accompanying children affected by war, offering them safety, hope, and the opportunity to simply be children again.",
+    "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu1.jpeg?raw=true",
+    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu2.jpeg?raw=true",
+    "ubicacion": "La Seu d'Urgell",
+    "date": "13/07/2026"
+  }   
     
     
     
