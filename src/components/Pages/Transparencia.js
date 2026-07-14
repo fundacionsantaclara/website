@@ -28,7 +28,7 @@ import convenioDeColaboracionVigente from "../Documents/CONVENIS FCSC (DESEMBRE 
 import convenioDeColaboracionVigenteCastellano from "../Documents/CONVENIOS DE COLABORACIÓN FORMALIZADOS POR FCSC (CAST).pdf";
 import subencionesAdministracion from "../Documents/Subvencions 2025.pdf";
 import codigoEtico from "../Documents/RESUM_CODI_ETIC.pdf";
-import image1 from "../Fcimages/transparencia//luciaheridotransparencia.jpg";
+import image1 from "../Fcimages/transparencia/patron.jpeg";
 import image2 from "../Fcimages/transparencia/memo-pic.jpg";
 import image3 from "../Fcimages/transparencia/IMG_1309.jpg";
 import image4 from "../Fcimages/transparencia/IMG_3779.jpg";
