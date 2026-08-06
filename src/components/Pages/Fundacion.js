@@ -2,7 +2,7 @@ import React from "react";
 import "./Fundacion.css";
 import aboutImage from "../Fcimages/woodbg.jpg";
 import convent from "../Fcimages/la fundacion/1faf145f-9452-4176-8b91-bdf690281401.jpg";
-import patronato from "../Fcimages/transparencia/IMG_0287.jpg";
+import patronato from "../Fcimages/transparencia/patron.jpeg";
 import { useTranslation } from "react-i18next";
 
 function Fundacion() {
@@ -18,12 +18,42 @@ function Fundacion() {
     { id: 7, role: t("vocal3").split(":")[0], name: t("vocal3").split(":")[1] },
     { id: 8, role: t("vocal4").split(":")[0], name: t("vocal4").split(":")[1] },
     { id: 9, role: t("vocal5").split(":")[0], name: t("vocal5").split(":")[1] },
-    { id: 10, role: t("vocal6").split(":")[0], name: t("vocal6").split(":")[1] },
-    { id: 11, role: t("vocal7").split(":")[0], name: t("vocal7").split(":")[1] },
-    { id: 12, role: t("vocal8").split(":")[0], name: t("vocal8").split(":")[1] },
-    { id: 13, role: t("vocal9").split(":")[0], name: t("vocal9").split(":")[1] },
-    { id: 16, role: t("vocal12").split(":")[0], name: t("vocal12").split(":")[1] },
-    { id: 17, role: t("secre").split(":")[0], name: t("secre").split(":")[1] }
+    {
+      id: 10,
+      role: t("vocal6").split(":")[0],
+      name: t("vocal6").split(":")[1],
+    },
+    {
+      id: 11,
+      role: t("vocal7").split(":")[0],
+      name: t("vocal7").split(":")[1],
+    },
+    {
+      id: 12,
+      role: t("vocal8").split(":")[0],
+      name: t("vocal8").split(":")[1],
+    },
+    {
+      id: 13,
+      role: t("vocal9").split(":")[0],
+      name: t("vocal9").split(":")[1],
+    },
+    {
+      id: 16,
+      role: t("vocal12").split(":")[0],
+      name: t("vocal12").split(":")[1],
+    },
+    {
+      id: 18,
+      role: t("vocal13").split(":")[0],
+      name: t("vocal13").split(":")[1],
+    },
+    {
+      id: 19,
+      role: t("vocal14").split(":")[0],
+      name: t("vocal14").split(":")[1],
+    },
+    { id: 17, role: t("secre").split(":")[0], name: t("secre").split(":")[1] },
   ];
 
   return (

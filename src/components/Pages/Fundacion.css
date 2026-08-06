@@ -44,9 +44,17 @@
   margin-top: -30px; 
 }
 
+  .fundacion-image-container img {
+    width: 100%; 
+    max-height: 600px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    object-position: center;    
+  }
+
 .fundacion-image {
   max-width: 100%;
-  max-height: 500px;
+  max-height: 400px;
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   object-fit: cover;
@@ -132,6 +140,14 @@
   .patronato h1 {
     font-size: 28px;
   }
+
+    .fundacion-image-container img {
+    width: 100%; 
+    max-height: 360px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    object-position: center;    
+  }
 }
 
 @media (max-width: 480px) {
@@ -145,5 +161,12 @@
 
   .patronato h1 {
     font-size: 24px;
+  }
+    .fundacion-image-container img {
+    width: 100%; 
+    max-height: 200px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    object-position: center;    
   }
 }
