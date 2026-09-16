@@ -34,7 +34,7 @@ function Taller() {
           <TallerCarousel />
 
           <div className="btn-taller">
-            <TallerWhatsappBtn />
+            {/* <TallerWhatsappBtn /> */}
             <TallerEmail />
           </div>
 
@@ -46,24 +46,13 @@ function Taller() {
               className="paragraph-text"
               dangerouslySetInnerHTML={{ __html: t("taller-card2-para") }}
             ></div>
-            <div
-              className="paragraph-text"
-              dangerouslySetInnerHTML={{ __html: t("taller-card2-para2") }}
-            ></div>
-            <div
-              className="paragraph-text"
-              dangerouslySetInnerHTML={{ __html: t("taller-card2-para3") }}
-            ></div>
           </div>
 
-          <div className="taller__text">
+          <div className="taller__loc">
             <h3 className="taller-text-title">{t("taller-location-title")}</h3>
-            <div
-              className="paragraph-text"
-              dangerouslySetInnerHTML={{ __html: t("taller-location-para") }}
-            ></div>
+
             <a
-              href="https://www.google.com/maps/place/Fundaci%C3%B3n+del+Convento+de+Santa+Clara"
+              href="https://maps.app.goo.gl/sb2ntQ6iYBmrN7pY6"
               target="_blank"
               rel="noopener noreferrer"
               className="location-btn"
