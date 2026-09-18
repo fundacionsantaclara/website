@@ -6,7 +6,7 @@ import plataformaAlimentos from "../../Images/plataforma.png";
 import residencia from "../Fcimages/Residencia/FOTO PORTADA RESIDENCIA WEB.jpg";
 import huerto from "../../Images/huerto.png";
 import pisosAcogida from "../Fcimages/pisos de acogida/acogida en piso 2.jpg";
-import tallerMuñecas from "../../Images/cosedor.png";
+import tallerMuñecas from "../Fcimages/taller de las nines/new_collection/taller18.jpg";
 import espacioDuchas from "../../Images/duchas.png";
 import cosedor from "../../Images/cosedorMoni.png";
 import salud from "../Fcimages/invul-eye.jpg";
