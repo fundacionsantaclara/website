@@ -15,11 +15,11 @@ import Coleccion8 from "../Fcimages/taller de las nines/new_collection/taller7.J
 import Coleccion9 from "../Fcimages/taller de las nines/new_collection/taller8.JPG";
 import Coleccion10 from "../Fcimages/taller de las nines/new_collection/taller9.JPG";
 import Coleccion11 from "../Fcimages/taller de las nines/new_collection/taller10.JPG";
-import Coleccion12 from "../Fcimages/taller de las nines/colection_nadal/Colecció Nadal 2.jpg";
-import Coleccion13 from "../Fcimages/taller de las nines/colection_nadal/Colecció Nadal 4.jpg";
-import Coleccion14 from "../Fcimages/taller de las nines/colection_nadal/Colecció Nadal 5.jpg";
-import Coleccion15 from "../Fcimages/taller de las nines/colection_nadal/Coleccio Nadal 1.JPG";
-import Coleccion16 from "../Fcimages/taller de las nines/colection_nadal/Colecció Nadal 3.JPG";
+import Coleccion12 from "../Fcimages/taller de las nines/new_collection/taller15.jpg";
+import Coleccion13 from "../Fcimages/taller de las nines/new_collection/taller16.jpg";
+import Coleccion14 from "../Fcimages/taller de las nines/new_collection/taller17.jpg";
+// import Coleccion15 from "../Fcimages/taller de las nines/colection_nadal/Coleccio Nadal 1.JPG";
+// import Coleccion16 from "../Fcimages/taller de las nines/colection_nadal/Colecció Nadal 3.JPG";
 import Coleccion18 from "../Fcimages/taller de las nines/new_collection/taller11.JPG";
 import Coleccion19 from "../Fcimages/taller de las nines/new_collection/taller12.JPG";
 import Coleccion20 from "../Fcimages/taller de las nines/new_collection/taller13.JPG";
@@ -44,8 +44,8 @@ function TallerCarouselTheme() {
     { title: t("coleccion_nadal"), image: Coleccion12 },
     { title: t("coleccion_nadal"), image: Coleccion13 },
     { title: t("coleccion_nadal"), image: Coleccion14 },
-    { title: t("coleccion_nadal"), image: Coleccion15 },
-    { title: t("coleccion_nadal"), image: Coleccion16 },
+    // { title: t("coleccion_nadal"), image: Coleccion15 },
+    // { title: t("coleccion_nadal"), image: Coleccion16 },
     { title: t("coleccion_vichy"), image: Coleccion18 },
     { title: t("coleccion_vichy"), image: Coleccion19 },
     { title: t("coleccion_vichy"), image: Coleccion20 },

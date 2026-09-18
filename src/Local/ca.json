@@ -136,9 +136,10 @@
 
 
 "taller-page-title": "TALLER DE LES NINES",
-  "taller-card1-title": "Us volem presentar",
-  "taller-card1-para": "<strong>Ens volem presentar i compartir amb vosaltres qui som, què fem i per què ho fem.</strong><br><br><strong>SOM</strong> un grup de voluntàries que des de fa més de 6 anys ens trobem en un taller a Manresa compartit per la Fundació. Entre nosaltres hi ha persones que dominen diferents tipus de manualitats: costura, pintura, perruqueria, decoupage, etc.<br><br><strong>FEM</strong> bàsicament la nina solidària que, al llarg del temps, hem anat perfeccionant fins a aconseguir una nina que ens permet personalitzar-la i que va adreçada a totes les edats. La nostra intenció és provocar un somriure a qui la rebi. La nostra nina pot tenir qualsevol ofici, pot practicar qualsevol esport, pot anar vestida o vestit de festa i portar tot tipus de complements. Una part del material que fem servir ens el proporcionen particulars o empreses que disposen d'un excedent.",
-  "taller-card1-para2": "",
+  "taller-card1-title": "Ens volem presentar",
+  "taller-card1-title2": "Què fem",
+  "taller-card1-para": "<strong>Ens volem presentar i compartir amb vosaltres qui som, què fem i per què ho fem.</strong><br><br><strong>SOM</strong> un grup de voluntàries que des de fa més de 6 anys ens trobem en un taller a Manresa compartit per la Fundació. Entre nosaltres hi ha persones que dominen diferents tipus de manualitats: costura, pintura, perruqueria, decoupage, etc.<br><br>",
+  "taller-card1-para2": "<strong>FEM</strong> bàsicament la nina solidària que, al llarg del temps, hem anat perfeccionant fins a aconseguir una nina que ens permet personalitzar-la i que va adreçada a totes les edats. La nostra intenció és provocar un somriure a qui la rebi. La nostra nina pot tenir qualsevol ofici, pot practicar qualsevol esport, pot anar vestida o vestit de festa i portar tot tipus de complements. Una part del material que fem servir ens el proporcionen particulars o empreses que disposen d'un excedent.",
   "taller-card2-title": "Més que nines: artesania solidària",
   "taller-card2-para": "<strong>A part de la nina</strong>, també fem el davantal solidari amb el nostre logo, la bossa solidària, així com altres tipus de treballs amb fusta.<br><br><strong>EL PER QUÈ HO FEM</strong> és el més important per a nosaltres. La finalitat de la nostra feina i creativitat és convertir-ho en ingressos per a la Fundació i poder ajudar persones que en aquests moments estan passant per situacions de necessitat. A causa del <strong>procés artesanal</strong>, demanem un termini de dues a tres setmanes per preparar les comandes amb cura.",
     "taller-card2-para3":"-<strong>Les despeses d’enviament són a càrrec del client</strong>. Garantim que cada article es lliura amb el màxim de cura perquè arribi en perfectes condicions, llest per ser gaudit.",
@@ -158,7 +159,15 @@
   "coleccion_nadal": "Col·lecció Nadal",
   "coleccion_vichy": "Col·lecció Vichy",
   "coleccion_taller": "Col·lecció Taller",
-  
+  "taller-price-title": "Preus",
+  "taller-price-main-label": "El preu de la nina/nino és de 45 euros.",
+  "taller-price-small": "Complements petits de la nina + 5 euros/unitat",
+  "taller-price-large": "Complements grans de la nina + 10 euros/unitat",
+  "taller-price-transport": "Transport +8 euros paquet",
+  "taller-price-apron": "Davantal solidàri 20 euros",
+  "taller-price-bag": "Bossa solidària 20 euros",
+  "taller-unit": "unitat",
+  "taller-package": "paquet",
 
 "duchas-page-title" :"ESPAI DE DUTXES I BUGADERIA",
 "duchas-intro-title" :"Centre d’Assistència",
