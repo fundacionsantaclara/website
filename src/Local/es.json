@@ -534,9 +534,20 @@
     "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu2.jpeg?raw=true",
     "ubicacion": "La Seu d'Urgell",
     "date": "13/07/2026"
+  },
+  {
+    "id": 20,
+    "title": "Una Mención Especial en los Premios a la Transformación Social de Prensa Ibérica y Fundación ”la Caixa”",
+    "subtitle": "Un reconocimiento a la solidaridad",
+    "body": "La Fundació del Convent de Santa Clara ha recibido una Mención Especial en la primera edición de los Premios a la Transformación Social, impulsados por Prensa Ibérica y la Fundación ”la Caixa”, cuya ceremonia de entrega se celebró el 18 de noviembre en CaixaForum Madrid. El reconocimiento distingue el proyecto «Corredores Humanitarios que salvan vidas», desarrollado por la Fundación en respuesta a la emergencia humanitaria en Ucrania.",
+    "body2": "Desde el inicio de la guerra en 2022, la Fundación trabaja para apoyar a la población afectada mediante el envío de ambulancias, vehículos de emergencia, material sanitario y suministros esenciales, así como acciones de evacuación y ayuda humanitaria.",
+    "body3": "Esta distinción reconoce el compromiso de todas las personas, entidades, empresas y voluntarios que hacen posible esta labor. También nos anima a seguir construyendo alianzas y trabajando en red para llevar ayuda allí donde más se necesita, defendiendo la vida, la dignidad y la esperanza.",
+    "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio1.jpeg?raw=true",
+    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio3.jpeg?raw=true",
+    "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio2.jpeg?raw=true",
+    "ubicacion": "Madrid, España",
+    "date": "18/11/2026"
   }
-    
-    
     
   ],
 
