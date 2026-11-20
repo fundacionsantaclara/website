@@ -529,7 +529,21 @@
     "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/laseu2.jpeg?raw=true",
     "ubicacion": "La Seu d'Urgell",
     "date": "13/07/2026"
-  }   
+  },
+  {
+    "id": 20,
+    "title": "A Special Mention at the Social Transformation Awards by Prensa Ibérica and Fundación ”la Caixa”",
+    "subtitle": "A recognition of solidarity",
+    "body": "The Fundació del Convent de Santa Clara has received a Special Mention at the first edition of the Social Transformation Awards, promoted by Prensa Ibérica and Fundación ”la Caixa”. The awards ceremony took place on 18 November at CaixaForum Madrid. This recognition highlights the Foundation's Humanitarian Corridors that Save Lives project, developed in response to the humanitarian emergency in Ukraine.",
+    "body2": "Since the beginning of the war in 2022, the Foundation has worked to support the affected population through the delivery of ambulances, emergency vehicles, medical equipment and essential supplies, as well as evacuation initiatives and humanitarian assistance.",
+    "body3": "This distinction recognises the commitment of all the individuals, organisations, companies and volunteers who make this work possible. It also encourages us to continue building partnerships and working together to bring assistance wherever it is most needed, defending life, dignity and hope.",
+    "carrousel1": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio1.jpeg?raw=true",
+    "carrousel2": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio3.jpeg?raw=true",
+    "carrousel3": "https://github.com/fundacionsantaclara/website/blob/main/src/components/Fcimages/premio2.jpeg?raw=true",
+    "ubicacion": "Madrid, Spain",
+    "date": "18/11/2026"
+  }
+   
     
     
     
